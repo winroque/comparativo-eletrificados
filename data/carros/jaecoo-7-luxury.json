@@ -13,7 +13,10 @@
     "consultado": "2026-10-06"
   },
   "observacao": "",
-  "fontes": [],
+  "fontes": [
+    "jaecoo7-site",
+    "inmetro-pbev-2026"
+  ],
   "valores": {
     "fab": "importado",
     "fipe": {
@@ -26,7 +29,12 @@
     "tq": "nd",
     "acc": "nd",
     "bat": "18,3 kWh",
-    "ev": "79 km",
+    "ev": {
+      "t": "79 km",
+      "f": [
+        "inmetro-pbev-2026"
+      ]
+    },
     "evo": "na",
     "rng": "1.200+ km",
     "dc": {

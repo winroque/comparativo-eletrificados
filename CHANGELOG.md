@@ -1,5 +1,9 @@
 # Histórico
 
+## 2026-10-06 — fontes dos carros sem registro
+- Fontes oficiais registradas para Song Pro GS, Tiggo 7 Pro PHEV, Jaecoo 7 Elite, Luxury e Prestige, Corolla Altis Premium Hybrid e Corolla Cross XRX Hybrid, incluindo a tabela PBE Veicular 2026 nas autonomias elétricas que ela confirma. Nenhum valor mudou.
+- Divergências e lacunas encontradas estão em `docs/conferencia-fontes-2026-10-06.md`. O Song Plus GS continua sem fonte: a versão não aparece mais no site da BYD.
+
 ## 2026-10-06 — arquivo único para o site
 - O site passa a baixar só `data/dados.json`, gerado pelo `npm run build` a partir dos JSON de cada carro (1 requisição em vez de 31). A edição continua nos arquivos de `data/carros/`.
 - A data do `manifest.json` só muda quando a lista de carros muda; antes, o `validar.yml` falhava em qualquer dia depois do último build.

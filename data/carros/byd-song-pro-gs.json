@@ -13,7 +13,11 @@
     "consultado": "2026-10-06"
   },
   "observacao": "",
-  "fontes": [],
+  "fontes": [
+    "byd-songpro-flex-ficha",
+    "byd-songpro-flex-site",
+    "inmetro-pbev-2026"
+  ],
   "valores": {
     "fab": "BA",
     "fipe": {
@@ -26,7 +30,12 @@
     "tq": "300 Nm",
     "acc": "8,6–8,8 s",
     "bat": "18,3 kWh",
-    "ev": "72 km",
+    "ev": {
+      "t": "72 km",
+      "f": [
+        "inmetro-pbev-2026"
+      ]
+    },
     "evo": "na",
     "rng": "1.105 km (NEDC)",
     "dc": {

@@ -13,7 +13,12 @@
     "consultado": "2026-10-06"
   },
   "observacao": "",
-  "fontes": [],
+  "fontes": [
+    "caoachery-tiggo7phev-ficha",
+    "caoachery-tiggo7phev-site",
+    "caoachery-garantia",
+    "inmetro-pbev-2026"
+  ],
   "valores": {
     "fab": "nd",
     "fipe": {
@@ -26,7 +31,12 @@
     "tq": "365 Nm",
     "acc": "nd",
     "bat": "18,4 kWh",
-    "ev": "68 km",
+    "ev": {
+      "t": "68 km",
+      "f": [
+        "inmetro-pbev-2026"
+      ]
+    },
     "evo": "na",
     "rng": "1.200+ km",
     "dc": {

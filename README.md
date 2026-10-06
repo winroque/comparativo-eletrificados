@@ -48,7 +48,7 @@ data/dados.json          tudo junto, lido pelo site (gerado)
 data/radar.json          modelos acompanhados, ainda fora da tabela
 data/export/             CSV e banco SQLite gerados
 scripts/                 manifesto, validação, junção dos dados e exportação (CSV e SQLite)
-docs/                    revisão externa que originou a metodologia atual
+docs/                    revisão externa que originou a metodologia atual e conferência de fontes
 ```
 
 ## Como editar um carro
@@ -114,7 +114,8 @@ Itens que não se aplicam ao tipo de carro (recarga DC num híbrido sem tomada, 
 
 ## Limitações
 
-- Oito carros ainda não têm fontes registradas por célula (o validador avisa quais).
+- O Song Plus GS não tem fonte oficial atual: o site da BYD só oferece o Song Plus 1.5T DM-i (veja `docs/conferencia-fontes-2026-10-06.md`).
+- A conferência de 06/10/2026 deixou divergências e células "n/d" que as fontes preenchem, ainda não aplicadas (mesmo documento).
 - O Changan CS55 PHEV está em pré-venda sem ficha oficial; quase tudo está como "divulgado".
 - Os modelos acrescentados em outubro (Jetour S06, Omoda 5 e 7, Jaecoo 5, Yaris Cross, EX5 elétrico, Omoda E5) têm muitos itens em aberto.
 - A FIPE só está documentada para o EX5 EM-i Max.

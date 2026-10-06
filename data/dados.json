@@ -455,6 +455,66 @@
       "titulo": "Toyota — Yaris Cross Hybrid",
       "url": "https://www.toyota.com.br/modelos/yaris-cross-hybrid",
       "tipo": "oficial"
+    },
+    "inmetro-pbev-2026": {
+      "titulo": "Inmetro — tabela PBE Veicular 2026 (19/01/2026, rev. 01)",
+      "url": "https://www.gov.br/inmetro/pt-br/assuntos/regulamentacao/avaliacao-da-conformidade/programa-brasileiro-de-etiquetagem/tabelas-de-eficiencia-energetica/veiculos-automotivos-pbe-veicular/mascara-pbev-2026_19_jan-rev01.pdf/@@download/file",
+      "tipo": "oficial"
+    },
+    "byd-songpro-flex-ficha": {
+      "titulo": "BYD — ficha Song Pro DM-i Flex GL/GS, rev. 3 (05/08/2026)",
+      "url": "https://www.byd.com/material/__CN/byd-site/br/product/songpro-flex/BYD_SongProFlex_Rev3_05_08_2026.pdf",
+      "tipo": "oficial"
+    },
+    "byd-songpro-flex-site": {
+      "titulo": "BYD — página do Song Pro Flex",
+      "url": "https://www.byd.com/br/car/song-pro-flex",
+      "tipo": "oficial"
+    },
+    "caoachery-tiggo7phev-ficha": {
+      "titulo": "CAOA Chery — ficha Tiggo 7 Pro Plug-in Hybrid (PDF de 29/05/2026)",
+      "url": "https://cloudfront.alpes.one/public/6a1/dab/7e4/6a1dab7e434b1998580293.pdf",
+      "tipo": "oficial"
+    },
+    "caoachery-tiggo7phev-site": {
+      "titulo": "CAOA Chery — página do Tiggo 7 Pro Plug-in Hybrid, preço",
+      "url": "https://caoachery.com.br/novos/tiggo-7-pro-plug-in-hybrid",
+      "tipo": "oficial"
+    },
+    "caoachery-garantia": {
+      "titulo": "CAOA Chery — certificado de garantia (84 meses; sistema elétrico de tração 96 meses)",
+      "url": "https://cloudfront.alpes.one/public/6a1/df3/8d6/6a1df38d651fd759096573.pdf",
+      "tipo": "oficial"
+    },
+    "jaecoo7-site": {
+      "titulo": "Omoda & Jaecoo — página do Jaecoo 7, itens e preços por versão",
+      "url": "https://omodajaecoo.com.br/jaecoo-7",
+      "tipo": "oficial"
+    },
+    "toyota-precos-2026-10": {
+      "titulo": "Toyota — preços públicos sugeridos, outubro/2026",
+      "url": "https://media.toyota.com.br/173965ca-3a5f-40fc-be96-02ecac114b91.pdf",
+      "tipo": "oficial"
+    },
+    "toyota-corolla-cross-catalogo": {
+      "titulo": "Toyota — catálogo e ficha técnica Corolla Cross MY26 (jun/2026)",
+      "url": "https://media.toyota.com.br/725ae8c4-b012-4789-93eb-3fc968b2889c.pdf",
+      "tipo": "oficial"
+    },
+    "toyota-corolla-hybrid-site": {
+      "titulo": "Toyota — página do Corolla Hybrid 2026",
+      "url": "https://www.toyota.com.br/modelos/corolla-hybrid",
+      "tipo": "oficial"
+    },
+    "toyota-corolla-hybrid-ficha": {
+      "titulo": "Toyota — Corolla Hybrid 2026, especificações técnicas",
+      "url": "https://media.toyota.com.br/6caffd6f-172f-4748-8e0a-d67bb29c393e.pdf",
+      "tipo": "oficial"
+    },
+    "toyota-corolla-catalogo-my25": {
+      "titulo": "Toyota — catálogo Corolla MY'25, ficha e lista de equipamentos por versão",
+      "url": "https://media.toyota.com.br/4e5d6f6f-e991-4ddc-b4b9-74de903a5fa7.pdf",
+      "tipo": "oficial"
     }
   },
   "radar": [
@@ -793,7 +853,11 @@
         "consultado": "2026-10-06"
       },
       "observacao": "",
-      "fontes": [],
+      "fontes": [
+        "byd-songpro-flex-ficha",
+        "byd-songpro-flex-site",
+        "inmetro-pbev-2026"
+      ],
       "valores": {
         "fab": "BA",
         "fipe": {
@@ -806,7 +870,12 @@
         "tq": "300 Nm",
         "acc": "8,6–8,8 s",
         "bat": "18,3 kWh",
-        "ev": "72 km",
+        "ev": {
+          "t": "72 km",
+          "f": [
+            "inmetro-pbev-2026"
+          ]
+        },
         "evo": "na",
         "rng": "1.105 km (NEDC)",
         "dc": {
@@ -880,7 +949,12 @@
         "consultado": "2026-10-06"
       },
       "observacao": "",
-      "fontes": [],
+      "fontes": [
+        "caoachery-tiggo7phev-ficha",
+        "caoachery-tiggo7phev-site",
+        "caoachery-garantia",
+        "inmetro-pbev-2026"
+      ],
       "valores": {
         "fab": "nd",
         "fipe": {
@@ -893,7 +967,12 @@
         "tq": "365 Nm",
         "acc": "nd",
         "bat": "18,4 kWh",
-        "ev": "68 km",
+        "ev": {
+          "t": "68 km",
+          "f": [
+            "inmetro-pbev-2026"
+          ]
+        },
         "evo": "na",
         "rng": "1.200+ km",
         "dc": {
@@ -2089,7 +2168,9 @@
         "consultado": "2026-10-06"
       },
       "observacao": "",
-      "fontes": [],
+      "fontes": [
+        "jaecoo7-site"
+      ],
       "valores": {
         "fab": "importado",
         "fipe": {
@@ -2176,7 +2257,10 @@
         "consultado": "2026-10-06"
       },
       "observacao": "",
-      "fontes": [],
+      "fontes": [
+        "jaecoo7-site",
+        "inmetro-pbev-2026"
+      ],
       "valores": {
         "fab": "importado",
         "fipe": {
@@ -2189,7 +2273,12 @@
         "tq": "nd",
         "acc": "nd",
         "bat": "18,3 kWh",
-        "ev": "79 km",
+        "ev": {
+          "t": "79 km",
+          "f": [
+            "inmetro-pbev-2026"
+          ]
+        },
         "evo": "na",
         "rng": "1.200+ km",
         "dc": {
@@ -2266,7 +2355,10 @@
         "consultado": "2026-10-06"
       },
       "observacao": "",
-      "fontes": [],
+      "fontes": [
+        "jaecoo7-site",
+        "inmetro-pbev-2026"
+      ],
       "valores": {
         "fab": "importado",
         "fipe": {
@@ -2279,7 +2371,12 @@
         "tq": "nd",
         "acc": "nd",
         "bat": "18,3 kWh",
-        "ev": "79 km",
+        "ev": {
+          "t": "79 km",
+          "f": [
+            "inmetro-pbev-2026"
+          ]
+        },
         "evo": "na",
         "rng": "1.200+ km",
         "dc": {
@@ -2841,7 +2938,12 @@
         "consultado": "2026-10-06"
       },
       "observacao": "",
-      "fontes": [],
+      "fontes": [
+        "toyota-corolla-hybrid-site",
+        "toyota-corolla-hybrid-ficha",
+        "toyota-corolla-catalogo-my25",
+        "toyota-precos-2026-10"
+      ],
       "valores": {
         "fab": "SP",
         "fipe": {
@@ -2919,7 +3021,10 @@
         "consultado": "2026-10-06"
       },
       "observacao": "",
-      "fontes": [],
+      "fontes": [
+        "toyota-corolla-cross-catalogo",
+        "toyota-precos-2026-10"
+      ],
       "valores": {
         "fab": "SP",
         "fipe": {

@@ -13,7 +13,12 @@
     "consultado": "2026-10-06"
   },
   "observacao": "",
-  "fontes": [],
+  "fontes": [
+    "toyota-corolla-hybrid-site",
+    "toyota-corolla-hybrid-ficha",
+    "toyota-corolla-catalogo-my25",
+    "toyota-precos-2026-10"
+  ],
   "valores": {
     "fab": "SP",
     "fipe": {
