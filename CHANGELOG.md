@@ -1,5 +1,8 @@
 # Histórico
 
+## 2026-10-06 — banco SQLite
+- Exportação dos dados em `data/export/comparativo.sqlite` (`npm run sqlite`), com uma tabela por tipo de dado e a visão `v_valores`.
+
 ## 2026-10-06 — repositório
 - Dados separados em um JSON por carro, com registro de fontes e validação automática.
 - Entraram EX5 EM-i Pro, Jetour S06 Premium, Omoda 7 SHS-P Luxury, Omoda 5 SHS-H Prestige, Jaecoo 5 SHS-H Prestige, Toyota Yaris Cross XRX Hybrid, Geely EX5 Pro e Max (elétricos) e Omoda E5. Total: 27 versões.
