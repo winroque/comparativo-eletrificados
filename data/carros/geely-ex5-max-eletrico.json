@@ -1,0 +1,90 @@
+{
+  "id": "geely-ex5-max-eletrico",
+  "nome": "Geely EX5 Max (elétrico)",
+  "marca": "Geely",
+  "tecnologia": "BEV",
+  "carroceria": "SUV",
+  "combustivel": "elétrico",
+  "status": "à venda",
+  "finalista": false,
+  "subtitulo": "",
+  "preco": {
+    "tabela": 225800,
+    "consultado": "2026-10-06"
+  },
+  "observacao": "",
+  "fontes": [
+    "ex5-bev-webmotors",
+    "ex5-bev-canalve"
+  ],
+  "valores": {
+    "fab": "importado",
+    "fipe": {
+      "e": "nd",
+      "t": "a levantar"
+    },
+    "sys": "Elétrico",
+    "fuel": "elétrico",
+    "pw": "218 cv",
+    "tq": "320 Nm",
+    "acc": "7,1 s",
+    "bat": "60,2 kWh",
+    "ev": "349 km",
+    "evo": "na",
+    "rng": "na",
+    "dc": {
+      "e": "sim",
+      "t": "100 kW"
+    },
+    "v2l": "nd",
+    "len": "4,62 m",
+    "wb": "2,75 m",
+    "trunk": "461 L",
+    "spare": "nd",
+    "tail": "nd",
+    "cam": {
+      "e": "sim",
+      "t": "360°"
+    },
+    "screen": {
+      "e": "sim",
+      "t": "15,4″"
+    },
+    "cluster": {
+      "e": "sim",
+      "t": "10,2″"
+    },
+    "hud": {
+      "e": "sim",
+      "t": "13,8″"
+    },
+    "google": "nao",
+    "audio": "Flyme, 16 alto-falantes",
+    "cpwl": "nd",
+    "nfc": "nd",
+    "ota": "nd",
+    "app": "nd",
+    "wpc": "nd",
+    "roof": "sim",
+    "dseat": "sim",
+    "mem": "nd",
+    "pseat": {
+      "e": "sim",
+      "t": "com apoio de pernas"
+    },
+    "vent_d": "nd",
+    "vent_p": "nd",
+    "heat": "nd",
+    "zones": "sim",
+    "amb": "nd",
+    "rain": "nd",
+    "accr": "sim",
+    "aeb": "sim",
+    "bsd": "nd",
+    "lka": "nd",
+    "rctb": "nd",
+    "dow": "nd",
+    "dms": "nd",
+    "war": "nd"
+  }
+}

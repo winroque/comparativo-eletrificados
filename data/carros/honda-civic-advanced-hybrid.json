@@ -1,0 +1,89 @@
+{
+  "id": "honda-civic-advanced-hybrid",
+  "nome": "Honda Civic Advanced Hybrid",
+  "marca": "Honda",
+  "tecnologia": "HEV",
+  "carroceria": "Sedã",
+  "combustivel": "gasolina",
+  "status": "à venda",
+  "finalista": false,
+  "subtitulo": "acima do teto",
+  "preco": {
+    "tabela": 266500,
+    "consultado": "2026-10-06"
+  },
+  "observacao": "Acima do teto de R$ 260 mil; entra como referência.",
+  "fontes": [
+    "honda-civic-site"
+  ],
+  "valores": {
+    "fab": "importado (Tailândia)",
+    "fipe": {
+      "e": "nd",
+      "t": "a levantar"
+    },
+    "sys": "HEV",
+    "fuel": "gasolina",
+    "pw": "≈ 203 cv",
+    "tq": "315 Nm",
+    "acc": "7,8 s",
+    "bat": "1,05 kWh",
+    "ev": "na",
+    "evo": "na",
+    "rng": "nd",
+    "dc": "na",
+    "v2l": "nao",
+    "len": "4,68 m",
+    "wb": "2,74 m",
+    "trunk": "495 L",
+    "spare": "nd",
+    "tail": "nao",
+    "cam": {
+      "e": "nao",
+      "t": "só ré"
+    },
+    "screen": {
+      "e": "sim",
+      "t": "9″"
+    },
+    "cluster": {
+      "e": "sim",
+      "t": "10,2″"
+    },
+    "hud": "nao",
+    "google": "sim",
+    "audio": "Bose, 12 alto-falantes",
+    "cpwl": "sim",
+    "nfc": "nao",
+    "ota": "nd",
+    "app": "sim",
+    "wpc": "sim",
+    "roof": {
+      "e": "nao",
+      "t": "teto solar comum"
+    },
+    "dseat": "sim",
+    "mem": "nd",
+    "pseat": "sim",
+    "vent_d": "nao",
+    "vent_p": "nao",
+    "heat": "nd",
+    "zones": "sim",
+    "amb": "nd",
+    "rain": "nd",
+    "accr": "sim",
+    "aeb": "sim",
+    "bsd": {
+      "e": "nd",
+      "t": "LaneWatch (só lado direito)"
+    },
+    "lka": "sim",
+    "rctb": "nd",
+    "dow": "nd",
+    "dms": {
+      "e": "nao",
+      "t": "(alerta pelo volante)"
+    },
+    "war": "nd"
+  }
+}

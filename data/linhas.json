@@ -1,0 +1,271 @@
+{
+  "versao": "2026-10-06",
+  "teto": 260000,
+  "categorias": {
+    "adas": {
+      "nome": "Assistência e segurança",
+      "peso": 30
+    },
+    "conf": {
+      "nome": "Conforto",
+      "peso": 30
+    },
+    "mm": {
+      "nome": "Multimídia e conectividade",
+      "peso": 25
+    },
+    "prat": {
+      "nome": "Praticidade e recarga",
+      "peso": 15
+    }
+  },
+  "estados": {
+    "sim": "presente, confirmado",
+    "nao": "ausente",
+    "nd": "não confirmado",
+    "divulgado": "só imprensa ou versão vizinha",
+    "na": "não se aplica"
+  },
+  "linhas": [
+    {
+      "secao": "Preço e mercado"
+    },
+    {
+      "id": "fab",
+      "rotulo": "Fabricação"
+    },
+    {
+      "id": "fipe",
+      "rotulo": "FIPE set/26: usado 2026 × 0 km"
+    },
+    {
+      "secao": "Motor, bateria e recarga"
+    },
+    {
+      "id": "sys",
+      "rotulo": "Sistema"
+    },
+    {
+      "id": "fuel",
+      "rotulo": "Combustível"
+    },
+    {
+      "id": "pw",
+      "rotulo": "Potência combinada"
+    },
+    {
+      "id": "tq",
+      "rotulo": "Torque combinado"
+    },
+    {
+      "id": "acc",
+      "rotulo": "0 a 100 km/h (declarado)"
+    },
+    {
+      "id": "bat",
+      "rotulo": "Bateria"
+    },
+    {
+      "id": "ev",
+      "rotulo": "Autonomia elétrica — PBEV/Inmetro"
+    },
+    {
+      "id": "evo",
+      "rotulo": "Autonomia elétrica — outros ciclos"
+    },
+    {
+      "id": "rng",
+      "rotulo": "Autonomia total declarada"
+    },
+    {
+      "id": "dc",
+      "rotulo": "Recarga rápida DC",
+      "categoria": "prat"
+    },
+    {
+      "id": "v2l",
+      "rotulo": "Tomada externa (V2L)",
+      "categoria": "prat"
+    },
+    {
+      "secao": "Tamanho e praticidade"
+    },
+    {
+      "id": "len",
+      "rotulo": "Comprimento"
+    },
+    {
+      "id": "wb",
+      "rotulo": "Entre-eixos"
+    },
+    {
+      "id": "trunk",
+      "rotulo": "Porta-malas (método varia)"
+    },
+    {
+      "id": "spare",
+      "rotulo": "Estepe",
+      "categoria": "prat"
+    },
+    {
+      "id": "tail",
+      "rotulo": "Tampa traseira elétrica",
+      "categoria": "prat"
+    },
+    {
+      "id": "cam",
+      "rotulo": "Câmera de entorno",
+      "categoria": "prat"
+    },
+    {
+      "secao": "Multimídia e conectividade"
+    },
+    {
+      "id": "screen",
+      "rotulo": "Central multimídia",
+      "categoria": "mm"
+    },
+    {
+      "id": "cluster",
+      "rotulo": "Painel digital",
+      "categoria": "mm"
+    },
+    {
+      "id": "hud",
+      "rotulo": "Head-up display",
+      "categoria": "mm"
+    },
+    {
+      "id": "google",
+      "rotulo": "Google integrado (Maps, Assistente)",
+      "categoria": "mm"
+    },
+    {
+      "id": "audio",
+      "rotulo": "Sistema de som"
+    },
+    {
+      "id": "cpwl",
+      "rotulo": "CarPlay e Android Auto sem fio",
+      "categoria": "mm"
+    },
+    {
+      "id": "nfc",
+      "rotulo": "Chave digital (cartão ou celular)",
+      "categoria": "mm"
+    },
+    {
+      "id": "ota",
+      "rotulo": "Atualização remota (OTA)",
+      "categoria": "mm"
+    },
+    {
+      "id": "app",
+      "rotulo": "App com comandos remotos",
+      "categoria": "mm"
+    },
+    {
+      "id": "wpc",
+      "rotulo": "Carregador por indução",
+      "categoria": "mm"
+    },
+    {
+      "secao": "Conforto"
+    },
+    {
+      "id": "roof",
+      "rotulo": "Teto panorâmico",
+      "categoria": "conf"
+    },
+    {
+      "id": "dseat",
+      "rotulo": "Banco do motorista elétrico",
+      "categoria": "conf"
+    },
+    {
+      "id": "mem",
+      "rotulo": "Memória do banco do motorista",
+      "categoria": "conf"
+    },
+    {
+      "id": "pseat",
+      "rotulo": "Banco do passageiro elétrico",
+      "categoria": "conf"
+    },
+    {
+      "id": "vent_d",
+      "rotulo": "Ventilação — motorista",
+      "categoria": "conf"
+    },
+    {
+      "id": "vent_p",
+      "rotulo": "Ventilação — passageiro",
+      "categoria": "conf"
+    },
+    {
+      "id": "heat",
+      "rotulo": "Aquecimento dos bancos",
+      "categoria": "conf"
+    },
+    {
+      "id": "zones",
+      "rotulo": "Ar-condicionado de duas zonas",
+      "categoria": "conf"
+    },
+    {
+      "id": "amb",
+      "rotulo": "Luz ambiente",
+      "categoria": "conf"
+    },
+    {
+      "id": "rain",
+      "rotulo": "Sensor de chuva",
+      "categoria": "conf"
+    },
+    {
+      "secao": "Assistência e segurança"
+    },
+    {
+      "id": "accr",
+      "rotulo": "Piloto adaptativo (ACC)",
+      "categoria": "adas"
+    },
+    {
+      "id": "aeb",
+      "rotulo": "Frenagem autônoma (AEB)",
+      "categoria": "adas"
+    },
+    {
+      "id": "bsd",
+      "rotulo": "Monitor de ponto cego",
+      "categoria": "adas"
+    },
+    {
+      "id": "lka",
+      "rotulo": "Permanência em faixa",
+      "categoria": "adas"
+    },
+    {
+      "id": "rctb",
+      "rotulo": "Tráfego cruzado traseiro com frenagem",
+      "categoria": "adas"
+    },
+    {
+      "id": "dow",
+      "rotulo": "Alerta de abertura de porta",
+      "categoria": "adas"
+    },
+    {
+      "id": "dms",
+      "rotulo": "Monitor de fadiga por câmera",
+      "categoria": "adas"
+    },
+    {
+      "secao": "Garantia"
+    },
+    {
+      "id": "war",
+      "rotulo": "Veículo / bateria de tração"
+    }
+  ]
+}

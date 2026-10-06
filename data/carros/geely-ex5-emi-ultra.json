@@ -1,0 +1,127 @@
+{
+  "id": "geely-ex5-emi-ultra",
+  "nome": "Geely EX5 EM-i Ultra",
+  "marca": "Geely",
+  "tecnologia": "PHEV",
+  "carroceria": "SUV",
+  "combustivel": "gasolina",
+  "status": "à venda",
+  "finalista": false,
+  "subtitulo": "bateria maior",
+  "preco": {
+    "tabela": 244990,
+    "oferta": 236490,
+    "oferta_nota": "oferta",
+    "consultado": "2026-10-06"
+  },
+  "observacao": "",
+  "fontes": [
+    "geely-ex5-emi-ficha",
+    "geely-ex5-emi-oferta",
+    "geely-ex5-emi-lancamento"
+  ],
+  "valores": {
+    "fab": "importado · PR previsto",
+    "fipe": {
+      "e": "nd",
+      "t": "a levantar"
+    },
+    "sys": "PHEV",
+    "fuel": "gasolina",
+    "pw": "262 cv",
+    "tq": "380 Nm",
+    "acc": "7,8 s",
+    "bat": {
+      "t": "29,8 kWh",
+      "f": [
+        "geely-ex5-emi-ficha"
+      ]
+    },
+    "ev": {
+      "t": "112 km",
+      "f": [
+        "geely-ex5-emi-ficha"
+      ]
+    },
+    "evo": "170 km (NEDC)",
+    "rng": "1.300 km (NEDC)",
+    "dc": {
+      "e": "sim",
+      "t": "60 kW",
+      "f": [
+        "geely-ex5-emi-ficha"
+      ]
+    },
+    "v2l": {
+      "e": "sim",
+      "t": "+ V2V"
+    },
+    "len": "4,74 m",
+    "wb": "2,76 m",
+    "trunk": "428 L",
+    "spare": "sim",
+    "tail": "sim",
+    "cam": {
+      "e": "sim",
+      "t": "540°"
+    },
+    "screen": {
+      "e": "sim",
+      "t": "15,4″"
+    },
+    "cluster": {
+      "e": "sim",
+      "t": "10,2″"
+    },
+    "hud": {
+      "e": "sim",
+      "t": "13,8″"
+    },
+    "google": "nao",
+    "audio": "Flyme, 16 alto-falantes",
+    "cpwl": "sim",
+    "nfc": {
+      "e": "nao",
+      "t": "presencial"
+    },
+    "ota": "sim",
+    "app": "sim",
+    "wpc": "sim",
+    "roof": {
+      "e": "sim",
+      "t": "+ cortina elétrica"
+    },
+    "dseat": {
+      "e": "sim",
+      "t": "com memória"
+    },
+    "mem": "sim",
+    "pseat": {
+      "e": "sim",
+      "t": "4 vias"
+    },
+    "vent_d": "sim",
+    "vent_p": "sim",
+    "heat": "nao",
+    "zones": "nao",
+    "amb": {
+      "e": "sim",
+      "t": "256 cores"
+    },
+    "rain": "sim",
+    "accr": "sim",
+    "aeb": "sim",
+    "bsd": "sim",
+    "lka": {
+      "e": "sim",
+      "t": "+ emergência"
+    },
+    "rctb": "sim",
+    "dow": "sim",
+    "dms": "nao",
+    "war": {
+      "e": "sim",
+      "t": "6 anos / 8 anos"
+    }
+  }
+}

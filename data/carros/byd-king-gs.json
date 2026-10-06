@@ -1,0 +1,95 @@
+{
+  "id": "byd-king-gs",
+  "nome": "BYD King GS",
+  "marca": "BYD",
+  "tecnologia": "PHEV",
+  "carroceria": "Sedã",
+  "combustivel": "gasolina",
+  "status": "à venda",
+  "finalista": false,
+  "subtitulo": "",
+  "preco": {
+    "tabela": 175990,
+    "consultado": "2026-10-06"
+  },
+  "observacao": "A ficha atual dá 78 km pelo PBEV; uma etiqueta de 2024 ligada à mesma página dá 80 km.",
+  "fontes": [
+    "byd-king-ficha"
+  ],
+  "valores": {
+    "fab": "BA",
+    "fipe": {
+      "e": "nd",
+      "t": "a levantar"
+    },
+    "sys": "PHEV",
+    "fuel": "gasolina",
+    "pw": "235 cv",
+    "tq": "325 Nm",
+    "acc": "7,3 s",
+    "bat": "18,3 kWh",
+    "ev": "78 km",
+    "evo": {
+      "e": "nd",
+      "t": "80 km em etiqueta de 2024"
+    },
+    "rng": "nd",
+    "dc": "nao",
+    "v2l": {
+      "e": "sim",
+      "t": "bidirecional"
+    },
+    "len": "4,78 m",
+    "wb": "2,72 m",
+    "trunk": "450 L",
+    "spare": {
+      "e": "nao",
+      "t": "kit"
+    },
+    "tail": {
+      "e": "nd",
+      "t": "abertura elétrica; fechamento a confirmar"
+    },
+    "cam": {
+      "e": "sim",
+      "t": "360°"
+    },
+    "screen": {
+      "e": "sim",
+      "t": "12,8″ giratória"
+    },
+    "cluster": {
+      "e": "sim",
+      "t": "8,8″"
+    },
+    "hud": "nao",
+    "google": "nd",
+    "audio": "8 alto-falantes",
+    "cpwl": "sim",
+    "nfc": "sim",
+    "ota": "sim",
+    "app": "sim",
+    "wpc": "sim",
+    "roof": "nao",
+    "dseat": "sim",
+    "mem": "nd",
+    "pseat": "sim",
+    "vent_d": "sim",
+    "vent_p": "nd",
+    "heat": "nao",
+    "zones": "sim",
+    "amb": "sim",
+    "rain": "sim",
+    "accr": "sim",
+    "aeb": "sim",
+    "bsd": "sim",
+    "lka": "sim",
+    "rctb": "nd",
+    "dow": "nd",
+    "dms": "nao",
+    "war": {
+      "e": "sim",
+      "t": "6 anos / 8 anos"
+    }
+  }
+}

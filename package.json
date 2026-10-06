@@ -1,0 +1,14 @@
+{
+  "name": "comparativo-eletrificados",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Comparativo de SUVs e sedãs eletrificados até R$ 260 mil, com dados abertos em JSON.",
+  "type": "module",
+  "scripts": {
+    "manifest": "node scripts/build-manifest.mjs",
+    "validate": "node scripts/validate.mjs",
+    "csv": "node scripts/export-csv.mjs",
+    "build": "node scripts/build-manifest.mjs && node scripts/validate.mjs && node scripts/export-csv.mjs",
+    "serve": "python3 -m http.server 8000"
+  }
+}

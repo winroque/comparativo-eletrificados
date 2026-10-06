@@ -1,0 +1,108 @@
+{
+  "id": "byd-atto-2-gs",
+  "nome": "BYD Atto 2 GS",
+  "marca": "BYD",
+  "tecnologia": "PHEV",
+  "carroceria": "SUV",
+  "combustivel": "flex",
+  "status": "à venda",
+  "finalista": true,
+  "subtitulo": "nacional (SKD)",
+  "preco": {
+    "tabela": 169990,
+    "consultado": "2026-10-06"
+  },
+  "observacao": "Entregas regulares às lojas previstas para outubro de 2026, segundo lojistas. Montado em Camaçari (BA) com kits importados.",
+  "fontes": [
+    "byd-atto2-ficha",
+    "byd-atto2-site"
+  ],
+  "valores": {
+    "fab": "BA (montagem SKD)",
+    "fipe": {
+      "e": "nd",
+      "t": "a levantar"
+    },
+    "sys": "PHEV",
+    "fuel": "flex",
+    "pw": "197 cv",
+    "tq": "300 Nm",
+    "acc": "8,4 s",
+    "bat": "18,0 kWh",
+    "ev": "75 km",
+    "evo": "110 km (NEDC)",
+    "rng": "1.045 km (NEDC)",
+    "dc": {
+      "e": "nao",
+      "t": "só AC 6,6 kW"
+    },
+    "v2l": "sim",
+    "len": "4,33 m",
+    "wb": "2,62 m",
+    "trunk": "455 L",
+    "spare": {
+      "e": "nao",
+      "t": "kit"
+    },
+    "tail": {
+      "e": "nao",
+      "t": "manual"
+    },
+    "cam": {
+      "e": "sim",
+      "t": "360°"
+    },
+    "screen": {
+      "e": "sim",
+      "t": "12,8″ giratória"
+    },
+    "cluster": {
+      "e": "sim",
+      "t": "8,8″"
+    },
+    "hud": "nao",
+    "google": "sim",
+    "audio": "6 alto-falantes",
+    "cpwl": "sim",
+    "nfc": {
+      "e": "sim",
+      "t": "cartão ou celular",
+      "f": [
+        "byd-atto2-site"
+      ]
+    },
+    "ota": "sim",
+    "app": "sim",
+    "wpc": {
+      "e": "sim",
+      "t": "50 W ventilado"
+    },
+    "roof": "sim",
+    "dseat": {
+      "e": "sim",
+      "t": "6 vias"
+    },
+    "mem": "nd",
+    "pseat": {
+      "e": "nao",
+      "t": "manual"
+    },
+    "vent_d": "nao",
+    "vent_p": "nao",
+    "heat": "nao",
+    "zones": "nao",
+    "amb": "sim",
+    "rain": "sim",
+    "accr": "sim",
+    "aeb": "sim",
+    "bsd": "sim",
+    "lka": "sim",
+    "rctb": "sim",
+    "dow": "sim",
+    "dms": "nao",
+    "war": {
+      "e": "sim",
+      "t": "6 anos / 8 anos"
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "id": "byd-song-pro-gs",
+  "nome": "BYD Song Pro GS",
+  "marca": "BYD",
+  "tecnologia": "PHEV",
+  "carroceria": "SUV",
+  "combustivel": "flex",
+  "status": "à venda",
+  "finalista": false,
+  "subtitulo": "linha 2027",
+  "preco": {
+    "tabela": 199990,
+    "consultado": "2026-10-06"
+  },
+  "observacao": "",
+  "fontes": [],
+  "valores": {
+    "fab": "BA",
+    "fipe": {
+      "e": "nd",
+      "t": "a levantar"
+    },
+    "sys": "PHEV",
+    "fuel": "flex",
+    "pw": "219 cv",
+    "tq": "300 Nm",
+    "acc": "8,6–8,8 s",
+    "bat": "18,3 kWh",
+    "ev": "72 km",
+    "evo": "na",
+    "rng": "1.105 km (NEDC)",
+    "dc": {
+      "e": "nao",
+      "t": "só AC 6,6 kW"
+    },
+    "v2l": "sim",
+    "len": "4,74 m",
+    "wb": "2,71 m",
+    "trunk": "520 L",
+    "spare": "nd",
+    "tail": "nd",
+    "cam": {
+      "e": "sim",
+      "t": "360°"
+    },
+    "screen": {
+      "e": "sim",
+      "t": "12,8″ giratória"
+    },
+    "cluster": {
+      "e": "sim",
+      "t": "8,8″"
+    },
+    "hud": "nao",
+    "google": "sim",
+    "audio": "nd",
+    "cpwl": "sim",
+    "nfc": "sim",
+    "ota": "sim",
+    "app": "sim",
+    "wpc": {
+      "e": "sim",
+      "t": "50 W ventilado"
+    },
+    "roof": "sim",
+    "dseat": "sim",
+    "mem": "nd",
+    "pseat": "sim",
+    "vent_d": "nd",
+    "vent_p": "nd",
+    "heat": "nd",
+    "zones": "sim",
+    "amb": "nd",
+    "rain": "sim",
+    "accr": "sim",
+    "aeb": "sim",
+    "bsd": "sim",
+    "lka": "sim",
+    "rctb": "sim",
+    "dow": "sim",
+    "dms": "nd",
+    "war": {
+      "e": "sim",
+      "t": "6 anos / 8 anos"
+    }
+  }
+}

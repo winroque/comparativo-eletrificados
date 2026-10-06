@@ -1,0 +1,90 @@
+{
+  "id": "byd-song-plus-gs",
+  "nome": "BYD Song Plus GS",
+  "marca": "BYD",
+  "tecnologia": "PHEV",
+  "carroceria": "SUV",
+  "combustivel": "gasolina",
+  "status": "à venda",
+  "finalista": false,
+  "subtitulo": "",
+  "preco": {
+    "tabela": 249990,
+    "consultado": "2026-10-06"
+  },
+  "observacao": "",
+  "fontes": [],
+  "valores": {
+    "fab": {
+      "e": "nd",
+      "t": "n/d"
+    },
+    "fipe": {
+      "e": "nd",
+      "t": "a levantar"
+    },
+    "sys": "PHEV",
+    "fuel": "gasolina",
+    "pw": "235 cv",
+    "tq": "nd",
+    "acc": "nd",
+    "bat": "18,3 kWh",
+    "ev": "63 km",
+    "evo": "na",
+    "rng": "1.200+ km",
+    "dc": "nd",
+    "v2l": "sim",
+    "len": "nd",
+    "wb": "nd",
+    "trunk": "nd",
+    "spare": "nd",
+    "tail": {
+      "e": "sim",
+      "t": "com sensor"
+    },
+    "cam": {
+      "e": "sim",
+      "t": "360°"
+    },
+    "screen": {
+      "e": "sim",
+      "t": "15,6″ giratória"
+    },
+    "cluster": {
+      "e": "sim",
+      "t": "12,3″"
+    },
+    "hud": "sim",
+    "google": "nd",
+    "audio": "Infinity",
+    "cpwl": "sim",
+    "nfc": "sim",
+    "ota": "sim",
+    "app": "sim",
+    "wpc": "sim",
+    "roof": "sim",
+    "dseat": "sim",
+    "mem": "nd",
+    "pseat": "sim",
+    "vent_d": "sim",
+    "vent_p": "sim",
+    "heat": "sim",
+    "zones": "sim",
+    "amb": "sim",
+    "rain": "nd",
+    "accr": "sim",
+    "aeb": "sim",
+    "bsd": "sim",
+    "lka": "sim",
+    "rctb": {
+      "e": "nao",
+      "t": "só no Premium"
+    },
+    "dow": "nd",
+    "dms": "nao",
+    "war": {
+      "e": "sim",
+      "t": "6 anos / 8 anos"
+    }
+  }
+}

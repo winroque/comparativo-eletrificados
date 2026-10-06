@@ -1,0 +1,102 @@
+{
+  "id": "changan-cs55-phev",
+  "nome": "Changan CS55 PHEV",
+  "marca": "Changan",
+  "tecnologia": "PHEV",
+  "carroceria": "SUV",
+  "combustivel": "flex",
+  "status": "pré-venda",
+  "finalista": true,
+  "subtitulo": "pré-venda",
+  "preco": {
+    "tabela": 189990,
+    "consultado": "2026-10-06"
+  },
+  "observacao": "Pré-venda. Dados vêm da imprensa de lançamento; a ficha oficial do PHEV ainda não foi publicada. Itens marcados como \"divulgado\" não pontuam no mínimo.",
+  "fontes": [
+    "changan-cs55-uol",
+    "changan-cs55-folha"
+  ],
+  "valores": {
+    "fab": {
+      "e": "nd",
+      "t": "a confirmar"
+    },
+    "fipe": {
+      "e": "nd",
+      "t": "a levantar"
+    },
+    "sys": "PHEV",
+    "fuel": "flex",
+    "pw": "286 cv",
+    "tq": "460 Nm",
+    "acc": {
+      "e": "nd",
+      "t": "7,2 s (imprensa)"
+    },
+    "bat": "18,4 kWh",
+    "ev": "76 km",
+    "evo": "na",
+    "rng": "1.200 km",
+    "dc": {
+      "e": "nd",
+      "t": "até 43 kW? (não oficial)"
+    },
+    "v2l": {
+      "e": "divulgado",
+      "t": "220 V"
+    },
+    "len": "4,55 m",
+    "wb": "2,66 m",
+    "trunk": {
+      "e": "nd",
+      "t": "475 ou 525 L"
+    },
+    "spare": "nd",
+    "tail": "divulgado",
+    "cam": {
+      "e": "divulgado",
+      "t": "540°"
+    },
+    "screen": {
+      "e": "divulgado",
+      "t": "14,6″"
+    },
+    "cluster": {
+      "e": "divulgado",
+      "t": "10,3″"
+    },
+    "hud": "nd",
+    "google": "nao",
+    "audio": {
+      "e": "nd",
+      "t": "Pioneer? (a confirmar no PHEV)"
+    },
+    "cpwl": "divulgado",
+    "nfc": "nd",
+    "ota": "nd",
+    "app": "nd",
+    "wpc": "divulgado",
+    "roof": "divulgado",
+    "dseat": "divulgado",
+    "mem": "nd",
+    "pseat": "nd",
+    "vent_d": "divulgado",
+    "vent_p": "divulgado",
+    "heat": "divulgado",
+    "zones": "divulgado",
+    "amb": "nd",
+    "rain": "nd",
+    "accr": "divulgado",
+    "aeb": "divulgado",
+    "bsd": "nd",
+    "lka": "divulgado",
+    "rctb": "nd",
+    "dow": "nd",
+    "dms": "nd",
+    "war": {
+      "e": "sim",
+      "t": "7 anos / 8 anos"
+    }
+  }
+}
