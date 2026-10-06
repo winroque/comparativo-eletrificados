@@ -1,6 +1,6 @@
 # Comparativo de eletrificados até R$ 260 mil
 
-SUVs e sedãs híbridos, híbridos plug-in, REEV e elétricos vendidos no Brasil, comparados item por item. O site lê os dados de arquivos JSON neste repositório: cada carro tem o seu arquivo, e qualquer correção é um commit.
+SUVs e sedãs híbridos, híbridos plug-in, REEV e elétricos vendidos no Brasil, comparados item por item. Os dados ficam em arquivos JSON neste repositório: cada carro tem o seu arquivo, e qualquer correção é um commit. O build junta tudo em `data/dados.json`, o único arquivo que o site baixa.
 
 Dados consultados em 6 de outubro de 2026. Preços são de tabela pública ou oferta oficial; não são cotação de concessionária.
 
@@ -44,9 +44,10 @@ data/linhas.json         itens comparados, categorias, pesos padrão e teto de p
 data/carros/*.json       um arquivo por versão de carro
 data/fontes.json         registro de fontes, referenciado pelos carros
 data/manifest.json       lista de carros (gerada)
+data/dados.json          tudo junto, lido pelo site (gerado)
 data/radar.json          modelos acompanhados, ainda fora da tabela
 data/export/             CSV e banco SQLite gerados
-scripts/                 manifesto, validação e exportação (CSV e SQLite)
+scripts/                 manifesto, validação, junção dos dados e exportação (CSV e SQLite)
 docs/                    revisão externa que originou a metodologia atual
 ```
 
@@ -69,8 +70,10 @@ Regras:
 Para **adicionar um carro**, copie um arquivo parecido, troque `id` (igual ao nome do arquivo), nome, preço e valores, e rode:
 
 ```bash
-npm run build    # gera o manifesto, valida e exporta o CSV
+npm run build    # gera o manifesto, valida, gera o data/dados.json e exporta o CSV
 ```
+
+Faça commit também do `data/dados.json`: é ele que o site lê na prévia local, e o `validar.yml` reclama se estiver desatualizado. Na publicação, o workflow gera o arquivo de novo.
 
 Se a validação falhar, ela diz o arquivo e o campo. O workflow `validar.yml` roda a mesma checagem em pull requests.
 

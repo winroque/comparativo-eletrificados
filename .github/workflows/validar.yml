@@ -16,3 +16,5 @@ jobs:
       - run: node scripts/build-manifest.mjs
       - run: git diff --exit-code data/manifest.json || (echo "Rode 'npm run manifest' e faça commit do data/manifest.json" && exit 1)
       - run: node scripts/validate.mjs
+      - run: node scripts/build-dados.mjs
+      - run: git diff --exit-code data/dados.json || (echo "Rode 'npm run build' e faça commit do data/dados.json" && exit 1)

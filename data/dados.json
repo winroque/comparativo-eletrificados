@@ -1,0 +1,3095 @@
+{
+  "linhas": {
+    "versao": "2026-10-06",
+    "teto": 260000,
+    "categorias": {
+      "adas": {
+        "nome": "Assistência e segurança",
+        "peso": 30
+      },
+      "conf": {
+        "nome": "Conforto",
+        "peso": 30
+      },
+      "mm": {
+        "nome": "Multimídia e conectividade",
+        "peso": 25
+      },
+      "prat": {
+        "nome": "Praticidade e recarga",
+        "peso": 15
+      }
+    },
+    "estados": {
+      "sim": "presente, confirmado",
+      "nao": "ausente",
+      "nd": "não confirmado",
+      "divulgado": "só imprensa ou versão vizinha",
+      "na": "não se aplica"
+    },
+    "linhas": [
+      {
+        "secao": "Preço e mercado"
+      },
+      {
+        "id": "fab",
+        "rotulo": "Fabricação"
+      },
+      {
+        "id": "fipe",
+        "rotulo": "FIPE set/26: usado 2026 × 0 km"
+      },
+      {
+        "secao": "Motor, bateria e recarga"
+      },
+      {
+        "id": "sys",
+        "rotulo": "Sistema"
+      },
+      {
+        "id": "fuel",
+        "rotulo": "Combustível"
+      },
+      {
+        "id": "pw",
+        "rotulo": "Potência combinada"
+      },
+      {
+        "id": "tq",
+        "rotulo": "Torque combinado"
+      },
+      {
+        "id": "acc",
+        "rotulo": "0 a 100 km/h (declarado)"
+      },
+      {
+        "id": "bat",
+        "rotulo": "Bateria"
+      },
+      {
+        "id": "ev",
+        "rotulo": "Autonomia elétrica — PBEV/Inmetro"
+      },
+      {
+        "id": "evo",
+        "rotulo": "Autonomia elétrica — outros ciclos"
+      },
+      {
+        "id": "rng",
+        "rotulo": "Autonomia total declarada"
+      },
+      {
+        "id": "dc",
+        "rotulo": "Recarga rápida DC",
+        "categoria": "prat"
+      },
+      {
+        "id": "v2l",
+        "rotulo": "Tomada externa (V2L)",
+        "categoria": "prat"
+      },
+      {
+        "secao": "Tamanho e praticidade"
+      },
+      {
+        "id": "len",
+        "rotulo": "Comprimento"
+      },
+      {
+        "id": "wb",
+        "rotulo": "Entre-eixos"
+      },
+      {
+        "id": "trunk",
+        "rotulo": "Porta-malas (método varia)"
+      },
+      {
+        "id": "spare",
+        "rotulo": "Estepe",
+        "categoria": "prat"
+      },
+      {
+        "id": "tail",
+        "rotulo": "Tampa traseira elétrica",
+        "categoria": "prat"
+      },
+      {
+        "id": "cam",
+        "rotulo": "Câmera de entorno",
+        "categoria": "prat"
+      },
+      {
+        "secao": "Multimídia e conectividade"
+      },
+      {
+        "id": "screen",
+        "rotulo": "Central multimídia",
+        "categoria": "mm"
+      },
+      {
+        "id": "cluster",
+        "rotulo": "Painel digital",
+        "categoria": "mm"
+      },
+      {
+        "id": "hud",
+        "rotulo": "Head-up display",
+        "categoria": "mm"
+      },
+      {
+        "id": "google",
+        "rotulo": "Google integrado (Maps, Assistente)",
+        "categoria": "mm"
+      },
+      {
+        "id": "audio",
+        "rotulo": "Sistema de som"
+      },
+      {
+        "id": "cpwl",
+        "rotulo": "CarPlay e Android Auto sem fio",
+        "categoria": "mm"
+      },
+      {
+        "id": "nfc",
+        "rotulo": "Chave digital (cartão ou celular)",
+        "categoria": "mm"
+      },
+      {
+        "id": "ota",
+        "rotulo": "Atualização remota (OTA)",
+        "categoria": "mm"
+      },
+      {
+        "id": "app",
+        "rotulo": "App com comandos remotos",
+        "categoria": "mm"
+      },
+      {
+        "id": "wpc",
+        "rotulo": "Carregador por indução",
+        "categoria": "mm"
+      },
+      {
+        "secao": "Conforto"
+      },
+      {
+        "id": "roof",
+        "rotulo": "Teto panorâmico",
+        "categoria": "conf"
+      },
+      {
+        "id": "dseat",
+        "rotulo": "Banco do motorista elétrico",
+        "categoria": "conf"
+      },
+      {
+        "id": "mem",
+        "rotulo": "Memória do banco do motorista",
+        "categoria": "conf"
+      },
+      {
+        "id": "pseat",
+        "rotulo": "Banco do passageiro elétrico",
+        "categoria": "conf"
+      },
+      {
+        "id": "vent_d",
+        "rotulo": "Ventilação — motorista",
+        "categoria": "conf"
+      },
+      {
+        "id": "vent_p",
+        "rotulo": "Ventilação — passageiro",
+        "categoria": "conf"
+      },
+      {
+        "id": "heat",
+        "rotulo": "Aquecimento dos bancos",
+        "categoria": "conf"
+      },
+      {
+        "id": "zones",
+        "rotulo": "Ar-condicionado de duas zonas",
+        "categoria": "conf"
+      },
+      {
+        "id": "amb",
+        "rotulo": "Luz ambiente",
+        "categoria": "conf"
+      },
+      {
+        "id": "rain",
+        "rotulo": "Sensor de chuva",
+        "categoria": "conf"
+      },
+      {
+        "secao": "Assistência e segurança"
+      },
+      {
+        "id": "accr",
+        "rotulo": "Piloto adaptativo (ACC)",
+        "categoria": "adas"
+      },
+      {
+        "id": "aeb",
+        "rotulo": "Frenagem autônoma (AEB)",
+        "categoria": "adas"
+      },
+      {
+        "id": "bsd",
+        "rotulo": "Monitor de ponto cego",
+        "categoria": "adas"
+      },
+      {
+        "id": "lka",
+        "rotulo": "Permanência em faixa",
+        "categoria": "adas"
+      },
+      {
+        "id": "rctb",
+        "rotulo": "Tráfego cruzado traseiro com frenagem",
+        "categoria": "adas"
+      },
+      {
+        "id": "dow",
+        "rotulo": "Alerta de abertura de porta",
+        "categoria": "adas"
+      },
+      {
+        "id": "dms",
+        "rotulo": "Monitor de fadiga por câmera",
+        "categoria": "adas"
+      },
+      {
+        "secao": "Garantia"
+      },
+      {
+        "id": "war",
+        "rotulo": "Veículo / bateria de tração"
+      }
+    ]
+  },
+  "fontes": {
+    "revisao-2026-10-06": {
+      "titulo": "Revisão do comparativo (auditoria externa), 06/10/2026 — fontes S1–S28",
+      "url": "",
+      "tipo": "documento do usuário"
+    },
+    "byd-atto2-ficha": {
+      "titulo": "BYD — ficha Atto 2 DM-i Flex, revisada em 09/07/2026 (PDF enviado pelo usuário)",
+      "url": "",
+      "tipo": "oficial"
+    },
+    "byd-atto2-site": {
+      "titulo": "BYD — página do Atto 2 DM-i",
+      "url": "https://www.byd.com/br/car/atto2",
+      "tipo": "oficial"
+    },
+    "geely-ex5-emi-ficha": {
+      "titulo": "Geely — especificações EX5 EM-i Pro/Max/Ultra",
+      "url": "https://static.autoforce.com/plugins/images/clientes/geely-brasil/produtos/ws/Geely%20EX5%20EM-I/Geely%20EX5%20EM-I/Especificac%CC%A7o%CC%83es%20Geely%20EX5%20EM-i.pdf",
+      "tipo": "oficial"
+    },
+    "geely-ex5-emi-oferta": {
+      "titulo": "Geely — oferta EX5 EM-i (validade declarada até 31/10/2026)",
+      "url": "https://www.geelybrasil.com.br/ofertas/oferta-geely-ex5-emi-max",
+      "tipo": "oficial"
+    },
+    "geely-ex5-emi-lancamento": {
+      "titulo": "Conexão TO — lançamento EX5 EM-i, preços Pro/Max/Ultra (20/04/2026)",
+      "url": "https://conexaoto.com.br/2026/04/20/geely-ex5-em-i-chega-com-tecnologia-avancada-e-producao-nacional",
+      "tipo": "imprensa"
+    },
+    "fipe-ex5-emi-max": {
+      "titulo": "Tabela FIPE EX5 EM-i MAX 2026, código 088008-6 (set/2026)",
+      "url": "https://tabelacarros.com/carros/geely/EX5-EM-I-MAX/2026-Hibrido",
+      "tipo": "referência"
+    },
+    "fipe-ex5-emi-max-0km": {
+      "titulo": "Tabela FIPE EX5 EM-i MAX zero km (ago/2026)",
+      "url": "https://www.tabelafipebrasil.com/carros/GEELY/EX5-EM-I-MAX/Zero-Km-a-hibrido",
+      "tipo": "referência"
+    },
+    "gwm-h6-phev19-site": {
+      "titulo": "GWM — página do Haval H6 PHEV19 Flex",
+      "url": "https://www.gwmmotors.com.br/pt/modelos/haval-h6-phev-19",
+      "tipo": "oficial"
+    },
+    "gwm-h6-2027-flex": {
+      "titulo": "Conexão TO — linha Haval H6 2027 Flex, preços e desempenho (12/06/2026)",
+      "url": "https://www.conexaoto.com.br/2026/06/12/gwm-haval-h6-2027-estreia-combinando-eletrificacao-e-etanol",
+      "tipo": "imprensa"
+    },
+    "gwm-h6-hev2-ficha": {
+      "titulo": "GWM — ficha H6 HEV2 Flex",
+      "url": "https://www.gwmmotors.com.br/content/dam/gwm/pages/br/pt/models/haval-hev2-my25/ficha-tecnica-haval-h6-hev2-flex-gwm.pdf",
+      "tipo": "oficial"
+    },
+    "gwm-h6-phev19-ficha": {
+      "titulo": "GWM — ficha H6 PHEV19 Flex",
+      "url": "https://www.gwmmotors.com.br/content/dam/gwm/pages/br/pt/models/haval-h6-phev19-my25/ficha-tecnica-haval-h6-phev19-flex-gwm.pdf",
+      "tipo": "oficial"
+    },
+    "stellantis-c10-ficha": {
+      "titulo": "Stellantis Media — ficha Leapmotor C10 Ultra-Híbrido (REEV)",
+      "url": "https://www.media.stellantis.com/br-pt/download-model-document/521",
+      "tipo": "oficial"
+    },
+    "gwm-ora5-site": {
+      "titulo": "GWM — página do Ora 5",
+      "url": "https://www.gwmmotors.com.br/pt/modelos/ora5",
+      "tipo": "oficial"
+    },
+    "byd-king-ficha": {
+      "titulo": "BYD — ficha King (jul/2026)",
+      "url": "https://www.byd.com/material/__CN/byd-site/br/fichas-tecnicas-2026/update-13-07-2026/07-13-2026---ficha-txiunica/BYD_King_V2.pdf",
+      "tipo": "oficial"
+    },
+    "honda-civic-site": {
+      "titulo": "Honda — página do Civic",
+      "url": "https://www.honda.com.br/automoveis/civic",
+      "tipo": "oficial"
+    },
+    "changan-cs55-uol": {
+      "titulo": "UOL — lançamento CS55 (16/09/2026)",
+      "url": "https://www.uol.com.br/carros/noticias/redacao/2026/09/16/ate-42-kml-caoa-changan-lanca-cs55-em-3-versoes-contra-hr-v-veja-precos.ghtm",
+      "tipo": "imprensa"
+    },
+    "changan-cs55-folha": {
+      "titulo": "Folha — CS55 flex e pré-venda do híbrido (21/09/2026)",
+      "url": "https://www1.folha.uol.com.br/mercado/2026/09/caoa-changan-lanca-cs55-flex-no-brasil-versao-hibrida-estreia-no-fim-do-ano.shtml",
+      "tipo": "imprensa"
+    },
+    "jetour-s06-autoo": {
+      "titulo": "Autoo — Jetour S06, preços e equipamentos",
+      "url": "https://www.autoo.com.br/jetour-s06-chega-com-byd-song-pro-e-haval-h6-na-mira-veja-preco/",
+      "tipo": "imprensa"
+    },
+    "jetour-s06-revistacarro": {
+      "titulo": "Revista Carro — Jetour S06 em pré-venda",
+      "url": "https://revistacarro.com.br/jetour-s06-estreia-em-pre-venda-no-brasil-e-aposta-em-preco-agressivo-abaixo-de-r-200-mil/amp/",
+      "tipo": "imprensa"
+    },
+    "jetour-s06-webmotors": {
+      "titulo": "Webmotors — Jetour S06 2026, ficha e itens",
+      "url": "https://www.webmotors.com.br/jetour/s06/2026",
+      "tipo": "imprensa"
+    },
+    "jetour-s06-site": {
+      "titulo": "Jetour — S06 (preços e ressalva de potência)",
+      "url": "https://jetourbr.com/carro/s06/",
+      "tipo": "oficial"
+    },
+    "omoda7-eletricosapp": {
+      "titulo": "Eletricos.app — Omoda 7 SHS-P Luxury",
+      "url": "https://www.eletricos.app/veiculo/omoda-7-shs-p-luxury-2026",
+      "tipo": "imprensa"
+    },
+    "omoda7-automaistv": {
+      "titulo": "AutoMais — equipamentos Omoda 5 e Omoda 7",
+      "url": "https://www.automaistv.com.br/novidades/exclusivo-desvendamos-a-lista-de-equipamentos-dos-novos-omoda-5-e-omoda-7/",
+      "tipo": "imprensa"
+    },
+    "omoda-ofertas": {
+      "titulo": "Omoda & Jaecoo — ofertas públicas",
+      "url": "https://www.omodajaecoo.com.br/ofertas",
+      "tipo": "oficial"
+    },
+    "omoda5-motorshow": {
+      "titulo": "Motor Show — Omoda 5 HEV, preços e potência",
+      "url": "https://motorshow.com.br/omoda-5-hev-chega-mais-barato",
+      "tipo": "imprensa"
+    },
+    "omoda5-encontracarros": {
+      "titulo": "Encontra Carros — Omoda 5 Luxury/Prestige (jul/2026)",
+      "url": "https://www.encontracarros.com.br/omoda-5-fica-mais-barato/amp/",
+      "tipo": "imprensa"
+    },
+    "jaecoo5-band": {
+      "titulo": "Band — Jaecoo 5 chega ao Brasil (30/09/2026)",
+      "url": "https://www.band.com.br/bandmotor/jaecoo-5-chega-ao-brasil-com-224-cv-e-preco-a-partir-de-r-154-990",
+      "tipo": "imprensa"
+    },
+    "jaecoo5-mecanicaonline": {
+      "titulo": "Mecânica Online — Jaecoo 5, versões e bateria",
+      "url": "https://mecanicaonline.com.br/?p=237929",
+      "tipo": "imprensa"
+    },
+    "yaris-vrum": {
+      "titulo": "Vrum — Yaris Cross XRX Hybrid (set/2026)",
+      "url": "https://www.vrum.com.br/bom-negocio/2026/09/7508483-toyota-yaris-cross-hibrido-tem-desconto-de-rs-20-mil-veja-valores.html",
+      "tipo": "imprensa"
+    },
+    "yaris-itatiaia": {
+      "titulo": "Itatiaia — Yaris Cross, preços, equipamentos e porta-malas",
+      "url": "https://www.itatiaia.com.br/auto/toyota-yaris-cross-veja-os-precos-equipamentos-e-consumo-das-versoes/",
+      "tipo": "imprensa"
+    },
+    "ex5-bev-webmotors": {
+      "titulo": "Webmotors — Geely EX5 2026",
+      "url": "https://www.webmotors.com.br/geely/ex5/2026",
+      "tipo": "imprensa"
+    },
+    "ex5-bev-canalve": {
+      "titulo": "CanalVE — ficha EX5 Max",
+      "url": "https://canalve.com.br/ficha-tecnica/geely/tudo-sobre-ex5-max/",
+      "tipo": "imprensa"
+    },
+    "omoda-e5-webmotors": {
+      "titulo": "Webmotors — Omoda E5 2026",
+      "url": "https://www.webmotors.com.br/omoda/e5/2026",
+      "tipo": "imprensa"
+    },
+    "omoda-e5-canalve": {
+      "titulo": "CanalVE — ficha Omoda E5",
+      "url": "https://canalve.com.br/ficha-tecnica/omoda-jaecoo/tudo-sobre-e5/",
+      "tipo": "imprensa"
+    },
+    "ex5-emi-pro-ml": {
+      "titulo": "Loja oficial Geely no Mercado Livre — EX5 EM-i Pro",
+      "url": "https://www.mercadolivre.com.br/vpp/MLB-6582925318-ex5-em-i-pro-_JM",
+      "tipo": "oficial"
+    },
+    "toyota-yaris-site": {
+      "titulo": "Toyota — Yaris Cross Hybrid",
+      "url": "https://www.toyota.com.br/modelos/yaris-cross-hybrid",
+      "tipo": "oficial"
+    }
+  },
+  "radar": [
+    {
+      "nome": "Chevrolet Captiva PHEV",
+      "situacao": "Produção no Ceará anunciada para 2026; sem preço nem ficha confirmados.",
+      "fonte": "https://news.chevrolet.com.br/newsroom.detail.html/Pages/news/br/pt/2026/aug/0826-captiva-phev.html"
+    },
+    {
+      "nome": "BYD Yuan Pro / Yuan Plus",
+      "situacao": "Elétricos no portfólio da BYD; preço atual e configuração a documentar.",
+      "fonte": "https://www.byd.com/br/car/king.html"
+    },
+    {
+      "nome": "Omoda E5 versão de entrada",
+      "situacao": "Anunciada perto de R$ 150 mil; sem ficha.",
+      "fonte": ""
+    },
+    {
+      "nome": "Leapmotor B10 REEV",
+      "situacao": "Exibido no Festival Interlagos (ago/2026); sem preço.",
+      "fonte": ""
+    },
+    {
+      "nome": "Jaecoo 5 Comfort, Omoda 5 Luxury, Jetour S06 Advance, Yaris Cross XRE Hybrid",
+      "situacao": "Versões de entrada dos modelos da tabela; incluir se o orçamento descer.",
+      "fonte": ""
+    }
+  ],
+  "carros": [
+    {
+      "id": "byd-atto-2-gs",
+      "nome": "BYD Atto 2 GS",
+      "marca": "BYD",
+      "tecnologia": "PHEV",
+      "carroceria": "SUV",
+      "combustivel": "flex",
+      "status": "à venda",
+      "finalista": true,
+      "subtitulo": "nacional (SKD)",
+      "preco": {
+        "tabela": 169990,
+        "consultado": "2026-10-06"
+      },
+      "observacao": "Entregas regulares às lojas previstas para outubro de 2026, segundo lojistas. Montado em Camaçari (BA) com kits importados.",
+      "fontes": [
+        "byd-atto2-ficha",
+        "byd-atto2-site"
+      ],
+      "valores": {
+        "fab": "BA (montagem SKD)",
+        "fipe": {
+          "e": "nd",
+          "t": "a levantar"
+        },
+        "sys": "PHEV",
+        "fuel": "flex",
+        "pw": "197 cv",
+        "tq": "300 Nm",
+        "acc": "8,4 s",
+        "bat": "18,0 kWh",
+        "ev": "75 km",
+        "evo": "110 km (NEDC)",
+        "rng": "1.045 km (NEDC)",
+        "dc": {
+          "e": "nao",
+          "t": "só AC 6,6 kW"
+        },
+        "v2l": "sim",
+        "len": "4,33 m",
+        "wb": "2,62 m",
+        "trunk": "455 L",
+        "spare": {
+          "e": "nao",
+          "t": "kit"
+        },
+        "tail": {
+          "e": "nao",
+          "t": "manual"
+        },
+        "cam": {
+          "e": "sim",
+          "t": "360°"
+        },
+        "screen": {
+          "e": "sim",
+          "t": "12,8″ giratória"
+        },
+        "cluster": {
+          "e": "sim",
+          "t": "8,8″"
+        },
+        "hud": "nao",
+        "google": "sim",
+        "audio": "6 alto-falantes",
+        "cpwl": "sim",
+        "nfc": {
+          "e": "sim",
+          "t": "cartão ou celular",
+          "f": [
+            "byd-atto2-site"
+          ]
+        },
+        "ota": "sim",
+        "app": "sim",
+        "wpc": {
+          "e": "sim",
+          "t": "50 W ventilado"
+        },
+        "roof": "sim",
+        "dseat": {
+          "e": "sim",
+          "t": "6 vias"
+        },
+        "mem": "nd",
+        "pseat": {
+          "e": "nao",
+          "t": "manual"
+        },
+        "vent_d": "nao",
+        "vent_p": "nao",
+        "heat": "nao",
+        "zones": "nao",
+        "amb": "sim",
+        "rain": "sim",
+        "accr": "sim",
+        "aeb": "sim",
+        "bsd": "sim",
+        "lka": "sim",
+        "rctb": "sim",
+        "dow": "sim",
+        "dms": "nao",
+        "war": {
+          "e": "sim",
+          "t": "6 anos / 8 anos"
+        }
+      }
+    },
+    {
+      "id": "byd-king-gs",
+      "nome": "BYD King GS",
+      "marca": "BYD",
+      "tecnologia": "PHEV",
+      "carroceria": "Sedã",
+      "combustivel": "gasolina",
+      "status": "à venda",
+      "finalista": false,
+      "subtitulo": "",
+      "preco": {
+        "tabela": 175990,
+        "consultado": "2026-10-06"
+      },
+      "observacao": "A ficha atual dá 78 km pelo PBEV; uma etiqueta de 2024 ligada à mesma página dá 80 km.",
+      "fontes": [
+        "byd-king-ficha"
+      ],
+      "valores": {
+        "fab": "BA",
+        "fipe": {
+          "e": "nd",
+          "t": "a levantar"
+        },
+        "sys": "PHEV",
+        "fuel": "gasolina",
+        "pw": "235 cv",
+        "tq": "325 Nm",
+        "acc": "7,3 s",
+        "bat": "18,3 kWh",
+        "ev": "78 km",
+        "evo": {
+          "e": "nd",
+          "t": "80 km em etiqueta de 2024"
+        },
+        "rng": "nd",
+        "dc": "nao",
+        "v2l": {
+          "e": "sim",
+          "t": "bidirecional"
+        },
+        "len": "4,78 m",
+        "wb": "2,72 m",
+        "trunk": "450 L",
+        "spare": {
+          "e": "nao",
+          "t": "kit"
+        },
+        "tail": {
+          "e": "nd",
+          "t": "abertura elétrica; fechamento a confirmar"
+        },
+        "cam": {
+          "e": "sim",
+          "t": "360°"
+        },
+        "screen": {
+          "e": "sim",
+          "t": "12,8″ giratória"
+        },
+        "cluster": {
+          "e": "sim",
+          "t": "8,8″"
+        },
+        "hud": "nao",
+        "google": "nd",
+        "audio": "8 alto-falantes",
+        "cpwl": "sim",
+        "nfc": "sim",
+        "ota": "sim",
+        "app": "sim",
+        "wpc": "sim",
+        "roof": "nao",
+        "dseat": "sim",
+        "mem": "nd",
+        "pseat": "sim",
+        "vent_d": "sim",
+        "vent_p": "nd",
+        "heat": "nao",
+        "zones": "sim",
+        "amb": "sim",
+        "rain": "sim",
+        "accr": "sim",
+        "aeb": "sim",
+        "bsd": "sim",
+        "lka": "sim",
+        "rctb": "nd",
+        "dow": "nd",
+        "dms": "nao",
+        "war": {
+          "e": "sim",
+          "t": "6 anos / 8 anos"
+        }
+      }
+    },
+    {
+      "id": "byd-song-plus-gs",
+      "nome": "BYD Song Plus GS",
+      "marca": "BYD",
+      "tecnologia": "PHEV",
+      "carroceria": "SUV",
+      "combustivel": "gasolina",
+      "status": "à venda",
+      "finalista": false,
+      "subtitulo": "",
+      "preco": {
+        "tabela": 249990,
+        "consultado": "2026-10-06"
+      },
+      "observacao": "",
+      "fontes": [],
+      "valores": {
+        "fab": {
+          "e": "nd",
+          "t": "n/d"
+        },
+        "fipe": {
+          "e": "nd",
+          "t": "a levantar"
+        },
+        "sys": "PHEV",
+        "fuel": "gasolina",
+        "pw": "235 cv",
+        "tq": "nd",
+        "acc": "nd",
+        "bat": "18,3 kWh",
+        "ev": "63 km",
+        "evo": "na",
+        "rng": "1.200+ km",
+        "dc": "nd",
+        "v2l": "sim",
+        "len": "nd",
+        "wb": "nd",
+        "trunk": "nd",
+        "spare": "nd",
+        "tail": {
+          "e": "sim",
+          "t": "com sensor"
+        },
+        "cam": {
+          "e": "sim",
+          "t": "360°"
+        },
+        "screen": {
+          "e": "sim",
+          "t": "15,6″ giratória"
+        },
+        "cluster": {
+          "e": "sim",
+          "t": "12,3″"
+        },
+        "hud": "sim",
+        "google": "nd",
+        "audio": "Infinity",
+        "cpwl": "sim",
+        "nfc": "sim",
+        "ota": "sim",
+        "app": "sim",
+        "wpc": "sim",
+        "roof": "sim",
+        "dseat": "sim",
+        "mem": "nd",
+        "pseat": "sim",
+        "vent_d": "sim",
+        "vent_p": "sim",
+        "heat": "sim",
+        "zones": "sim",
+        "amb": "sim",
+        "rain": "nd",
+        "accr": "sim",
+        "aeb": "sim",
+        "bsd": "sim",
+        "lka": "sim",
+        "rctb": {
+          "e": "nao",
+          "t": "só no Premium"
+        },
+        "dow": "nd",
+        "dms": "nao",
+        "war": {
+          "e": "sim",
+          "t": "6 anos / 8 anos"
+        }
+      }
+    },
+    {
+      "id": "byd-song-pro-gs",
+      "nome": "BYD Song Pro GS",
+      "marca": "BYD",
+      "tecnologia": "PHEV",
+      "carroceria": "SUV",
+      "combustivel": "flex",
+      "status": "à venda",
+      "finalista": false,
+      "subtitulo": "linha 2027",
+      "preco": {
+        "tabela": 199990,
+        "consultado": "2026-10-06"
+      },
+      "observacao": "",
+      "fontes": [],
+      "valores": {
+        "fab": "BA",
+        "fipe": {
+          "e": "nd",
+          "t": "a levantar"
+        },
+        "sys": "PHEV",
+        "fuel": "flex",
+        "pw": "219 cv",
+        "tq": "300 Nm",
+        "acc": "8,6–8,8 s",
+        "bat": "18,3 kWh",
+        "ev": "72 km",
+        "evo": "na",
+        "rng": "1.105 km (NEDC)",
+        "dc": {
+          "e": "nao",
+          "t": "só AC 6,6 kW"
+        },
+        "v2l": "sim",
+        "len": "4,74 m",
+        "wb": "2,71 m",
+        "trunk": "520 L",
+        "spare": "nd",
+        "tail": "nd",
+        "cam": {
+          "e": "sim",
+          "t": "360°"
+        },
+        "screen": {
+          "e": "sim",
+          "t": "12,8″ giratória"
+        },
+        "cluster": {
+          "e": "sim",
+          "t": "8,8″"
+        },
+        "hud": "nao",
+        "google": "sim",
+        "audio": "nd",
+        "cpwl": "sim",
+        "nfc": "sim",
+        "ota": "sim",
+        "app": "sim",
+        "wpc": {
+          "e": "sim",
+          "t": "50 W ventilado"
+        },
+        "roof": "sim",
+        "dseat": "sim",
+        "mem": "nd",
+        "pseat": "sim",
+        "vent_d": "nd",
+        "vent_p": "nd",
+        "heat": "nd",
+        "zones": "sim",
+        "amb": "nd",
+        "rain": "sim",
+        "accr": "sim",
+        "aeb": "sim",
+        "bsd": "sim",
+        "lka": "sim",
+        "rctb": "sim",
+        "dow": "sim",
+        "dms": "nd",
+        "war": {
+          "e": "sim",
+          "t": "6 anos / 8 anos"
+        }
+      }
+    },
+    {
+      "id": "caoa-chery-tiggo-7-pro-phev",
+      "nome": "Tiggo 7 Pro PHEV",
+      "marca": "Caoa Chery",
+      "tecnologia": "PHEV",
+      "carroceria": "SUV",
+      "combustivel": "gasolina",
+      "status": "à venda",
+      "finalista": false,
+      "subtitulo": "linha 2027",
+      "preco": {
+        "tabela": 209990,
+        "consultado": "2026-10-06"
+      },
+      "observacao": "",
+      "fontes": [],
+      "valores": {
+        "fab": "nd",
+        "fipe": {
+          "e": "nd",
+          "t": "a levantar"
+        },
+        "sys": "PHEV",
+        "fuel": "gasolina",
+        "pw": "279 cv",
+        "tq": "365 Nm",
+        "acc": "nd",
+        "bat": "18,4 kWh",
+        "ev": "68 km",
+        "evo": "na",
+        "rng": "1.200+ km",
+        "dc": {
+          "e": "sim",
+          "t": "30–80% em 20 min"
+        },
+        "v2l": {
+          "e": "sim",
+          "t": "220 V"
+        },
+        "len": "4,55 m",
+        "wb": "2,67 m",
+        "trunk": "484 L",
+        "spare": "nd",
+        "tail": "sim",
+        "cam": {
+          "e": "sim",
+          "t": "540°"
+        },
+        "screen": {
+          "e": "sim",
+          "t": "24,6″ curva (2 telas)"
+        },
+        "cluster": {
+          "e": "sim",
+          "t": "integrado à tela curva"
+        },
+        "hud": "sim",
+        "google": "nao",
+        "audio": "Sony, 8 alto-falantes",
+        "cpwl": "sim",
+        "nfc": "nd",
+        "ota": "nd",
+        "app": "nd",
+        "wpc": {
+          "e": "sim",
+          "t": "50 W"
+        },
+        "roof": "sim",
+        "dseat": "sim",
+        "mem": "nd",
+        "pseat": "sim",
+        "vent_d": "sim",
+        "vent_p": "sim",
+        "heat": "sim",
+        "zones": "sim",
+        "amb": "sim",
+        "rain": "sim",
+        "accr": "sim",
+        "aeb": "sim",
+        "bsd": "nd",
+        "lka": "sim",
+        "rctb": "nd",
+        "dow": "nd",
+        "dms": "nd",
+        "war": {
+          "e": "sim",
+          "t": "7 anos / 8 anos"
+        }
+      }
+    },
+    {
+      "id": "changan-cs55-phev",
+      "nome": "Changan CS55 PHEV",
+      "marca": "Changan",
+      "tecnologia": "PHEV",
+      "carroceria": "SUV",
+      "combustivel": "flex",
+      "status": "pré-venda",
+      "finalista": true,
+      "subtitulo": "pré-venda",
+      "preco": {
+        "tabela": 189990,
+        "consultado": "2026-10-06"
+      },
+      "observacao": "Pré-venda. Dados vêm da imprensa de lançamento; a ficha oficial do PHEV ainda não foi publicada. Itens marcados como \"divulgado\" não pontuam no mínimo.",
+      "fontes": [
+        "changan-cs55-uol",
+        "changan-cs55-folha"
+      ],
+      "valores": {
+        "fab": {
+          "e": "nd",
+          "t": "a confirmar"
+        },
+        "fipe": {
+          "e": "nd",
+          "t": "a levantar"
+        },
+        "sys": "PHEV",
+        "fuel": "flex",
+        "pw": "286 cv",
+        "tq": "460 Nm",
+        "acc": {
+          "e": "nd",
+          "t": "7,2 s (imprensa)"
+        },
+        "bat": "18,4 kWh",
+        "ev": "76 km",
+        "evo": "na",
+        "rng": "1.200 km",
+        "dc": {
+          "e": "nd",
+          "t": "até 43 kW? (não oficial)"
+        },
+        "v2l": {
+          "e": "divulgado",
+          "t": "220 V"
+        },
+        "len": "4,55 m",
+        "wb": "2,66 m",
+        "trunk": {
+          "e": "nd",
+          "t": "475 ou 525 L"
+        },
+        "spare": "nd",
+        "tail": "divulgado",
+        "cam": {
+          "e": "divulgado",
+          "t": "540°"
+        },
+        "screen": {
+          "e": "divulgado",
+          "t": "14,6″"
+        },
+        "cluster": {
+          "e": "divulgado",
+          "t": "10,3″"
+        },
+        "hud": "nd",
+        "google": "nao",
+        "audio": {
+          "e": "nd",
+          "t": "Pioneer? (a confirmar no PHEV)"
+        },
+        "cpwl": "divulgado",
+        "nfc": "nd",
+        "ota": "nd",
+        "app": "nd",
+        "wpc": "divulgado",
+        "roof": "divulgado",
+        "dseat": "divulgado",
+        "mem": "nd",
+        "pseat": "nd",
+        "vent_d": "divulgado",
+        "vent_p": "divulgado",
+        "heat": "divulgado",
+        "zones": "divulgado",
+        "amb": "nd",
+        "rain": "nd",
+        "accr": "divulgado",
+        "aeb": "divulgado",
+        "bsd": "nd",
+        "lka": "divulgado",
+        "rctb": "nd",
+        "dow": "nd",
+        "dms": "nd",
+        "war": {
+          "e": "sim",
+          "t": "7 anos / 8 anos"
+        }
+      }
+    },
+    {
+      "id": "geely-ex5-emi-max",
+      "nome": "Geely EX5 EM-i Max",
+      "marca": "Geely",
+      "tecnologia": "PHEV",
+      "carroceria": "SUV",
+      "combustivel": "gasolina",
+      "status": "à venda",
+      "finalista": true,
+      "subtitulo": "",
+      "preco": {
+        "tabela": 219990,
+        "oferta": 211490,
+        "oferta_nota": "oferta até 31/10",
+        "consultado": "2026-10-06"
+      },
+      "observacao": "",
+      "fontes": [
+        "geely-ex5-emi-ficha",
+        "geely-ex5-emi-oferta",
+        "geely-ex5-emi-lancamento",
+        "fipe-ex5-emi-max",
+        "fipe-ex5-emi-max-0km"
+      ],
+      "valores": {
+        "fab": "importado · PR previsto",
+        "fipe": {
+          "t": "R$ 198,4 mil (2026) × R$ 213,0 mil (0 km)",
+          "f": [
+            "fipe-ex5-emi-max"
+          ]
+        },
+        "sys": "PHEV",
+        "fuel": "gasolina",
+        "pw": "262 cv",
+        "tq": "380 Nm",
+        "acc": "7,8 s",
+        "bat": "18,4 kWh",
+        "ev": "65 km",
+        "evo": "105 km (NEDC)",
+        "rng": "1.245 km (NEDC)",
+        "dc": {
+          "e": "sim",
+          "t": "30 kW"
+        },
+        "v2l": {
+          "e": "sim",
+          "t": "+ V2V"
+        },
+        "len": "4,74 m",
+        "wb": "2,76 m",
+        "trunk": "428 L",
+        "spare": "sim",
+        "tail": "sim",
+        "cam": {
+          "e": "sim",
+          "t": "540°"
+        },
+        "screen": {
+          "e": "sim",
+          "t": "15,4″"
+        },
+        "cluster": {
+          "e": "sim",
+          "t": "10,2″"
+        },
+        "hud": {
+          "e": "sim",
+          "t": "13,8″"
+        },
+        "google": "nao",
+        "audio": "Flyme, 16 alto-falantes",
+        "cpwl": "sim",
+        "nfc": {
+          "e": "nao",
+          "t": "presencial"
+        },
+        "ota": "sim",
+        "app": "sim",
+        "wpc": "sim",
+        "roof": {
+          "e": "sim",
+          "t": "+ cortina elétrica"
+        },
+        "dseat": {
+          "e": "sim",
+          "t": "com memória"
+        },
+        "mem": "sim",
+        "pseat": {
+          "e": "sim",
+          "t": "4 vias"
+        },
+        "vent_d": "sim",
+        "vent_p": "sim",
+        "heat": "nao",
+        "zones": "nao",
+        "amb": {
+          "e": "sim",
+          "t": "256 cores"
+        },
+        "rain": "sim",
+        "accr": "sim",
+        "aeb": "sim",
+        "bsd": "sim",
+        "lka": {
+          "e": "sim",
+          "t": "+ emergência"
+        },
+        "rctb": "sim",
+        "dow": "sim",
+        "dms": "nao",
+        "war": {
+          "e": "sim",
+          "t": "6 anos / 8 anos"
+        }
+      }
+    },
+    {
+      "id": "geely-ex5-emi-pro",
+      "nome": "Geely EX5 EM-i Pro",
+      "marca": "Geely",
+      "tecnologia": "PHEV",
+      "carroceria": "SUV",
+      "combustivel": "gasolina",
+      "status": "à venda",
+      "finalista": false,
+      "subtitulo": "",
+      "preco": {
+        "tabela": 199990,
+        "oferta": 191490,
+        "oferta_nota": "oferta",
+        "consultado": "2026-10-06"
+      },
+      "observacao": "Ventilação dos bancos: a ficha oficial e a loja oficial no Mercado Livre divergem.",
+      "fontes": [
+        "geely-ex5-emi-ficha",
+        "geely-ex5-emi-lancamento",
+        "ex5-emi-pro-ml"
+      ],
+      "valores": {
+        "fab": "importado · PR previsto",
+        "fipe": {
+          "e": "nd",
+          "t": "a levantar"
+        },
+        "sys": "PHEV",
+        "fuel": "gasolina",
+        "pw": "262 cv",
+        "tq": "380 Nm",
+        "acc": "7,8 s",
+        "bat": "18,4 kWh",
+        "ev": "65 km",
+        "evo": "105 km (NEDC)",
+        "rng": "1.245 km (NEDC)",
+        "dc": {
+          "e": "sim",
+          "t": "30 kW"
+        },
+        "v2l": {
+          "e": "sim",
+          "t": "+ V2V"
+        },
+        "len": "4,74 m",
+        "wb": "2,76 m",
+        "trunk": "428 L",
+        "spare": "sim",
+        "tail": "nd",
+        "cam": {
+          "e": "nao",
+          "t": "só câmera de ré"
+        },
+        "screen": {
+          "e": "sim",
+          "t": "15,4″"
+        },
+        "cluster": {
+          "e": "sim",
+          "t": "10,2″"
+        },
+        "hud": "nao",
+        "google": "nao",
+        "audio": "6 alto-falantes",
+        "cpwl": "sim",
+        "nfc": {
+          "e": "nao",
+          "t": "presencial"
+        },
+        "ota": "sim",
+        "app": "sim",
+        "wpc": "nao",
+        "roof": "nao",
+        "dseat": {
+          "e": "sim",
+          "t": "com memória"
+        },
+        "mem": "nd",
+        "pseat": "nd",
+        "vent_d": {
+          "e": "nd",
+          "t": "divergente: ficha × loja oficial",
+          "f": [
+            "ex5-emi-pro-ml"
+          ]
+        },
+        "vent_p": {
+          "e": "nd",
+          "t": "divergente: ficha × loja oficial",
+          "f": [
+            "ex5-emi-pro-ml"
+          ]
+        },
+        "heat": "nao",
+        "zones": "nao",
+        "amb": "nd",
+        "rain": "sim",
+        "accr": "sim",
+        "aeb": "sim",
+        "bsd": "nd",
+        "lka": "nd",
+        "rctb": "nd",
+        "dow": "nd",
+        "dms": "nao",
+        "war": {
+          "e": "sim",
+          "t": "6 anos / 8 anos"
+        }
+      }
+    },
+    {
+      "id": "geely-ex5-emi-ultra",
+      "nome": "Geely EX5 EM-i Ultra",
+      "marca": "Geely",
+      "tecnologia": "PHEV",
+      "carroceria": "SUV",
+      "combustivel": "gasolina",
+      "status": "à venda",
+      "finalista": false,
+      "subtitulo": "bateria maior",
+      "preco": {
+        "tabela": 244990,
+        "oferta": 236490,
+        "oferta_nota": "oferta",
+        "consultado": "2026-10-06"
+      },
+      "observacao": "",
+      "fontes": [
+        "geely-ex5-emi-ficha",
+        "geely-ex5-emi-oferta",
+        "geely-ex5-emi-lancamento"
+      ],
+      "valores": {
+        "fab": "importado · PR previsto",
+        "fipe": {
+          "e": "nd",
+          "t": "a levantar"
+        },
+        "sys": "PHEV",
+        "fuel": "gasolina",
+        "pw": "262 cv",
+        "tq": "380 Nm",
+        "acc": "7,8 s",
+        "bat": {
+          "t": "29,8 kWh",
+          "f": [
+            "geely-ex5-emi-ficha"
+          ]
+        },
+        "ev": {
+          "t": "112 km",
+          "f": [
+            "geely-ex5-emi-ficha"
+          ]
+        },
+        "evo": "170 km (NEDC)",
+        "rng": "1.300 km (NEDC)",
+        "dc": {
+          "e": "sim",
+          "t": "60 kW",
+          "f": [
+            "geely-ex5-emi-ficha"
+          ]
+        },
+        "v2l": {
+          "e": "sim",
+          "t": "+ V2V"
+        },
+        "len": "4,74 m",
+        "wb": "2,76 m",
+        "trunk": "428 L",
+        "spare": "sim",
+        "tail": "sim",
+        "cam": {
+          "e": "sim",
+          "t": "540°"
+        },
+        "screen": {
+          "e": "sim",
+          "t": "15,4″"
+        },
+        "cluster": {
+          "e": "sim",
+          "t": "10,2″"
+        },
+        "hud": {
+          "e": "sim",
+          "t": "13,8″"
+        },
+        "google": "nao",
+        "audio": "Flyme, 16 alto-falantes",
+        "cpwl": "sim",
+        "nfc": {
+          "e": "nao",
+          "t": "presencial"
+        },
+        "ota": "sim",
+        "app": "sim",
+        "wpc": "sim",
+        "roof": {
+          "e": "sim",
+          "t": "+ cortina elétrica"
+        },
+        "dseat": {
+          "e": "sim",
+          "t": "com memória"
+        },
+        "mem": "sim",
+        "pseat": {
+          "e": "sim",
+          "t": "4 vias"
+        },
+        "vent_d": "sim",
+        "vent_p": "sim",
+        "heat": "nao",
+        "zones": "nao",
+        "amb": {
+          "e": "sim",
+          "t": "256 cores"
+        },
+        "rain": "sim",
+        "accr": "sim",
+        "aeb": "sim",
+        "bsd": "sim",
+        "lka": {
+          "e": "sim",
+          "t": "+ emergência"
+        },
+        "rctb": "sim",
+        "dow": "sim",
+        "dms": "nao",
+        "war": {
+          "e": "sim",
+          "t": "6 anos / 8 anos"
+        }
+      }
+    },
+    {
+      "id": "geely-ex5-max-eletrico",
+      "nome": "Geely EX5 Max (elétrico)",
+      "marca": "Geely",
+      "tecnologia": "BEV",
+      "carroceria": "SUV",
+      "combustivel": "elétrico",
+      "status": "à venda",
+      "finalista": false,
+      "subtitulo": "",
+      "preco": {
+        "tabela": 225800,
+        "consultado": "2026-10-06"
+      },
+      "observacao": "",
+      "fontes": [
+        "ex5-bev-webmotors",
+        "ex5-bev-canalve"
+      ],
+      "valores": {
+        "fab": "importado",
+        "fipe": {
+          "e": "nd",
+          "t": "a levantar"
+        },
+        "sys": "Elétrico",
+        "fuel": "elétrico",
+        "pw": "218 cv",
+        "tq": "320 Nm",
+        "acc": "7,1 s",
+        "bat": "60,2 kWh",
+        "ev": "349 km",
+        "evo": "na",
+        "rng": "na",
+        "dc": {
+          "e": "sim",
+          "t": "100 kW"
+        },
+        "v2l": "nd",
+        "len": "4,62 m",
+        "wb": "2,75 m",
+        "trunk": "461 L",
+        "spare": "nd",
+        "tail": "nd",
+        "cam": {
+          "e": "sim",
+          "t": "360°"
+        },
+        "screen": {
+          "e": "sim",
+          "t": "15,4″"
+        },
+        "cluster": {
+          "e": "sim",
+          "t": "10,2″"
+        },
+        "hud": {
+          "e": "sim",
+          "t": "13,8″"
+        },
+        "google": "nao",
+        "audio": "Flyme, 16 alto-falantes",
+        "cpwl": "nd",
+        "nfc": "nd",
+        "ota": "nd",
+        "app": "nd",
+        "wpc": "nd",
+        "roof": "sim",
+        "dseat": "sim",
+        "mem": "nd",
+        "pseat": {
+          "e": "sim",
+          "t": "com apoio de pernas"
+        },
+        "vent_d": "nd",
+        "vent_p": "nd",
+        "heat": "nd",
+        "zones": "sim",
+        "amb": "nd",
+        "rain": "nd",
+        "accr": "sim",
+        "aeb": "sim",
+        "bsd": "nd",
+        "lka": "nd",
+        "rctb": "nd",
+        "dow": "nd",
+        "dms": "nd",
+        "war": "nd"
+      }
+    },
+    {
+      "id": "geely-ex5-pro-eletrico",
+      "nome": "Geely EX5 Pro (elétrico)",
+      "marca": "Geely",
+      "tecnologia": "BEV",
+      "carroceria": "SUV",
+      "combustivel": "elétrico",
+      "status": "à venda",
+      "finalista": false,
+      "subtitulo": "",
+      "preco": {
+        "tabela": 205800,
+        "oferta": 197800,
+        "oferta_nota": "oferta",
+        "consultado": "2026-10-06"
+      },
+      "observacao": "",
+      "fontes": [
+        "ex5-bev-webmotors"
+      ],
+      "valores": {
+        "fab": "importado",
+        "fipe": {
+          "e": "nd",
+          "t": "a levantar"
+        },
+        "sys": "Elétrico",
+        "fuel": "elétrico",
+        "pw": "218 cv",
+        "tq": "320 Nm",
+        "acc": "6,9 s",
+        "bat": "60,2 kWh",
+        "ev": "413 km",
+        "evo": "na",
+        "rng": "na",
+        "dc": {
+          "e": "sim",
+          "t": "100 kW"
+        },
+        "v2l": "nd",
+        "len": "4,62 m",
+        "wb": "2,75 m",
+        "trunk": "461 L",
+        "spare": "nd",
+        "tail": "nd",
+        "cam": {
+          "e": "sim",
+          "t": "360°"
+        },
+        "screen": {
+          "e": "sim",
+          "t": "15,4″"
+        },
+        "cluster": {
+          "e": "sim",
+          "t": "10,2″"
+        },
+        "hud": "nao",
+        "google": "nao",
+        "audio": "nd",
+        "cpwl": "nd",
+        "nfc": "nd",
+        "ota": "nd",
+        "app": "nd",
+        "wpc": "nd",
+        "roof": "nao",
+        "dseat": "sim",
+        "mem": "nd",
+        "pseat": "nd",
+        "vent_d": "nd",
+        "vent_p": "nd",
+        "heat": "nd",
+        "zones": "sim",
+        "amb": "nd",
+        "rain": "nd",
+        "accr": "nd",
+        "aeb": "nd",
+        "bsd": "nd",
+        "lka": "nd",
+        "rctb": "nd",
+        "dow": "nd",
+        "dms": "nd",
+        "war": "nd"
+      }
+    },
+    {
+      "id": "gwm-haval-h6-hev2-flex",
+      "nome": "Haval H6 HEV2 Flex",
+      "marca": "GWM",
+      "tecnologia": "HEV",
+      "carroceria": "SUV",
+      "combustivel": "flex",
+      "status": "à venda",
+      "finalista": false,
+      "subtitulo": "linha 2027",
+      "preco": {
+        "tabela": 225000,
+        "consultado": "2026-10-06"
+      },
+      "observacao": "",
+      "fontes": [
+        "gwm-h6-hev2-ficha",
+        "gwm-h6-2027-flex"
+      ],
+      "valores": {
+        "fab": "SP",
+        "fipe": {
+          "e": "nd",
+          "t": "a levantar"
+        },
+        "sys": "HEV",
+        "fuel": {
+          "t": "flex",
+          "f": [
+            "gwm-h6-2027-flex"
+          ]
+        },
+        "pw": {
+          "t": "248 cv",
+          "f": [
+            "gwm-h6-2027-flex"
+          ]
+        },
+        "tq": "535 Nm",
+        "acc": {
+          "t": "7,6 s",
+          "f": [
+            "gwm-h6-2027-flex"
+          ]
+        },
+        "bat": "1,53 kWh",
+        "ev": "na",
+        "evo": "na",
+        "rng": "nd",
+        "dc": "na",
+        "v2l": "nao",
+        "len": "4,70 m",
+        "wb": "2,74 m",
+        "trunk": "560 L (declarado)",
+        "spare": "nd",
+        "tail": "sim",
+        "cam": {
+          "e": "sim",
+          "t": "540°"
+        },
+        "screen": {
+          "e": "sim",
+          "t": "14,6″"
+        },
+        "cluster": {
+          "e": "sim",
+          "t": "10,25″"
+        },
+        "hud": "sim",
+        "google": "nao",
+        "audio": "8 alto-falantes, 140 W",
+        "cpwl": "sim",
+        "nfc": "nao",
+        "ota": "sim",
+        "app": "sim",
+        "wpc": "sim",
+        "roof": "sim",
+        "dseat": "sim",
+        "mem": "nd",
+        "pseat": "sim",
+        "vent_d": "sim",
+        "vent_p": "sim",
+        "heat": "nd",
+        "zones": "sim",
+        "amb": "sim",
+        "rain": "sim",
+        "accr": "sim",
+        "aeb": "sim",
+        "bsd": "sim",
+        "lka": "sim",
+        "rctb": "sim",
+        "dow": "sim",
+        "dms": {
+          "e": "sim",
+          "t": "facial"
+        },
+        "war": {
+          "e": "sim",
+          "t": "5 anos / 8 anos"
+        }
+      }
+    },
+    {
+      "id": "gwm-haval-h6-phev19-flex",
+      "nome": "Haval H6 PHEV19 Flex",
+      "marca": "GWM",
+      "tecnologia": "PHEV",
+      "carroceria": "SUV",
+      "combustivel": "flex",
+      "status": "à venda",
+      "finalista": false,
+      "subtitulo": "linha 2027",
+      "preco": {
+        "tabela": 250000,
+        "consultado": "2026-10-06"
+      },
+      "observacao": "",
+      "fontes": [
+        "gwm-h6-phev19-ficha",
+        "gwm-h6-phev19-site",
+        "gwm-h6-2027-flex"
+      ],
+      "valores": {
+        "fab": "SP",
+        "fipe": {
+          "e": "nd",
+          "t": "a levantar"
+        },
+        "sys": "PHEV",
+        "fuel": {
+          "t": "flex",
+          "f": [
+            "gwm-h6-2027-flex"
+          ]
+        },
+        "pw": "326 cv",
+        "tq": "535 Nm",
+        "acc": {
+          "t": "7,4 s",
+          "f": [
+            "gwm-h6-2027-flex"
+          ]
+        },
+        "bat": "19 kWh",
+        "ev": {
+          "t": "77 km",
+          "f": [
+            "gwm-h6-phev19-site"
+          ]
+        },
+        "evo": {
+          "t": "115 km (WLTP)",
+          "f": [
+            "gwm-h6-phev19-site"
+          ]
+        },
+        "rng": "nd",
+        "dc": {
+          "e": "sim",
+          "t": "33 kW"
+        },
+        "v2l": "sim",
+        "len": "4,70 m",
+        "wb": "2,74 m",
+        "trunk": "560 L (declarado)",
+        "spare": "nd",
+        "tail": "sim",
+        "cam": {
+          "e": "sim",
+          "t": "540°"
+        },
+        "screen": {
+          "e": "sim",
+          "t": "14,6″"
+        },
+        "cluster": {
+          "e": "sim",
+          "t": "10,25″"
+        },
+        "hud": "sim",
+        "google": "nao",
+        "audio": "9 alto-falantes + subwoofer, 216 W",
+        "cpwl": "sim",
+        "nfc": "nao",
+        "ota": "sim",
+        "app": "sim",
+        "wpc": "sim",
+        "roof": "sim",
+        "dseat": "sim",
+        "mem": "nd",
+        "pseat": "sim",
+        "vent_d": "sim",
+        "vent_p": "sim",
+        "heat": "nd",
+        "zones": "sim",
+        "amb": "sim",
+        "rain": "sim",
+        "accr": "sim",
+        "aeb": "sim",
+        "bsd": "sim",
+        "lka": "sim",
+        "rctb": "sim",
+        "dow": "sim",
+        "dms": {
+          "e": "sim",
+          "t": "facial"
+        },
+        "war": {
+          "e": "sim",
+          "t": "5 anos / 8 anos"
+        }
+      }
+    },
+    {
+      "id": "gwm-ora-5",
+      "nome": "GWM Ora 5",
+      "marca": "GWM",
+      "tecnologia": "BEV",
+      "carroceria": "SUV",
+      "combustivel": "elétrico",
+      "status": "à venda",
+      "finalista": false,
+      "subtitulo": "100% elétrico",
+      "preco": {
+        "tabela": 163990,
+        "consultado": "2026-10-06"
+      },
+      "observacao": "",
+      "fontes": [
+        "gwm-ora5-site"
+      ],
+      "valores": {
+        "fab": "importado",
+        "fipe": {
+          "e": "nd",
+          "t": "a levantar"
+        },
+        "sys": "Elétrico",
+        "fuel": "elétrico",
+        "pw": "204 cv",
+        "tq": "260 Nm",
+        "acc": "nd",
+        "bat": "58,3 kWh",
+        "ev": "349 km",
+        "evo": "na",
+        "rng": "na",
+        "dc": "sim",
+        "v2l": "nd",
+        "len": "nd",
+        "wb": "nd",
+        "trunk": "nd",
+        "spare": {
+          "e": "nao",
+          "t": "kit"
+        },
+        "tail": "sim",
+        "cam": {
+          "e": "sim",
+          "t": "540°"
+        },
+        "screen": {
+          "e": "sim",
+          "t": "14,6″"
+        },
+        "cluster": {
+          "e": "sim",
+          "t": "10,25″"
+        },
+        "hud": "nao",
+        "google": "nao",
+        "audio": "nd",
+        "cpwl": "sim",
+        "nfc": "nd",
+        "ota": "sim",
+        "app": "sim",
+        "wpc": "sim",
+        "roof": {
+          "e": "sim",
+          "t": "+ cortina elétrica"
+        },
+        "dseat": {
+          "e": "sim",
+          "t": "com memória"
+        },
+        "mem": "sim",
+        "pseat": "sim",
+        "vent_d": "sim",
+        "vent_p": "sim",
+        "heat": "nd",
+        "zones": "nd",
+        "amb": "sim",
+        "rain": "nd",
+        "accr": {
+          "e": "sim",
+          "t": "com curvas"
+        },
+        "aeb": "sim",
+        "bsd": "sim",
+        "lka": {
+          "e": "sim",
+          "t": "+ centralização"
+        },
+        "rctb": "sim",
+        "dow": "sim",
+        "dms": "nd",
+        "war": "nd"
+      }
+    },
+    {
+      "id": "honda-civic-advanced-hybrid",
+      "nome": "Honda Civic Advanced Hybrid",
+      "marca": "Honda",
+      "tecnologia": "HEV",
+      "carroceria": "Sedã",
+      "combustivel": "gasolina",
+      "status": "à venda",
+      "finalista": false,
+      "subtitulo": "acima do teto",
+      "preco": {
+        "tabela": 266500,
+        "consultado": "2026-10-06"
+      },
+      "observacao": "Acima do teto de R$ 260 mil; entra como referência.",
+      "fontes": [
+        "honda-civic-site"
+      ],
+      "valores": {
+        "fab": "importado (Tailândia)",
+        "fipe": {
+          "e": "nd",
+          "t": "a levantar"
+        },
+        "sys": "HEV",
+        "fuel": "gasolina",
+        "pw": "≈ 203 cv",
+        "tq": "315 Nm",
+        "acc": "7,8 s",
+        "bat": "1,05 kWh",
+        "ev": "na",
+        "evo": "na",
+        "rng": "nd",
+        "dc": "na",
+        "v2l": "nao",
+        "len": "4,68 m",
+        "wb": "2,74 m",
+        "trunk": "495 L",
+        "spare": "nd",
+        "tail": "nao",
+        "cam": {
+          "e": "nao",
+          "t": "só ré"
+        },
+        "screen": {
+          "e": "sim",
+          "t": "9″"
+        },
+        "cluster": {
+          "e": "sim",
+          "t": "10,2″"
+        },
+        "hud": "nao",
+        "google": "sim",
+        "audio": "Bose, 12 alto-falantes",
+        "cpwl": "sim",
+        "nfc": "nao",
+        "ota": "nd",
+        "app": "sim",
+        "wpc": "sim",
+        "roof": {
+          "e": "nao",
+          "t": "teto solar comum"
+        },
+        "dseat": "sim",
+        "mem": "nd",
+        "pseat": "sim",
+        "vent_d": "nao",
+        "vent_p": "nao",
+        "heat": "nd",
+        "zones": "sim",
+        "amb": "nd",
+        "rain": "nd",
+        "accr": "sim",
+        "aeb": "sim",
+        "bsd": {
+          "e": "nd",
+          "t": "LaneWatch (só lado direito)"
+        },
+        "lka": "sim",
+        "rctb": "nd",
+        "dow": "nd",
+        "dms": {
+          "e": "nao",
+          "t": "(alerta pelo volante)"
+        },
+        "war": "nd"
+      }
+    },
+    {
+      "id": "jaecoo-5-shs-h-prestige",
+      "nome": "Jaecoo 5 SHS-H Prestige",
+      "marca": "Jaecoo",
+      "tecnologia": "HEV",
+      "carroceria": "SUV",
+      "combustivel": "gasolina",
+      "status": "à venda",
+      "finalista": false,
+      "subtitulo": "",
+      "preco": {
+        "tabela": 184990,
+        "oferta": 179990,
+        "oferta_nota": "lote de lançamento",
+        "consultado": "2026-10-06"
+      },
+      "observacao": "Preço de R$ 179.990 vale para o lote de lançamento de 3.600 unidades.",
+      "fontes": [
+        "jaecoo5-band",
+        "jaecoo5-mecanicaonline"
+      ],
+      "valores": {
+        "fab": "importado",
+        "fipe": {
+          "e": "nd",
+          "t": "a levantar"
+        },
+        "sys": "HEV",
+        "fuel": "gasolina",
+        "pw": "224 cv",
+        "tq": "295 Nm",
+        "acc": "nd",
+        "bat": "1,83 kWh",
+        "ev": "na",
+        "evo": "na",
+        "rng": "≈ 1.000 km",
+        "dc": "na",
+        "v2l": "na",
+        "len": "nd",
+        "wb": "nd",
+        "trunk": "nd",
+        "spare": "nd",
+        "tail": "nd",
+        "cam": {
+          "e": "sim",
+          "t": "540°"
+        },
+        "screen": {
+          "e": "sim",
+          "t": "13,2″"
+        },
+        "cluster": "nd",
+        "hud": "nd",
+        "google": "nao",
+        "audio": "Sony, 8 alto-falantes",
+        "cpwl": "sim",
+        "nfc": "nd",
+        "ota": "nd",
+        "app": "nd",
+        "wpc": {
+          "e": "sim",
+          "t": "50 W"
+        },
+        "roof": {
+          "e": "sim",
+          "t": "1,45 m²"
+        },
+        "dseat": "sim",
+        "mem": "nd",
+        "pseat": "sim",
+        "vent_d": "sim",
+        "vent_p": "sim",
+        "heat": "nd",
+        "zones": "sim",
+        "amb": "nd",
+        "rain": "sim",
+        "accr": "sim",
+        "aeb": "sim",
+        "bsd": "nd",
+        "lka": "sim",
+        "rctb": "nd",
+        "dow": "nd",
+        "dms": "nd",
+        "war": {
+          "e": "sim",
+          "t": "7 anos / 8 anos"
+        }
+      }
+    },
+    {
+      "id": "jaecoo-7-elite",
+      "nome": "Jaecoo 7 Elite",
+      "marca": "Jaecoo",
+      "tecnologia": "PHEV",
+      "carroceria": "SUV",
+      "combustivel": "gasolina",
+      "status": "à venda",
+      "finalista": false,
+      "subtitulo": "",
+      "preco": {
+        "tabela": 189990,
+        "consultado": "2026-10-06"
+      },
+      "observacao": "",
+      "fontes": [],
+      "valores": {
+        "fab": "importado",
+        "fipe": {
+          "e": "nd",
+          "t": "a levantar"
+        },
+        "sys": "PHEV",
+        "fuel": "gasolina",
+        "pw": "279 cv",
+        "tq": "nd",
+        "acc": "nd",
+        "bat": "18,3 kWh",
+        "ev": "79 km",
+        "evo": "na",
+        "rng": "1.200+ km",
+        "dc": {
+          "e": "sim",
+          "t": "40 kW"
+        },
+        "v2l": "sim",
+        "len": "4,50 m",
+        "wb": "2,67 m",
+        "trunk": "nd",
+        "spare": "nao",
+        "tail": {
+          "e": "sim",
+          "t": "com sensor"
+        },
+        "cam": {
+          "e": "nao",
+          "t": "só ré"
+        },
+        "screen": {
+          "e": "sim",
+          "t": "13,2″"
+        },
+        "cluster": "sim",
+        "hud": "nao",
+        "google": "nao",
+        "audio": {
+          "e": "nd",
+          "t": "comum"
+        },
+        "cpwl": "nd",
+        "nfc": "nd",
+        "ota": "nao",
+        "app": "nd",
+        "wpc": {
+          "e": "sim",
+          "t": "refrigerado"
+        },
+        "roof": "nao",
+        "dseat": "nao",
+        "mem": "nd",
+        "pseat": "nao",
+        "vent_d": "nao",
+        "vent_p": "nao",
+        "heat": "nao",
+        "zones": "nd",
+        "amb": "sim",
+        "rain": "nd",
+        "accr": "sim",
+        "aeb": "sim",
+        "bsd": "nd",
+        "lka": "sim",
+        "rctb": "nd",
+        "dow": "nd",
+        "dms": "nao",
+        "war": "nd"
+      }
+    },
+    {
+      "id": "jaecoo-7-luxury",
+      "nome": "Jaecoo 7 Luxury",
+      "marca": "Jaecoo",
+      "tecnologia": "PHEV",
+      "carroceria": "SUV",
+      "combustivel": "gasolina",
+      "status": "à venda",
+      "finalista": false,
+      "subtitulo": "",
+      "preco": {
+        "tabela": 234990,
+        "consultado": "2026-10-06"
+      },
+      "observacao": "",
+      "fontes": [],
+      "valores": {
+        "fab": "importado",
+        "fipe": {
+          "e": "nd",
+          "t": "a levantar"
+        },
+        "sys": "PHEV",
+        "fuel": "gasolina",
+        "pw": "279 cv",
+        "tq": "nd",
+        "acc": "nd",
+        "bat": "18,3 kWh",
+        "ev": "79 km",
+        "evo": "na",
+        "rng": "1.200+ km",
+        "dc": {
+          "e": "sim",
+          "t": "40 kW"
+        },
+        "v2l": "sim",
+        "len": "4,50 m",
+        "wb": "2,67 m",
+        "trunk": "nd",
+        "spare": "nao",
+        "tail": {
+          "e": "sim",
+          "t": "com sensor"
+        },
+        "cam": {
+          "e": "sim",
+          "t": "540°"
+        },
+        "screen": {
+          "e": "sim",
+          "t": "13,2″"
+        },
+        "cluster": "sim",
+        "hud": "nao",
+        "google": "nao",
+        "audio": {
+          "e": "nd",
+          "t": "comum"
+        },
+        "cpwl": "nd",
+        "nfc": "nd",
+        "ota": "sim",
+        "app": "sim",
+        "wpc": {
+          "e": "sim",
+          "t": "refrigerado"
+        },
+        "roof": {
+          "e": "sim",
+          "t": "1,1 m²"
+        },
+        "dseat": "sim",
+        "mem": "nd",
+        "pseat": "sim",
+        "vent_d": "sim",
+        "vent_p": "sim",
+        "heat": "nao",
+        "zones": "sim",
+        "amb": "sim",
+        "rain": "sim",
+        "accr": "sim",
+        "aeb": "sim",
+        "bsd": "nd",
+        "lka": "sim",
+        "rctb": "nd",
+        "dow": "nd",
+        "dms": "nao",
+        "war": "nd"
+      }
+    },
+    {
+      "id": "jaecoo-7-prestige",
+      "nome": "Jaecoo 7 Prestige",
+      "marca": "Jaecoo",
+      "tecnologia": "PHEV",
+      "carroceria": "SUV",
+      "combustivel": "gasolina",
+      "status": "à venda",
+      "finalista": false,
+      "subtitulo": "",
+      "preco": {
+        "tabela": 256990,
+        "consultado": "2026-10-06"
+      },
+      "observacao": "",
+      "fontes": [],
+      "valores": {
+        "fab": "importado",
+        "fipe": {
+          "e": "nd",
+          "t": "a levantar"
+        },
+        "sys": "PHEV",
+        "fuel": "gasolina",
+        "pw": "279 cv",
+        "tq": "nd",
+        "acc": "nd",
+        "bat": "18,3 kWh",
+        "ev": "79 km",
+        "evo": "na",
+        "rng": "1.200+ km",
+        "dc": {
+          "e": "sim",
+          "t": "40 kW"
+        },
+        "v2l": "sim",
+        "len": "4,50 m",
+        "wb": "2,67 m",
+        "trunk": "nd",
+        "spare": "nao",
+        "tail": {
+          "e": "sim",
+          "t": "com sensor"
+        },
+        "cam": {
+          "e": "sim",
+          "t": "540°"
+        },
+        "screen": {
+          "e": "sim",
+          "t": "14,8″"
+        },
+        "cluster": "sim",
+        "hud": "sim",
+        "google": "nao",
+        "audio": "Sony, 8 alto-falantes",
+        "cpwl": "nd",
+        "nfc": "nd",
+        "ota": "sim",
+        "app": "sim",
+        "wpc": {
+          "e": "sim",
+          "t": "refrigerado"
+        },
+        "roof": {
+          "e": "sim",
+          "t": "1,1 m²"
+        },
+        "dseat": {
+          "e": "sim",
+          "t": "com memória"
+        },
+        "mem": "sim",
+        "pseat": "sim",
+        "vent_d": "sim",
+        "vent_p": "sim",
+        "heat": "sim",
+        "zones": "sim",
+        "amb": {
+          "e": "sim",
+          "t": "+ projeção"
+        },
+        "rain": "sim",
+        "accr": "sim",
+        "aeb": "sim",
+        "bsd": "sim",
+        "lka": {
+          "e": "sim",
+          "t": "+ centralização"
+        },
+        "rctb": "sim",
+        "dow": "sim",
+        "dms": "sim",
+        "war": "nd"
+      }
+    },
+    {
+      "id": "jetour-s06-premium",
+      "nome": "Jetour S06 Premium",
+      "marca": "Jetour",
+      "tecnologia": "PHEV",
+      "carroceria": "SUV",
+      "combustivel": "gasolina",
+      "status": "à venda",
+      "finalista": false,
+      "subtitulo": "",
+      "preco": {
+        "tabela": 229900,
+        "consultado": "2026-10-06"
+      },
+      "observacao": "O fabricante anuncia 339 cv como soma das potências, não disponível ao mesmo tempo; por isso a potência combinada fica em aberto.",
+      "fontes": [
+        "jetour-s06-site",
+        "jetour-s06-autoo",
+        "jetour-s06-revistacarro",
+        "jetour-s06-webmotors"
+      ],
+      "valores": {
+        "fab": "importado",
+        "fipe": {
+          "e": "nd",
+          "t": "a levantar"
+        },
+        "sys": "PHEV",
+        "fuel": "gasolina",
+        "pw": {
+          "e": "nd",
+          "t": "n/d — 339 cv é soma, não simultânea",
+          "f": [
+            "jetour-s06-site"
+          ]
+        },
+        "tq": "510 Nm",
+        "acc": "7,9 s",
+        "bat": "19,43 kWh",
+        "ev": "70 km",
+        "evo": "na",
+        "rng": "1.200 km",
+        "dc": {
+          "e": "sim",
+          "t": "40 kW"
+        },
+        "v2l": "nd",
+        "len": "4,62 m",
+        "wb": "2,72 m",
+        "trunk": "416 L",
+        "spare": "nd",
+        "tail": "nd",
+        "cam": {
+          "e": "sim",
+          "t": "540°"
+        },
+        "screen": {
+          "e": "sim",
+          "t": "15,6″"
+        },
+        "cluster": "nd",
+        "hud": "nd",
+        "google": "nao",
+        "audio": "Sony",
+        "cpwl": "sim",
+        "nfc": "nd",
+        "ota": "nd",
+        "app": "nd",
+        "wpc": {
+          "e": "sim",
+          "t": "duplo, 50 W"
+        },
+        "roof": "sim",
+        "dseat": {
+          "e": "sim",
+          "t": "com memória"
+        },
+        "mem": "sim",
+        "pseat": "nd",
+        "vent_d": "sim",
+        "vent_p": "sim",
+        "heat": "sim",
+        "zones": "sim",
+        "amb": "nd",
+        "rain": "nd",
+        "accr": "sim",
+        "aeb": "nd",
+        "bsd": "sim",
+        "lka": "nd",
+        "rctb": "nd",
+        "dow": "nd",
+        "dms": "nd",
+        "war": {
+          "e": "sim",
+          "t": "7 anos / 8 anos"
+        }
+      }
+    },
+    {
+      "id": "leapmotor-c10-reev",
+      "nome": "Leapmotor C10 REEV",
+      "marca": "Leapmotor",
+      "tecnologia": "REEV",
+      "carroceria": "SUV",
+      "combustivel": "gasolina",
+      "status": "à venda",
+      "finalista": false,
+      "subtitulo": "",
+      "preco": {
+        "tabela": 219990,
+        "consultado": "2026-10-06"
+      },
+      "observacao": "",
+      "fontes": [
+        "stellantis-c10-ficha"
+      ],
+      "valores": {
+        "fab": "importado",
+        "fipe": {
+          "e": "nd",
+          "t": "a levantar"
+        },
+        "sys": "REEV",
+        "fuel": "gasolina",
+        "pw": "215 cv",
+        "tq": "320 Nm",
+        "acc": {
+          "t": "8,2 s",
+          "f": [
+            "stellantis-c10-ficha"
+          ]
+        },
+        "bat": {
+          "t": "28,4 kWh",
+          "f": [
+            "stellantis-c10-ficha"
+          ]
+        },
+        "ev": {
+          "t": "111 km",
+          "f": [
+            "stellantis-c10-ficha"
+          ]
+        },
+        "evo": "≈ 145 km (WLTP)",
+        "rng": "950 km (WLTP)",
+        "dc": {
+          "e": "sim",
+          "t": "65 kW",
+          "f": [
+            "stellantis-c10-ficha"
+          ]
+        },
+        "v2l": "sim",
+        "len": "4,74 m",
+        "wb": "2,83 m",
+        "trunk": "435 L",
+        "spare": "nd",
+        "tail": "sim",
+        "cam": {
+          "e": "sim",
+          "t": "360°"
+        },
+        "screen": {
+          "e": "sim",
+          "t": "14,6″"
+        },
+        "cluster": {
+          "e": "sim",
+          "t": "10,25″"
+        },
+        "hud": "nao",
+        "google": "nao",
+        "audio": "12 alto-falantes",
+        "cpwl": {
+          "e": "sim",
+          "t": "(1º lote sem)"
+        },
+        "nfc": {
+          "e": "sim",
+          "t": "cartão e app"
+        },
+        "ota": "sim",
+        "app": "sim",
+        "wpc": "sim",
+        "roof": "sim",
+        "dseat": {
+          "e": "sim",
+          "t": "com memória"
+        },
+        "mem": "sim",
+        "pseat": "sim",
+        "vent_d": "sim",
+        "vent_p": "sim",
+        "heat": "sim",
+        "zones": "nd",
+        "amb": "sim",
+        "rain": "nd",
+        "accr": "sim",
+        "aeb": "sim",
+        "bsd": "sim",
+        "lka": "sim",
+        "rctb": "sim",
+        "dow": "sim",
+        "dms": "sim",
+        "war": "nd"
+      }
+    },
+    {
+      "id": "omoda-5-shs-h-prestige",
+      "nome": "Omoda 5 SHS-H Prestige",
+      "marca": "Omoda",
+      "tecnologia": "HEV",
+      "carroceria": "SUV",
+      "combustivel": "gasolina",
+      "status": "à venda",
+      "finalista": false,
+      "subtitulo": "",
+      "preco": {
+        "tabela": 184990,
+        "consultado": "2026-10-06"
+      },
+      "observacao": "",
+      "fontes": [
+        "omoda5-motorshow",
+        "omoda5-encontracarros",
+        "omoda7-automaistv"
+      ],
+      "valores": {
+        "fab": "importado",
+        "fipe": {
+          "e": "nd",
+          "t": "a levantar"
+        },
+        "sys": "HEV",
+        "fuel": "gasolina",
+        "pw": "224 cv",
+        "tq": "295 Nm",
+        "acc": "nd",
+        "bat": "nd",
+        "ev": "na",
+        "evo": "na",
+        "rng": "nd",
+        "dc": "na",
+        "v2l": "na",
+        "len": "4,40 m",
+        "wb": "nd",
+        "trunk": {
+          "e": "nd",
+          "t": "300 L (a confirmar)"
+        },
+        "spare": "nd",
+        "tail": "sim",
+        "cam": "nd",
+        "screen": {
+          "e": "sim",
+          "t": "tela integrada de 24,6″"
+        },
+        "cluster": {
+          "e": "sim",
+          "t": "integrado à tela"
+        },
+        "hud": "nd",
+        "google": "nao",
+        "audio": "nd",
+        "cpwl": "nd",
+        "nfc": "nd",
+        "ota": "nd",
+        "app": "nd",
+        "wpc": "nd",
+        "roof": "nd",
+        "dseat": "sim",
+        "mem": "nd",
+        "pseat": "sim",
+        "vent_d": "sim",
+        "vent_p": "sim",
+        "heat": "sim",
+        "zones": "nd",
+        "amb": "nd",
+        "rain": "nd",
+        "accr": "sim",
+        "aeb": {
+          "e": "sim",
+          "t": "com detecção de pedestres e ciclistas"
+        },
+        "bsd": "nd",
+        "lka": "sim",
+        "rctb": "nd",
+        "dow": "nd",
+        "dms": "nd",
+        "war": "nd"
+      }
+    },
+    {
+      "id": "omoda-7-shs-p-luxury",
+      "nome": "Omoda 7 SHS-P Luxury",
+      "marca": "Omoda",
+      "tecnologia": "PHEV",
+      "carroceria": "SUV",
+      "combustivel": "gasolina",
+      "status": "à venda",
+      "finalista": false,
+      "subtitulo": "",
+      "preco": {
+        "tabela": 254990,
+        "oferta": 244990,
+        "oferta_nota": "oferta",
+        "consultado": "2026-10-06"
+      },
+      "observacao": "",
+      "fontes": [
+        "omoda7-eletricosapp",
+        "omoda7-automaistv",
+        "omoda-ofertas"
+      ],
+      "valores": {
+        "fab": "importado",
+        "fipe": {
+          "e": "nd",
+          "t": "a levantar"
+        },
+        "sys": "PHEV",
+        "fuel": "gasolina",
+        "pw": "279 cv",
+        "tq": "nd",
+        "acc": "8,4 s",
+        "bat": "18,4 kWh",
+        "ev": "60 km",
+        "evo": "90 km (CLTC)",
+        "rng": "1.200+ km",
+        "dc": "nd",
+        "v2l": "nd",
+        "len": "4,66 m",
+        "wb": "nd",
+        "trunk": "590 L",
+        "spare": "nd",
+        "tail": "sim",
+        "cam": "nd",
+        "screen": {
+          "e": "sim",
+          "t": "15,6″ deslizante"
+        },
+        "cluster": {
+          "e": "sim",
+          "t": "8,88″"
+        },
+        "hud": "nd",
+        "google": "nao",
+        "audio": "nd",
+        "cpwl": "nd",
+        "nfc": "nd",
+        "ota": "nd",
+        "app": "nd",
+        "wpc": {
+          "e": "sim",
+          "t": "50 W refrigerado"
+        },
+        "roof": {
+          "e": "nd",
+          "t": "teto solar (tipo a confirmar)"
+        },
+        "dseat": {
+          "e": "sim",
+          "t": "com memória"
+        },
+        "mem": "sim",
+        "pseat": "sim",
+        "vent_d": "sim",
+        "vent_p": "sim",
+        "heat": "nd",
+        "zones": "nd",
+        "amb": "nd",
+        "rain": "nd",
+        "accr": "nd",
+        "aeb": "nd",
+        "bsd": "nd",
+        "lka": "nd",
+        "rctb": "nd",
+        "dow": "nd",
+        "dms": "nd",
+        "war": {
+          "e": "sim",
+          "t": "7 anos / 8 anos"
+        }
+      }
+    },
+    {
+      "id": "omoda-e5",
+      "nome": "Omoda E5",
+      "marca": "Omoda",
+      "tecnologia": "BEV",
+      "carroceria": "SUV",
+      "combustivel": "elétrico",
+      "status": "à venda",
+      "finalista": false,
+      "subtitulo": "versão única",
+      "preco": {
+        "tabela": 209990,
+        "oferta": 199000,
+        "oferta_nota": "oferta",
+        "consultado": "2026-10-06"
+      },
+      "observacao": "A marca prepara uma versão de entrada perto de R$ 150 mil, ainda sem ficha.",
+      "fontes": [
+        "omoda-e5-webmotors",
+        "omoda-e5-canalve",
+        "omoda-ofertas"
+      ],
+      "valores": {
+        "fab": "importado",
+        "fipe": {
+          "e": "nd",
+          "t": "a levantar"
+        },
+        "sys": "Elétrico",
+        "fuel": "elétrico",
+        "pw": "204 cv",
+        "tq": "340 Nm",
+        "acc": "7,6 s",
+        "bat": "61,1 kWh",
+        "ev": "345 km",
+        "evo": "450 km (WLTP)",
+        "rng": "na",
+        "dc": {
+          "e": "sim",
+          "t": "80 kW"
+        },
+        "v2l": "nd",
+        "len": "4,42 m",
+        "wb": "2,63 m",
+        "trunk": "360 L",
+        "spare": {
+          "e": "sim",
+          "t": "temporário"
+        },
+        "tail": "nd",
+        "cam": {
+          "e": "sim",
+          "t": "360°"
+        },
+        "screen": "nd",
+        "cluster": "nd",
+        "hud": "nd",
+        "google": "nao",
+        "audio": "nd",
+        "cpwl": "nd",
+        "nfc": "nd",
+        "ota": "nd",
+        "app": "nd",
+        "wpc": "nd",
+        "roof": "nd",
+        "dseat": "nd",
+        "mem": "nd",
+        "pseat": "nd",
+        "vent_d": "nd",
+        "vent_p": "nd",
+        "heat": "nd",
+        "zones": "nd",
+        "amb": "nd",
+        "rain": "sim",
+        "accr": "nd",
+        "aeb": "sim",
+        "bsd": "sim",
+        "lka": "sim",
+        "rctb": {
+          "e": "nd",
+          "t": "alerta; frenagem a confirmar"
+        },
+        "dow": "sim",
+        "dms": {
+          "e": "nd",
+          "t": "indicador de fadiga (tipo a confirmar)"
+        },
+        "war": {
+          "e": "sim",
+          "t": "7 anos / 8 anos"
+        }
+      }
+    },
+    {
+      "id": "toyota-corolla-altis-premium-hybrid",
+      "nome": "Corolla Altis Premium Hybrid",
+      "marca": "Toyota",
+      "tecnologia": "HEV",
+      "carroceria": "Sedã",
+      "combustivel": "flex",
+      "status": "à venda",
+      "finalista": false,
+      "subtitulo": "",
+      "preco": {
+        "tabela": 210090,
+        "consultado": "2026-10-06"
+      },
+      "observacao": "",
+      "fontes": [],
+      "valores": {
+        "fab": "SP",
+        "fipe": {
+          "e": "nd",
+          "t": "a levantar"
+        },
+        "sys": "HEV",
+        "fuel": "flex",
+        "pw": "122 cv",
+        "tq": "nd",
+        "acc": "nd",
+        "bat": "nd",
+        "ev": "na",
+        "evo": "na",
+        "rng": "nd",
+        "dc": "na",
+        "v2l": "nao",
+        "len": "4,63 m",
+        "wb": "2,70 m",
+        "trunk": "470 L",
+        "spare": "nd",
+        "tail": "nao",
+        "cam": "nd",
+        "screen": "sim",
+        "cluster": {
+          "e": "sim",
+          "t": "12,3″"
+        },
+        "hud": "nao",
+        "google": "nao",
+        "audio": "nd",
+        "cpwl": "nd",
+        "nfc": "nao",
+        "ota": "nd",
+        "app": "sim",
+        "wpc": "nd",
+        "roof": "nd",
+        "dseat": "nd",
+        "mem": "nd",
+        "pseat": "nd",
+        "vent_d": "nao",
+        "vent_p": "nao",
+        "heat": "nao",
+        "zones": "sim",
+        "amb": "nd",
+        "rain": "nd",
+        "accr": "sim",
+        "aeb": "sim",
+        "bsd": "sim",
+        "lka": "sim",
+        "rctb": {
+          "e": "nd",
+          "t": "alerta, frenagem n/d"
+        },
+        "dow": "nd",
+        "dms": "nao",
+        "war": {
+          "e": "sim",
+          "t": "5 anos (até 10)"
+        }
+      }
+    },
+    {
+      "id": "toyota-corolla-cross-xrx-hybrid",
+      "nome": "Corolla Cross Hybrid",
+      "marca": "Toyota",
+      "tecnologia": "HEV",
+      "carroceria": "SUV",
+      "combustivel": "flex",
+      "status": "à venda",
+      "finalista": false,
+      "subtitulo": "XRX Premium",
+      "preco": {
+        "tabela": 223790,
+        "consultado": "2026-10-06"
+      },
+      "observacao": "",
+      "fontes": [],
+      "valores": {
+        "fab": "SP",
+        "fipe": {
+          "e": "nd",
+          "t": "a levantar"
+        },
+        "sys": "HEV",
+        "fuel": "flex",
+        "pw": "122 cv",
+        "tq": "nd",
+        "acc": "nd",
+        "bat": "na",
+        "ev": "na",
+        "evo": "na",
+        "rng": "nd",
+        "dc": "na",
+        "v2l": "nao",
+        "len": "4,46 m",
+        "wb": "2,64 m",
+        "trunk": "nd",
+        "spare": "sim",
+        "tail": {
+          "e": "sim",
+          "t": "com sensor"
+        },
+        "cam": {
+          "e": "sim",
+          "t": "360°"
+        },
+        "screen": {
+          "e": "sim",
+          "t": "10,1″"
+        },
+        "cluster": {
+          "e": "sim",
+          "t": "7″"
+        },
+        "hud": "nao",
+        "google": "nao",
+        "audio": {
+          "e": "nd",
+          "t": "comum"
+        },
+        "cpwl": "sim",
+        "nfc": "nao",
+        "ota": "nd",
+        "app": "sim",
+        "wpc": "sim",
+        "roof": {
+          "e": "nao",
+          "t": "teto solar comum"
+        },
+        "dseat": "sim",
+        "mem": "nd",
+        "pseat": "nao",
+        "vent_d": "nao",
+        "vent_p": "nao",
+        "heat": "nao",
+        "zones": "sim",
+        "amb": "nao",
+        "rain": "nd",
+        "accr": "sim",
+        "aeb": "sim",
+        "bsd": "sim",
+        "lka": "sim",
+        "rctb": "nd",
+        "dow": "nd",
+        "dms": "nao",
+        "war": {
+          "e": "sim",
+          "t": "5 anos (até 10)"
+        }
+      }
+    },
+    {
+      "id": "toyota-yaris-cross-xrx-hybrid",
+      "nome": "Toyota Yaris Cross XRX Hybrid",
+      "marca": "Toyota",
+      "tecnologia": "HEV",
+      "carroceria": "SUV",
+      "combustivel": "flex",
+      "status": "à venda",
+      "finalista": false,
+      "subtitulo": "",
+      "preco": {
+        "tabela": 189990,
+        "consultado": "2026-10-06"
+      },
+      "observacao": "A oferta de R$ 169.990 valia até 30/09/2026 e não foi considerada.",
+      "fontes": [
+        "toyota-yaris-site",
+        "yaris-vrum",
+        "yaris-itatiaia"
+      ],
+      "valores": {
+        "fab": "SP",
+        "fipe": {
+          "e": "nd",
+          "t": "a levantar"
+        },
+        "sys": "HEV",
+        "fuel": "flex",
+        "pw": "111 cv",
+        "tq": "nd",
+        "acc": "nd",
+        "bat": "nd",
+        "ev": "na",
+        "evo": "na",
+        "rng": "nd",
+        "dc": "na",
+        "v2l": "na",
+        "len": "4,31 m",
+        "wb": "2,62 m",
+        "trunk": "391 L",
+        "spare": "nd",
+        "tail": {
+          "e": "sim",
+          "t": "com sensor de movimento"
+        },
+        "cam": {
+          "e": "sim",
+          "t": "360°"
+        },
+        "screen": {
+          "e": "sim",
+          "t": "10″"
+        },
+        "cluster": {
+          "e": "sim",
+          "t": "7″"
+        },
+        "hud": "nao",
+        "google": "nao",
+        "audio": "nd",
+        "cpwl": "sim",
+        "nfc": "nd",
+        "ota": "nd",
+        "app": {
+          "e": "sim",
+          "t": "1 ano grátis"
+        },
+        "wpc": "sim",
+        "roof": {
+          "e": "sim",
+          "t": "fixo"
+        },
+        "dseat": "nd",
+        "mem": "nd",
+        "pseat": "nd",
+        "vent_d": "nd",
+        "vent_p": "nd",
+        "heat": "nd",
+        "zones": "nd",
+        "amb": "sim",
+        "rain": "nd",
+        "accr": "nd",
+        "aeb": "nd",
+        "bsd": "sim",
+        "lka": "nd",
+        "rctb": {
+          "e": "nd",
+          "t": "alerta; frenagem a confirmar"
+        },
+        "dow": "nd",
+        "dms": "nd",
+        "war": {
+          "e": "sim",
+          "t": "5 anos (até 10)"
+        }
+      }
+    }
+  ]
+}
