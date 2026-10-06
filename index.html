@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Comparativo de eletrificados até R$ 260 mil</title>
+<meta name="description" content="SUVs e sedãs híbridos, plug-in e elétricos até R$ 260 mil, comparados item por item, com nota de equipamentos em faixa e dados abertos.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚗</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Barlow+Condensed:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>SUVs e sedãs eletrificados até R$ 260 mil, item por item</h1>
+    <p>Dados de <span id="versao">—</span>, <span id="ncarros">—</span> versões. Os dados ficam em arquivos JSON no repositório; cada carro tem seu arquivo. A nota agora é uma faixa: o mínimo conta só o que está confirmado, o máximo supõe que tudo o que está em aberto exista.</p>
+  </header>
+
+  <section class="panel" aria-labelledby="pt">
+    <h2 id="pt">Pontuação personalizada de equipamentos</h2>
+    <p class="hint">Ajuste os pesos das quatro categorias. Itens que não se aplicam ao tipo de carro (recarga DC num híbrido sem tomada, por exemplo) ficam fora da conta. Com cobertura abaixo de 90%, a posição do carro não é conclusiva. Carros acima de R$ 260 mil ficam fora da lista.</p>
+    <div class="weights" id="weights"></div>
+    <div class="wrow">
+      <button class="btn ghost" id="wreset">Voltar aos pesos padrão</button>
+      <label class="tog"><input type="checkbox" id="offer"> Usar preço de oferta quando houver</label>
+    </div>
+    <ol class="rank" id="rank"></ol>
+    <p class="omit" id="omit"></p>
+  </section>
+
+  <div class="controls" role="group" aria-label="Filtros e ordenação">
+    <div class="seg" id="tier" aria-label="Faixa de preço">
+      <button data-v="all" aria-pressed="true">Todas as faixas</button>
+      <button data-v="a" aria-pressed="false">Até R$ 200 mil</button>
+      <button data-v="b" aria-pressed="false">R$ 200–260 mil</button>
+      <button data-v="c" aria-pressed="false">Acima</button>
+      <button data-v="focus" aria-pressed="false">Finalistas</button>
+    </div>
+    <div class="seg" id="tech" aria-label="Tecnologia">
+      <button data-v="all" aria-pressed="true">Toda tecnologia</button>
+      <button data-v="HEV" aria-pressed="false">Híbrido</button>
+      <button data-v="PLUG" aria-pressed="false">Plug-in e REEV</button>
+      <button data-v="BEV" aria-pressed="false">Elétrico</button>
+    </div>
+    <div class="seg" id="body" aria-label="Carroceria">
+      <button data-v="all" aria-pressed="true">SUV e sedã</button>
+      <button data-v="SUV" aria-pressed="false">SUV</button>
+      <button data-v="Sedã" aria-pressed="false">Sedã</button>
+    </div>
+    <label class="tog f"><input type="checkbox" id="flex"> Só flex</label>
+    <label class="tog"><input type="checkbox" id="diff"> Esconder linhas iguais</label>
+    <label class="sel">Ordenar por <select id="sort"></select></label>
+  </div>
+
+  <section class="panel" aria-labelledby="cmpt">
+    <h2 id="cmpt">Comparar de dois a quatro carros</h2>
+    <p class="hint">Adicione pelo seletor ou toque em "Comparar" no topo das colunas.</p>
+    <div class="chips" id="chips"></div>
+    <div class="cmprow">
+      <select id="add" aria-label="Adicionar carro à comparação"></select>
+      <button id="cgo" class="btn">Comparar</button>
+      <button id="cclr" class="btn ghost">Limpar</button>
+    </div>
+    <div id="cres" aria-live="polite"></div>
+  </section>
+
+  <div class="legend">
+    <span><b style="color:var(--yes)">✓</b>confirmado em ficha ou página oficial</span>
+    <span><b style="color:var(--nd)">✓ divulgado</b>só imprensa ou versão vizinha — não pontua no mínimo</span>
+    <span><b style="color:var(--no)">✗</b>ausente</span>
+    <span><b style="color:var(--nd)">n/d</b>não confirmado</span>
+    <span><b style="color:var(--faint)">—</b>não se aplica</span>
+  </div>
+
+  <div class="tablebox" id="box"><table class="mx" id="mx"><tbody><tr><td class="loading">Carregando dados…</td></tr></tbody></table></div>
+
+  <section class="notes">
+    <h2>Como a nota funciona</h2>
+    <ul>
+      <li><b>Mínimo</b> soma só os itens confirmados. <b>Máximo</b> soma também os itens em aberto e os apenas divulgados. <b>Cobertura</b> é a parte do peso cujo estado é conhecido. Cada categoria vale a proporção dos seus itens aplicáveis, multiplicada pelo peso escolhido.</li>
+      <li>Combustível, garantia, sistema de som, medidas e preço são informativos e não pontuam. O som saiu da nota porque "premium" era um rótulo subjetivo; a linha agora mostra marca e número de alto-falantes.</li>
+      <li>Os pesos padrão (segurança 30, conforto 30, multimídia 25, praticidade 15) são uma escolha editorial, não um padrão técnico. Esta pontuação não tem relação com a etiqueta do Inmetro.</li>
+      <li>✗ significa ausente da ficha oficial completa da versão ou confirmado como inexistente. Ausência em material promocional não vira ✗.</li>
+    </ul>
+
+    <h2>No radar, fora da tabela</h2>
+    <ul id="radar"><li>Carregando…</li></ul>
+    <h2>Pendências conhecidas</h2>
+    <ul>
+      <li>Ficha oficial do Changan CS55 PHEV (recarga DC, porta-malas, pacote de equipamentos).</li>
+      <li>Revisão célula a célula de Tiggo 7 Pro PHEV, Song Pro GS, Song Plus GS, Jaecoo 7 e dos modelos novos com muitos itens em aberto.</li>
+      <li>Valores FIPE documentados para os demais modelos; opcionais, acessórios e benefícios de campanha; custo de propriedade; preço e prazo em Goiânia.</li>
+    </ul>
+  </section>
+  <p class="foot">Dados abertos: <a href="data/export/comparativo.csv">CSV</a> · <a href="data/manifest.json">JSON</a> · <a href="https://github.com/" id="repo">repositório</a>. Para corrigir um dado, edite o arquivo do carro em <code>data/carros/</code>.</p>
+</div>
+
+<script src="assets/app.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+{
+  "id": "omoda-7-shs-p-luxury",
+  "nome": "Omoda 7 SHS-P Luxury",
+  "marca": "Omoda",
+  "tecnologia": "PHEV",
+  "carroceria": "SUV",
+  "combustivel": "gasolina",
+  "status": "à venda",
+  "finalista": false,
+  "subtitulo": "",
+  "preco": {
+    "tabela": 254990,
+    "oferta": 244990,
+    "oferta_nota": "oferta",
+    "consultado": "2026-10-06"
+  },
+  "observacao": "",
+  "fontes": [
+    "omoda7-eletricosapp",
+    "omoda7-automaistv",
+    "omoda-ofertas"
+  ],
+  "valores": {
+    "fab": "importado",
+    "fipe": {
+      "e": "nd",
+      "t": "a levantar"
+    },
+    "sys": "PHEV",
+    "fuel": "gasolina",
+    "pw": "279 cv",
+    "tq": "nd",
+    "acc": "8,4 s",
+    "bat": "18,4 kWh",
+    "ev": "60 km",
+    "evo": "90 km (CLTC)",
+    "rng": "1.200+ km",
+    "dc": "nd",
+    "v2l": "nd",
+    "len": "4,66 m",
+    "wb": "nd",
+    "trunk": "590 L",
+    "spare": "nd",
+    "tail": "sim",
+    "cam": "nd",
+    "screen": {
+      "e": "sim",
+      "t": "15,6″ deslizante"
+    },
+    "cluster": {
+      "e": "sim",
+      "t": "8,88″"
+    },
+    "hud": "nd",
+    "google": "nao",
+    "audio": "nd",
+    "cpwl": "nd",
+    "nfc": "nd",
+    "ota": "nd",
+    "app": "nd",
+    "wpc": {
+      "e": "sim",
+      "t": "50 W refrigerado"
+    },
+    "roof": {
+      "e": "nd",
+      "t": "teto solar (tipo a confirmar)"
+    },
+    "dseat": {
+      "e": "sim",
+      "t": "com memória"
+    },
+    "mem": "sim",
+    "pseat": "sim",
+    "vent_d": "sim",
+    "vent_p": "sim",
+    "heat": "nd",
+    "zones": "nd",
+    "amb": "nd",
+    "rain": "nd",
+    "accr": "nd",
+    "aeb": "nd",
+    "bsd": "nd",
+    "lka": "nd",
+    "rctb": "nd",
+    "dow": "nd",
+    "dms": "nd",
+    "war": {
+      "e": "sim",
+      "t": "7 anos / 8 anos"
+    }
+  }
+}

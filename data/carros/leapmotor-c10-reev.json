@@ -1,0 +1,110 @@
+{
+  "id": "leapmotor-c10-reev",
+  "nome": "Leapmotor C10 REEV",
+  "marca": "Leapmotor",
+  "tecnologia": "REEV",
+  "carroceria": "SUV",
+  "combustivel": "gasolina",
+  "status": "à venda",
+  "finalista": false,
+  "subtitulo": "",
+  "preco": {
+    "tabela": 219990,
+    "consultado": "2026-10-06"
+  },
+  "observacao": "",
+  "fontes": [
+    "stellantis-c10-ficha"
+  ],
+  "valores": {
+    "fab": "importado",
+    "fipe": {
+      "e": "nd",
+      "t": "a levantar"
+    },
+    "sys": "REEV",
+    "fuel": "gasolina",
+    "pw": "215 cv",
+    "tq": "320 Nm",
+    "acc": {
+      "t": "8,2 s",
+      "f": [
+        "stellantis-c10-ficha"
+      ]
+    },
+    "bat": {
+      "t": "28,4 kWh",
+      "f": [
+        "stellantis-c10-ficha"
+      ]
+    },
+    "ev": {
+      "t": "111 km",
+      "f": [
+        "stellantis-c10-ficha"
+      ]
+    },
+    "evo": "≈ 145 km (WLTP)",
+    "rng": "950 km (WLTP)",
+    "dc": {
+      "e": "sim",
+      "t": "65 kW",
+      "f": [
+        "stellantis-c10-ficha"
+      ]
+    },
+    "v2l": "sim",
+    "len": "4,74 m",
+    "wb": "2,83 m",
+    "trunk": "435 L",
+    "spare": "nd",
+    "tail": "sim",
+    "cam": {
+      "e": "sim",
+      "t": "360°"
+    },
+    "screen": {
+      "e": "sim",
+      "t": "14,6″"
+    },
+    "cluster": {
+      "e": "sim",
+      "t": "10,25″"
+    },
+    "hud": "nao",
+    "google": "nao",
+    "audio": "12 alto-falantes",
+    "cpwl": {
+      "e": "sim",
+      "t": "(1º lote sem)"
+    },
+    "nfc": {
+      "e": "sim",
+      "t": "cartão e app"
+    },
+    "ota": "sim",
+    "app": "sim",
+    "wpc": "sim",
+    "roof": "sim",
+    "dseat": {
+      "e": "sim",
+      "t": "com memória"
+    },
+    "mem": "sim",
+    "pseat": "sim",
+    "vent_d": "sim",
+    "vent_p": "sim",
+    "heat": "sim",
+    "zones": "nd",
+    "amb": "sim",
+    "rain": "nd",
+    "accr": "sim",
+    "aeb": "sim",
+    "bsd": "sim",
+    "lka": "sim",
+    "rctb": "sim",
+    "dow": "sim",
+    "dms": "sim",
+    "war": "nd"
+  }
+}

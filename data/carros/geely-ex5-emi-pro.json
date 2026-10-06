@@ -1,0 +1,111 @@
+{
+  "id": "geely-ex5-emi-pro",
+  "nome": "Geely EX5 EM-i Pro",
+  "marca": "Geely",
+  "tecnologia": "PHEV",
+  "carroceria": "SUV",
+  "combustivel": "gasolina",
+  "status": "à venda",
+  "finalista": false,
+  "subtitulo": "",
+  "preco": {
+    "tabela": 199990,
+    "oferta": 191490,
+    "oferta_nota": "oferta",
+    "consultado": "2026-10-06"
+  },
+  "observacao": "Ventilação dos bancos: a ficha oficial e a loja oficial no Mercado Livre divergem.",
+  "fontes": [
+    "geely-ex5-emi-ficha",
+    "geely-ex5-emi-lancamento",
+    "ex5-emi-pro-ml"
+  ],
+  "valores": {
+    "fab": "importado · PR previsto",
+    "fipe": {
+      "e": "nd",
+      "t": "a levantar"
+    },
+    "sys": "PHEV",
+    "fuel": "gasolina",
+    "pw": "262 cv",
+    "tq": "380 Nm",
+    "acc": "7,8 s",
+    "bat": "18,4 kWh",
+    "ev": "65 km",
+    "evo": "105 km (NEDC)",
+    "rng": "1.245 km (NEDC)",
+    "dc": {
+      "e": "sim",
+      "t": "30 kW"
+    },
+    "v2l": {
+      "e": "sim",
+      "t": "+ V2V"
+    },
+    "len": "4,74 m",
+    "wb": "2,76 m",
+    "trunk": "428 L",
+    "spare": "sim",
+    "tail": "nd",
+    "cam": {
+      "e": "nao",
+      "t": "só câmera de ré"
+    },
+    "screen": {
+      "e": "sim",
+      "t": "15,4″"
+    },
+    "cluster": {
+      "e": "sim",
+      "t": "10,2″"
+    },
+    "hud": "nao",
+    "google": "nao",
+    "audio": "6 alto-falantes",
+    "cpwl": "sim",
+    "nfc": {
+      "e": "nao",
+      "t": "presencial"
+    },
+    "ota": "sim",
+    "app": "sim",
+    "wpc": "nao",
+    "roof": "nao",
+    "dseat": {
+      "e": "sim",
+      "t": "com memória"
+    },
+    "mem": "nd",
+    "pseat": "nd",
+    "vent_d": {
+      "e": "nd",
+      "t": "divergente: ficha × loja oficial",
+      "f": [
+        "ex5-emi-pro-ml"
+      ]
+    },
+    "vent_p": {
+      "e": "nd",
+      "t": "divergente: ficha × loja oficial",
+      "f": [
+        "ex5-emi-pro-ml"
+      ]
+    },
+    "heat": "nao",
+    "zones": "nao",
+    "amb": "nd",
+    "rain": "sim",
+    "accr": "sim",
+    "aeb": "sim",
+    "bsd": "nd",
+    "lka": "nd",
+    "rctb": "nd",
+    "dow": "nd",
+    "dms": "nao",
+    "war": {
+      "e": "sim",
+      "t": "6 anos / 8 anos"
+    }
+  }
+}

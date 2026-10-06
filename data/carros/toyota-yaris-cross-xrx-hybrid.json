@@ -1,0 +1,97 @@
+{
+  "id": "toyota-yaris-cross-xrx-hybrid",
+  "nome": "Toyota Yaris Cross XRX Hybrid",
+  "marca": "Toyota",
+  "tecnologia": "HEV",
+  "carroceria": "SUV",
+  "combustivel": "flex",
+  "status": "à venda",
+  "finalista": false,
+  "subtitulo": "",
+  "preco": {
+    "tabela": 189990,
+    "consultado": "2026-10-06"
+  },
+  "observacao": "A oferta de R$ 169.990 valia até 30/09/2026 e não foi considerada.",
+  "fontes": [
+    "toyota-yaris-site",
+    "yaris-vrum",
+    "yaris-itatiaia"
+  ],
+  "valores": {
+    "fab": "SP",
+    "fipe": {
+      "e": "nd",
+      "t": "a levantar"
+    },
+    "sys": "HEV",
+    "fuel": "flex",
+    "pw": "111 cv",
+    "tq": "nd",
+    "acc": "nd",
+    "bat": "nd",
+    "ev": "na",
+    "evo": "na",
+    "rng": "nd",
+    "dc": "na",
+    "v2l": "na",
+    "len": "4,31 m",
+    "wb": "2,62 m",
+    "trunk": "391 L",
+    "spare": "nd",
+    "tail": {
+      "e": "sim",
+      "t": "com sensor de movimento"
+    },
+    "cam": {
+      "e": "sim",
+      "t": "360°"
+    },
+    "screen": {
+      "e": "sim",
+      "t": "10″"
+    },
+    "cluster": {
+      "e": "sim",
+      "t": "7″"
+    },
+    "hud": "nao",
+    "google": "nao",
+    "audio": "nd",
+    "cpwl": "sim",
+    "nfc": "nd",
+    "ota": "nd",
+    "app": {
+      "e": "sim",
+      "t": "1 ano grátis"
+    },
+    "wpc": "sim",
+    "roof": {
+      "e": "sim",
+      "t": "fixo"
+    },
+    "dseat": "nd",
+    "mem": "nd",
+    "pseat": "nd",
+    "vent_d": "nd",
+    "vent_p": "nd",
+    "heat": "nd",
+    "zones": "nd",
+    "amb": "sim",
+    "rain": "nd",
+    "accr": "nd",
+    "aeb": "nd",
+    "bsd": "sim",
+    "lka": "nd",
+    "rctb": {
+      "e": "nd",
+      "t": "alerta; frenagem a confirmar"
+    },
+    "dow": "nd",
+    "dms": "nd",
+    "war": {
+      "e": "sim",
+      "t": "5 anos (até 10)"
+    }
+  }
+}

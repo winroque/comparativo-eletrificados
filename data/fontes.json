@@ -1,0 +1,187 @@
+{
+  "revisao-2026-10-06": {
+    "titulo": "Revisão do comparativo (auditoria externa), 06/10/2026 — fontes S1–S28",
+    "url": "",
+    "tipo": "documento do usuário"
+  },
+  "byd-atto2-ficha": {
+    "titulo": "BYD — ficha Atto 2 DM-i Flex, revisada em 09/07/2026 (PDF enviado pelo usuário)",
+    "url": "",
+    "tipo": "oficial"
+  },
+  "byd-atto2-site": {
+    "titulo": "BYD — página do Atto 2 DM-i",
+    "url": "https://www.byd.com/br/car/atto2",
+    "tipo": "oficial"
+  },
+  "geely-ex5-emi-ficha": {
+    "titulo": "Geely — especificações EX5 EM-i Pro/Max/Ultra",
+    "url": "https://static.autoforce.com/plugins/images/clientes/geely-brasil/produtos/ws/Geely%20EX5%20EM-I/Geely%20EX5%20EM-I/Especificac%CC%A7o%CC%83es%20Geely%20EX5%20EM-i.pdf",
+    "tipo": "oficial"
+  },
+  "geely-ex5-emi-oferta": {
+    "titulo": "Geely — oferta EX5 EM-i (validade declarada até 31/10/2026)",
+    "url": "https://www.geelybrasil.com.br/ofertas/oferta-geely-ex5-emi-max",
+    "tipo": "oficial"
+  },
+  "geely-ex5-emi-lancamento": {
+    "titulo": "Conexão TO — lançamento EX5 EM-i, preços Pro/Max/Ultra (20/04/2026)",
+    "url": "https://conexaoto.com.br/2026/04/20/geely-ex5-em-i-chega-com-tecnologia-avancada-e-producao-nacional",
+    "tipo": "imprensa"
+  },
+  "fipe-ex5-emi-max": {
+    "titulo": "Tabela FIPE EX5 EM-i MAX 2026, código 088008-6 (set/2026)",
+    "url": "https://tabelacarros.com/carros/geely/EX5-EM-I-MAX/2026-Hibrido",
+    "tipo": "referência"
+  },
+  "fipe-ex5-emi-max-0km": {
+    "titulo": "Tabela FIPE EX5 EM-i MAX zero km (ago/2026)",
+    "url": "https://www.tabelafipebrasil.com/carros/GEELY/EX5-EM-I-MAX/Zero-Km-a-hibrido",
+    "tipo": "referência"
+  },
+  "gwm-h6-phev19-site": {
+    "titulo": "GWM — página do Haval H6 PHEV19 Flex",
+    "url": "https://www.gwmmotors.com.br/pt/modelos/haval-h6-phev-19",
+    "tipo": "oficial"
+  },
+  "gwm-h6-2027-flex": {
+    "titulo": "Conexão TO — linha Haval H6 2027 Flex, preços e desempenho (12/06/2026)",
+    "url": "https://www.conexaoto.com.br/2026/06/12/gwm-haval-h6-2027-estreia-combinando-eletrificacao-e-etanol",
+    "tipo": "imprensa"
+  },
+  "gwm-h6-hev2-ficha": {
+    "titulo": "GWM — ficha H6 HEV2 Flex",
+    "url": "https://www.gwmmotors.com.br/content/dam/gwm/pages/br/pt/models/haval-hev2-my25/ficha-tecnica-haval-h6-hev2-flex-gwm.pdf",
+    "tipo": "oficial"
+  },
+  "gwm-h6-phev19-ficha": {
+    "titulo": "GWM — ficha H6 PHEV19 Flex",
+    "url": "https://www.gwmmotors.com.br/content/dam/gwm/pages/br/pt/models/haval-h6-phev19-my25/ficha-tecnica-haval-h6-phev19-flex-gwm.pdf",
+    "tipo": "oficial"
+  },
+  "stellantis-c10-ficha": {
+    "titulo": "Stellantis Media — ficha Leapmotor C10 Ultra-Híbrido (REEV)",
+    "url": "https://www.media.stellantis.com/br-pt/download-model-document/521",
+    "tipo": "oficial"
+  },
+  "gwm-ora5-site": {
+    "titulo": "GWM — página do Ora 5",
+    "url": "https://www.gwmmotors.com.br/pt/modelos/ora5",
+    "tipo": "oficial"
+  },
+  "byd-king-ficha": {
+    "titulo": "BYD — ficha King (jul/2026)",
+    "url": "https://www.byd.com/material/__CN/byd-site/br/fichas-tecnicas-2026/update-13-07-2026/07-13-2026---ficha-txiunica/BYD_King_V2.pdf",
+    "tipo": "oficial"
+  },
+  "honda-civic-site": {
+    "titulo": "Honda — página do Civic",
+    "url": "https://www.honda.com.br/automoveis/civic",
+    "tipo": "oficial"
+  },
+  "changan-cs55-uol": {
+    "titulo": "UOL — lançamento CS55 (16/09/2026)",
+    "url": "https://www.uol.com.br/carros/noticias/redacao/2026/09/16/ate-42-kml-caoa-changan-lanca-cs55-em-3-versoes-contra-hr-v-veja-precos.ghtm",
+    "tipo": "imprensa"
+  },
+  "changan-cs55-folha": {
+    "titulo": "Folha — CS55 flex e pré-venda do híbrido (21/09/2026)",
+    "url": "https://www1.folha.uol.com.br/mercado/2026/09/caoa-changan-lanca-cs55-flex-no-brasil-versao-hibrida-estreia-no-fim-do-ano.shtml",
+    "tipo": "imprensa"
+  },
+  "jetour-s06-autoo": {
+    "titulo": "Autoo — Jetour S06, preços e equipamentos",
+    "url": "https://www.autoo.com.br/jetour-s06-chega-com-byd-song-pro-e-haval-h6-na-mira-veja-preco/",
+    "tipo": "imprensa"
+  },
+  "jetour-s06-revistacarro": {
+    "titulo": "Revista Carro — Jetour S06 em pré-venda",
+    "url": "https://revistacarro.com.br/jetour-s06-estreia-em-pre-venda-no-brasil-e-aposta-em-preco-agressivo-abaixo-de-r-200-mil/amp/",
+    "tipo": "imprensa"
+  },
+  "jetour-s06-webmotors": {
+    "titulo": "Webmotors — Jetour S06 2026, ficha e itens",
+    "url": "https://www.webmotors.com.br/jetour/s06/2026",
+    "tipo": "imprensa"
+  },
+  "jetour-s06-site": {
+    "titulo": "Jetour — S06 (preços e ressalva de potência)",
+    "url": "https://jetourbr.com/carro/s06/",
+    "tipo": "oficial"
+  },
+  "omoda7-eletricosapp": {
+    "titulo": "Eletricos.app — Omoda 7 SHS-P Luxury",
+    "url": "https://www.eletricos.app/veiculo/omoda-7-shs-p-luxury-2026",
+    "tipo": "imprensa"
+  },
+  "omoda7-automaistv": {
+    "titulo": "AutoMais — equipamentos Omoda 5 e Omoda 7",
+    "url": "https://www.automaistv.com.br/novidades/exclusivo-desvendamos-a-lista-de-equipamentos-dos-novos-omoda-5-e-omoda-7/",
+    "tipo": "imprensa"
+  },
+  "omoda-ofertas": {
+    "titulo": "Omoda & Jaecoo — ofertas públicas",
+    "url": "https://www.omodajaecoo.com.br/ofertas",
+    "tipo": "oficial"
+  },
+  "omoda5-motorshow": {
+    "titulo": "Motor Show — Omoda 5 HEV, preços e potência",
+    "url": "https://motorshow.com.br/omoda-5-hev-chega-mais-barato",
+    "tipo": "imprensa"
+  },
+  "omoda5-encontracarros": {
+    "titulo": "Encontra Carros — Omoda 5 Luxury/Prestige (jul/2026)",
+    "url": "https://www.encontracarros.com.br/omoda-5-fica-mais-barato/amp/",
+    "tipo": "imprensa"
+  },
+  "jaecoo5-band": {
+    "titulo": "Band — Jaecoo 5 chega ao Brasil (30/09/2026)",
+    "url": "https://www.band.com.br/bandmotor/jaecoo-5-chega-ao-brasil-com-224-cv-e-preco-a-partir-de-r-154-990",
+    "tipo": "imprensa"
+  },
+  "jaecoo5-mecanicaonline": {
+    "titulo": "Mecânica Online — Jaecoo 5, versões e bateria",
+    "url": "https://mecanicaonline.com.br/?p=237929",
+    "tipo": "imprensa"
+  },
+  "yaris-vrum": {
+    "titulo": "Vrum — Yaris Cross XRX Hybrid (set/2026)",
+    "url": "https://www.vrum.com.br/bom-negocio/2026/09/7508483-toyota-yaris-cross-hibrido-tem-desconto-de-rs-20-mil-veja-valores.html",
+    "tipo": "imprensa"
+  },
+  "yaris-itatiaia": {
+    "titulo": "Itatiaia — Yaris Cross, preços, equipamentos e porta-malas",
+    "url": "https://www.itatiaia.com.br/auto/toyota-yaris-cross-veja-os-precos-equipamentos-e-consumo-das-versoes/",
+    "tipo": "imprensa"
+  },
+  "ex5-bev-webmotors": {
+    "titulo": "Webmotors — Geely EX5 2026",
+    "url": "https://www.webmotors.com.br/geely/ex5/2026",
+    "tipo": "imprensa"
+  },
+  "ex5-bev-canalve": {
+    "titulo": "CanalVE — ficha EX5 Max",
+    "url": "https://canalve.com.br/ficha-tecnica/geely/tudo-sobre-ex5-max/",
+    "tipo": "imprensa"
+  },
+  "omoda-e5-webmotors": {
+    "titulo": "Webmotors — Omoda E5 2026",
+    "url": "https://www.webmotors.com.br/omoda/e5/2026",
+    "tipo": "imprensa"
+  },
+  "omoda-e5-canalve": {
+    "titulo": "CanalVE — ficha Omoda E5",
+    "url": "https://canalve.com.br/ficha-tecnica/omoda-jaecoo/tudo-sobre-e5/",
+    "tipo": "imprensa"
+  },
+  "ex5-emi-pro-ml": {
+    "titulo": "Loja oficial Geely no Mercado Livre — EX5 EM-i Pro",
+    "url": "https://www.mercadolivre.com.br/vpp/MLB-6582925318-ex5-em-i-pro-_JM",
+    "tipo": "oficial"
+  },
+  "toyota-yaris-site": {
+    "titulo": "Toyota — Yaris Cross Hybrid",
+    "url": "https://www.toyota.com.br/modelos/yaris-cross-hybrid",
+    "tipo": "oficial"
+  }
+}

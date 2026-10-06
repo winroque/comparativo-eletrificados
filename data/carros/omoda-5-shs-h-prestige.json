@@ -1,0 +1,85 @@
+{
+  "id": "omoda-5-shs-h-prestige",
+  "nome": "Omoda 5 SHS-H Prestige",
+  "marca": "Omoda",
+  "tecnologia": "HEV",
+  "carroceria": "SUV",
+  "combustivel": "gasolina",
+  "status": "à venda",
+  "finalista": false,
+  "subtitulo": "",
+  "preco": {
+    "tabela": 184990,
+    "consultado": "2026-10-06"
+  },
+  "observacao": "",
+  "fontes": [
+    "omoda5-motorshow",
+    "omoda5-encontracarros",
+    "omoda7-automaistv"
+  ],
+  "valores": {
+    "fab": "importado",
+    "fipe": {
+      "e": "nd",
+      "t": "a levantar"
+    },
+    "sys": "HEV",
+    "fuel": "gasolina",
+    "pw": "224 cv",
+    "tq": "295 Nm",
+    "acc": "nd",
+    "bat": "nd",
+    "ev": "na",
+    "evo": "na",
+    "rng": "nd",
+    "dc": "na",
+    "v2l": "na",
+    "len": "4,40 m",
+    "wb": "nd",
+    "trunk": {
+      "e": "nd",
+      "t": "300 L (a confirmar)"
+    },
+    "spare": "nd",
+    "tail": "sim",
+    "cam": "nd",
+    "screen": {
+      "e": "sim",
+      "t": "tela integrada de 24,6″"
+    },
+    "cluster": {
+      "e": "sim",
+      "t": "integrado à tela"
+    },
+    "hud": "nd",
+    "google": "nao",
+    "audio": "nd",
+    "cpwl": "nd",
+    "nfc": "nd",
+    "ota": "nd",
+    "app": "nd",
+    "wpc": "nd",
+    "roof": "nd",
+    "dseat": "sim",
+    "mem": "nd",
+    "pseat": "sim",
+    "vent_d": "sim",
+    "vent_p": "sim",
+    "heat": "sim",
+    "zones": "nd",
+    "amb": "nd",
+    "rain": "nd",
+    "accr": "sim",
+    "aeb": {
+      "e": "sim",
+      "t": "com detecção de pedestres e ciclistas"
+    },
+    "bsd": "nd",
+    "lka": "sim",
+    "rctb": "nd",
+    "dow": "nd",
+    "dms": "nd",
+    "war": "nd"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "id": "toyota-corolla-altis-premium-hybrid",
+  "nome": "Corolla Altis Premium Hybrid",
+  "marca": "Toyota",
+  "tecnologia": "HEV",
+  "carroceria": "Sedã",
+  "combustivel": "flex",
+  "status": "à venda",
+  "finalista": false,
+  "subtitulo": "",
+  "preco": {
+    "tabela": 210090,
+    "consultado": "2026-10-06"
+  },
+  "observacao": "",
+  "fontes": [],
+  "valores": {
+    "fab": "SP",
+    "fipe": {
+      "e": "nd",
+      "t": "a levantar"
+    },
+    "sys": "HEV",
+    "fuel": "flex",
+    "pw": "122 cv",
+    "tq": "nd",
+    "acc": "nd",
+    "bat": "nd",
+    "ev": "na",
+    "evo": "na",
+    "rng": "nd",
+    "dc": "na",
+    "v2l": "nao",
+    "len": "4,63 m",
+    "wb": "2,70 m",
+    "trunk": "470 L",
+    "spare": "nd",
+    "tail": "nao",
+    "cam": "nd",
+    "screen": "sim",
+    "cluster": {
+      "e": "sim",
+      "t": "12,3″"
+    },
+    "hud": "nao",
+    "google": "nao",
+    "audio": "nd",
+    "cpwl": "nd",
+    "nfc": "nao",
+    "ota": "nd",
+    "app": "sim",
+    "wpc": "nd",
+    "roof": "nd",
+    "dseat": "nd",
+    "mem": "nd",
+    "pseat": "nd",
+    "vent_d": "nao",
+    "vent_p": "nao",
+    "heat": "nao",
+    "zones": "sim",
+    "amb": "nd",
+    "rain": "nd",
+    "accr": "sim",
+    "aeb": "sim",
+    "bsd": "sim",
+    "lka": "sim",
+    "rctb": {
+      "e": "nd",
+      "t": "alerta, frenagem n/d"
+    },
+    "dow": "nd",
+    "dms": "nao",
+    "war": {
+      "e": "sim",
+      "t": "5 anos (até 10)"
+    }
+  }
+}

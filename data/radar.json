@@ -1,0 +1,27 @@
+[
+  {
+    "nome": "Chevrolet Captiva PHEV",
+    "situacao": "Produção no Ceará anunciada para 2026; sem preço nem ficha confirmados.",
+    "fonte": "https://news.chevrolet.com.br/newsroom.detail.html/Pages/news/br/pt/2026/aug/0826-captiva-phev.html"
+  },
+  {
+    "nome": "BYD Yuan Pro / Yuan Plus",
+    "situacao": "Elétricos no portfólio da BYD; preço atual e configuração a documentar.",
+    "fonte": "https://www.byd.com/br/car/king.html"
+  },
+  {
+    "nome": "Omoda E5 versão de entrada",
+    "situacao": "Anunciada perto de R$ 150 mil; sem ficha.",
+    "fonte": ""
+  },
+  {
+    "nome": "Leapmotor B10 REEV",
+    "situacao": "Exibido no Festival Interlagos (ago/2026); sem preço.",
+    "fonte": ""
+  },
+  {
+    "nome": "Jaecoo 5 Comfort, Omoda 5 Luxury, Jetour S06 Advance, Yaris Cross XRE Hybrid",
+    "situacao": "Versões de entrada dos modelos da tabela; incluir se o orçamento descer.",
+    "fonte": ""
+  }
+]

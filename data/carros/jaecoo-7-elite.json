@@ -1,0 +1,87 @@
+{
+  "id": "jaecoo-7-elite",
+  "nome": "Jaecoo 7 Elite",
+  "marca": "Jaecoo",
+  "tecnologia": "PHEV",
+  "carroceria": "SUV",
+  "combustivel": "gasolina",
+  "status": "à venda",
+  "finalista": false,
+  "subtitulo": "",
+  "preco": {
+    "tabela": 189990,
+    "consultado": "2026-10-06"
+  },
+  "observacao": "",
+  "fontes": [],
+  "valores": {
+    "fab": "importado",
+    "fipe": {
+      "e": "nd",
+      "t": "a levantar"
+    },
+    "sys": "PHEV",
+    "fuel": "gasolina",
+    "pw": "279 cv",
+    "tq": "nd",
+    "acc": "nd",
+    "bat": "18,3 kWh",
+    "ev": "79 km",
+    "evo": "na",
+    "rng": "1.200+ km",
+    "dc": {
+      "e": "sim",
+      "t": "40 kW"
+    },
+    "v2l": "sim",
+    "len": "4,50 m",
+    "wb": "2,67 m",
+    "trunk": "nd",
+    "spare": "nao",
+    "tail": {
+      "e": "sim",
+      "t": "com sensor"
+    },
+    "cam": {
+      "e": "nao",
+      "t": "só ré"
+    },
+    "screen": {
+      "e": "sim",
+      "t": "13,2″"
+    },
+    "cluster": "sim",
+    "hud": "nao",
+    "google": "nao",
+    "audio": {
+      "e": "nd",
+      "t": "comum"
+    },
+    "cpwl": "nd",
+    "nfc": "nd",
+    "ota": "nao",
+    "app": "nd",
+    "wpc": {
+      "e": "sim",
+      "t": "refrigerado"
+    },
+    "roof": "nao",
+    "dseat": "nao",
+    "mem": "nd",
+    "pseat": "nao",
+    "vent_d": "nao",
+    "vent_p": "nao",
+    "heat": "nao",
+    "zones": "nd",
+    "amb": "sim",
+    "rain": "nd",
+    "accr": "sim",
+    "aeb": "sim",
+    "bsd": "nd",
+    "lka": "sim",
+    "rctb": "nd",
+    "dow": "nd",
+    "dms": "nao",
+    "war": "nd"
+  }
+}

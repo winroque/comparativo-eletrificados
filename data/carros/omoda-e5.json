@@ -1,0 +1,93 @@
+{
+  "id": "omoda-e5",
+  "nome": "Omoda E5",
+  "marca": "Omoda",
+  "tecnologia": "BEV",
+  "carroceria": "SUV",
+  "combustivel": "elétrico",
+  "status": "à venda",
+  "finalista": false,
+  "subtitulo": "versão única",
+  "preco": {
+    "tabela": 209990,
+    "oferta": 199000,
+    "oferta_nota": "oferta",
+    "consultado": "2026-10-06"
+  },
+  "observacao": "A marca prepara uma versão de entrada perto de R$ 150 mil, ainda sem ficha.",
+  "fontes": [
+    "omoda-e5-webmotors",
+    "omoda-e5-canalve",
+    "omoda-ofertas"
+  ],
+  "valores": {
+    "fab": "importado",
+    "fipe": {
+      "e": "nd",
+      "t": "a levantar"
+    },
+    "sys": "Elétrico",
+    "fuel": "elétrico",
+    "pw": "204 cv",
+    "tq": "340 Nm",
+    "acc": "7,6 s",
+    "bat": "61,1 kWh",
+    "ev": "345 km",
+    "evo": "450 km (WLTP)",
+    "rng": "na",
+    "dc": {
+      "e": "sim",
+      "t": "80 kW"
+    },
+    "v2l": "nd",
+    "len": "4,42 m",
+    "wb": "2,63 m",
+    "trunk": "360 L",
+    "spare": {
+      "e": "sim",
+      "t": "temporário"
+    },
+    "tail": "nd",
+    "cam": {
+      "e": "sim",
+      "t": "360°"
+    },
+    "screen": "nd",
+    "cluster": "nd",
+    "hud": "nd",
+    "google": "nao",
+    "audio": "nd",
+    "cpwl": "nd",
+    "nfc": "nd",
+    "ota": "nd",
+    "app": "nd",
+    "wpc": "nd",
+    "roof": "nd",
+    "dseat": "nd",
+    "mem": "nd",
+    "pseat": "nd",
+    "vent_d": "nd",
+    "vent_p": "nd",
+    "heat": "nd",
+    "zones": "nd",
+    "amb": "nd",
+    "rain": "sim",
+    "accr": "nd",
+    "aeb": "sim",
+    "bsd": "sim",
+    "lka": "sim",
+    "rctb": {
+      "e": "nd",
+      "t": "alerta; frenagem a confirmar"
+    },
+    "dow": "sim",
+    "dms": {
+      "e": "nd",
+      "t": "indicador de fadiga (tipo a confirmar)"
+    },
+    "war": {
+      "e": "sim",
+      "t": "7 anos / 8 anos"
+    }
+  }
+}
