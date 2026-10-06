@@ -1,6 +1,6 @@
 # Comparativo de eletrificados até R$ 260 mil
 
-SUVs e sedãs híbridos, híbridos plug-in, REEV e elétricos vendidos no Brasil, comparados item por item. O site lê os dados de arquivos JSON neste repositório: cada carro tem o seu arquivo, e qualquer correção é um commit.
+SUVs e sedãs híbridos, híbridos plug-in, REEV e elétricos vendidos no Brasil, comparados item por item. Os dados ficam em arquivos JSON neste repositório: cada carro tem o seu arquivo, e qualquer correção é um commit. O build junta tudo em `data/dados.json`, o único arquivo que o site baixa.
 
 Dados consultados em 6 de outubro de 2026. Preços são de tabela pública ou oferta oficial; não são cotação de concessionária.
 
@@ -44,9 +44,10 @@ data/linhas.json         itens comparados, categorias, pesos padrão e teto de p
 data/carros/*.json       um arquivo por versão de carro
 data/fontes.json         registro de fontes, referenciado pelos carros
 data/manifest.json       lista de carros (gerada)
+data/dados.json          tudo junto, lido pelo site (gerado)
 data/radar.json          modelos acompanhados, ainda fora da tabela
-data/export/             CSV gerado
-scripts/                 manifesto, validação e exportação
+data/export/             CSV e banco SQLite gerados
+scripts/                 manifesto, validação, junção dos dados e exportação (CSV e SQLite)
 docs/                    revisão externa que originou a metodologia atual
 ```
 
@@ -69,12 +70,37 @@ Regras:
 Para **adicionar um carro**, copie um arquivo parecido, troque `id` (igual ao nome do arquivo), nome, preço e valores, e rode:
 
 ```bash
-npm run build    # gera o manifesto, valida e exporta o CSV
+npm run build    # gera o manifesto, valida, gera o data/dados.json e exporta o CSV
 ```
+
+Faça commit também do `data/dados.json`: é ele que o site lê na prévia local, e o `validar.yml` reclama se estiver desatualizado. Na publicação, o workflow gera o arquivo de novo.
 
 Se a validação falhar, ela diz o arquivo e o campo. O workflow `validar.yml` roda a mesma checagem em pull requests.
 
 Para **mudar pesos, teto ou itens comparados**, edite `data/linhas.json`. Um item novo precisa de valor em todos os carros (a validação aponta os que faltam).
+
+## Banco SQLite
+
+`data/export/comparativo.sqlite` traz os mesmos dados em tabelas, para consultar com SQL (DB Browser for SQLite, DBeaver, `sqlite3`, Python etc.). Ele não entra no `npm run build` nem no workflow: depois de mudar os JSON, gere de novo e faça commit:
+
+```bash
+npm run sqlite   # precisa do Node 22.13 ou mais (usa o SQLite embutido no Node)
+```
+
+| Tabela | Conteúdo |
+|---|---|
+| `carros` | um carro por linha, com preço de tabela, oferta e observação |
+| `linhas` | itens comparados, na ordem do site, com seção e categoria (nula quando o item só informa) |
+| `valores` | uma célula por carro e item: `estado` (`sim`, `nao`, `nd`, `divulgado`, `na`) e/ou `texto` |
+| `categorias`, `estados` | pesos padrão e significado de cada estado |
+| `fontes`, `carro_fontes`, `valor_fontes` | registro de fontes e onde cada uma é citada |
+| `radar`, `metadados` | modelos acompanhados; versão dos dados e teto de preço |
+
+A visão `v_valores` junta carro, item, categoria, estado e texto. Exemplo:
+
+```sql
+SELECT carro, estado, texto FROM v_valores WHERE linha_id = 'dc' ORDER BY carro;
+```
 
 ## Como a nota funciona
 

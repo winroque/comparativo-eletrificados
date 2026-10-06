@@ -1,14 +1,14 @@
 (async function(){
   const esc = s=>String(s).replace(/[&<>"]/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[ch]));
   const get = async p=>{ const r=await fetch(p,{cache:'no-cache'}); if(!r.ok) throw new Error(p+': '+r.status); return r.json(); };
-  let LIN, MAN, FON, RAD;
+  let LIN, FON, RAD, RAW;
   try{
-    [LIN,MAN,FON,RAD]=await Promise.all([get('data/linhas.json'),get('data/manifest.json'),get('data/fontes.json'),get('data/radar.json').catch(()=>[])]);
+    // data/dados.json é gerado pelo npm run build a partir de data/carros/ e dos demais JSON
+    ({linhas:LIN, fontes:FON, radar:RAD=[], carros:RAW} = await get('data/dados.json'));
   }catch(e){
     document.getElementById('mx').innerHTML='<tbody><tr><td class="loading">Não consegui carregar os dados ('+esc(e.message)+'). Se abriu o arquivo direto do computador, rode um servidor local: veja o README.</td></tr></tbody>';
     return;
   }
-  const RAW = await Promise.all(MAN.carros.map(id=>get('data/carros/'+id+'.json')));
   const ROWS = LIN.linhas.map(l=>l.secao?{sec:l.secao}:{id:l.id,l:l.rotulo,cat:l.categoria});
   const CATS = Object.fromEntries(Object.entries(LIN.categorias).map(([k,v])=>[k,v.nome]));
   const W0 = Object.fromEntries(Object.entries(LIN.categorias).map(([k,v])=>[k,v.peso]));

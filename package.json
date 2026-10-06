@@ -7,8 +7,10 @@
   "scripts": {
     "manifest": "node scripts/build-manifest.mjs",
     "validate": "node scripts/validate.mjs",
+    "dados": "node scripts/build-dados.mjs",
     "csv": "node scripts/export-csv.mjs",
-    "build": "node scripts/build-manifest.mjs && node scripts/validate.mjs && node scripts/export-csv.mjs",
+    "sqlite": "node --no-warnings scripts/export-sqlite.mjs",
+    "build": "node scripts/build-manifest.mjs && node scripts/validate.mjs && node scripts/build-dados.mjs && node scripts/export-csv.mjs",
     "serve": "python3 -m http.server 8000"
   }
 }
