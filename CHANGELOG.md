@@ -2,6 +2,7 @@
 
 ## 2026-10-06 — arquivo único para o site
 - O site passa a baixar só `data/dados.json`, gerado pelo `npm run build` a partir dos JSON de cada carro (1 requisição em vez de 31). A edição continua nos arquivos de `data/carros/`.
+- A data do `manifest.json` só muda quando a lista de carros muda; antes, o `validar.yml` falhava em qualquer dia depois do último build.
 
 ## 2026-10-06 — banco SQLite
 - Exportação dos dados em `data/export/comparativo.sqlite` (`npm run sqlite`), com uma tabela por tipo de dado e a visão `v_valores`.
