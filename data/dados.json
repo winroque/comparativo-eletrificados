@@ -615,6 +615,11 @@
       "titulo": "Omoda & Jaecoo — lista de equipamentos e especificações Jaecoo 7 Luxury/Prestige (PDF de maio/2025, enviado pelo usuário; anterior à versão Elite)",
       "url": "",
       "tipo": "oficial"
+    },
+    "honda-civic-catalogo-pdf": {
+      "titulo": "Honda — catálogo Civic Advanced Hybrid 2025 (PDF impresso em julho/2025; cópia enviada pelo usuário)",
+      "url": "https://www.honda.com.br/automoveis/sites/hab/files/2025-07/Cat%C3%A1logo_do_Ve%C3%ADculo_Civic_Advanced_Hybrid_2025.pdf",
+      "tipo": "oficial"
     }
   },
   "radar": [
@@ -2330,7 +2335,8 @@
       "observacao": "Acima do teto de R$ 260 mil; entra como referência.",
       "fontes": [
         "honda-civic-site",
-        "honda-civic-catalogo"
+        "honda-civic-catalogo",
+        "honda-civic-catalogo-pdf"
       ],
       "valores": {
         "fab": "importado (Tailândia)",

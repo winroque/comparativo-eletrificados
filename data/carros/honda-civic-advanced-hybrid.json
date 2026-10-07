@@ -15,7 +15,8 @@
   "observacao": "Acima do teto de R$ 260 mil; entra como referência.",
   "fontes": [
     "honda-civic-site",
-    "honda-civic-catalogo"
+    "honda-civic-catalogo",
+    "honda-civic-catalogo-pdf"
   ],
   "valores": {
     "fab": "importado (Tailândia)",
