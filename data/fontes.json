@@ -318,5 +318,20 @@
     "titulo": "Toyota — catálogo Yaris Cross MY'26, ficha e lista de equipamentos por versão",
     "url": "https://media.toyota.com.br/49776946-9e94-4272-818c-ab5edd8a2bba.pdf",
     "tipo": "oficial"
+  },
+  "honda-civic-catalogo": {
+    "titulo": "Honda — catálogo digital Civic Advanced Hybrid, especificações",
+    "url": "https://www.honda.com.br/automoveis/sites/hab/files/catalogos/civic_hibrido/index.html",
+    "tipo": "oficial"
+  },
+  "leapmotor-c10-ficha": {
+    "titulo": "Leapmotor — ficha técnica C10 Ultra-Híbrido REEV (PDF de 01/06/2026, enviado pelo usuário)",
+    "url": "",
+    "tipo": "oficial"
+  },
+  "leapmotor-c10-site": {
+    "titulo": "Leapmotor — configurador do C10, itens de série do Ultra Híbrido, e preço",
+    "url": "https://www.leapmotor.com.br/c10/monte.html",
+    "tipo": "oficial"
   }
 }

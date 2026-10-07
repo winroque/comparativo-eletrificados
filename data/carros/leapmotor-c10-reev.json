@@ -14,7 +14,9 @@
   },
   "observacao": "",
   "fontes": [
-    "stellantis-c10-ficha"
+    "stellantis-c10-ficha",
+    "leapmotor-c10-ficha",
+    "leapmotor-c10-site"
   ],
   "valores": {
     "fab": "importado",
@@ -57,15 +59,21 @@
     "len": "4,74 m",
     "wb": "2,83 m",
     "trunk": "435 L",
-    "spare": "nd",
+    "spare": {
+      "e": "nao",
+      "t": "kit"
+    },
     "tail": "sim",
     "cam": {
       "e": "sim",
       "t": "360°"
     },
     "park": {
-      "e": "nd",
-      "t": "ficha oficial não acessível"
+      "e": "nao",
+      "t": "só traseiros",
+      "f": [
+        "leapmotor-c10-site"
+      ]
     },
     "screen": {
       "e": "sim",
@@ -99,9 +107,9 @@
     "vent_d": "sim",
     "vent_p": "sim",
     "heat": "sim",
-    "zones": "nd",
+    "zones": "sim",
     "amb": "sim",
-    "rain": "nd",
+    "rain": "sim",
     "accr": "sim",
     "aeb": "sim",
     "bsd": "sim",

@@ -1,5 +1,9 @@
 # Histórico
 
+## 2026-10-07 — Civic e C10 conferidos
+- Honda Civic Advanced Hybrid conferido pelo catálogo digital oficial: estepe temporário, sensor de chuva, sensores de estacionamento dianteiros e traseiros, comprimento 4,69 m, garantia; itens ausentes da ficha completa viram "não".
+- Leapmotor C10 REEV conferido pela ficha técnica (enviada pelo usuário) e pelos itens de série do configurador oficial: só sensores traseiros, kit de reparo, duas zonas e sensor de chuva.
+
 ## 2026-10-07 — CS55 PHEV e auxiliares de estacionamento
 - Changan CS55 PHEV atualizado pela ficha oficial (10/09/2026), com manual e certificado de garantia: itens antes "divulgado" passam a confirmados; recarga DC confirmada no manual, sem potência informada.
 - Novo item "Auxiliares de estacionamento" (praticidade): sim com sensores dianteiros e traseiros, não só com traseiros. Preenchido nos 28 carros com fonte oficial, exceto Civic, C10, Jaecoo 5 e Song Plus GS.

@@ -595,6 +595,21 @@
       "titulo": "Toyota — catálogo Yaris Cross MY'26, ficha e lista de equipamentos por versão",
       "url": "https://media.toyota.com.br/49776946-9e94-4272-818c-ab5edd8a2bba.pdf",
       "tipo": "oficial"
+    },
+    "honda-civic-catalogo": {
+      "titulo": "Honda — catálogo digital Civic Advanced Hybrid, especificações",
+      "url": "https://www.honda.com.br/automoveis/sites/hab/files/catalogos/civic_hibrido/index.html",
+      "tipo": "oficial"
+    },
+    "leapmotor-c10-ficha": {
+      "titulo": "Leapmotor — ficha técnica C10 Ultra-Híbrido REEV (PDF de 01/06/2026, enviado pelo usuário)",
+      "url": "",
+      "tipo": "oficial"
+    },
+    "leapmotor-c10-site": {
+      "titulo": "Leapmotor — configurador do C10, itens de série do Ultra Híbrido, e preço",
+      "url": "https://www.leapmotor.com.br/c10/monte.html",
+      "tipo": "oficial"
     }
   },
   "radar": [
@@ -2309,7 +2324,8 @@
       },
       "observacao": "Acima do teto de R$ 260 mil; entra como referência.",
       "fontes": [
-        "honda-civic-site"
+        "honda-civic-site",
+        "honda-civic-catalogo"
       ],
       "valores": {
         "fab": "importado (Tailândia)",
@@ -2328,18 +2344,24 @@
         "rng": "nd",
         "dc": "na",
         "v2l": "nao",
-        "len": "4,68 m",
+        "len": "4,69 m",
         "wb": "2,74 m",
         "trunk": "495 L",
-        "spare": "nd",
+        "spare": {
+          "e": "sim",
+          "t": "temporário"
+        },
         "tail": "nao",
         "cam": {
           "e": "nao",
           "t": "só ré"
         },
         "park": {
-          "e": "nd",
-          "t": "catálogo oficial não acessível"
+          "e": "sim",
+          "t": "sensores dianteiros e traseiros",
+          "f": [
+            "honda-civic-catalogo"
+          ]
         },
         "screen": {
           "e": "sim",
@@ -2362,14 +2384,14 @@
           "t": "teto solar comum"
         },
         "dseat": "sim",
-        "mem": "nd",
+        "mem": "nao",
         "pseat": "sim",
         "vent_d": "nao",
         "vent_p": "nao",
-        "heat": "nd",
+        "heat": "nao",
         "zones": "sim",
-        "amb": "nd",
-        "rain": "nd",
+        "amb": "nao",
+        "rain": "sim",
         "accr": "sim",
         "aeb": "sim",
         "bsd": {
@@ -2377,13 +2399,16 @@
           "t": "LaneWatch (só lado direito)"
         },
         "lka": "sim",
-        "rctb": "nd",
-        "dow": "nd",
+        "rctb": "nao",
+        "dow": "nao",
         "dms": {
           "e": "nao",
           "t": "(alerta pelo volante)"
         },
-        "war": "nd"
+        "war": {
+          "e": "sim",
+          "t": "6 anos (fabricação a partir de 2026) / 8 anos no sistema híbrido"
+        }
       }
     },
     {
@@ -2907,7 +2932,9 @@
       },
       "observacao": "",
       "fontes": [
-        "stellantis-c10-ficha"
+        "stellantis-c10-ficha",
+        "leapmotor-c10-ficha",
+        "leapmotor-c10-site"
       ],
       "valores": {
         "fab": "importado",
@@ -2950,15 +2977,21 @@
         "len": "4,74 m",
         "wb": "2,83 m",
         "trunk": "435 L",
-        "spare": "nd",
+        "spare": {
+          "e": "nao",
+          "t": "kit"
+        },
         "tail": "sim",
         "cam": {
           "e": "sim",
           "t": "360°"
         },
         "park": {
-          "e": "nd",
-          "t": "ficha oficial não acessível"
+          "e": "nao",
+          "t": "só traseiros",
+          "f": [
+            "leapmotor-c10-site"
+          ]
         },
         "screen": {
           "e": "sim",
@@ -2992,9 +3025,9 @@
         "vent_d": "sim",
         "vent_p": "sim",
         "heat": "sim",
-        "zones": "nd",
+        "zones": "sim",
         "amb": "sim",
-        "rain": "nd",
+        "rain": "sim",
         "accr": "sim",
         "aeb": "sim",
         "bsd": "sim",

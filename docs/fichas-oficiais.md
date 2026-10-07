@@ -18,11 +18,11 @@ Situação: **conferida** = ficha lida célula por célula; **usada na revisão*
 | GWM Haval H6 HEV2 Flex | https://www.gwmmotors.com.br/pt/modelos/haval-h6-hev | [ficha PDF](https://www.gwmmotors.com.br/content/dam/gwm/pages/br/pt/models/haval-hev2-my25/ficha-tecnica-haval-h6-hev2-flex-gwm.pdf) | usada na revisão |
 | GWM Haval H6 PHEV19 Flex | https://www.gwmmotors.com.br/pt/modelos/haval-h6-phev-19 | [ficha PDF](https://www.gwmmotors.com.br/content/dam/gwm/pages/br/pt/models/haval-h6-phev19-my25/ficha-tecnica-haval-h6-phev19-flex-gwm.pdf) | usada na revisão |
 | GWM Ora 5 | https://www.gwmmotors.com.br/pt/modelos/ora5 | [catálogo PDF](https://www.gwmmotors.com.br/content/dam/gwm/pages/br/pt/models/ora-5/catalogo-mobile-ora-5-gwm.pdf) (em imagem) | lida |
-| Honda Civic Advanced Hybrid | https://www.honda.com.br/automoveis/civic | [catálogo PDF](https://www.honda.com.br/automoveis/sites/hab/files/2025-07/Cat%C3%A1logo_do_Ve%C3%ADculo_Civic_Advanced_Hybrid_2025.pdf) | **bloqueada** |
+| Honda Civic Advanced Hybrid | https://www.honda.com.br/automoveis/civic | [catálogo digital (HTML)](https://www.honda.com.br/automoveis/sites/hab/files/catalogos/civic_hibrido/index.html); o [PDF](https://www.honda.com.br/automoveis/sites/hab/files/2025-07/Cat%C3%A1logo_do_Ve%C3%ADculo_Civic_Advanced_Hybrid_2025.pdf) segue bloqueado | conferida (07/10) |
 | Jaecoo 5 SHS-H Prestige | https://omodajaecoo.com.br/jaecoo-5 | — | **sem ficha**: a página só lista itens por versão |
 | Jaecoo 7 Elite / Luxury / Prestige | https://omodajaecoo.com.br/jaecoo-7 | — | **sem ficha**: a página só lista itens por versão |
 | Jetour S06 Premium | https://jetourbr.com/carro/s06/ | [s06.pdf](https://jetourbr.com/ficha-tecnica/s06.pdf) | lida; o carro ainda usa principalmente imprensa |
-| Leapmotor C10 REEV | https://www.leapmotor.com.br/c10.html | [ficha na Stellantis Media](https://www.media.stellantis.com/br-pt/download-model-document/521) | **bloqueada** (já usada na revisão) |
+| Leapmotor C10 REEV | https://www.leapmotor.com.br/c10.html e [configurador](https://www.leapmotor.com.br/c10/monte.html) com itens de série | ficha técnica enviada pelo usuário (01/06/2026); a da [Stellantis Media](https://www.media.stellantis.com/br-pt/download-model-document/521) segue bloqueada | conferida (07/10) |
 | Omoda 5 SHS-H Prestige | https://omodajaecoo.com.br/omoda-5-shs-h | [FichaTecnicaSimplificada_Omoda5.pdf](https://cms.omodajaecoo.com.br/manual/pdf/FichaTecnicaSimplificada_Omoda5.pdf) | lida; o carro ainda usa imprensa |
 | Omoda 7 SHS-P Luxury | https://omodajaecoo.com.br/omoda-7-shs-p | [FichaTecnicaSimplificada_Omoda7.pdf](https://cms.omodajaecoo.com.br/manual/pdf/FichaTecnicaSimplificada_Omoda7.pdf) | lida; o carro ainda usa imprensa |
 | Omoda E5 | https://omodajaecoo.com.br/omoda-e5 | [FichaTecnicaSimplificada_OmodaE5.pdf](https://cms.omodajaecoo.com.br/manual/pdf/FichaTecnicaSimplificada_OmodaE5.pdf) | lida; o carro ainda usa imprensa |
@@ -37,5 +37,6 @@ As fichas da CAOA Chery e da CAOA Changan ficam em `cloudfront.alpes.one` e muda
 Item `park`, na seção "Tamanho e praticidade", categoria praticidade e recarga. **Sim** quando há sensores dianteiros e traseiros; o texto detalha quantidade e recursos extras. **Não** quando só há sensores traseiros. Cada célula cita a fonte de onde saiu.
 
 - Sensores dianteiros e traseiros: Atto 2, King, Song Pro, Song Plus 1.5T, Tiggo 7, EX5 EM-i Max e Ultra, EX5 elétrico Max, H6 HEV2 e PHEV19 (12 sensores), Jaecoo 7 (três versões), Jetour S06 Premium, Omoda 5, Omoda 7, Omoda E5, Corolla Altis, Corolla Cross (mais frenagem de estacionamento PKSB) e Yaris Cross XRX Hybrid.
-- Só traseiros: CS55 PHEV (que tem manobra remota pela chave para entrar e sair da vaga em linha reta), EX5 EM-i Pro, EX5 elétrico Pro e Ora 5.
-- Em aberto: Honda Civic e Leapmotor C10 (fichas bloqueadas), Jaecoo 5 (página oficial não lista; a imprensa cita sensores dianteiros) e Song Plus GS (sem ficha atual).
+- Sensores dianteiros e traseiros também no Honda Civic.
+- Só traseiros: CS55 PHEV (que tem manobra remota pela chave para entrar e sair da vaga em linha reta), EX5 EM-i Pro, EX5 elétrico Pro, Ora 5 e Leapmotor C10 REEV.
+- Em aberto: Jaecoo 5 (página oficial não lista; a imprensa cita sensores dianteiros) e Song Plus GS (sem ficha atual).
