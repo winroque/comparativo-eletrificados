@@ -1,5 +1,11 @@
 # Histórico
 
+## 2026-10-07 — Omoda 7, Omoda E5, EX5 elétrico e Jetour S06 conferidos
+- EX5 elétrico Pro e Max pela ficha completa da Geely: câmera 540°, V2L, kit de reparo, OTA e app, garantia 6/8 anos; o Pro não tem ACC, frenagem autônoma, ponto cego, faixa, tampa elétrica, banco do passageiro elétrico nem luz ambiente. Ar de duas zonas passa a "n/d" (a ficha só diz automático).
+- Jetour S06 Premium pela ficha completa: 0–100 em 7,8 s, painel 9,2″, Sony 9 alto-falantes, banco do passageiro elétrico, frenagem autônoma, faixa e alerta de porta; os 510 Nm eram soma dos motores e saíram.
+- Omoda 7 Luxury e Omoda E5 pelas fichas simplificadas: entre-eixos, torque, câmera, som, teto, bancos, duas zonas e luz ambiente; porta-malas do E5 corrigido para 340 L.
+- Autonomias dos cinco ligadas à tabela PBEV 2026.
+
 ## 2026-10-07 — Jaecoo 7 e Omoda 5 conferidos
 - Jaecoo 7: porta-malas 500 L e kit de reparo pela ficha de maio/2025; Elite e Luxury sem o pacote ADAS 2.5 (ponto cego, RCTB, alerta de porta, permanência em faixa) e sem memória do banco; CarPlay/Android Auto sem fio na Luxury e Prestige. Os 339 cv e 510 Nm "combinados" da ficha são soma dos motores e não foram usados.
 - Omoda 5 SHS-H Prestige pela ficha simplificada oficial: 4,45 m, 2,61 m, 372 L, 1,83 kWh, câmera 360°, Sony 8 alto-falantes, indução 50 W, teto solar comum, garantia 7/8 anos e outros itens.
