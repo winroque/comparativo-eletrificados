@@ -119,6 +119,11 @@
         "categoria": "prat"
       },
       {
+        "id": "park",
+        "rotulo": "Auxiliares de estacionamento",
+        "categoria": "prat"
+      },
+      {
         "secao": "Multimídia e conectividade"
       },
       {
@@ -455,6 +460,166 @@
       "titulo": "Toyota — Yaris Cross Hybrid",
       "url": "https://www.toyota.com.br/modelos/yaris-cross-hybrid",
       "tipo": "oficial"
+    },
+    "inmetro-pbev-2026": {
+      "titulo": "Inmetro — tabela PBE Veicular 2026 (19/01/2026, rev. 01)",
+      "url": "https://www.gov.br/inmetro/pt-br/assuntos/regulamentacao/avaliacao-da-conformidade/programa-brasileiro-de-etiquetagem/tabelas-de-eficiencia-energetica/veiculos-automotivos-pbe-veicular/mascara-pbev-2026_19_jan-rev01.pdf/@@download/file",
+      "tipo": "oficial"
+    },
+    "byd-songpro-flex-ficha": {
+      "titulo": "BYD — ficha Song Pro DM-i Flex GL/GS, rev. 3 (05/08/2026)",
+      "url": "https://www.byd.com/material/__CN/byd-site/br/product/songpro-flex/BYD_SongProFlex_Rev3_05_08_2026.pdf",
+      "tipo": "oficial"
+    },
+    "byd-songpro-flex-site": {
+      "titulo": "BYD — página do Song Pro Flex",
+      "url": "https://www.byd.com/br/car/song-pro-flex",
+      "tipo": "oficial"
+    },
+    "caoachery-tiggo7phev-ficha": {
+      "titulo": "CAOA Chery — ficha Tiggo 7 Pro Plug-in Hybrid (PDF de 29/05/2026)",
+      "url": "https://cloudfront.alpes.one/public/6a1/dab/7e4/6a1dab7e434b1998580293.pdf",
+      "tipo": "oficial"
+    },
+    "caoachery-tiggo7phev-site": {
+      "titulo": "CAOA Chery — página do Tiggo 7 Pro Plug-in Hybrid, preço",
+      "url": "https://caoachery.com.br/novos/tiggo-7-pro-plug-in-hybrid",
+      "tipo": "oficial"
+    },
+    "caoachery-garantia": {
+      "titulo": "CAOA Chery — certificado de garantia (84 meses; sistema elétrico de tração 96 meses)",
+      "url": "https://cloudfront.alpes.one/public/6a1/df3/8d6/6a1df38d651fd759096573.pdf",
+      "tipo": "oficial"
+    },
+    "jaecoo7-site": {
+      "titulo": "Omoda & Jaecoo — página do Jaecoo 7, itens e preços por versão",
+      "url": "https://omodajaecoo.com.br/jaecoo-7",
+      "tipo": "oficial"
+    },
+    "toyota-precos-2026-10": {
+      "titulo": "Toyota — preços públicos sugeridos, outubro/2026",
+      "url": "https://media.toyota.com.br/173965ca-3a5f-40fc-be96-02ecac114b91.pdf",
+      "tipo": "oficial"
+    },
+    "toyota-corolla-cross-catalogo": {
+      "titulo": "Toyota — catálogo e ficha técnica Corolla Cross MY26 (jun/2026)",
+      "url": "https://media.toyota.com.br/725ae8c4-b012-4789-93eb-3fc968b2889c.pdf",
+      "tipo": "oficial"
+    },
+    "toyota-corolla-hybrid-site": {
+      "titulo": "Toyota — página do Corolla Hybrid 2026",
+      "url": "https://www.toyota.com.br/modelos/corolla-hybrid",
+      "tipo": "oficial"
+    },
+    "toyota-corolla-hybrid-ficha": {
+      "titulo": "Toyota — Corolla Hybrid 2026, especificações técnicas",
+      "url": "https://media.toyota.com.br/6caffd6f-172f-4748-8e0a-d67bb29c393e.pdf",
+      "tipo": "oficial"
+    },
+    "toyota-corolla-catalogo-my25": {
+      "titulo": "Toyota — catálogo Corolla MY'25, ficha e lista de equipamentos por versão",
+      "url": "https://media.toyota.com.br/4e5d6f6f-e991-4ddc-b4b9-74de903a5fa7.pdf",
+      "tipo": "oficial"
+    },
+    "byd-songplus-15t-ficha": {
+      "titulo": "BYD — ficha Song Plus 1.5T DM-i (revisada em 09/07/2026)",
+      "url": "https://www.byd.com/material/__CN/byd-site/br/fichas-tecnicas-2026/update-13-07-2026/07-13-2026---ficha-txiunica/BYD_SongPlus1.5T_V2.pdf",
+      "tipo": "oficial"
+    },
+    "byd-songplus-15t-site": {
+      "titulo": "BYD — página do Song Plus DM-i",
+      "url": "https://www.byd.com/br/car/song-plus-dmi",
+      "tipo": "oficial"
+    },
+    "byd-ofertas-2026-10": {
+      "titulo": "BYD — ofertas públicas (validade declarada até 31/10/2026)",
+      "url": "https://www.byd.com/br/ofertas",
+      "tipo": "oficial"
+    },
+    "changan-cs55-ficha": {
+      "titulo": "CAOA Changan — ficha CS55 Ultra-Hybrid PHEV Flex (PDF de 10/09/2026)",
+      "url": "https://cloudfront.alpes.one/public/6aa/9c4/833/6aa9c48332118490733693.pdf",
+      "tipo": "oficial"
+    },
+    "changan-cs55-site": {
+      "titulo": "CAOA Changan — página do CS55 PHEV, preço e disponibilidade para reserva",
+      "url": "https://caoachangan.com.br/novos/cs55-phev",
+      "tipo": "oficial"
+    },
+    "changan-cs55-manual": {
+      "titulo": "CAOA Changan — manual do proprietário CS55 PHEV",
+      "url": "https://cloudfront.alpes.one/public/6aa/9c4/827/6aa9c4827acd0592549197.pdf",
+      "tipo": "oficial"
+    },
+    "changan-garantia": {
+      "titulo": "CAOA Changan — certificado de garantia (sistema elétrico de tração 96 meses)",
+      "url": "https://cloudfront.alpes.one/public/6aa/9c4/826/6aa9c482688b8289364304.pdf",
+      "tipo": "oficial"
+    },
+    "byd-atto2-ficha-v2": {
+      "titulo": "BYD — ficha Atto 2 (revisada em 09/07/2026)",
+      "url": "https://www.byd.com/material/__CN/byd-site/br/fichas-tecnicas-2026/update-13-07-2026/07-13-2026---ficha-txiunica/BYD_Atto2_V2.pdf",
+      "tipo": "oficial"
+    },
+    "geely-ex5-bev-ficha": {
+      "titulo": "Geely — especificações EX5 elétrico Pro/Max",
+      "url": "https://static.autoforce.com/plugins/files/clientes/geely-brasil/produtos/ws/ficha-tecnica-geely-ex5-v2.pdf",
+      "tipo": "oficial"
+    },
+    "gwm-ora5-catalogo": {
+      "titulo": "GWM — catálogo e ficha técnica Ora 5",
+      "url": "https://www.gwmmotors.com.br/content/dam/gwm/pages/br/pt/models/ora-5/catalogo-mobile-ora-5-gwm.pdf",
+      "tipo": "oficial"
+    },
+    "jetour-s06-ficha": {
+      "titulo": "Jetour — ficha S06, ano-modelo 2027",
+      "url": "https://jetourbr.com/ficha-tecnica/s06.pdf",
+      "tipo": "oficial"
+    },
+    "omoda5-ficha": {
+      "titulo": "Omoda & Jaecoo — ficha técnica simplificada Omoda 5 SHS-H",
+      "url": "https://cms.omodajaecoo.com.br/manual/pdf/FichaTecnicaSimplificada_Omoda5.pdf",
+      "tipo": "oficial"
+    },
+    "omoda7-ficha": {
+      "titulo": "Omoda & Jaecoo — ficha técnica simplificada Omoda 7 SHS-P",
+      "url": "https://cms.omodajaecoo.com.br/manual/pdf/FichaTecnicaSimplificada_Omoda7.pdf",
+      "tipo": "oficial"
+    },
+    "omoda-e5-ficha": {
+      "titulo": "Omoda & Jaecoo — ficha técnica simplificada Omoda E5",
+      "url": "https://cms.omodajaecoo.com.br/manual/pdf/FichaTecnicaSimplificada_OmodaE5.pdf",
+      "tipo": "oficial"
+    },
+    "toyota-yaris-catalogo-my26": {
+      "titulo": "Toyota — catálogo Yaris Cross MY'26, ficha e lista de equipamentos por versão",
+      "url": "https://media.toyota.com.br/49776946-9e94-4272-818c-ab5edd8a2bba.pdf",
+      "tipo": "oficial"
+    },
+    "honda-civic-catalogo": {
+      "titulo": "Honda — catálogo digital Civic Advanced Hybrid, especificações",
+      "url": "https://www.honda.com.br/automoveis/sites/hab/files/catalogos/civic_hibrido/index.html",
+      "tipo": "oficial"
+    },
+    "leapmotor-c10-ficha": {
+      "titulo": "Leapmotor — ficha técnica C10 Ultra-Híbrido REEV (PDF de 01/06/2026, enviado pelo usuário)",
+      "url": "",
+      "tipo": "oficial"
+    },
+    "leapmotor-c10-site": {
+      "titulo": "Leapmotor — configurador do C10, itens de série do Ultra Híbrido, e preço",
+      "url": "https://www.leapmotor.com.br/c10/monte.html",
+      "tipo": "oficial"
+    },
+    "jaecoo7-ficha-2025": {
+      "titulo": "Omoda & Jaecoo — lista de equipamentos e especificações Jaecoo 7 Luxury/Prestige (PDF de maio/2025, enviado pelo usuário; anterior à versão Elite)",
+      "url": "",
+      "tipo": "oficial"
+    },
+    "honda-civic-catalogo-pdf": {
+      "titulo": "Honda — catálogo Civic Advanced Hybrid 2025 (PDF impresso em julho/2025; cópia enviada pelo usuário)",
+      "url": "https://www.honda.com.br/automoveis/sites/hab/files/2025-07/Cat%C3%A1logo_do_Ve%C3%ADculo_Civic_Advanced_Hybrid_2025.pdf",
+      "tipo": "oficial"
     }
   },
   "radar": [
@@ -502,7 +667,8 @@
       "observacao": "Entregas regulares às lojas previstas para outubro de 2026, segundo lojistas. Montado em Camaçari (BA) com kits importados.",
       "fontes": [
         "byd-atto2-ficha",
-        "byd-atto2-site"
+        "byd-atto2-site",
+        "byd-atto2-ficha-v2"
       ],
       "valores": {
         "fab": "BA (montagem SKD)",
@@ -538,6 +704,13 @@
         "cam": {
           "e": "sim",
           "t": "360°"
+        },
+        "park": {
+          "e": "sim",
+          "t": "2 dianteiros + 4 traseiros",
+          "f": [
+            "byd-atto2-ficha-v2"
+          ]
         },
         "screen": {
           "e": "sim",
@@ -649,6 +822,13 @@
           "e": "sim",
           "t": "360°"
         },
+        "park": {
+          "e": "sim",
+          "t": "2 dianteiros + 4 traseiros",
+          "f": [
+            "byd-king-ficha"
+          ]
+        },
         "screen": {
           "e": "sim",
           "t": "12,8″ giratória"
@@ -689,8 +869,8 @@
       }
     },
     {
-      "id": "byd-song-plus-gs",
-      "nome": "BYD Song Plus GS",
+      "id": "byd-song-plus-15t",
+      "nome": "BYD Song Plus 1.5T DM-i",
       "marca": "BYD",
       "tecnologia": "PHEV",
       "carroceria": "SUV",
@@ -700,10 +880,125 @@
       "subtitulo": "",
       "preco": {
         "tabela": 249990,
+        "consultado": "2026-10-07"
+      },
+      "observacao": "Substitui o Song Plus GS no site da BYD. Na página de ofertas (validade até 31/10/2026), R$ 249.990 com taxa de 0% ou bônus no usado, sem desconto no preço.",
+      "fontes": [
+        "byd-songplus-15t-ficha",
+        "byd-songplus-15t-site",
+        "byd-ofertas-2026-10"
+      ],
+      "valores": {
+        "fab": {
+          "e": "nd",
+          "t": "n/d"
+        },
+        "fipe": {
+          "e": "nd",
+          "t": "a levantar"
+        },
+        "sys": "PHEV",
+        "fuel": "gasolina",
+        "pw": "240 cv",
+        "tq": "300 Nm",
+        "acc": "8,1 s",
+        "bat": "26,6 kWh",
+        "ev": "99 km",
+        "evo": "na",
+        "rng": "1.150 km (NEDC)",
+        "dc": {
+          "e": "sim",
+          "t": "18 kW"
+        },
+        "v2l": "sim",
+        "len": "4,78 m",
+        "wb": "2,77 m",
+        "trunk": "552 L",
+        "spare": {
+          "e": "nao",
+          "t": "kit"
+        },
+        "tail": {
+          "e": "sim",
+          "t": "com sensor"
+        },
+        "cam": {
+          "e": "sim",
+          "t": "360°"
+        },
+        "park": {
+          "e": "sim",
+          "t": "2 dianteiros + 4 traseiros",
+          "f": [
+            "byd-songplus-15t-ficha"
+          ]
+        },
+        "screen": {
+          "e": "sim",
+          "t": "15,6″ giratória"
+        },
+        "cluster": {
+          "e": "sim",
+          "t": "12,3″"
+        },
+        "hud": "sim",
+        "google": "nd",
+        "audio": "10 alto-falantes (Infinity)",
+        "cpwl": {
+          "e": "nd",
+          "t": "ficha não diz se é sem fio"
+        },
+        "nfc": {
+          "e": "nd",
+          "t": "ficha lista chave presencial"
+        },
+        "ota": "sim",
+        "app": "nd",
+        "wpc": "sim",
+        "roof": "sim",
+        "dseat": "sim",
+        "mem": "nao",
+        "pseat": "sim",
+        "vent_d": "sim",
+        "vent_p": "sim",
+        "heat": {
+          "e": "nd",
+          "t": "página cita, ficha não"
+        },
+        "zones": "sim",
+        "amb": "sim",
+        "rain": "nd",
+        "accr": "sim",
+        "aeb": "sim",
+        "bsd": "sim",
+        "lka": "sim",
+        "rctb": "sim",
+        "dow": "sim",
+        "dms": "nao",
+        "war": {
+          "e": "sim",
+          "t": "6 anos / 8 anos"
+        }
+      }
+    },
+    {
+      "id": "byd-song-plus-gs",
+      "nome": "BYD Song Plus GS",
+      "marca": "BYD",
+      "tecnologia": "PHEV",
+      "carroceria": "SUV",
+      "combustivel": "gasolina",
+      "status": "versão anterior",
+      "finalista": false,
+      "subtitulo": "",
+      "preco": {
+        "tabela": 249990,
         "consultado": "2026-10-06"
       },
-      "observacao": "",
-      "fontes": [],
+      "observacao": "Versão anterior ao Song Plus 1.5T DM-i: não aparece no site da BYD em outubro de 2026, mas ainda consta no PBEV 2026 (63 km). O preço de R$ 249.990 é o publicado hoje para o Song Plus 1.5T; não há preço nem ficha oficial atual do GS.",
+      "fontes": [
+        "inmetro-pbev-2026"
+      ],
       "valores": {
         "fab": {
           "e": "nd",
@@ -719,7 +1014,12 @@
         "tq": "nd",
         "acc": "nd",
         "bat": "18,3 kWh",
-        "ev": "63 km",
+        "ev": {
+          "t": "63 km",
+          "f": [
+            "inmetro-pbev-2026"
+          ]
+        },
         "evo": "na",
         "rng": "1.200+ km",
         "dc": "nd",
@@ -735,6 +1035,10 @@
         "cam": {
           "e": "sim",
           "t": "360°"
+        },
+        "park": {
+          "e": "nd",
+          "t": "sem ficha oficial atual"
         },
         "screen": {
           "e": "sim",
@@ -793,7 +1097,11 @@
         "consultado": "2026-10-06"
       },
       "observacao": "",
-      "fontes": [],
+      "fontes": [
+        "byd-songpro-flex-ficha",
+        "byd-songpro-flex-site",
+        "inmetro-pbev-2026"
+      ],
       "valores": {
         "fab": "BA",
         "fipe": {
@@ -804,9 +1112,14 @@
         "fuel": "flex",
         "pw": "219 cv",
         "tq": "300 Nm",
-        "acc": "8,6–8,8 s",
+        "acc": "8,8 s",
         "bat": "18,3 kWh",
-        "ev": "72 km",
+        "ev": {
+          "t": "72 km",
+          "f": [
+            "inmetro-pbev-2026"
+          ]
+        },
         "evo": "na",
         "rng": "1.105 km (NEDC)",
         "dc": {
@@ -816,12 +1129,22 @@
         "v2l": "sim",
         "len": "4,74 m",
         "wb": "2,71 m",
-        "trunk": "520 L",
-        "spare": "nd",
-        "tail": "nd",
+        "trunk": "530 L",
+        "spare": {
+          "e": "nao",
+          "t": "kit"
+        },
+        "tail": "sim",
         "cam": {
           "e": "sim",
           "t": "360°"
+        },
+        "park": {
+          "e": "sim",
+          "t": "2 dianteiros + 4 traseiros",
+          "f": [
+            "byd-songpro-flex-ficha"
+          ]
         },
         "screen": {
           "e": "sim",
@@ -833,7 +1156,7 @@
         },
         "hud": "nao",
         "google": "sim",
-        "audio": "nd",
+        "audio": "8 alto-falantes",
         "cpwl": "sim",
         "nfc": "sim",
         "ota": "sim",
@@ -844,13 +1167,13 @@
         },
         "roof": "sim",
         "dseat": "sim",
-        "mem": "nd",
+        "mem": "nao",
         "pseat": "sim",
-        "vent_d": "nd",
-        "vent_p": "nd",
-        "heat": "nd",
+        "vent_d": "nao",
+        "vent_p": "nao",
+        "heat": "nao",
         "zones": "sim",
-        "amb": "nd",
+        "amb": "nao",
         "rain": "sim",
         "accr": "sim",
         "aeb": "sim",
@@ -858,7 +1181,7 @@
         "lka": "sim",
         "rctb": "sim",
         "dow": "sim",
-        "dms": "nd",
+        "dms": "nao",
         "war": {
           "e": "sim",
           "t": "6 anos / 8 anos"
@@ -880,7 +1203,12 @@
         "consultado": "2026-10-06"
       },
       "observacao": "",
-      "fontes": [],
+      "fontes": [
+        "caoachery-tiggo7phev-ficha",
+        "caoachery-tiggo7phev-site",
+        "caoachery-garantia",
+        "inmetro-pbev-2026"
+      ],
       "valores": {
         "fab": "nd",
         "fipe": {
@@ -891,9 +1219,14 @@
         "fuel": "gasolina",
         "pw": "279 cv",
         "tq": "365 Nm",
-        "acc": "nd",
+        "acc": "7,8 s",
         "bat": "18,4 kWh",
-        "ev": "68 km",
+        "ev": {
+          "t": "68 km",
+          "f": [
+            "inmetro-pbev-2026"
+          ]
+        },
         "evo": "na",
         "rng": "1.200+ km",
         "dc": {
@@ -907,11 +1240,21 @@
         "len": "4,55 m",
         "wb": "2,67 m",
         "trunk": "484 L",
-        "spare": "nd",
+        "spare": {
+          "e": "nao",
+          "t": "kit"
+        },
         "tail": "sim",
         "cam": {
           "e": "sim",
           "t": "540°"
+        },
+        "park": {
+          "e": "sim",
+          "t": "sensores dianteiros e traseiros",
+          "f": [
+            "caoachery-tiggo7phev-ficha"
+          ]
         },
         "screen": {
           "e": "sim",
@@ -934,7 +1277,7 @@
         },
         "roof": "sim",
         "dseat": "sim",
-        "mem": "nd",
+        "mem": "sim",
         "pseat": "sim",
         "vent_d": "sim",
         "vent_p": "sim",
@@ -944,10 +1287,10 @@
         "rain": "sim",
         "accr": "sim",
         "aeb": "sim",
-        "bsd": "nd",
+        "bsd": "sim",
         "lka": "sim",
-        "rctb": "nd",
-        "dow": "nd",
+        "rctb": "sim",
+        "dow": "sim",
         "dms": "nd",
         "war": {
           "e": "sim",
@@ -964,13 +1307,17 @@
       "combustivel": "flex",
       "status": "pré-venda",
       "finalista": true,
-      "subtitulo": "pré-venda",
+      "subtitulo": "Ultra-Hybrid PHEV Flex",
       "preco": {
         "tabela": 189990,
         "consultado": "2026-10-06"
       },
-      "observacao": "Pré-venda. Dados vêm da imprensa de lançamento; a ficha oficial do PHEV ainda não foi publicada. Itens marcados como \"divulgado\" não pontuam no mínimo.",
+      "observacao": "Pré-venda: a página oficial diz que o CS55 Ultra-Hybrid PHEV Flex está disponível só para reserva, a partir de R$ 189.990 na cor preta sólida. Dados pela ficha oficial de 10/09/2026; recarga DC confirmada pelo manual, sem potência informada.",
       "fontes": [
+        "changan-cs55-ficha",
+        "changan-cs55-site",
+        "changan-cs55-manual",
+        "changan-garantia",
         "changan-cs55-uol",
         "changan-cs55-folha"
       ],
@@ -986,74 +1333,90 @@
         "sys": "PHEV",
         "fuel": "flex",
         "pw": "286 cv",
-        "tq": "460 Nm",
-        "acc": {
-          "e": "nd",
-          "t": "7,2 s (imprensa)"
-        },
+        "tq": "461 Nm",
+        "acc": "7,2 s",
         "bat": "18,4 kWh",
         "ev": "76 km",
         "evo": "na",
         "rng": "1.200 km",
         "dc": {
-          "e": "nd",
-          "t": "até 43 kW? (não oficial)"
+          "e": "sim",
+          "t": "potência não informada",
+          "f": [
+            "changan-cs55-manual"
+          ]
         },
         "v2l": {
-          "e": "divulgado",
+          "e": "sim",
           "t": "220 V"
         },
         "len": "4,55 m",
         "wb": "2,66 m",
-        "trunk": {
-          "e": "nd",
-          "t": "475 ou 525 L"
+        "trunk": "525 L",
+        "spare": {
+          "e": "nao",
+          "t": "kit"
         },
-        "spare": "nd",
-        "tail": "divulgado",
+        "tail": "sim",
         "cam": {
-          "e": "divulgado",
+          "e": "sim",
           "t": "540°"
         },
+        "park": {
+          "e": "nao",
+          "t": "só traseiros; manobra remota pela chave para entrar e sair da vaga em linha reta",
+          "f": [
+            "changan-cs55-ficha"
+          ]
+        },
         "screen": {
-          "e": "divulgado",
+          "e": "sim",
           "t": "14,6″"
         },
         "cluster": {
-          "e": "divulgado",
+          "e": "sim",
           "t": "10,3″"
         },
-        "hud": "nd",
+        "hud": "nao",
         "google": "nao",
-        "audio": {
-          "e": "nd",
-          "t": "Pioneer? (a confirmar no PHEV)"
-        },
-        "cpwl": "divulgado",
-        "nfc": "nd",
+        "audio": "Pioneer, 8 alto-falantes",
+        "cpwl": "sim",
+        "nfc": "nao",
         "ota": "nd",
-        "app": "nd",
-        "wpc": "divulgado",
-        "roof": "divulgado",
-        "dseat": "divulgado",
-        "mem": "nd",
-        "pseat": "nd",
-        "vent_d": "divulgado",
-        "vent_p": "divulgado",
-        "heat": "divulgado",
-        "zones": "divulgado",
-        "amb": "nd",
-        "rain": "nd",
-        "accr": "divulgado",
-        "aeb": "divulgado",
-        "bsd": "nd",
-        "lka": "divulgado",
-        "rctb": "nd",
-        "dow": "nd",
-        "dms": "nd",
+        "app": "sim",
+        "wpc": {
+          "e": "sim",
+          "t": "refrigerado"
+        },
+        "roof": "sim",
+        "dseat": "sim",
+        "mem": "sim",
+        "pseat": "sim",
+        "vent_d": "sim",
+        "vent_p": "sim",
+        "heat": "sim",
+        "zones": "sim",
+        "amb": {
+          "e": "sim",
+          "t": "256 cores"
+        },
+        "rain": "sim",
+        "accr": "sim",
+        "aeb": "sim",
+        "bsd": "sim",
+        "lka": "sim",
+        "rctb": {
+          "e": "nao",
+          "t": "só alerta (RCTA)"
+        },
+        "dow": "sim",
+        "dms": "nao",
         "war": {
           "e": "sim",
-          "t": "7 anos / 8 anos"
+          "t": "7 anos / 8 anos",
+          "f": [
+            "changan-garantia"
+          ]
         }
       }
     },
@@ -1114,6 +1477,13 @@
         "cam": {
           "e": "sim",
           "t": "540°"
+        },
+        "park": {
+          "e": "sim",
+          "t": "sensores dianteiros e traseiros",
+          "f": [
+            "geely-ex5-emi-ficha"
+          ]
         },
         "screen": {
           "e": "sim",
@@ -1228,6 +1598,13 @@
         "cam": {
           "e": "nao",
           "t": "só câmera de ré"
+        },
+        "park": {
+          "e": "nao",
+          "t": "só traseiros",
+          "f": [
+            "geely-ex5-emi-ficha"
+          ]
         },
         "screen": {
           "e": "sim",
@@ -1353,6 +1730,13 @@
           "e": "sim",
           "t": "540°"
         },
+        "park": {
+          "e": "sim",
+          "t": "sensores dianteiros e traseiros",
+          "f": [
+            "geely-ex5-emi-ficha"
+          ]
+        },
         "screen": {
           "e": "sim",
           "t": "15,4″"
@@ -1430,7 +1814,9 @@
       "observacao": "",
       "fontes": [
         "ex5-bev-webmotors",
-        "ex5-bev-canalve"
+        "ex5-bev-canalve",
+        "geely-ex5-bev-ficha",
+        "inmetro-pbev-2026"
       ],
       "valores": {
         "fab": "importado",
@@ -1444,22 +1830,37 @@
         "tq": "320 Nm",
         "acc": "7,1 s",
         "bat": "60,2 kWh",
-        "ev": "349 km",
-        "evo": "na",
+        "ev": {
+          "t": "349 km",
+          "f": [
+            "inmetro-pbev-2026"
+          ]
+        },
+        "evo": "470 km (NEDC)",
         "rng": "na",
         "dc": {
           "e": "sim",
           "t": "100 kW"
         },
-        "v2l": "nd",
+        "v2l": "sim",
         "len": "4,62 m",
         "wb": "2,75 m",
         "trunk": "461 L",
-        "spare": "nd",
-        "tail": "nd",
+        "spare": {
+          "e": "nao",
+          "t": "kit"
+        },
+        "tail": "sim",
         "cam": {
           "e": "sim",
-          "t": "360°"
+          "t": "540°"
+        },
+        "park": {
+          "e": "sim",
+          "t": "sensores dianteiros e traseiros",
+          "f": [
+            "geely-ex5-bev-ficha"
+          ]
         },
         "screen": {
           "e": "sim",
@@ -1476,31 +1877,40 @@
         "google": "nao",
         "audio": "Flyme, 16 alto-falantes",
         "cpwl": "nd",
-        "nfc": "nd",
-        "ota": "nd",
-        "app": "nd",
-        "wpc": "nd",
+        "nfc": "nao",
+        "ota": "sim",
+        "app": "sim",
+        "wpc": {
+          "e": "sim",
+          "t": "15 W"
+        },
         "roof": "sim",
         "dseat": "sim",
-        "mem": "nd",
+        "mem": "nao",
         "pseat": {
           "e": "sim",
           "t": "com apoio de pernas"
         },
-        "vent_d": "nd",
-        "vent_p": "nd",
-        "heat": "nd",
-        "zones": "sim",
-        "amb": "nd",
-        "rain": "nd",
+        "vent_d": "sim",
+        "vent_p": "sim",
+        "heat": "nao",
+        "zones": {
+          "e": "nd",
+          "t": "ficha diz só ar-condicionado automático"
+        },
+        "amb": "sim",
+        "rain": "sim",
         "accr": "sim",
         "aeb": "sim",
-        "bsd": "nd",
-        "lka": "nd",
-        "rctb": "nd",
-        "dow": "nd",
-        "dms": "nd",
-        "war": "nd"
+        "bsd": "sim",
+        "lka": "sim",
+        "rctb": "sim",
+        "dow": "sim",
+        "dms": "nao",
+        "war": {
+          "e": "sim",
+          "t": "6 anos / 8 anos"
+        }
       }
     },
     {
@@ -1521,7 +1931,9 @@
       },
       "observacao": "",
       "fontes": [
-        "ex5-bev-webmotors"
+        "ex5-bev-webmotors",
+        "geely-ex5-bev-ficha",
+        "inmetro-pbev-2026"
       ],
       "valores": {
         "fab": "importado",
@@ -1535,22 +1947,37 @@
         "tq": "320 Nm",
         "acc": "6,9 s",
         "bat": "60,2 kWh",
-        "ev": "413 km",
-        "evo": "na",
+        "ev": {
+          "t": "413 km",
+          "f": [
+            "inmetro-pbev-2026"
+          ]
+        },
+        "evo": "495 km (NEDC)",
         "rng": "na",
         "dc": {
           "e": "sim",
           "t": "100 kW"
         },
-        "v2l": "nd",
+        "v2l": "sim",
         "len": "4,62 m",
         "wb": "2,75 m",
         "trunk": "461 L",
-        "spare": "nd",
-        "tail": "nd",
+        "spare": {
+          "e": "nao",
+          "t": "kit"
+        },
+        "tail": "nao",
         "cam": {
           "e": "sim",
-          "t": "360°"
+          "t": "540°"
+        },
+        "park": {
+          "e": "nao",
+          "t": "só traseiros",
+          "f": [
+            "geely-ex5-bev-ficha"
+          ]
         },
         "screen": {
           "e": "sim",
@@ -1562,30 +1989,42 @@
         },
         "hud": "nao",
         "google": "nao",
-        "audio": "nd",
+        "audio": "6 alto-falantes",
         "cpwl": "nd",
-        "nfc": "nd",
-        "ota": "nd",
-        "app": "nd",
-        "wpc": "nd",
+        "nfc": "nao",
+        "ota": "sim",
+        "app": "sim",
+        "wpc": {
+          "e": "sim",
+          "t": "15 W"
+        },
         "roof": "nao",
         "dseat": "sim",
-        "mem": "nd",
-        "pseat": "nd",
-        "vent_d": "nd",
-        "vent_p": "nd",
-        "heat": "nd",
-        "zones": "sim",
-        "amb": "nd",
-        "rain": "nd",
-        "accr": "nd",
-        "aeb": "nd",
-        "bsd": "nd",
-        "lka": "nd",
-        "rctb": "nd",
-        "dow": "nd",
-        "dms": "nd",
-        "war": "nd"
+        "mem": "nao",
+        "pseat": "nao",
+        "vent_d": "sim",
+        "vent_p": "sim",
+        "heat": "nao",
+        "zones": {
+          "e": "nd",
+          "t": "ficha diz só ar-condicionado automático"
+        },
+        "amb": "nao",
+        "rain": "sim",
+        "accr": {
+          "e": "nao",
+          "t": "só piloto automático comum"
+        },
+        "aeb": "nao",
+        "bsd": "nao",
+        "lka": "nao",
+        "rctb": "nao",
+        "dow": "nao",
+        "dms": "nao",
+        "war": {
+          "e": "sim",
+          "t": "6 anos / 8 anos"
+        }
       }
     },
     {
@@ -1647,6 +2086,13 @@
         "cam": {
           "e": "sim",
           "t": "540°"
+        },
+        "park": {
+          "e": "sim",
+          "t": "12 sensores, dianteiros e traseiros",
+          "f": [
+            "gwm-h6-hev2-ficha"
+          ]
         },
         "screen": {
           "e": "sim",
@@ -1759,6 +2205,13 @@
           "e": "sim",
           "t": "540°"
         },
+        "park": {
+          "e": "sim",
+          "t": "12 sensores, dianteiros e traseiros",
+          "f": [
+            "gwm-h6-phev19-ficha"
+          ]
+        },
         "screen": {
           "e": "sim",
           "t": "14,6″"
@@ -1817,7 +2270,8 @@
       },
       "observacao": "",
       "fontes": [
-        "gwm-ora5-site"
+        "gwm-ora5-site",
+        "gwm-ora5-catalogo"
       ],
       "valores": {
         "fab": "importado",
@@ -1847,6 +2301,13 @@
         "cam": {
           "e": "sim",
           "t": "540°"
+        },
+        "park": {
+          "e": "nao",
+          "t": "só traseiros (4)",
+          "f": [
+            "gwm-ora5-catalogo"
+          ]
         },
         "screen": {
           "e": "sim",
@@ -1912,7 +2373,9 @@
       },
       "observacao": "Acima do teto de R$ 260 mil; entra como referência.",
       "fontes": [
-        "honda-civic-site"
+        "honda-civic-site",
+        "honda-civic-catalogo",
+        "honda-civic-catalogo-pdf"
       ],
       "valores": {
         "fab": "importado (Tailândia)",
@@ -1931,14 +2394,24 @@
         "rng": "nd",
         "dc": "na",
         "v2l": "nao",
-        "len": "4,68 m",
+        "len": "4,69 m",
         "wb": "2,74 m",
         "trunk": "495 L",
-        "spare": "nd",
+        "spare": {
+          "e": "sim",
+          "t": "temporário"
+        },
         "tail": "nao",
         "cam": {
           "e": "nao",
           "t": "só ré"
+        },
+        "park": {
+          "e": "sim",
+          "t": "sensores dianteiros e traseiros",
+          "f": [
+            "honda-civic-catalogo"
+          ]
         },
         "screen": {
           "e": "sim",
@@ -1961,14 +2434,14 @@
           "t": "teto solar comum"
         },
         "dseat": "sim",
-        "mem": "nd",
+        "mem": "nao",
         "pseat": "sim",
         "vent_d": "nao",
         "vent_p": "nao",
-        "heat": "nd",
+        "heat": "nao",
         "zones": "sim",
-        "amb": "nd",
-        "rain": "nd",
+        "amb": "nao",
+        "rain": "sim",
         "accr": "sim",
         "aeb": "sim",
         "bsd": {
@@ -1976,13 +2449,16 @@
           "t": "LaneWatch (só lado direito)"
         },
         "lka": "sim",
-        "rctb": "nd",
-        "dow": "nd",
+        "rctb": "nao",
+        "dow": "nao",
         "dms": {
           "e": "nao",
           "t": "(alerta pelo volante)"
         },
-        "war": "nd"
+        "war": {
+          "e": "sim",
+          "t": "6 anos (fabricação a partir de 2026) / 8 anos no sistema híbrido"
+        }
       }
     },
     {
@@ -2031,6 +2507,10 @@
         "cam": {
           "e": "sim",
           "t": "540°"
+        },
+        "park": {
+          "e": "nd",
+          "t": "página oficial não lista; imprensa cita sensores dianteiros"
         },
         "screen": {
           "e": "sim",
@@ -2089,7 +2569,10 @@
         "consultado": "2026-10-06"
       },
       "observacao": "",
-      "fontes": [],
+      "fontes": [
+        "jaecoo7-site",
+        "jaecoo7-ficha-2025"
+      ],
       "valores": {
         "fab": "importado",
         "fipe": {
@@ -2099,7 +2582,10 @@
         "sys": "PHEV",
         "fuel": "gasolina",
         "pw": "279 cv",
-        "tq": "nd",
+        "tq": {
+          "e": "nd",
+          "t": "ficha de 2025 dá 510 Nm, soma de combustão e elétrico"
+        },
         "acc": "nd",
         "bat": "18,3 kWh",
         "ev": "79 km",
@@ -2112,8 +2598,11 @@
         "v2l": "sim",
         "len": "4,50 m",
         "wb": "2,67 m",
-        "trunk": "nd",
-        "spare": "nao",
+        "trunk": "500 L",
+        "spare": {
+          "e": "nao",
+          "t": "kit"
+        },
         "tail": {
           "e": "sim",
           "t": "com sensor"
@@ -2122,6 +2611,13 @@
           "e": "nao",
           "t": "só ré"
         },
+        "park": {
+          "e": "sim",
+          "t": "sensores dianteiros e traseiros",
+          "f": [
+            "jaecoo7-site"
+          ]
+        },
         "screen": {
           "e": "sim",
           "t": "13,2″"
@@ -2129,12 +2625,9 @@
         "cluster": "sim",
         "hud": "nao",
         "google": "nao",
-        "audio": {
-          "e": "nd",
-          "t": "comum"
-        },
+        "audio": "6 alto-falantes",
         "cpwl": "nd",
-        "nfc": "nd",
+        "nfc": "nao",
         "ota": "nao",
         "app": "nd",
         "wpc": {
@@ -2142,21 +2635,24 @@
           "t": "refrigerado"
         },
         "roof": "nao",
-        "dseat": "nao",
-        "mem": "nd",
-        "pseat": "nao",
+        "dseat": "sim",
+        "mem": "nao",
+        "pseat": "sim",
         "vent_d": "nao",
         "vent_p": "nao",
         "heat": "nao",
-        "zones": "nd",
+        "zones": "sim",
         "amb": "sim",
         "rain": "nd",
         "accr": "sim",
         "aeb": "sim",
-        "bsd": "nd",
-        "lka": "sim",
-        "rctb": "nd",
-        "dow": "nd",
+        "bsd": "nao",
+        "lka": {
+          "e": "nao",
+          "t": "só alerta de saída de faixa (LDW)"
+        },
+        "rctb": "nao",
+        "dow": "nao",
         "dms": "nao",
         "war": "nd"
       }
@@ -2176,7 +2672,11 @@
         "consultado": "2026-10-06"
       },
       "observacao": "",
-      "fontes": [],
+      "fontes": [
+        "jaecoo7-site",
+        "inmetro-pbev-2026",
+        "jaecoo7-ficha-2025"
+      ],
       "valores": {
         "fab": "importado",
         "fipe": {
@@ -2186,10 +2686,18 @@
         "sys": "PHEV",
         "fuel": "gasolina",
         "pw": "279 cv",
-        "tq": "nd",
+        "tq": {
+          "e": "nd",
+          "t": "ficha de 2025 dá 510 Nm, soma de combustão e elétrico"
+        },
         "acc": "nd",
         "bat": "18,3 kWh",
-        "ev": "79 km",
+        "ev": {
+          "t": "79 km",
+          "f": [
+            "inmetro-pbev-2026"
+          ]
+        },
         "evo": "na",
         "rng": "1.200+ km",
         "dc": {
@@ -2199,8 +2707,11 @@
         "v2l": "sim",
         "len": "4,50 m",
         "wb": "2,67 m",
-        "trunk": "nd",
-        "spare": "nao",
+        "trunk": "500 L",
+        "spare": {
+          "e": "nao",
+          "t": "kit"
+        },
         "tail": {
           "e": "sim",
           "t": "com sensor"
@@ -2209,6 +2720,13 @@
           "e": "sim",
           "t": "540°"
         },
+        "park": {
+          "e": "sim",
+          "t": "sensores dianteiros e traseiros",
+          "f": [
+            "jaecoo7-site"
+          ]
+        },
         "screen": {
           "e": "sim",
           "t": "13,2″"
@@ -2216,12 +2734,9 @@
         "cluster": "sim",
         "hud": "nao",
         "google": "nao",
-        "audio": {
-          "e": "nd",
-          "t": "comum"
-        },
-        "cpwl": "nd",
-        "nfc": "nd",
+        "audio": "6 alto-falantes",
+        "cpwl": "sim",
+        "nfc": "nao",
         "ota": "sim",
         "app": "sim",
         "wpc": {
@@ -2233,7 +2748,7 @@
           "t": "1,1 m²"
         },
         "dseat": "sim",
-        "mem": "nd",
+        "mem": "nao",
         "pseat": "sim",
         "vent_d": "sim",
         "vent_p": "sim",
@@ -2243,10 +2758,13 @@
         "rain": "sim",
         "accr": "sim",
         "aeb": "sim",
-        "bsd": "nd",
-        "lka": "sim",
-        "rctb": "nd",
-        "dow": "nd",
+        "bsd": "nao",
+        "lka": {
+          "e": "nao",
+          "t": "só alerta de saída de faixa (LDW)"
+        },
+        "rctb": "nao",
+        "dow": "nao",
         "dms": "nao",
         "war": "nd"
       }
@@ -2266,7 +2784,11 @@
         "consultado": "2026-10-06"
       },
       "observacao": "",
-      "fontes": [],
+      "fontes": [
+        "jaecoo7-site",
+        "inmetro-pbev-2026",
+        "jaecoo7-ficha-2025"
+      ],
       "valores": {
         "fab": "importado",
         "fipe": {
@@ -2276,10 +2798,18 @@
         "sys": "PHEV",
         "fuel": "gasolina",
         "pw": "279 cv",
-        "tq": "nd",
+        "tq": {
+          "e": "nd",
+          "t": "ficha de 2025 dá 510 Nm, soma de combustão e elétrico"
+        },
         "acc": "nd",
         "bat": "18,3 kWh",
-        "ev": "79 km",
+        "ev": {
+          "t": "79 km",
+          "f": [
+            "inmetro-pbev-2026"
+          ]
+        },
         "evo": "na",
         "rng": "1.200+ km",
         "dc": {
@@ -2289,8 +2819,11 @@
         "v2l": "sim",
         "len": "4,50 m",
         "wb": "2,67 m",
-        "trunk": "nd",
-        "spare": "nao",
+        "trunk": "500 L",
+        "spare": {
+          "e": "nao",
+          "t": "kit"
+        },
         "tail": {
           "e": "sim",
           "t": "com sensor"
@@ -2298,6 +2831,13 @@
         "cam": {
           "e": "sim",
           "t": "540°"
+        },
+        "park": {
+          "e": "sim",
+          "t": "sensores dianteiros e traseiros",
+          "f": [
+            "jaecoo7-site"
+          ]
         },
         "screen": {
           "e": "sim",
@@ -2307,8 +2847,8 @@
         "hud": "sim",
         "google": "nao",
         "audio": "Sony, 8 alto-falantes",
-        "cpwl": "nd",
-        "nfc": "nd",
+        "cpwl": "sim",
+        "nfc": "nao",
         "ota": "sim",
         "app": "sim",
         "wpc": {
@@ -2366,7 +2906,9 @@
         "jetour-s06-site",
         "jetour-s06-autoo",
         "jetour-s06-revistacarro",
-        "jetour-s06-webmotors"
+        "jetour-s06-webmotors",
+        "jetour-s06-ficha",
+        "inmetro-pbev-2026"
       ],
       "valores": {
         "fab": "importado",
@@ -2383,41 +2925,59 @@
             "jetour-s06-site"
           ]
         },
-        "tq": "510 Nm",
-        "acc": "7,9 s",
+        "tq": {
+          "e": "nd",
+          "t": "510 Nm é soma de combustão e elétrico"
+        },
+        "acc": "7,8 s",
         "bat": "19,43 kWh",
-        "ev": "70 km",
+        "ev": {
+          "t": "70 km",
+          "f": [
+            "inmetro-pbev-2026"
+          ]
+        },
         "evo": "na",
         "rng": "1.200 km",
         "dc": {
           "e": "sim",
           "t": "40 kW"
         },
-        "v2l": "nd",
+        "v2l": "nao",
         "len": "4,62 m",
         "wb": "2,72 m",
         "trunk": "416 L",
         "spare": "nd",
-        "tail": "nd",
+        "tail": "sim",
         "cam": {
           "e": "sim",
           "t": "540°"
+        },
+        "park": {
+          "e": "sim",
+          "t": "sensores dianteiros e traseiros",
+          "f": [
+            "jetour-s06-ficha"
+          ]
         },
         "screen": {
           "e": "sim",
           "t": "15,6″"
         },
-        "cluster": "nd",
-        "hud": "nd",
+        "cluster": {
+          "e": "sim",
+          "t": "9,2″"
+        },
+        "hud": "nao",
         "google": "nao",
-        "audio": "Sony",
+        "audio": "Sony, 9 alto-falantes",
         "cpwl": "sim",
-        "nfc": "nd",
-        "ota": "nd",
-        "app": "nd",
+        "nfc": "nao",
+        "ota": "nao",
+        "app": "nao",
         "wpc": {
           "e": "sim",
-          "t": "duplo, 50 W"
+          "t": "50 W"
         },
         "roof": "sim",
         "dseat": {
@@ -2425,20 +2985,23 @@
           "t": "com memória"
         },
         "mem": "sim",
-        "pseat": "nd",
+        "pseat": "sim",
         "vent_d": "sim",
         "vent_p": "sim",
         "heat": "sim",
         "zones": "sim",
-        "amb": "nd",
-        "rain": "nd",
+        "amb": "sim",
+        "rain": "nao",
         "accr": "sim",
-        "aeb": "nd",
+        "aeb": "sim",
         "bsd": "sim",
-        "lka": "nd",
-        "rctb": "nd",
-        "dow": "nd",
-        "dms": "nd",
+        "lka": "sim",
+        "rctb": {
+          "e": "nao",
+          "t": "só alerta (RCTA)"
+        },
+        "dow": "sim",
+        "dms": "nao",
         "war": {
           "e": "sim",
           "t": "7 anos / 8 anos"
@@ -2461,7 +3024,9 @@
       },
       "observacao": "",
       "fontes": [
-        "stellantis-c10-ficha"
+        "stellantis-c10-ficha",
+        "leapmotor-c10-ficha",
+        "leapmotor-c10-site"
       ],
       "valores": {
         "fab": "importado",
@@ -2504,11 +3069,21 @@
         "len": "4,74 m",
         "wb": "2,83 m",
         "trunk": "435 L",
-        "spare": "nd",
+        "spare": {
+          "e": "nao",
+          "t": "kit"
+        },
         "tail": "sim",
         "cam": {
           "e": "sim",
           "t": "360°"
+        },
+        "park": {
+          "e": "nao",
+          "t": "só traseiros",
+          "f": [
+            "leapmotor-c10-site"
+          ]
         },
         "screen": {
           "e": "sim",
@@ -2542,9 +3117,9 @@
         "vent_d": "sim",
         "vent_p": "sim",
         "heat": "sim",
-        "zones": "nd",
+        "zones": "sim",
         "amb": "sim",
-        "rain": "nd",
+        "rain": "sim",
         "accr": "sim",
         "aeb": "sim",
         "bsd": "sim",
@@ -2573,7 +3148,8 @@
       "fontes": [
         "omoda5-motorshow",
         "omoda5-encontracarros",
-        "omoda7-automaistv"
+        "omoda7-automaistv",
+        "omoda5-ficha"
       ],
       "valores": {
         "fab": "importado",
@@ -2586,21 +3162,28 @@
         "pw": "224 cv",
         "tq": "295 Nm",
         "acc": "nd",
-        "bat": "nd",
+        "bat": "1,83 kWh",
         "ev": "na",
         "evo": "na",
         "rng": "nd",
         "dc": "na",
         "v2l": "na",
-        "len": "4,40 m",
-        "wb": "nd",
-        "trunk": {
-          "e": "nd",
-          "t": "300 L (a confirmar)"
-        },
+        "len": "4,45 m",
+        "wb": "2,61 m",
+        "trunk": "372 L",
         "spare": "nd",
         "tail": "sim",
-        "cam": "nd",
+        "cam": {
+          "e": "sim",
+          "t": "360°"
+        },
+        "park": {
+          "e": "sim",
+          "t": "sensores dianteiros e traseiros",
+          "f": [
+            "omoda5-ficha"
+          ]
+        },
         "screen": {
           "e": "sim",
           "t": "tela integrada de 24,6″"
@@ -2611,22 +3194,28 @@
         },
         "hud": "nd",
         "google": "nao",
-        "audio": "nd",
-        "cpwl": "nd",
+        "audio": "Sony, 8 alto-falantes",
+        "cpwl": "sim",
         "nfc": "nd",
         "ota": "nd",
         "app": "nd",
-        "wpc": "nd",
-        "roof": "nd",
+        "wpc": {
+          "e": "sim",
+          "t": "50 W refrigerado"
+        },
+        "roof": {
+          "e": "nao",
+          "t": "teto solar comum"
+        },
         "dseat": "sim",
         "mem": "nd",
         "pseat": "sim",
         "vent_d": "sim",
         "vent_p": "sim",
         "heat": "sim",
-        "zones": "nd",
-        "amb": "nd",
-        "rain": "nd",
+        "zones": "sim",
+        "amb": "sim",
+        "rain": "sim",
         "accr": "sim",
         "aeb": {
           "e": "sim",
@@ -2637,7 +3226,10 @@
         "rctb": "nd",
         "dow": "nd",
         "dms": "nd",
-        "war": "nd"
+        "war": {
+          "e": "sim",
+          "t": "7 anos / 8 anos"
+        }
       }
     },
     {
@@ -2660,7 +3252,9 @@
       "fontes": [
         "omoda7-eletricosapp",
         "omoda7-automaistv",
-        "omoda-ofertas"
+        "omoda-ofertas",
+        "omoda7-ficha",
+        "inmetro-pbev-2026"
       ],
       "valores": {
         "fab": "importado",
@@ -2671,31 +3265,46 @@
         "sys": "PHEV",
         "fuel": "gasolina",
         "pw": "279 cv",
-        "tq": "nd",
+        "tq": "365 Nm",
         "acc": "8,4 s",
         "bat": "18,4 kWh",
-        "ev": "60 km",
+        "ev": {
+          "t": "60 km",
+          "f": [
+            "inmetro-pbev-2026"
+          ]
+        },
         "evo": "90 km (CLTC)",
         "rng": "1.200+ km",
         "dc": "nd",
         "v2l": "nd",
         "len": "4,66 m",
-        "wb": "nd",
+        "wb": "2,72 m",
         "trunk": "590 L",
         "spare": "nd",
         "tail": "sim",
-        "cam": "nd",
+        "cam": {
+          "e": "sim",
+          "t": "540°"
+        },
+        "park": {
+          "e": "sim",
+          "t": "sensores dianteiros e traseiros",
+          "f": [
+            "omoda7-ficha"
+          ]
+        },
         "screen": {
           "e": "sim",
-          "t": "15,6″ deslizante"
+          "t": "15,6″ (deslizante só na Prestige)"
         },
         "cluster": {
           "e": "sim",
           "t": "8,88″"
         },
-        "hud": "nd",
+        "hud": "nao",
         "google": "nao",
-        "audio": "nd",
+        "audio": "Sony, 8 alto-falantes",
         "cpwl": "nd",
         "nfc": "nd",
         "ota": "nd",
@@ -2705,8 +3314,8 @@
           "t": "50 W refrigerado"
         },
         "roof": {
-          "e": "nd",
-          "t": "teto solar (tipo a confirmar)"
+          "e": "sim",
+          "t": "wide panorama"
         },
         "dseat": {
           "e": "sim",
@@ -2716,10 +3325,10 @@
         "pseat": "sim",
         "vent_d": "sim",
         "vent_p": "sim",
-        "heat": "nd",
-        "zones": "nd",
-        "amb": "nd",
-        "rain": "nd",
+        "heat": "nao",
+        "zones": "sim",
+        "amb": "sim",
+        "rain": "sim",
         "accr": "nd",
         "aeb": "nd",
         "bsd": "nd",
@@ -2753,7 +3362,9 @@
       "fontes": [
         "omoda-e5-webmotors",
         "omoda-e5-canalve",
-        "omoda-ofertas"
+        "omoda-ofertas",
+        "omoda-e5-ficha",
+        "inmetro-pbev-2026"
       ],
       "valores": {
         "fab": "importado",
@@ -2767,7 +3378,12 @@
         "tq": "340 Nm",
         "acc": "7,6 s",
         "bat": "61,1 kWh",
-        "ev": "345 km",
+        "ev": {
+          "t": "345 km",
+          "f": [
+            "inmetro-pbev-2026"
+          ]
+        },
         "evo": "450 km (WLTP)",
         "rng": "na",
         "dc": {
@@ -2777,35 +3393,57 @@
         "v2l": "nd",
         "len": "4,42 m",
         "wb": "2,63 m",
-        "trunk": "360 L",
+        "trunk": "340 L",
         "spare": {
           "e": "sim",
           "t": "temporário"
         },
-        "tail": "nd",
+        "tail": {
+          "e": "sim",
+          "t": "com sensor"
+        },
         "cam": {
           "e": "sim",
           "t": "360°"
         },
-        "screen": "nd",
-        "cluster": "nd",
-        "hud": "nd",
+        "park": {
+          "e": "sim",
+          "t": "sensores dianteiros e traseiros",
+          "f": [
+            "omoda-e5-ficha"
+          ]
+        },
+        "screen": {
+          "e": "sim",
+          "t": "12,3″"
+        },
+        "cluster": {
+          "e": "sim",
+          "t": "12,3″"
+        },
+        "hud": "sim",
         "google": "nao",
-        "audio": "nd",
-        "cpwl": "nd",
+        "audio": "Sony, 8 alto-falantes",
+        "cpwl": "sim",
         "nfc": "nd",
         "ota": "nd",
         "app": "nd",
-        "wpc": "nd",
-        "roof": "nd",
-        "dseat": "nd",
+        "wpc": {
+          "e": "sim",
+          "t": "refrigerado"
+        },
+        "roof": {
+          "e": "nao",
+          "t": "teto solar comum"
+        },
+        "dseat": "sim",
         "mem": "nd",
-        "pseat": "nd",
-        "vent_d": "nd",
-        "vent_p": "nd",
+        "pseat": "sim",
+        "vent_d": "sim",
+        "vent_p": "sim",
         "heat": "nd",
-        "zones": "nd",
-        "amb": "nd",
+        "zones": "sim",
+        "amb": "sim",
         "rain": "sim",
         "accr": "nd",
         "aeb": "sim",
@@ -2837,11 +3475,16 @@
       "finalista": false,
       "subtitulo": "",
       "preco": {
-        "tabela": 210090,
+        "tabela": 211990,
         "consultado": "2026-10-06"
       },
       "observacao": "",
-      "fontes": [],
+      "fontes": [
+        "toyota-corolla-hybrid-site",
+        "toyota-corolla-hybrid-ficha",
+        "toyota-corolla-catalogo-my25",
+        "toyota-precos-2026-10"
+      ],
       "valores": {
         "fab": "SP",
         "fipe": {
@@ -2862,32 +3505,51 @@
         "len": "4,63 m",
         "wb": "2,70 m",
         "trunk": "470 L",
-        "spare": "nd",
+        "spare": {
+          "e": "sim",
+          "t": "temporário"
+        },
         "tail": "nao",
-        "cam": "nd",
-        "screen": "sim",
+        "cam": {
+          "e": "sim",
+          "t": "360°"
+        },
+        "park": {
+          "e": "sim",
+          "t": "sensores dianteiros e traseiros",
+          "f": [
+            "toyota-corolla-catalogo-my25"
+          ]
+        },
+        "screen": {
+          "e": "sim",
+          "t": "10″"
+        },
         "cluster": {
           "e": "sim",
           "t": "12,3″"
         },
         "hud": "nao",
         "google": "nao",
-        "audio": "nd",
-        "cpwl": "nd",
+        "audio": "4 alto-falantes e 2 tweeters",
+        "cpwl": "sim",
         "nfc": "nao",
         "ota": "nd",
         "app": "sim",
-        "wpc": "nd",
-        "roof": "nd",
-        "dseat": "nd",
+        "wpc": "sim",
+        "roof": {
+          "e": "nao",
+          "t": "teto solar comum"
+        },
+        "dseat": "sim",
         "mem": "nd",
-        "pseat": "nd",
+        "pseat": "nao",
         "vent_d": "nao",
         "vent_p": "nao",
         "heat": "nao",
         "zones": "sim",
         "amb": "nd",
-        "rain": "nd",
+        "rain": "sim",
         "accr": "sim",
         "aeb": "sim",
         "bsd": "sim",
@@ -2919,7 +3581,10 @@
         "consultado": "2026-10-06"
       },
       "observacao": "",
-      "fontes": [],
+      "fontes": [
+        "toyota-corolla-cross-catalogo",
+        "toyota-precos-2026-10"
+      ],
       "valores": {
         "fab": "SP",
         "fipe": {
@@ -2939,7 +3604,7 @@
         "v2l": "nao",
         "len": "4,46 m",
         "wb": "2,64 m",
-        "trunk": "nd",
+        "trunk": "440 L",
         "spare": "sim",
         "tail": {
           "e": "sim",
@@ -2949,20 +3614,24 @@
           "e": "sim",
           "t": "360°"
         },
+        "park": {
+          "e": "sim",
+          "t": "4 dianteiros + 4 traseiros, frenagem de estacionamento (PKSB)",
+          "f": [
+            "toyota-corolla-cross-catalogo"
+          ]
+        },
         "screen": {
           "e": "sim",
-          "t": "10,1″"
+          "t": "10″"
         },
         "cluster": {
           "e": "sim",
-          "t": "7″"
+          "t": "12,3″"
         },
         "hud": "nao",
         "google": "nao",
-        "audio": {
-          "e": "nd",
-          "t": "comum"
-        },
+        "audio": "4 alto-falantes e 2 tweeters",
         "cpwl": "sim",
         "nfc": "nao",
         "ota": "nd",
@@ -2979,8 +3648,8 @@
         "vent_p": "nao",
         "heat": "nao",
         "zones": "sim",
-        "amb": "nao",
-        "rain": "nd",
+        "amb": "sim",
+        "rain": "sim",
         "accr": "sim",
         "aeb": "sim",
         "bsd": "sim",
@@ -3012,7 +3681,9 @@
       "fontes": [
         "toyota-yaris-site",
         "yaris-vrum",
-        "yaris-itatiaia"
+        "yaris-itatiaia",
+        "toyota-yaris-catalogo-my26",
+        "toyota-precos-2026-10"
       ],
       "valores": {
         "fab": "SP",
@@ -3023,7 +3694,10 @@
         "sys": "HEV",
         "fuel": "flex",
         "pw": "111 cv",
-        "tq": "nd",
+        "tq": {
+          "e": "nd",
+          "t": "catálogo dá 12,3 kgfm (combustão) e 14,4 kgfm (elétrico), sem combinado"
+        },
         "acc": "nd",
         "bat": "nd",
         "ev": "na",
@@ -3034,7 +3708,10 @@
         "len": "4,31 m",
         "wb": "2,62 m",
         "trunk": "391 L",
-        "spare": "nd",
+        "spare": {
+          "e": "sim",
+          "t": "temporário"
+        },
         "tail": {
           "e": "sim",
           "t": "com sensor de movimento"
@@ -3042,6 +3719,13 @@
         "cam": {
           "e": "sim",
           "t": "360°"
+        },
+        "park": {
+          "e": "sim",
+          "t": "2 dianteiros + 2 traseiros",
+          "f": [
+            "toyota-yaris-catalogo-my26"
+          ]
         },
         "screen": {
           "e": "sim",
@@ -3053,10 +3737,10 @@
         },
         "hud": "nao",
         "google": "nao",
-        "audio": "nd",
+        "audio": "4 alto-falantes e 2 tweeters",
         "cpwl": "sim",
-        "nfc": "nd",
-        "ota": "nd",
+        "nfc": "nao",
+        "ota": "nao",
         "app": {
           "e": "sim",
           "t": "1 ano grátis"
@@ -3066,25 +3750,31 @@
           "e": "sim",
           "t": "fixo"
         },
-        "dseat": "nd",
-        "mem": "nd",
-        "pseat": "nd",
-        "vent_d": "nd",
-        "vent_p": "nd",
-        "heat": "nd",
-        "zones": "nd",
-        "amb": "sim",
-        "rain": "nd",
-        "accr": "nd",
-        "aeb": "nd",
-        "bsd": "sim",
-        "lka": "nd",
-        "rctb": {
-          "e": "nd",
-          "t": "alerta; frenagem a confirmar"
+        "dseat": {
+          "e": "nao",
+          "t": "manual, 6 ajustes"
         },
-        "dow": "nd",
-        "dms": "nd",
+        "mem": "nao",
+        "pseat": "nao",
+        "vent_d": "nao",
+        "vent_p": "nao",
+        "heat": "nao",
+        "zones": {
+          "e": "nao",
+          "t": "automático de uma zona"
+        },
+        "amb": "sim",
+        "rain": "nao",
+        "accr": "sim",
+        "aeb": "sim",
+        "bsd": "sim",
+        "lka": "sim",
+        "rctb": {
+          "e": "nao",
+          "t": "só alerta (RCTA)"
+        },
+        "dow": "nao",
+        "dms": "nao",
         "war": {
           "e": "sim",
           "t": "5 anos (até 10)"

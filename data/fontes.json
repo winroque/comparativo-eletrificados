@@ -183,5 +183,165 @@
     "titulo": "Toyota — Yaris Cross Hybrid",
     "url": "https://www.toyota.com.br/modelos/yaris-cross-hybrid",
     "tipo": "oficial"
+  },
+  "inmetro-pbev-2026": {
+    "titulo": "Inmetro — tabela PBE Veicular 2026 (19/01/2026, rev. 01)",
+    "url": "https://www.gov.br/inmetro/pt-br/assuntos/regulamentacao/avaliacao-da-conformidade/programa-brasileiro-de-etiquetagem/tabelas-de-eficiencia-energetica/veiculos-automotivos-pbe-veicular/mascara-pbev-2026_19_jan-rev01.pdf/@@download/file",
+    "tipo": "oficial"
+  },
+  "byd-songpro-flex-ficha": {
+    "titulo": "BYD — ficha Song Pro DM-i Flex GL/GS, rev. 3 (05/08/2026)",
+    "url": "https://www.byd.com/material/__CN/byd-site/br/product/songpro-flex/BYD_SongProFlex_Rev3_05_08_2026.pdf",
+    "tipo": "oficial"
+  },
+  "byd-songpro-flex-site": {
+    "titulo": "BYD — página do Song Pro Flex",
+    "url": "https://www.byd.com/br/car/song-pro-flex",
+    "tipo": "oficial"
+  },
+  "caoachery-tiggo7phev-ficha": {
+    "titulo": "CAOA Chery — ficha Tiggo 7 Pro Plug-in Hybrid (PDF de 29/05/2026)",
+    "url": "https://cloudfront.alpes.one/public/6a1/dab/7e4/6a1dab7e434b1998580293.pdf",
+    "tipo": "oficial"
+  },
+  "caoachery-tiggo7phev-site": {
+    "titulo": "CAOA Chery — página do Tiggo 7 Pro Plug-in Hybrid, preço",
+    "url": "https://caoachery.com.br/novos/tiggo-7-pro-plug-in-hybrid",
+    "tipo": "oficial"
+  },
+  "caoachery-garantia": {
+    "titulo": "CAOA Chery — certificado de garantia (84 meses; sistema elétrico de tração 96 meses)",
+    "url": "https://cloudfront.alpes.one/public/6a1/df3/8d6/6a1df38d651fd759096573.pdf",
+    "tipo": "oficial"
+  },
+  "jaecoo7-site": {
+    "titulo": "Omoda & Jaecoo — página do Jaecoo 7, itens e preços por versão",
+    "url": "https://omodajaecoo.com.br/jaecoo-7",
+    "tipo": "oficial"
+  },
+  "toyota-precos-2026-10": {
+    "titulo": "Toyota — preços públicos sugeridos, outubro/2026",
+    "url": "https://media.toyota.com.br/173965ca-3a5f-40fc-be96-02ecac114b91.pdf",
+    "tipo": "oficial"
+  },
+  "toyota-corolla-cross-catalogo": {
+    "titulo": "Toyota — catálogo e ficha técnica Corolla Cross MY26 (jun/2026)",
+    "url": "https://media.toyota.com.br/725ae8c4-b012-4789-93eb-3fc968b2889c.pdf",
+    "tipo": "oficial"
+  },
+  "toyota-corolla-hybrid-site": {
+    "titulo": "Toyota — página do Corolla Hybrid 2026",
+    "url": "https://www.toyota.com.br/modelos/corolla-hybrid",
+    "tipo": "oficial"
+  },
+  "toyota-corolla-hybrid-ficha": {
+    "titulo": "Toyota — Corolla Hybrid 2026, especificações técnicas",
+    "url": "https://media.toyota.com.br/6caffd6f-172f-4748-8e0a-d67bb29c393e.pdf",
+    "tipo": "oficial"
+  },
+  "toyota-corolla-catalogo-my25": {
+    "titulo": "Toyota — catálogo Corolla MY'25, ficha e lista de equipamentos por versão",
+    "url": "https://media.toyota.com.br/4e5d6f6f-e991-4ddc-b4b9-74de903a5fa7.pdf",
+    "tipo": "oficial"
+  },
+  "byd-songplus-15t-ficha": {
+    "titulo": "BYD — ficha Song Plus 1.5T DM-i (revisada em 09/07/2026)",
+    "url": "https://www.byd.com/material/__CN/byd-site/br/fichas-tecnicas-2026/update-13-07-2026/07-13-2026---ficha-txiunica/BYD_SongPlus1.5T_V2.pdf",
+    "tipo": "oficial"
+  },
+  "byd-songplus-15t-site": {
+    "titulo": "BYD — página do Song Plus DM-i",
+    "url": "https://www.byd.com/br/car/song-plus-dmi",
+    "tipo": "oficial"
+  },
+  "byd-ofertas-2026-10": {
+    "titulo": "BYD — ofertas públicas (validade declarada até 31/10/2026)",
+    "url": "https://www.byd.com/br/ofertas",
+    "tipo": "oficial"
+  },
+  "changan-cs55-ficha": {
+    "titulo": "CAOA Changan — ficha CS55 Ultra-Hybrid PHEV Flex (PDF de 10/09/2026)",
+    "url": "https://cloudfront.alpes.one/public/6aa/9c4/833/6aa9c48332118490733693.pdf",
+    "tipo": "oficial"
+  },
+  "changan-cs55-site": {
+    "titulo": "CAOA Changan — página do CS55 PHEV, preço e disponibilidade para reserva",
+    "url": "https://caoachangan.com.br/novos/cs55-phev",
+    "tipo": "oficial"
+  },
+  "changan-cs55-manual": {
+    "titulo": "CAOA Changan — manual do proprietário CS55 PHEV",
+    "url": "https://cloudfront.alpes.one/public/6aa/9c4/827/6aa9c4827acd0592549197.pdf",
+    "tipo": "oficial"
+  },
+  "changan-garantia": {
+    "titulo": "CAOA Changan — certificado de garantia (sistema elétrico de tração 96 meses)",
+    "url": "https://cloudfront.alpes.one/public/6aa/9c4/826/6aa9c482688b8289364304.pdf",
+    "tipo": "oficial"
+  },
+  "byd-atto2-ficha-v2": {
+    "titulo": "BYD — ficha Atto 2 (revisada em 09/07/2026)",
+    "url": "https://www.byd.com/material/__CN/byd-site/br/fichas-tecnicas-2026/update-13-07-2026/07-13-2026---ficha-txiunica/BYD_Atto2_V2.pdf",
+    "tipo": "oficial"
+  },
+  "geely-ex5-bev-ficha": {
+    "titulo": "Geely — especificações EX5 elétrico Pro/Max",
+    "url": "https://static.autoforce.com/plugins/files/clientes/geely-brasil/produtos/ws/ficha-tecnica-geely-ex5-v2.pdf",
+    "tipo": "oficial"
+  },
+  "gwm-ora5-catalogo": {
+    "titulo": "GWM — catálogo e ficha técnica Ora 5",
+    "url": "https://www.gwmmotors.com.br/content/dam/gwm/pages/br/pt/models/ora-5/catalogo-mobile-ora-5-gwm.pdf",
+    "tipo": "oficial"
+  },
+  "jetour-s06-ficha": {
+    "titulo": "Jetour — ficha S06, ano-modelo 2027",
+    "url": "https://jetourbr.com/ficha-tecnica/s06.pdf",
+    "tipo": "oficial"
+  },
+  "omoda5-ficha": {
+    "titulo": "Omoda & Jaecoo — ficha técnica simplificada Omoda 5 SHS-H",
+    "url": "https://cms.omodajaecoo.com.br/manual/pdf/FichaTecnicaSimplificada_Omoda5.pdf",
+    "tipo": "oficial"
+  },
+  "omoda7-ficha": {
+    "titulo": "Omoda & Jaecoo — ficha técnica simplificada Omoda 7 SHS-P",
+    "url": "https://cms.omodajaecoo.com.br/manual/pdf/FichaTecnicaSimplificada_Omoda7.pdf",
+    "tipo": "oficial"
+  },
+  "omoda-e5-ficha": {
+    "titulo": "Omoda & Jaecoo — ficha técnica simplificada Omoda E5",
+    "url": "https://cms.omodajaecoo.com.br/manual/pdf/FichaTecnicaSimplificada_OmodaE5.pdf",
+    "tipo": "oficial"
+  },
+  "toyota-yaris-catalogo-my26": {
+    "titulo": "Toyota — catálogo Yaris Cross MY'26, ficha e lista de equipamentos por versão",
+    "url": "https://media.toyota.com.br/49776946-9e94-4272-818c-ab5edd8a2bba.pdf",
+    "tipo": "oficial"
+  },
+  "honda-civic-catalogo": {
+    "titulo": "Honda — catálogo digital Civic Advanced Hybrid, especificações",
+    "url": "https://www.honda.com.br/automoveis/sites/hab/files/catalogos/civic_hibrido/index.html",
+    "tipo": "oficial"
+  },
+  "leapmotor-c10-ficha": {
+    "titulo": "Leapmotor — ficha técnica C10 Ultra-Híbrido REEV (PDF de 01/06/2026, enviado pelo usuário)",
+    "url": "",
+    "tipo": "oficial"
+  },
+  "leapmotor-c10-site": {
+    "titulo": "Leapmotor — configurador do C10, itens de série do Ultra Híbrido, e preço",
+    "url": "https://www.leapmotor.com.br/c10/monte.html",
+    "tipo": "oficial"
+  },
+  "jaecoo7-ficha-2025": {
+    "titulo": "Omoda & Jaecoo — lista de equipamentos e especificações Jaecoo 7 Luxury/Prestige (PDF de maio/2025, enviado pelo usuário; anterior à versão Elite)",
+    "url": "",
+    "tipo": "oficial"
+  },
+  "honda-civic-catalogo-pdf": {
+    "titulo": "Honda — catálogo Civic Advanced Hybrid 2025 (PDF impresso em julho/2025; cópia enviada pelo usuário)",
+    "url": "https://www.honda.com.br/automoveis/sites/hab/files/2025-07/Cat%C3%A1logo_do_Ve%C3%ADculo_Civic_Advanced_Hybrid_2025.pdf",
+    "tipo": "oficial"
   }
 }

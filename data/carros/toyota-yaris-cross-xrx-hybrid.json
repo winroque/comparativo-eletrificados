@@ -16,7 +16,9 @@
   "fontes": [
     "toyota-yaris-site",
     "yaris-vrum",
-    "yaris-itatiaia"
+    "yaris-itatiaia",
+    "toyota-yaris-catalogo-my26",
+    "toyota-precos-2026-10"
   ],
   "valores": {
     "fab": "SP",
@@ -27,7 +29,10 @@
     "sys": "HEV",
     "fuel": "flex",
     "pw": "111 cv",
-    "tq": "nd",
+    "tq": {
+      "e": "nd",
+      "t": "catálogo dá 12,3 kgfm (combustão) e 14,4 kgfm (elétrico), sem combinado"
+    },
     "acc": "nd",
     "bat": "nd",
     "ev": "na",
@@ -38,7 +43,10 @@
     "len": "4,31 m",
     "wb": "2,62 m",
     "trunk": "391 L",
-    "spare": "nd",
+    "spare": {
+      "e": "sim",
+      "t": "temporário"
+    },
     "tail": {
       "e": "sim",
       "t": "com sensor de movimento"
@@ -46,6 +54,13 @@
     "cam": {
       "e": "sim",
       "t": "360°"
+    },
+    "park": {
+      "e": "sim",
+      "t": "2 dianteiros + 2 traseiros",
+      "f": [
+        "toyota-yaris-catalogo-my26"
+      ]
     },
     "screen": {
       "e": "sim",
@@ -57,10 +72,10 @@
     },
     "hud": "nao",
     "google": "nao",
-    "audio": "nd",
+    "audio": "4 alto-falantes e 2 tweeters",
     "cpwl": "sim",
-    "nfc": "nd",
-    "ota": "nd",
+    "nfc": "nao",
+    "ota": "nao",
     "app": {
       "e": "sim",
       "t": "1 ano grátis"
@@ -70,25 +85,31 @@
       "e": "sim",
       "t": "fixo"
     },
-    "dseat": "nd",
-    "mem": "nd",
-    "pseat": "nd",
-    "vent_d": "nd",
-    "vent_p": "nd",
-    "heat": "nd",
-    "zones": "nd",
-    "amb": "sim",
-    "rain": "nd",
-    "accr": "nd",
-    "aeb": "nd",
-    "bsd": "sim",
-    "lka": "nd",
-    "rctb": {
-      "e": "nd",
-      "t": "alerta; frenagem a confirmar"
+    "dseat": {
+      "e": "nao",
+      "t": "manual, 6 ajustes"
     },
-    "dow": "nd",
-    "dms": "nd",
+    "mem": "nao",
+    "pseat": "nao",
+    "vent_d": "nao",
+    "vent_p": "nao",
+    "heat": "nao",
+    "zones": {
+      "e": "nao",
+      "t": "automático de uma zona"
+    },
+    "amb": "sim",
+    "rain": "nao",
+    "accr": "sim",
+    "aeb": "sim",
+    "bsd": "sim",
+    "lka": "sim",
+    "rctb": {
+      "e": "nao",
+      "t": "só alerta (RCTA)"
+    },
+    "dow": "nao",
+    "dms": "nao",
     "war": {
       "e": "sim",
       "t": "5 anos (até 10)"

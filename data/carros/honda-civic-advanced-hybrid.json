@@ -14,7 +14,9 @@
   },
   "observacao": "Acima do teto de R$ 260 mil; entra como referência.",
   "fontes": [
-    "honda-civic-site"
+    "honda-civic-site",
+    "honda-civic-catalogo",
+    "honda-civic-catalogo-pdf"
   ],
   "valores": {
     "fab": "importado (Tailândia)",
@@ -33,14 +35,24 @@
     "rng": "nd",
     "dc": "na",
     "v2l": "nao",
-    "len": "4,68 m",
+    "len": "4,69 m",
     "wb": "2,74 m",
     "trunk": "495 L",
-    "spare": "nd",
+    "spare": {
+      "e": "sim",
+      "t": "temporário"
+    },
     "tail": "nao",
     "cam": {
       "e": "nao",
       "t": "só ré"
+    },
+    "park": {
+      "e": "sim",
+      "t": "sensores dianteiros e traseiros",
+      "f": [
+        "honda-civic-catalogo"
+      ]
     },
     "screen": {
       "e": "sim",
@@ -63,14 +75,14 @@
       "t": "teto solar comum"
     },
     "dseat": "sim",
-    "mem": "nd",
+    "mem": "nao",
     "pseat": "sim",
     "vent_d": "nao",
     "vent_p": "nao",
-    "heat": "nd",
+    "heat": "nao",
     "zones": "sim",
-    "amb": "nd",
-    "rain": "nd",
+    "amb": "nao",
+    "rain": "sim",
     "accr": "sim",
     "aeb": "sim",
     "bsd": {
@@ -78,12 +90,15 @@
       "t": "LaneWatch (só lado direito)"
     },
     "lka": "sim",
-    "rctb": "nd",
-    "dow": "nd",
+    "rctb": "nao",
+    "dow": "nao",
     "dms": {
       "e": "nao",
       "t": "(alerta pelo volante)"
     },
-    "war": "nd"
+    "war": {
+      "e": "sim",
+      "t": "6 anos (fabricação a partir de 2026) / 8 anos no sistema híbrido"
+    }
   }
 }

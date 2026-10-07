@@ -5,15 +5,17 @@
   "tecnologia": "PHEV",
   "carroceria": "SUV",
   "combustivel": "gasolina",
-  "status": "à venda",
+  "status": "versão anterior",
   "finalista": false,
   "subtitulo": "",
   "preco": {
     "tabela": 249990,
     "consultado": "2026-10-06"
   },
-  "observacao": "",
-  "fontes": [],
+  "observacao": "Versão anterior ao Song Plus 1.5T DM-i: não aparece no site da BYD em outubro de 2026, mas ainda consta no PBEV 2026 (63 km). O preço de R$ 249.990 é o publicado hoje para o Song Plus 1.5T; não há preço nem ficha oficial atual do GS.",
+  "fontes": [
+    "inmetro-pbev-2026"
+  ],
   "valores": {
     "fab": {
       "e": "nd",
@@ -29,7 +31,12 @@
     "tq": "nd",
     "acc": "nd",
     "bat": "18,3 kWh",
-    "ev": "63 km",
+    "ev": {
+      "t": "63 km",
+      "f": [
+        "inmetro-pbev-2026"
+      ]
+    },
     "evo": "na",
     "rng": "1.200+ km",
     "dc": "nd",
@@ -45,6 +52,10 @@
     "cam": {
       "e": "sim",
       "t": "360°"
+    },
+    "park": {
+      "e": "nd",
+      "t": "sem ficha oficial atual"
     },
     "screen": {
       "e": "sim",

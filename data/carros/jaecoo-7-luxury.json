@@ -13,7 +13,11 @@
     "consultado": "2026-10-06"
   },
   "observacao": "",
-  "fontes": [],
+  "fontes": [
+    "jaecoo7-site",
+    "inmetro-pbev-2026",
+    "jaecoo7-ficha-2025"
+  ],
   "valores": {
     "fab": "importado",
     "fipe": {
@@ -23,10 +27,18 @@
     "sys": "PHEV",
     "fuel": "gasolina",
     "pw": "279 cv",
-    "tq": "nd",
+    "tq": {
+      "e": "nd",
+      "t": "ficha de 2025 dá 510 Nm, soma de combustão e elétrico"
+    },
     "acc": "nd",
     "bat": "18,3 kWh",
-    "ev": "79 km",
+    "ev": {
+      "t": "79 km",
+      "f": [
+        "inmetro-pbev-2026"
+      ]
+    },
     "evo": "na",
     "rng": "1.200+ km",
     "dc": {
@@ -36,8 +48,11 @@
     "v2l": "sim",
     "len": "4,50 m",
     "wb": "2,67 m",
-    "trunk": "nd",
-    "spare": "nao",
+    "trunk": "500 L",
+    "spare": {
+      "e": "nao",
+      "t": "kit"
+    },
     "tail": {
       "e": "sim",
       "t": "com sensor"
@@ -46,6 +61,13 @@
       "e": "sim",
       "t": "540°"
     },
+    "park": {
+      "e": "sim",
+      "t": "sensores dianteiros e traseiros",
+      "f": [
+        "jaecoo7-site"
+      ]
+    },
     "screen": {
       "e": "sim",
       "t": "13,2″"
@@ -53,12 +75,9 @@
     "cluster": "sim",
     "hud": "nao",
     "google": "nao",
-    "audio": {
-      "e": "nd",
-      "t": "comum"
-    },
-    "cpwl": "nd",
-    "nfc": "nd",
+    "audio": "6 alto-falantes",
+    "cpwl": "sim",
+    "nfc": "nao",
     "ota": "sim",
     "app": "sim",
     "wpc": {
@@ -70,7 +89,7 @@
       "t": "1,1 m²"
     },
     "dseat": "sim",
-    "mem": "nd",
+    "mem": "nao",
     "pseat": "sim",
     "vent_d": "sim",
     "vent_p": "sim",
@@ -80,10 +99,13 @@
     "rain": "sim",
     "accr": "sim",
     "aeb": "sim",
-    "bsd": "nd",
-    "lka": "sim",
-    "rctb": "nd",
-    "dow": "nd",
+    "bsd": "nao",
+    "lka": {
+      "e": "nao",
+      "t": "só alerta de saída de faixa (LDW)"
+    },
+    "rctb": "nao",
+    "dow": "nao",
     "dms": "nao",
     "war": "nd"
   }

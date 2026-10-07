@@ -1,0 +1,113 @@
+{
+  "id": "byd-song-plus-15t",
+  "nome": "BYD Song Plus 1.5T DM-i",
+  "marca": "BYD",
+  "tecnologia": "PHEV",
+  "carroceria": "SUV",
+  "combustivel": "gasolina",
+  "status": "à venda",
+  "finalista": false,
+  "subtitulo": "",
+  "preco": {
+    "tabela": 249990,
+    "consultado": "2026-10-07"
+  },
+  "observacao": "Substitui o Song Plus GS no site da BYD. Na página de ofertas (validade até 31/10/2026), R$ 249.990 com taxa de 0% ou bônus no usado, sem desconto no preço.",
+  "fontes": [
+    "byd-songplus-15t-ficha",
+    "byd-songplus-15t-site",
+    "byd-ofertas-2026-10"
+  ],
+  "valores": {
+    "fab": {
+      "e": "nd",
+      "t": "n/d"
+    },
+    "fipe": {
+      "e": "nd",
+      "t": "a levantar"
+    },
+    "sys": "PHEV",
+    "fuel": "gasolina",
+    "pw": "240 cv",
+    "tq": "300 Nm",
+    "acc": "8,1 s",
+    "bat": "26,6 kWh",
+    "ev": "99 km",
+    "evo": "na",
+    "rng": "1.150 km (NEDC)",
+    "dc": {
+      "e": "sim",
+      "t": "18 kW"
+    },
+    "v2l": "sim",
+    "len": "4,78 m",
+    "wb": "2,77 m",
+    "trunk": "552 L",
+    "spare": {
+      "e": "nao",
+      "t": "kit"
+    },
+    "tail": {
+      "e": "sim",
+      "t": "com sensor"
+    },
+    "cam": {
+      "e": "sim",
+      "t": "360°"
+    },
+    "park": {
+      "e": "sim",
+      "t": "2 dianteiros + 4 traseiros",
+      "f": [
+        "byd-songplus-15t-ficha"
+      ]
+    },
+    "screen": {
+      "e": "sim",
+      "t": "15,6″ giratória"
+    },
+    "cluster": {
+      "e": "sim",
+      "t": "12,3″"
+    },
+    "hud": "sim",
+    "google": "nd",
+    "audio": "10 alto-falantes (Infinity)",
+    "cpwl": {
+      "e": "nd",
+      "t": "ficha não diz se é sem fio"
+    },
+    "nfc": {
+      "e": "nd",
+      "t": "ficha lista chave presencial"
+    },
+    "ota": "sim",
+    "app": "nd",
+    "wpc": "sim",
+    "roof": "sim",
+    "dseat": "sim",
+    "mem": "nao",
+    "pseat": "sim",
+    "vent_d": "sim",
+    "vent_p": "sim",
+    "heat": {
+      "e": "nd",
+      "t": "página cita, ficha não"
+    },
+    "zones": "sim",
+    "amb": "sim",
+    "rain": "nd",
+    "accr": "sim",
+    "aeb": "sim",
+    "bsd": "sim",
+    "lka": "sim",
+    "rctb": "sim",
+    "dow": "sim",
+    "dms": "nao",
+    "war": {
+      "e": "sim",
+      "t": "6 anos / 8 anos"
+    }
+  }
+}

@@ -15,7 +15,8 @@
   "observacao": "Entregas regulares às lojas previstas para outubro de 2026, segundo lojistas. Montado em Camaçari (BA) com kits importados.",
   "fontes": [
     "byd-atto2-ficha",
-    "byd-atto2-site"
+    "byd-atto2-site",
+    "byd-atto2-ficha-v2"
   ],
   "valores": {
     "fab": "BA (montagem SKD)",
@@ -51,6 +52,13 @@
     "cam": {
       "e": "sim",
       "t": "360°"
+    },
+    "park": {
+      "e": "sim",
+      "t": "2 dianteiros + 4 traseiros",
+      "f": [
+        "byd-atto2-ficha-v2"
+      ]
     },
     "screen": {
       "e": "sim",

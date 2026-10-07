@@ -15,7 +15,9 @@
   "observacao": "",
   "fontes": [
     "ex5-bev-webmotors",
-    "ex5-bev-canalve"
+    "ex5-bev-canalve",
+    "geely-ex5-bev-ficha",
+    "inmetro-pbev-2026"
   ],
   "valores": {
     "fab": "importado",
@@ -29,22 +31,37 @@
     "tq": "320 Nm",
     "acc": "7,1 s",
     "bat": "60,2 kWh",
-    "ev": "349 km",
-    "evo": "na",
+    "ev": {
+      "t": "349 km",
+      "f": [
+        "inmetro-pbev-2026"
+      ]
+    },
+    "evo": "470 km (NEDC)",
     "rng": "na",
     "dc": {
       "e": "sim",
       "t": "100 kW"
     },
-    "v2l": "nd",
+    "v2l": "sim",
     "len": "4,62 m",
     "wb": "2,75 m",
     "trunk": "461 L",
-    "spare": "nd",
-    "tail": "nd",
+    "spare": {
+      "e": "nao",
+      "t": "kit"
+    },
+    "tail": "sim",
     "cam": {
       "e": "sim",
-      "t": "360°"
+      "t": "540°"
+    },
+    "park": {
+      "e": "sim",
+      "t": "sensores dianteiros e traseiros",
+      "f": [
+        "geely-ex5-bev-ficha"
+      ]
     },
     "screen": {
       "e": "sim",
@@ -61,30 +78,39 @@
     "google": "nao",
     "audio": "Flyme, 16 alto-falantes",
     "cpwl": "nd",
-    "nfc": "nd",
-    "ota": "nd",
-    "app": "nd",
-    "wpc": "nd",
+    "nfc": "nao",
+    "ota": "sim",
+    "app": "sim",
+    "wpc": {
+      "e": "sim",
+      "t": "15 W"
+    },
     "roof": "sim",
     "dseat": "sim",
-    "mem": "nd",
+    "mem": "nao",
     "pseat": {
       "e": "sim",
       "t": "com apoio de pernas"
     },
-    "vent_d": "nd",
-    "vent_p": "nd",
-    "heat": "nd",
-    "zones": "sim",
-    "amb": "nd",
-    "rain": "nd",
+    "vent_d": "sim",
+    "vent_p": "sim",
+    "heat": "nao",
+    "zones": {
+      "e": "nd",
+      "t": "ficha diz só ar-condicionado automático"
+    },
+    "amb": "sim",
+    "rain": "sim",
     "accr": "sim",
     "aeb": "sim",
-    "bsd": "nd",
-    "lka": "nd",
-    "rctb": "nd",
-    "dow": "nd",
-    "dms": "nd",
-    "war": "nd"
+    "bsd": "sim",
+    "lka": "sim",
+    "rctb": "sim",
+    "dow": "sim",
+    "dms": "nao",
+    "war": {
+      "e": "sim",
+      "t": "6 anos / 8 anos"
+    }
   }
 }

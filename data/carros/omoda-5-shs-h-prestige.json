@@ -16,7 +16,8 @@
   "fontes": [
     "omoda5-motorshow",
     "omoda5-encontracarros",
-    "omoda7-automaistv"
+    "omoda7-automaistv",
+    "omoda5-ficha"
   ],
   "valores": {
     "fab": "importado",
@@ -29,21 +30,28 @@
     "pw": "224 cv",
     "tq": "295 Nm",
     "acc": "nd",
-    "bat": "nd",
+    "bat": "1,83 kWh",
     "ev": "na",
     "evo": "na",
     "rng": "nd",
     "dc": "na",
     "v2l": "na",
-    "len": "4,40 m",
-    "wb": "nd",
-    "trunk": {
-      "e": "nd",
-      "t": "300 L (a confirmar)"
-    },
+    "len": "4,45 m",
+    "wb": "2,61 m",
+    "trunk": "372 L",
     "spare": "nd",
     "tail": "sim",
-    "cam": "nd",
+    "cam": {
+      "e": "sim",
+      "t": "360°"
+    },
+    "park": {
+      "e": "sim",
+      "t": "sensores dianteiros e traseiros",
+      "f": [
+        "omoda5-ficha"
+      ]
+    },
     "screen": {
       "e": "sim",
       "t": "tela integrada de 24,6″"
@@ -54,22 +62,28 @@
     },
     "hud": "nd",
     "google": "nao",
-    "audio": "nd",
-    "cpwl": "nd",
+    "audio": "Sony, 8 alto-falantes",
+    "cpwl": "sim",
     "nfc": "nd",
     "ota": "nd",
     "app": "nd",
-    "wpc": "nd",
-    "roof": "nd",
+    "wpc": {
+      "e": "sim",
+      "t": "50 W refrigerado"
+    },
+    "roof": {
+      "e": "nao",
+      "t": "teto solar comum"
+    },
     "dseat": "sim",
     "mem": "nd",
     "pseat": "sim",
     "vent_d": "sim",
     "vent_p": "sim",
     "heat": "sim",
-    "zones": "nd",
-    "amb": "nd",
-    "rain": "nd",
+    "zones": "sim",
+    "amb": "sim",
+    "rain": "sim",
     "accr": "sim",
     "aeb": {
       "e": "sim",
@@ -80,6 +94,9 @@
     "rctb": "nd",
     "dow": "nd",
     "dms": "nd",
-    "war": "nd"
+    "war": {
+      "e": "sim",
+      "t": "7 anos / 8 anos"
+    }
   }
 }

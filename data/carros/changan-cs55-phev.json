@@ -7,13 +7,17 @@
   "combustivel": "flex",
   "status": "pré-venda",
   "finalista": true,
-  "subtitulo": "pré-venda",
+  "subtitulo": "Ultra-Hybrid PHEV Flex",
   "preco": {
     "tabela": 189990,
     "consultado": "2026-10-06"
   },
-  "observacao": "Pré-venda. Dados vêm da imprensa de lançamento; a ficha oficial do PHEV ainda não foi publicada. Itens marcados como \"divulgado\" não pontuam no mínimo.",
+  "observacao": "Pré-venda: a página oficial diz que o CS55 Ultra-Hybrid PHEV Flex está disponível só para reserva, a partir de R$ 189.990 na cor preta sólida. Dados pela ficha oficial de 10/09/2026; recarga DC confirmada pelo manual, sem potência informada.",
   "fontes": [
+    "changan-cs55-ficha",
+    "changan-cs55-site",
+    "changan-cs55-manual",
+    "changan-garantia",
     "changan-cs55-uol",
     "changan-cs55-folha"
   ],
@@ -29,74 +33,90 @@
     "sys": "PHEV",
     "fuel": "flex",
     "pw": "286 cv",
-    "tq": "460 Nm",
-    "acc": {
-      "e": "nd",
-      "t": "7,2 s (imprensa)"
-    },
+    "tq": "461 Nm",
+    "acc": "7,2 s",
     "bat": "18,4 kWh",
     "ev": "76 km",
     "evo": "na",
     "rng": "1.200 km",
     "dc": {
-      "e": "nd",
-      "t": "até 43 kW? (não oficial)"
+      "e": "sim",
+      "t": "potência não informada",
+      "f": [
+        "changan-cs55-manual"
+      ]
     },
     "v2l": {
-      "e": "divulgado",
+      "e": "sim",
       "t": "220 V"
     },
     "len": "4,55 m",
     "wb": "2,66 m",
-    "trunk": {
-      "e": "nd",
-      "t": "475 ou 525 L"
+    "trunk": "525 L",
+    "spare": {
+      "e": "nao",
+      "t": "kit"
     },
-    "spare": "nd",
-    "tail": "divulgado",
+    "tail": "sim",
     "cam": {
-      "e": "divulgado",
+      "e": "sim",
       "t": "540°"
     },
+    "park": {
+      "e": "nao",
+      "t": "só traseiros; manobra remota pela chave para entrar e sair da vaga em linha reta",
+      "f": [
+        "changan-cs55-ficha"
+      ]
+    },
     "screen": {
-      "e": "divulgado",
+      "e": "sim",
       "t": "14,6″"
     },
     "cluster": {
-      "e": "divulgado",
+      "e": "sim",
       "t": "10,3″"
     },
-    "hud": "nd",
+    "hud": "nao",
     "google": "nao",
-    "audio": {
-      "e": "nd",
-      "t": "Pioneer? (a confirmar no PHEV)"
-    },
-    "cpwl": "divulgado",
-    "nfc": "nd",
+    "audio": "Pioneer, 8 alto-falantes",
+    "cpwl": "sim",
+    "nfc": "nao",
     "ota": "nd",
-    "app": "nd",
-    "wpc": "divulgado",
-    "roof": "divulgado",
-    "dseat": "divulgado",
-    "mem": "nd",
-    "pseat": "nd",
-    "vent_d": "divulgado",
-    "vent_p": "divulgado",
-    "heat": "divulgado",
-    "zones": "divulgado",
-    "amb": "nd",
-    "rain": "nd",
-    "accr": "divulgado",
-    "aeb": "divulgado",
-    "bsd": "nd",
-    "lka": "divulgado",
-    "rctb": "nd",
-    "dow": "nd",
-    "dms": "nd",
+    "app": "sim",
+    "wpc": {
+      "e": "sim",
+      "t": "refrigerado"
+    },
+    "roof": "sim",
+    "dseat": "sim",
+    "mem": "sim",
+    "pseat": "sim",
+    "vent_d": "sim",
+    "vent_p": "sim",
+    "heat": "sim",
+    "zones": "sim",
+    "amb": {
+      "e": "sim",
+      "t": "256 cores"
+    },
+    "rain": "sim",
+    "accr": "sim",
+    "aeb": "sim",
+    "bsd": "sim",
+    "lka": "sim",
+    "rctb": {
+      "e": "nao",
+      "t": "só alerta (RCTA)"
+    },
+    "dow": "sim",
+    "dms": "nao",
     "war": {
       "e": "sim",
-      "t": "7 anos / 8 anos"
+      "t": "7 anos / 8 anos",
+      "f": [
+        "changan-garantia"
+      ]
     }
   }
 }
