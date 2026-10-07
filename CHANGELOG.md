@@ -1,5 +1,8 @@
 # Histórico
 
+## 2026-10-07 — Yaris Cross conferido
+- Toyota Yaris Cross XRX Hybrid pelo catálogo MY'26: ACC, frenagem autônoma, assistente de faixa, estepe temporário e som 4+2; bancos manuais, ar de uma zona e sem sensor de chuva, NFC, OTA, alerta de porta e monitor de fadiga; tráfego cruzado só com alerta. Cobertura de 41% para 100%.
+
 ## 2026-10-07 — Omoda 7, Omoda E5, EX5 elétrico e Jetour S06 conferidos
 - EX5 elétrico Pro e Max pela ficha completa da Geely: câmera 540°, V2L, kit de reparo, OTA e app, garantia 6/8 anos; o Pro não tem ACC, frenagem autônoma, ponto cego, faixa, tampa elétrica, banco do passageiro elétrico nem luz ambiente. Ar de duas zonas passa a "n/d" (a ficha só diz automático).
 - Jetour S06 Premium pela ficha completa: 0–100 em 7,8 s, painel 9,2″, Sony 9 alto-falantes, banco do passageiro elétrico, frenagem autônoma, faixa e alerta de porta; os 510 Nm eram soma dos motores e saíram.

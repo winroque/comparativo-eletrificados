@@ -117,5 +117,5 @@ Itens que não se aplicam ao tipo de carro (recarga DC num híbrido sem tomada, 
 - O Song Plus GS aparece como "versão anterior": saiu do site da BYD e só tem o PBEV 2026 como fonte. O modelo atual é o Song Plus 1.5T DM-i (veja `docs/conferencia-fontes-2026-10-06.md`).
 - O Changan CS55 PHEV está disponível só para reserva (pré-venda); os dados vêm da ficha oficial de 10/09/2026.
 - Auxiliares de estacionamento ainda em aberto para Jaecoo 5 e Song Plus GS. A lista de fichas oficiais por carro está em `docs/fichas-oficiais.md`.
-- Ainda com muitos itens em aberto: Jaecoo 5 (sem ficha brasileira) e Yaris Cross. Omoda 5, 7 e E5 têm só ficha simplificada, que não detalha os itens de assistência (ADAS).
+- Ainda com muitos itens em aberto: Jaecoo 5 (sem ficha brasileira). Omoda 5, 7 e E5 têm só ficha simplificada, que não detalha os itens de assistência (ADAS).
 - A FIPE só está documentada para o EX5 EM-i Max.

@@ -28,7 +28,7 @@ Situação: **conferida** = ficha lida célula por célula; **usada na revisão*
 | Omoda E5 | https://omodajaecoo.com.br/omoda-e5 | [FichaTecnicaSimplificada_OmodaE5.pdf](https://cms.omodajaecoo.com.br/manual/pdf/FichaTecnicaSimplificada_OmodaE5.pdf) | conferida (07/10); ficha simplificada, ADAS não detalhado |
 | Toyota Corolla Altis Premium Hybrid | https://www.toyota.com.br/modelos/corolla-hybrid | [especificações 2026](https://media.toyota.com.br/6caffd6f-172f-4748-8e0a-d67bb29c393e.pdf) e [catálogo MY'25](https://media.toyota.com.br/4e5d6f6f-e991-4ddc-b4b9-74de903a5fa7.pdf) | conferida |
 | Toyota Corolla Cross XRX Hybrid | https://www.toyota.com.br/modelos/corolla-cross | [catálogo MY26](https://media.toyota.com.br/725ae8c4-b012-4789-93eb-3fc968b2889c.pdf) | conferida |
-| Toyota Yaris Cross XRX Hybrid | https://www.toyota.com.br/modelos/yaris-cross-hybrid | [catálogo MY'26](https://media.toyota.com.br/49776946-9e94-4272-818c-ab5edd8a2bba.pdf) | lida; o carro ainda usa imprensa |
+| Toyota Yaris Cross XRX Hybrid | https://www.toyota.com.br/modelos/yaris-cross-hybrid | [catálogo MY'26](https://media.toyota.com.br/49776946-9e94-4272-818c-ab5edd8a2bba.pdf) | conferida (07/10); ficha completa |
 
 As fichas da CAOA Chery e da CAOA Changan ficam em `cloudfront.alpes.one` e mudam de endereço quando o fabricante publica uma revisão; a página do modelo sempre aponta para a versão atual.
 
