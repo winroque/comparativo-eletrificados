@@ -1,5 +1,10 @@
 # Histórico
 
+## 2026-10-07 — Jaecoo 7 e Omoda 5 conferidos
+- Jaecoo 7: porta-malas 500 L e kit de reparo pela ficha de maio/2025; Elite e Luxury sem o pacote ADAS 2.5 (ponto cego, RCTB, alerta de porta, permanência em faixa) e sem memória do banco; CarPlay/Android Auto sem fio na Luxury e Prestige. Os 339 cv e 510 Nm "combinados" da ficha são soma dos motores e não foram usados.
+- Omoda 5 SHS-H Prestige pela ficha simplificada oficial: 4,45 m, 2,61 m, 372 L, 1,83 kWh, câmera 360°, Sony 8 alto-falantes, indução 50 W, teto solar comum, garantia 7/8 anos e outros itens.
+- A ficha de Jaecoo 5 recebida é do mercado mexicano (1.5T a gasolina) e não foi usada.
+
 ## 2026-10-07 — Civic e C10 conferidos
 - Honda Civic Advanced Hybrid conferido pelo catálogo digital oficial: estepe temporário, sensor de chuva, sensores de estacionamento dianteiros e traseiros, comprimento 4,69 m, garantia; itens ausentes da ficha completa viram "não".
 - Leapmotor C10 REEV conferido pela ficha técnica (enviada pelo usuário) e pelos itens de série do configurador oficial: só sensores traseiros, kit de reparo, duas zonas e sensor de chuva.

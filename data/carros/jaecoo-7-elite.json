@@ -14,7 +14,8 @@
   },
   "observacao": "",
   "fontes": [
-    "jaecoo7-site"
+    "jaecoo7-site",
+    "jaecoo7-ficha-2025"
   ],
   "valores": {
     "fab": "importado",
@@ -25,7 +26,10 @@
     "sys": "PHEV",
     "fuel": "gasolina",
     "pw": "279 cv",
-    "tq": "nd",
+    "tq": {
+      "e": "nd",
+      "t": "ficha de 2025 dá 510 Nm, soma de combustão e elétrico"
+    },
     "acc": "nd",
     "bat": "18,3 kWh",
     "ev": "79 km",
@@ -38,8 +42,11 @@
     "v2l": "sim",
     "len": "4,50 m",
     "wb": "2,67 m",
-    "trunk": "nd",
-    "spare": "nao",
+    "trunk": "500 L",
+    "spare": {
+      "e": "nao",
+      "t": "kit"
+    },
     "tail": {
       "e": "sim",
       "t": "com sensor"
@@ -64,7 +71,7 @@
     "google": "nao",
     "audio": "6 alto-falantes",
     "cpwl": "nd",
-    "nfc": "nd",
+    "nfc": "nao",
     "ota": "nao",
     "app": "nd",
     "wpc": {
@@ -73,7 +80,7 @@
     },
     "roof": "nao",
     "dseat": "sim",
-    "mem": "nd",
+    "mem": "nao",
     "pseat": "sim",
     "vent_d": "nao",
     "vent_p": "nao",
@@ -83,10 +90,13 @@
     "rain": "nd",
     "accr": "sim",
     "aeb": "sim",
-    "bsd": "nd",
-    "lka": "sim",
-    "rctb": "nd",
-    "dow": "nd",
+    "bsd": "nao",
+    "lka": {
+      "e": "nao",
+      "t": "só alerta de saída de faixa (LDW)"
+    },
+    "rctb": "nao",
+    "dow": "nao",
     "dms": "nao",
     "war": "nd"
   }
