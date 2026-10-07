@@ -18,7 +18,8 @@
   "fontes": [
     "omoda7-eletricosapp",
     "omoda7-automaistv",
-    "omoda-ofertas"
+    "omoda-ofertas",
+    "omoda7-ficha"
   ],
   "valores": {
     "fab": "importado",
@@ -43,6 +44,13 @@
     "spare": "nd",
     "tail": "sim",
     "cam": "nd",
+    "park": {
+      "e": "sim",
+      "t": "sensores dianteiros e traseiros",
+      "f": [
+        "omoda7-ficha"
+      ]
+    },
     "screen": {
       "e": "sim",
       "t": "15,6″ deslizante"

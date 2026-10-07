@@ -54,6 +54,13 @@
       "e": "sim",
       "t": "540°"
     },
+    "park": {
+      "e": "sim",
+      "t": "sensores dianteiros e traseiros",
+      "f": [
+        "jaecoo7-site"
+      ]
+    },
     "screen": {
       "e": "sim",
       "t": "14,8″"

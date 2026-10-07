@@ -48,7 +48,7 @@ data/dados.json          tudo junto, lido pelo site (gerado)
 data/radar.json          modelos acompanhados, ainda fora da tabela
 data/export/             CSV e banco SQLite gerados
 scripts/                 manifesto, validação, junção dos dados e exportação (CSV e SQLite)
-docs/                    revisão externa que originou a metodologia atual e conferência de fontes
+docs/                    revisão externa, conferência de fontes e lista de fichas oficiais
 ```
 
 ## Como editar um carro
@@ -115,6 +115,7 @@ Itens que não se aplicam ao tipo de carro (recarga DC num híbrido sem tomada, 
 ## Limitações
 
 - O Song Plus GS aparece como "versão anterior": saiu do site da BYD e só tem o PBEV 2026 como fonte. O modelo atual é o Song Plus 1.5T DM-i (veja `docs/conferencia-fontes-2026-10-06.md`).
-- O Changan CS55 PHEV está em pré-venda sem ficha oficial; quase tudo está como "divulgado".
+- O Changan CS55 PHEV está disponível só para reserva (pré-venda); os dados vêm da ficha oficial de 10/09/2026.
+- Auxiliares de estacionamento ainda em aberto para Honda Civic, Leapmotor C10, Jaecoo 5 e Song Plus GS. A lista de fichas oficiais por carro está em `docs/fichas-oficiais.md`.
 - Os modelos acrescentados em outubro (Jetour S06, Omoda 5 e 7, Jaecoo 5, Yaris Cross, EX5 elétrico, Omoda E5) têm muitos itens em aberto.
 - A FIPE só está documentada para o EX5 EM-i Max.

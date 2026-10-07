@@ -52,6 +52,13 @@
       "e": "nao",
       "t": "só câmera de ré"
     },
+    "park": {
+      "e": "nao",
+      "t": "só traseiros",
+      "f": [
+        "geely-ex5-emi-ficha"
+      ]
+    },
     "screen": {
       "e": "sim",
       "t": "15,4″"

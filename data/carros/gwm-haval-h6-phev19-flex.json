@@ -67,6 +67,13 @@
       "e": "sim",
       "t": "540°"
     },
+    "park": {
+      "e": "sim",
+      "t": "12 sensores, dianteiros e traseiros",
+      "f": [
+        "gwm-h6-phev19-ficha"
+      ]
+    },
     "screen": {
       "e": "sim",
       "t": "14,6″"

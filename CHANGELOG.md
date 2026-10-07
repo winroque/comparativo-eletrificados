@@ -1,5 +1,10 @@
 # Histórico
 
+## 2026-10-07 — CS55 PHEV e auxiliares de estacionamento
+- Changan CS55 PHEV atualizado pela ficha oficial (10/09/2026), com manual e certificado de garantia: itens antes "divulgado" passam a confirmados; recarga DC confirmada no manual, sem potência informada.
+- Novo item "Auxiliares de estacionamento" (praticidade): sim com sensores dianteiros e traseiros, não só com traseiros. Preenchido nos 28 carros com fonte oficial, exceto Civic, C10, Jaecoo 5 e Song Plus GS.
+- `docs/fichas-oficiais.md` lista página e ficha de cada carro.
+
 ## 2026-10-07 — conferência aplicada
 - Aplicadas as correções e os preenchimentos de `docs/conferencia-fontes-2026-10-06.md` em Song Pro GS, Tiggo 7 Pro PHEV, Jaecoo 7 Elite e Luxury, Corolla Altis Premium Hybrid (preço R$ 211.990) e Corolla Cross XRX Hybrid.
 - Entrou o BYD Song Plus 1.5T DM-i (R$ 249.990). O Song Plus GS fica como "versão anterior", com ressalva. Total: 28 versões.

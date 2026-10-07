@@ -48,6 +48,13 @@
       "e": "nao",
       "t": "só ré"
     },
+    "park": {
+      "e": "sim",
+      "t": "sensores dianteiros e traseiros",
+      "f": [
+        "jaecoo7-site"
+      ]
+    },
     "screen": {
       "e": "sim",
       "t": "13,2″"

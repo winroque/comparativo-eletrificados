@@ -18,7 +18,8 @@
   "fontes": [
     "omoda-e5-webmotors",
     "omoda-e5-canalve",
-    "omoda-ofertas"
+    "omoda-ofertas",
+    "omoda-e5-ficha"
   ],
   "valores": {
     "fab": "importado",
@@ -51,6 +52,13 @@
     "cam": {
       "e": "sim",
       "t": "360°"
+    },
+    "park": {
+      "e": "sim",
+      "t": "sensores dianteiros e traseiros",
+      "f": [
+        "omoda-e5-ficha"
+      ]
     },
     "screen": "nd",
     "cluster": "nd",

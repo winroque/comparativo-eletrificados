@@ -55,6 +55,13 @@
       "e": "sim",
       "t": "360°"
     },
+    "park": {
+      "e": "sim",
+      "t": "2 dianteiros + 4 traseiros",
+      "f": [
+        "byd-songpro-flex-ficha"
+      ]
+    },
     "screen": {
       "e": "sim",
       "t": "12,8″ giratória"

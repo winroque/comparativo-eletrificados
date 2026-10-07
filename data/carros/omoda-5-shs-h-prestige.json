@@ -16,7 +16,8 @@
   "fontes": [
     "omoda5-motorshow",
     "omoda5-encontracarros",
-    "omoda7-automaistv"
+    "omoda7-automaistv",
+    "omoda5-ficha"
   ],
   "valores": {
     "fab": "importado",
@@ -44,6 +45,13 @@
     "spare": "nd",
     "tail": "sim",
     "cam": "nd",
+    "park": {
+      "e": "sim",
+      "t": "sensores dianteiros e traseiros",
+      "f": [
+        "omoda5-ficha"
+      ]
+    },
     "screen": {
       "e": "sim",
       "t": "tela integrada de 24,6″"

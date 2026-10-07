@@ -258,5 +258,65 @@
     "titulo": "BYD — ofertas públicas (validade declarada até 31/10/2026)",
     "url": "https://www.byd.com/br/ofertas",
     "tipo": "oficial"
+  },
+  "changan-cs55-ficha": {
+    "titulo": "CAOA Changan — ficha CS55 Ultra-Hybrid PHEV Flex (PDF de 10/09/2026)",
+    "url": "https://cloudfront.alpes.one/public/6aa/9c4/833/6aa9c48332118490733693.pdf",
+    "tipo": "oficial"
+  },
+  "changan-cs55-site": {
+    "titulo": "CAOA Changan — página do CS55 PHEV, preço e disponibilidade para reserva",
+    "url": "https://caoachangan.com.br/novos/cs55-phev",
+    "tipo": "oficial"
+  },
+  "changan-cs55-manual": {
+    "titulo": "CAOA Changan — manual do proprietário CS55 PHEV",
+    "url": "https://cloudfront.alpes.one/public/6aa/9c4/827/6aa9c4827acd0592549197.pdf",
+    "tipo": "oficial"
+  },
+  "changan-garantia": {
+    "titulo": "CAOA Changan — certificado de garantia (sistema elétrico de tração 96 meses)",
+    "url": "https://cloudfront.alpes.one/public/6aa/9c4/826/6aa9c482688b8289364304.pdf",
+    "tipo": "oficial"
+  },
+  "byd-atto2-ficha-v2": {
+    "titulo": "BYD — ficha Atto 2 (revisada em 09/07/2026)",
+    "url": "https://www.byd.com/material/__CN/byd-site/br/fichas-tecnicas-2026/update-13-07-2026/07-13-2026---ficha-txiunica/BYD_Atto2_V2.pdf",
+    "tipo": "oficial"
+  },
+  "geely-ex5-bev-ficha": {
+    "titulo": "Geely — especificações EX5 elétrico Pro/Max",
+    "url": "https://static.autoforce.com/plugins/files/clientes/geely-brasil/produtos/ws/ficha-tecnica-geely-ex5-v2.pdf",
+    "tipo": "oficial"
+  },
+  "gwm-ora5-catalogo": {
+    "titulo": "GWM — catálogo e ficha técnica Ora 5",
+    "url": "https://www.gwmmotors.com.br/content/dam/gwm/pages/br/pt/models/ora-5/catalogo-mobile-ora-5-gwm.pdf",
+    "tipo": "oficial"
+  },
+  "jetour-s06-ficha": {
+    "titulo": "Jetour — ficha S06, ano-modelo 2027",
+    "url": "https://jetourbr.com/ficha-tecnica/s06.pdf",
+    "tipo": "oficial"
+  },
+  "omoda5-ficha": {
+    "titulo": "Omoda & Jaecoo — ficha técnica simplificada Omoda 5 SHS-H",
+    "url": "https://cms.omodajaecoo.com.br/manual/pdf/FichaTecnicaSimplificada_Omoda5.pdf",
+    "tipo": "oficial"
+  },
+  "omoda7-ficha": {
+    "titulo": "Omoda & Jaecoo — ficha técnica simplificada Omoda 7 SHS-P",
+    "url": "https://cms.omodajaecoo.com.br/manual/pdf/FichaTecnicaSimplificada_Omoda7.pdf",
+    "tipo": "oficial"
+  },
+  "omoda-e5-ficha": {
+    "titulo": "Omoda & Jaecoo — ficha técnica simplificada Omoda E5",
+    "url": "https://cms.omodajaecoo.com.br/manual/pdf/FichaTecnicaSimplificada_OmodaE5.pdf",
+    "tipo": "oficial"
+  },
+  "toyota-yaris-catalogo-my26": {
+    "titulo": "Toyota — catálogo Yaris Cross MY'26, ficha e lista de equipamentos por versão",
+    "url": "https://media.toyota.com.br/49776946-9e94-4272-818c-ab5edd8a2bba.pdf",
+    "tipo": "oficial"
   }
 }

@@ -59,6 +59,13 @@
       "e": "sim",
       "t": "540°"
     },
+    "park": {
+      "e": "sim",
+      "t": "sensores dianteiros e traseiros",
+      "f": [
+        "caoachery-tiggo7phev-ficha"
+      ]
+    },
     "screen": {
       "e": "sim",
       "t": "24,6″ curva (2 telas)"
