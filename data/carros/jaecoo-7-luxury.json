@@ -61,10 +61,7 @@
     "cluster": "sim",
     "hud": "nao",
     "google": "nao",
-    "audio": {
-      "e": "nd",
-      "t": "comum"
-    },
+    "audio": "6 alto-falantes",
     "cpwl": "nd",
     "nfc": "nd",
     "ota": "sim",

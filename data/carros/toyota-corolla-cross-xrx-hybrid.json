@@ -36,7 +36,7 @@
     "v2l": "nao",
     "len": "4,46 m",
     "wb": "2,64 m",
-    "trunk": "nd",
+    "trunk": "440 L",
     "spare": "sim",
     "tail": {
       "e": "sim",
@@ -48,18 +48,15 @@
     },
     "screen": {
       "e": "sim",
-      "t": "10,1″"
+      "t": "10″"
     },
     "cluster": {
       "e": "sim",
-      "t": "7″"
+      "t": "12,3″"
     },
     "hud": "nao",
     "google": "nao",
-    "audio": {
-      "e": "nd",
-      "t": "comum"
-    },
+    "audio": "4 alto-falantes e 2 tweeters",
     "cpwl": "sim",
     "nfc": "nao",
     "ota": "nd",
@@ -76,8 +73,8 @@
     "vent_p": "nao",
     "heat": "nao",
     "zones": "sim",
-    "amb": "nao",
-    "rain": "nd",
+    "amb": "sim",
+    "rain": "sim",
     "accr": "sim",
     "aeb": "sim",
     "bsd": "sim",

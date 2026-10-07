@@ -515,6 +515,21 @@
       "titulo": "Toyota — catálogo Corolla MY'25, ficha e lista de equipamentos por versão",
       "url": "https://media.toyota.com.br/4e5d6f6f-e991-4ddc-b4b9-74de903a5fa7.pdf",
       "tipo": "oficial"
+    },
+    "byd-songplus-15t-ficha": {
+      "titulo": "BYD — ficha Song Plus 1.5T DM-i (revisada em 09/07/2026)",
+      "url": "https://www.byd.com/material/__CN/byd-site/br/fichas-tecnicas-2026/update-13-07-2026/07-13-2026---ficha-txiunica/BYD_SongPlus1.5T_V2.pdf",
+      "tipo": "oficial"
+    },
+    "byd-songplus-15t-site": {
+      "titulo": "BYD — página do Song Plus DM-i",
+      "url": "https://www.byd.com/br/car/song-plus-dmi",
+      "tipo": "oficial"
+    },
+    "byd-ofertas-2026-10": {
+      "titulo": "BYD — ofertas públicas (validade declarada até 31/10/2026)",
+      "url": "https://www.byd.com/br/ofertas",
+      "tipo": "oficial"
     }
   },
   "radar": [
@@ -749,8 +764,8 @@
       }
     },
     {
-      "id": "byd-song-plus-gs",
-      "nome": "BYD Song Plus GS",
+      "id": "byd-song-plus-15t",
+      "nome": "BYD Song Plus 1.5T DM-i",
       "marca": "BYD",
       "tecnologia": "PHEV",
       "carroceria": "SUV",
@@ -760,10 +775,118 @@
       "subtitulo": "",
       "preco": {
         "tabela": 249990,
+        "consultado": "2026-10-07"
+      },
+      "observacao": "Substitui o Song Plus GS no site da BYD. Na página de ofertas (validade até 31/10/2026), R$ 249.990 com taxa de 0% ou bônus no usado, sem desconto no preço.",
+      "fontes": [
+        "byd-songplus-15t-ficha",
+        "byd-songplus-15t-site",
+        "byd-ofertas-2026-10"
+      ],
+      "valores": {
+        "fab": {
+          "e": "nd",
+          "t": "n/d"
+        },
+        "fipe": {
+          "e": "nd",
+          "t": "a levantar"
+        },
+        "sys": "PHEV",
+        "fuel": "gasolina",
+        "pw": "240 cv",
+        "tq": "300 Nm",
+        "acc": "8,1 s",
+        "bat": "26,6 kWh",
+        "ev": "99 km",
+        "evo": "na",
+        "rng": "1.150 km (NEDC)",
+        "dc": {
+          "e": "sim",
+          "t": "18 kW"
+        },
+        "v2l": "sim",
+        "len": "4,78 m",
+        "wb": "2,77 m",
+        "trunk": "552 L",
+        "spare": {
+          "e": "nao",
+          "t": "kit"
+        },
+        "tail": {
+          "e": "sim",
+          "t": "com sensor"
+        },
+        "cam": {
+          "e": "sim",
+          "t": "360°"
+        },
+        "screen": {
+          "e": "sim",
+          "t": "15,6″ giratória"
+        },
+        "cluster": {
+          "e": "sim",
+          "t": "12,3″"
+        },
+        "hud": "sim",
+        "google": "nd",
+        "audio": "10 alto-falantes (Infinity)",
+        "cpwl": {
+          "e": "nd",
+          "t": "ficha não diz se é sem fio"
+        },
+        "nfc": {
+          "e": "nd",
+          "t": "ficha lista chave presencial"
+        },
+        "ota": "sim",
+        "app": "nd",
+        "wpc": "sim",
+        "roof": "sim",
+        "dseat": "sim",
+        "mem": "nao",
+        "pseat": "sim",
+        "vent_d": "sim",
+        "vent_p": "sim",
+        "heat": {
+          "e": "nd",
+          "t": "página cita, ficha não"
+        },
+        "zones": "sim",
+        "amb": "sim",
+        "rain": "nd",
+        "accr": "sim",
+        "aeb": "sim",
+        "bsd": "sim",
+        "lka": "sim",
+        "rctb": "sim",
+        "dow": "sim",
+        "dms": "nao",
+        "war": {
+          "e": "sim",
+          "t": "6 anos / 8 anos"
+        }
+      }
+    },
+    {
+      "id": "byd-song-plus-gs",
+      "nome": "BYD Song Plus GS",
+      "marca": "BYD",
+      "tecnologia": "PHEV",
+      "carroceria": "SUV",
+      "combustivel": "gasolina",
+      "status": "versão anterior",
+      "finalista": false,
+      "subtitulo": "",
+      "preco": {
+        "tabela": 249990,
         "consultado": "2026-10-06"
       },
-      "observacao": "",
-      "fontes": [],
+      "observacao": "Versão anterior ao Song Plus 1.5T DM-i: não aparece no site da BYD em outubro de 2026, mas ainda consta no PBEV 2026 (63 km). O preço de R$ 249.990 é o publicado hoje para o Song Plus 1.5T; não há preço nem ficha oficial atual do GS.",
+      "fontes": [
+        "inmetro-pbev-2026"
+      ],
       "valores": {
         "fab": {
           "e": "nd",
@@ -779,7 +902,12 @@
         "tq": "nd",
         "acc": "nd",
         "bat": "18,3 kWh",
-        "ev": "63 km",
+        "ev": {
+          "t": "63 km",
+          "f": [
+            "inmetro-pbev-2026"
+          ]
+        },
         "evo": "na",
         "rng": "1.200+ km",
         "dc": "nd",
@@ -868,7 +996,7 @@
         "fuel": "flex",
         "pw": "219 cv",
         "tq": "300 Nm",
-        "acc": "8,6–8,8 s",
+        "acc": "8,8 s",
         "bat": "18,3 kWh",
         "ev": {
           "t": "72 km",
@@ -885,9 +1013,12 @@
         "v2l": "sim",
         "len": "4,74 m",
         "wb": "2,71 m",
-        "trunk": "520 L",
-        "spare": "nd",
-        "tail": "nd",
+        "trunk": "530 L",
+        "spare": {
+          "e": "nao",
+          "t": "kit"
+        },
+        "tail": "sim",
         "cam": {
           "e": "sim",
           "t": "360°"
@@ -902,7 +1033,7 @@
         },
         "hud": "nao",
         "google": "sim",
-        "audio": "nd",
+        "audio": "8 alto-falantes",
         "cpwl": "sim",
         "nfc": "sim",
         "ota": "sim",
@@ -913,13 +1044,13 @@
         },
         "roof": "sim",
         "dseat": "sim",
-        "mem": "nd",
+        "mem": "nao",
         "pseat": "sim",
-        "vent_d": "nd",
-        "vent_p": "nd",
-        "heat": "nd",
+        "vent_d": "nao",
+        "vent_p": "nao",
+        "heat": "nao",
         "zones": "sim",
-        "amb": "nd",
+        "amb": "nao",
         "rain": "sim",
         "accr": "sim",
         "aeb": "sim",
@@ -927,7 +1058,7 @@
         "lka": "sim",
         "rctb": "sim",
         "dow": "sim",
-        "dms": "nd",
+        "dms": "nao",
         "war": {
           "e": "sim",
           "t": "6 anos / 8 anos"
@@ -965,7 +1096,7 @@
         "fuel": "gasolina",
         "pw": "279 cv",
         "tq": "365 Nm",
-        "acc": "nd",
+        "acc": "7,8 s",
         "bat": "18,4 kWh",
         "ev": {
           "t": "68 km",
@@ -986,7 +1117,10 @@
         "len": "4,55 m",
         "wb": "2,67 m",
         "trunk": "484 L",
-        "spare": "nd",
+        "spare": {
+          "e": "nao",
+          "t": "kit"
+        },
         "tail": "sim",
         "cam": {
           "e": "sim",
@@ -1013,7 +1147,7 @@
         },
         "roof": "sim",
         "dseat": "sim",
-        "mem": "nd",
+        "mem": "sim",
         "pseat": "sim",
         "vent_d": "sim",
         "vent_p": "sim",
@@ -1023,10 +1157,10 @@
         "rain": "sim",
         "accr": "sim",
         "aeb": "sim",
-        "bsd": "nd",
+        "bsd": "sim",
         "lka": "sim",
-        "rctb": "nd",
-        "dow": "nd",
+        "rctb": "sim",
+        "dow": "sim",
         "dms": "nd",
         "war": {
           "e": "sim",
@@ -2210,10 +2344,7 @@
         "cluster": "sim",
         "hud": "nao",
         "google": "nao",
-        "audio": {
-          "e": "nd",
-          "t": "comum"
-        },
+        "audio": "6 alto-falantes",
         "cpwl": "nd",
         "nfc": "nd",
         "ota": "nao",
@@ -2223,13 +2354,13 @@
           "t": "refrigerado"
         },
         "roof": "nao",
-        "dseat": "nao",
+        "dseat": "sim",
         "mem": "nd",
-        "pseat": "nao",
+        "pseat": "sim",
         "vent_d": "nao",
         "vent_p": "nao",
         "heat": "nao",
-        "zones": "nd",
+        "zones": "sim",
         "amb": "sim",
         "rain": "nd",
         "accr": "sim",
@@ -2305,10 +2436,7 @@
         "cluster": "sim",
         "hud": "nao",
         "google": "nao",
-        "audio": {
-          "e": "nd",
-          "t": "comum"
-        },
+        "audio": "6 alto-falantes",
         "cpwl": "nd",
         "nfc": "nd",
         "ota": "sim",
@@ -2934,7 +3062,7 @@
       "finalista": false,
       "subtitulo": "",
       "preco": {
-        "tabela": 210090,
+        "tabela": 211990,
         "consultado": "2026-10-06"
       },
       "observacao": "",
@@ -2964,32 +3092,44 @@
         "len": "4,63 m",
         "wb": "2,70 m",
         "trunk": "470 L",
-        "spare": "nd",
+        "spare": {
+          "e": "sim",
+          "t": "temporário"
+        },
         "tail": "nao",
-        "cam": "nd",
-        "screen": "sim",
+        "cam": {
+          "e": "sim",
+          "t": "360°"
+        },
+        "screen": {
+          "e": "sim",
+          "t": "10″"
+        },
         "cluster": {
           "e": "sim",
           "t": "12,3″"
         },
         "hud": "nao",
         "google": "nao",
-        "audio": "nd",
-        "cpwl": "nd",
+        "audio": "4 alto-falantes e 2 tweeters",
+        "cpwl": "sim",
         "nfc": "nao",
         "ota": "nd",
         "app": "sim",
-        "wpc": "nd",
-        "roof": "nd",
-        "dseat": "nd",
+        "wpc": "sim",
+        "roof": {
+          "e": "nao",
+          "t": "teto solar comum"
+        },
+        "dseat": "sim",
         "mem": "nd",
-        "pseat": "nd",
+        "pseat": "nao",
         "vent_d": "nao",
         "vent_p": "nao",
         "heat": "nao",
         "zones": "sim",
         "amb": "nd",
-        "rain": "nd",
+        "rain": "sim",
         "accr": "sim",
         "aeb": "sim",
         "bsd": "sim",
@@ -3044,7 +3184,7 @@
         "v2l": "nao",
         "len": "4,46 m",
         "wb": "2,64 m",
-        "trunk": "nd",
+        "trunk": "440 L",
         "spare": "sim",
         "tail": {
           "e": "sim",
@@ -3056,18 +3196,15 @@
         },
         "screen": {
           "e": "sim",
-          "t": "10,1″"
+          "t": "10″"
         },
         "cluster": {
           "e": "sim",
-          "t": "7″"
+          "t": "12,3″"
         },
         "hud": "nao",
         "google": "nao",
-        "audio": {
-          "e": "nd",
-          "t": "comum"
-        },
+        "audio": "4 alto-falantes e 2 tweeters",
         "cpwl": "sim",
         "nfc": "nao",
         "ota": "nd",
@@ -3084,8 +3221,8 @@
         "vent_p": "nao",
         "heat": "nao",
         "zones": "sim",
-        "amb": "nao",
-        "rain": "nd",
+        "amb": "sim",
+        "rain": "sim",
         "accr": "sim",
         "aeb": "sim",
         "bsd": "sim",

@@ -1,6 +1,8 @@
 # Conferência de fontes — 6 de outubro de 2026
 
-Os oito carros que estavam sem fontes foram conferidos contra documentos oficiais: ficha, página ou lista de preços do fabricante e a tabela PBE Veicular 2026 do Inmetro. Sete passaram a ter fontes registradas. **Nenhum valor foi alterado nesta conferência**; as divergências e as lacunas que as fontes preenchem estão listadas abaixo, à espera de decisão.
+Os oito carros que estavam sem fontes foram conferidos contra documentos oficiais: ficha, página ou lista de preços do fabricante e a tabela PBE Veicular 2026 do Inmetro. Sete passaram a ter fontes registradas.
+
+**Aplicado em 07/10/2026:** todas as divergências e todos os "preencher" das tabelas abaixo foram aplicados, inclusive os itens ausentes da ficha completa do Song Pro, que viraram `nao`. Os itens "sem confirmação" continuam como estavam. O Song Plus GS ficou com ressalva e o Song Plus 1.5T DM-i entrou na tabela (última seção).
 
 Legenda das propostas: **divergência** é um valor do arquivo diferente da fonte; **preencher** é uma célula "n/d" que a fonte resolve; **sem confirmação** é um valor do arquivo que a fonte não traz (não é erro, mas continua sem fonte).
 
@@ -98,4 +100,6 @@ Confirmados: preço, flex, 4,46 m, 2,64 m, estepe temporário, tampa elétrica c
 
 O arquivo descreve o Song Plus GS DM: 235 cv, bateria de 18,3 kWh e 63 km. O PBEV 2026 ainda traz essa versão com 63 km. Mas o site da BYD hoje só oferece o **Song Plus 1.5T DM-i** (ficha revisada em 09/07/2026: 240 cv, 300 Nm, 26,6 kWh, 99 km PBEV, DC 18 kW, 552 L, 4,78 m), além do Song Premium AWD. Não encontrei fonte oficial atual para o preço de R$ 249.990 nem para os itens do GS.
 
-Decisão pendente: trocar o registro pelo Song Plus 1.5T DM-i (com preço a confirmar), manter o GS como versão anterior com ressalva, ou retirá-lo da tabela.
+**Decisão aplicada em 07/10/2026:** o GS continua na tabela com status "versão anterior", observação explicando a ressalva e o PBEV 2026 como única fonte (confirma os 63 km). Entrou o **BYD Song Plus 1.5T DM-i** (`byd-song-plus-15t`), preenchido pela ficha de 09/07/2026, pela página do modelo e pela página de ofertas da BYD, que mostra **R$ 249.990** (validade até 31/10/2026, condição de taxa 0% ou bônus no usado, sem desconto no preço). Esse é o mesmo preço que estava no GS: era o preço do modelo atual.
+
+No 1.5T ficaram em aberto: fabricação, Google integrado, app, sensor de chuva, chave NFC (a ficha lista só chave presencial), espelhamento sem fio (a ficha não diz) e aquecimento dos bancos (a página cita, a ficha não). A ficha não lista memória do banco nem monitor de fadiga, por isso `nao`. A autonomia de 99 km é a que a BYD declara como PBEV; o modelo ainda não aparece na tabela do Inmetro de janeiro.

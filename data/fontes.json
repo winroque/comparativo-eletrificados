@@ -243,5 +243,20 @@
     "titulo": "Toyota — catálogo Corolla MY'25, ficha e lista de equipamentos por versão",
     "url": "https://media.toyota.com.br/4e5d6f6f-e991-4ddc-b4b9-74de903a5fa7.pdf",
     "tipo": "oficial"
+  },
+  "byd-songplus-15t-ficha": {
+    "titulo": "BYD — ficha Song Plus 1.5T DM-i (revisada em 09/07/2026)",
+    "url": "https://www.byd.com/material/__CN/byd-site/br/fichas-tecnicas-2026/update-13-07-2026/07-13-2026---ficha-txiunica/BYD_SongPlus1.5T_V2.pdf",
+    "tipo": "oficial"
+  },
+  "byd-songplus-15t-site": {
+    "titulo": "BYD — página do Song Plus DM-i",
+    "url": "https://www.byd.com/br/car/song-plus-dmi",
+    "tipo": "oficial"
+  },
+  "byd-ofertas-2026-10": {
+    "titulo": "BYD — ofertas públicas (validade declarada até 31/10/2026)",
+    "url": "https://www.byd.com/br/ofertas",
+    "tipo": "oficial"
   }
 }

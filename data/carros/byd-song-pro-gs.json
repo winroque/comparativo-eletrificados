@@ -28,7 +28,7 @@
     "fuel": "flex",
     "pw": "219 cv",
     "tq": "300 Nm",
-    "acc": "8,6–8,8 s",
+    "acc": "8,8 s",
     "bat": "18,3 kWh",
     "ev": {
       "t": "72 km",
@@ -45,9 +45,12 @@
     "v2l": "sim",
     "len": "4,74 m",
     "wb": "2,71 m",
-    "trunk": "520 L",
-    "spare": "nd",
-    "tail": "nd",
+    "trunk": "530 L",
+    "spare": {
+      "e": "nao",
+      "t": "kit"
+    },
+    "tail": "sim",
     "cam": {
       "e": "sim",
       "t": "360°"
@@ -62,7 +65,7 @@
     },
     "hud": "nao",
     "google": "sim",
-    "audio": "nd",
+    "audio": "8 alto-falantes",
     "cpwl": "sim",
     "nfc": "sim",
     "ota": "sim",
@@ -73,13 +76,13 @@
     },
     "roof": "sim",
     "dseat": "sim",
-    "mem": "nd",
+    "mem": "nao",
     "pseat": "sim",
-    "vent_d": "nd",
-    "vent_p": "nd",
-    "heat": "nd",
+    "vent_d": "nao",
+    "vent_p": "nao",
+    "heat": "nao",
     "zones": "sim",
-    "amb": "nd",
+    "amb": "nao",
     "rain": "sim",
     "accr": "sim",
     "aeb": "sim",
@@ -87,7 +90,7 @@
     "lka": "sim",
     "rctb": "sim",
     "dow": "sim",
-    "dms": "nd",
+    "dms": "nao",
     "war": {
       "e": "sim",
       "t": "6 anos / 8 anos"

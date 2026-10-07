@@ -9,7 +9,7 @@
   "finalista": false,
   "subtitulo": "",
   "preco": {
-    "tabela": 210090,
+    "tabela": 211990,
     "consultado": "2026-10-06"
   },
   "observacao": "",
@@ -39,32 +39,44 @@
     "len": "4,63 m",
     "wb": "2,70 m",
     "trunk": "470 L",
-    "spare": "nd",
+    "spare": {
+      "e": "sim",
+      "t": "temporário"
+    },
     "tail": "nao",
-    "cam": "nd",
-    "screen": "sim",
+    "cam": {
+      "e": "sim",
+      "t": "360°"
+    },
+    "screen": {
+      "e": "sim",
+      "t": "10″"
+    },
     "cluster": {
       "e": "sim",
       "t": "12,3″"
     },
     "hud": "nao",
     "google": "nao",
-    "audio": "nd",
-    "cpwl": "nd",
+    "audio": "4 alto-falantes e 2 tweeters",
+    "cpwl": "sim",
     "nfc": "nao",
     "ota": "nd",
     "app": "sim",
-    "wpc": "nd",
-    "roof": "nd",
-    "dseat": "nd",
+    "wpc": "sim",
+    "roof": {
+      "e": "nao",
+      "t": "teto solar comum"
+    },
+    "dseat": "sim",
     "mem": "nd",
-    "pseat": "nd",
+    "pseat": "nao",
     "vent_d": "nao",
     "vent_p": "nao",
     "heat": "nao",
     "zones": "sim",
     "amb": "nd",
-    "rain": "nd",
+    "rain": "sim",
     "accr": "sim",
     "aeb": "sim",
     "bsd": "sim",

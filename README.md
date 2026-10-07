@@ -114,8 +114,7 @@ Itens que não se aplicam ao tipo de carro (recarga DC num híbrido sem tomada, 
 
 ## Limitações
 
-- O Song Plus GS não tem fonte oficial atual: o site da BYD só oferece o Song Plus 1.5T DM-i (veja `docs/conferencia-fontes-2026-10-06.md`).
-- A conferência de 06/10/2026 deixou divergências e células "n/d" que as fontes preenchem, ainda não aplicadas (mesmo documento).
+- O Song Plus GS aparece como "versão anterior": saiu do site da BYD e só tem o PBEV 2026 como fonte. O modelo atual é o Song Plus 1.5T DM-i (veja `docs/conferencia-fontes-2026-10-06.md`).
 - O Changan CS55 PHEV está em pré-venda sem ficha oficial; quase tudo está como "divulgado".
 - Os modelos acrescentados em outubro (Jetour S06, Omoda 5 e 7, Jaecoo 5, Yaris Cross, EX5 elétrico, Omoda E5) têm muitos itens em aberto.
 - A FIPE só está documentada para o EX5 EM-i Max.

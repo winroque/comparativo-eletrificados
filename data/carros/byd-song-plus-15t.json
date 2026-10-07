@@ -1,20 +1,22 @@
 {
-  "id": "byd-song-plus-gs",
-  "nome": "BYD Song Plus GS",
+  "id": "byd-song-plus-15t",
+  "nome": "BYD Song Plus 1.5T DM-i",
   "marca": "BYD",
   "tecnologia": "PHEV",
   "carroceria": "SUV",
   "combustivel": "gasolina",
-  "status": "versão anterior",
+  "status": "à venda",
   "finalista": false,
   "subtitulo": "",
   "preco": {
     "tabela": 249990,
-    "consultado": "2026-10-06"
+    "consultado": "2026-10-07"
   },
-  "observacao": "Versão anterior ao Song Plus 1.5T DM-i: não aparece no site da BYD em outubro de 2026, mas ainda consta no PBEV 2026 (63 km). O preço de R$ 249.990 é o publicado hoje para o Song Plus 1.5T; não há preço nem ficha oficial atual do GS.",
+  "observacao": "Substitui o Song Plus GS no site da BYD. Na página de ofertas (validade até 31/10/2026), R$ 249.990 com taxa de 0% ou bônus no usado, sem desconto no preço.",
   "fontes": [
-    "inmetro-pbev-2026"
+    "byd-songplus-15t-ficha",
+    "byd-songplus-15t-site",
+    "byd-ofertas-2026-10"
   ],
   "valores": {
     "fab": {
@@ -27,24 +29,25 @@
     },
     "sys": "PHEV",
     "fuel": "gasolina",
-    "pw": "235 cv",
-    "tq": "nd",
-    "acc": "nd",
-    "bat": "18,3 kWh",
-    "ev": {
-      "t": "63 km",
-      "f": [
-        "inmetro-pbev-2026"
-      ]
-    },
+    "pw": "240 cv",
+    "tq": "300 Nm",
+    "acc": "8,1 s",
+    "bat": "26,6 kWh",
+    "ev": "99 km",
     "evo": "na",
-    "rng": "1.200+ km",
-    "dc": "nd",
+    "rng": "1.150 km (NEDC)",
+    "dc": {
+      "e": "sim",
+      "t": "18 kW"
+    },
     "v2l": "sim",
-    "len": "nd",
-    "wb": "nd",
-    "trunk": "nd",
-    "spare": "nd",
+    "len": "4,78 m",
+    "wb": "2,77 m",
+    "trunk": "552 L",
+    "spare": {
+      "e": "nao",
+      "t": "kit"
+    },
     "tail": {
       "e": "sim",
       "t": "com sensor"
@@ -63,19 +66,28 @@
     },
     "hud": "sim",
     "google": "nd",
-    "audio": "Infinity",
-    "cpwl": "sim",
-    "nfc": "sim",
+    "audio": "10 alto-falantes (Infinity)",
+    "cpwl": {
+      "e": "nd",
+      "t": "ficha não diz se é sem fio"
+    },
+    "nfc": {
+      "e": "nd",
+      "t": "ficha lista chave presencial"
+    },
     "ota": "sim",
-    "app": "sim",
+    "app": "nd",
     "wpc": "sim",
     "roof": "sim",
     "dseat": "sim",
-    "mem": "nd",
+    "mem": "nao",
     "pseat": "sim",
     "vent_d": "sim",
     "vent_p": "sim",
-    "heat": "sim",
+    "heat": {
+      "e": "nd",
+      "t": "página cita, ficha não"
+    },
     "zones": "sim",
     "amb": "sim",
     "rain": "nd",
@@ -83,11 +95,8 @@
     "aeb": "sim",
     "bsd": "sim",
     "lka": "sim",
-    "rctb": {
-      "e": "nao",
-      "t": "só no Premium"
-    },
-    "dow": "nd",
+    "rctb": "sim",
+    "dow": "sim",
     "dms": "nao",
     "war": {
       "e": "sim",

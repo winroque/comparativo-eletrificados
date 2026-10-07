@@ -1,5 +1,9 @@
 # Histórico
 
+## 2026-10-07 — conferência aplicada
+- Aplicadas as correções e os preenchimentos de `docs/conferencia-fontes-2026-10-06.md` em Song Pro GS, Tiggo 7 Pro PHEV, Jaecoo 7 Elite e Luxury, Corolla Altis Premium Hybrid (preço R$ 211.990) e Corolla Cross XRX Hybrid.
+- Entrou o BYD Song Plus 1.5T DM-i (R$ 249.990). O Song Plus GS fica como "versão anterior", com ressalva. Total: 28 versões.
+
 ## 2026-10-06 — fontes dos carros sem registro
 - Fontes oficiais registradas para Song Pro GS, Tiggo 7 Pro PHEV, Jaecoo 7 Elite, Luxury e Prestige, Corolla Altis Premium Hybrid e Corolla Cross XRX Hybrid, incluindo a tabela PBE Veicular 2026 nas autonomias elétricas que ela confirma. Nenhum valor mudou.
 - Divergências e lacunas encontradas estão em `docs/conferencia-fontes-2026-10-06.md`. O Song Plus GS continua sem fonte: a versão não aparece mais no site da BYD.
