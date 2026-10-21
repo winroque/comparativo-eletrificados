@@ -48,7 +48,7 @@ data/dados.json          tudo junto, lido pelo site (gerado)
 data/radar.json          modelos acompanhados, ainda fora da tabela
 data/export/             CSV e banco SQLite gerados
 scripts/                 manifesto, validação, junção dos dados e exportação (CSV e SQLite)
-docs/                    revisão externa, conferência de fontes e lista de fichas oficiais
+docs/                    revisão externa, conferência de fontes, fichas oficiais e revisões
 ```
 
 ## Como editar um carro
@@ -102,6 +102,14 @@ A visão `v_valores` junta carro, item, categoria, estado e texto. Exemplo:
 SELECT carro, estado, texto FROM v_valores WHERE linha_id = 'dc' ORDER BY carro;
 ```
 
+## FIPE automática
+
+`data/fipe.json` associa cada carro ao seu código FIPE. `npm run fipe` (Node 20 ou mais) consulta a [API pública Parallelum](https://fipe.parallelum.com.br) e reescreve só a linha FIPE desses carros, no formato "usado do ano × 0 km, diferença em %", além do mês de referência no rótulo da linha. Um carro que falhar mantém o valor anterior.
+
+O workflow `.github/workflows/fipe.yml` roda isso toda segunda-feira (e sob demanda em Actions → Atualizar FIPE). Se algum valor mudou, ele abre ou atualiza um pull request no ramo `automatico/fipe`, para revisão antes do merge. Para funcionar, o repositório precisa permitir que o Actions crie pull requests: **Settings → Actions → General → Workflow permissions → "Allow GitHub Actions to create and approve pull requests"**. Opcionalmente, um segredo `FIPE_TOKEN` com um token da Parallelum aumenta o limite diário de consultas. Pull requests abertos pelo Actions não disparam o `validar.yml`; o próprio workflow da FIPE já roda a validação antes de abrir o PR.
+
+Para incluir um carro, encontre o código na [consulta da FIPE](https://veiculos.fipe.org.br/) e acrescente em `data/fipe.json`.
+
 ## Como a nota funciona
 
 Quatro categorias pontuam: assistência e segurança, conforto, multimídia e conectividade, praticidade e recarga. Os pesos padrão (30, 30, 25 e 15) são escolha editorial e podem ser ajustados no site.
@@ -110,7 +118,7 @@ Quatro categorias pontuam: assistência e segurança, conforto, multimídia e co
 - **Máximo:** soma também os itens em aberto e os apenas divulgados.
 - **Cobertura:** parte do peso cujo estado é conhecido. Abaixo de 90%, a posição do carro não é conclusiva.
 
-Itens que não se aplicam ao tipo de carro (recarga DC num híbrido sem tomada, por exemplo) saem da conta. Preço, combustível, medidas, som e garantia são informativos. A nota não tem relação com a etiqueta do Inmetro.
+Itens que não se aplicam ao tipo de carro (recarga DC num híbrido sem tomada, por exemplo) saem da conta. Preço, combustível, medidas, som, garantia e revisões são informativos. A nota não tem relação com a etiqueta do Inmetro.
 
 ## Limitações
 
@@ -118,4 +126,4 @@ Itens que não se aplicam ao tipo de carro (recarga DC num híbrido sem tomada, 
 - O Changan CS55 PHEV está disponível só para reserva (pré-venda); os dados vêm da ficha oficial de 10/09/2026.
 - Auxiliares de estacionamento ainda em aberto para Jaecoo 5 e Song Plus GS. A lista de fichas oficiais por carro está em `docs/fichas-oficiais.md`.
 - Ainda com muitos itens em aberto: Jaecoo 5 (sem ficha brasileira). Omoda 5, 7 e E5 têm só ficha simplificada, que não detalha os itens de assistência (ADAS).
-- A FIPE só está documentada para o EX5 EM-i Max.
+- Atto 2, Song Plus GS, Jaecoo 5 e CS55 PHEV ainda não têm código FIPE confiável.

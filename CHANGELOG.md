@@ -1,5 +1,12 @@
 # Histórico
 
+## 2026-10-21 — data do preço, impressão, FIPE automática e revisões
+- Cada preço mostra a data de referência ("ref. out/2026").
+- Botão "Imprimir ou salvar PDF" na comparação, com folha de estilo de impressão.
+- FIPE de outubro/2026 para 24 versões, por `scripts/update-fipe.mjs` e `data/fipe.json`; o workflow semanal `fipe.yml` abre um pull request quando os valores mudam.
+- Linha informativa "Revisões: 3 primeiras (preço fixo)", na seção nova "Manutenção", com as tabelas oficiais de CAOA Chery, GWM, Jetour, Omoda & Jaecoo e Toyota (17 versões). BYD, Geely, Honda, Leapmotor, CS55 PHEV e Jaecoo 5 ficam em aberto, com o motivo na célula. Detalhe em `docs/revisoes.md`.
+- A observação e a lista de fontes voltam a quebrar linha dentro da própria coluna.
+
 ## 2026-10-07 — Yaris Cross conferido
 - Toyota Yaris Cross XRX Hybrid pelo catálogo MY'26: ACC, frenagem autônoma, assistente de faixa, estepe temporário e som 4+2; bancos manuais, ar de uma zona e sem sensor de chuva, NFC, OTA, alerta de porta e monitor de fadiga; tráfego cruzado só com alerta. Cobertura de 41% para 100%.
 

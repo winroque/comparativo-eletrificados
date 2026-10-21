@@ -62,6 +62,7 @@
       <select id="add" aria-label="Adicionar carro à comparação"></select>
       <button id="cgo" class="btn">Comparar</button>
       <button id="cclr" class="btn ghost">Limpar</button>
+      <button id="cprint" class="btn ghost" title="Com dois a quatro carros escolhidos, a tabela cabe na folha">Imprimir ou salvar PDF</button>
     </div>
     <div id="cres" aria-live="polite"></div>
   </section>
@@ -80,7 +81,7 @@
     <h2>Como a nota funciona</h2>
     <ul>
       <li><b>Mínimo</b> soma só os itens confirmados. <b>Máximo</b> soma também os itens em aberto e os apenas divulgados. <b>Cobertura</b> é a parte do peso cujo estado é conhecido. Cada categoria vale a proporção dos seus itens aplicáveis, multiplicada pelo peso escolhido.</li>
-      <li>Combustível, garantia, sistema de som, medidas e preço são informativos e não pontuam. O som saiu da nota porque "premium" era um rótulo subjetivo; a linha agora mostra marca e número de alto-falantes.</li>
+      <li>Combustível, garantia, revisões, sistema de som, medidas e preço são informativos e não pontuam. O som saiu da nota porque "premium" era um rótulo subjetivo; a linha agora mostra marca e número de alto-falantes.</li>
       <li>Os pesos padrão (segurança 30, conforto 30, multimídia 25, praticidade 15) são uma escolha editorial, não um padrão técnico. Esta pontuação não tem relação com a etiqueta do Inmetro.</li>
       <li>✗ significa ausente da ficha oficial completa da versão ou confirmado como inexistente. Ausência em material promocional não vira ✗.</li>
     </ul>
@@ -89,11 +90,12 @@
     <ul id="radar"><li>Carregando…</li></ul>
     <h2>Pendências conhecidas</h2>
     <ul>
-      <li>Ficha oficial do Changan CS55 PHEV (recarga DC, porta-malas, pacote de equipamentos).</li>
-      <li>Revisão célula a célula de Tiggo 7 Pro PHEV, Song Pro GS, Song Plus GS, Jaecoo 7 e dos modelos novos com muitos itens em aberto.</li>
-      <li>Valores FIPE documentados para os demais modelos; opcionais, acessórios e benefícios de campanha; custo de propriedade; preço e prazo em Goiânia.</li>
+      <li>Ficha brasileira do Jaecoo 5; itens de assistência (ADAS) de Omoda 5, Omoda 7 e Omoda E5, cujas fichas oficiais são simplificadas.</li>
+      <li>Código FIPE de Atto 2, Song Plus GS, Jaecoo 5 e CS55 PHEV, que ainda não aparecem na tabela.</li>
+      <li>Opcionais, acessórios e benefícios de campanha; preço de revisão de BYD, Geely, Honda, Leapmotor, CS55 PHEV e Jaecoo 5; IPVA e seguro no custo de propriedade; preço e prazo em Goiânia.</li>
     </ul>
   </section>
+  <p class="printnote" id="printnote"></p>
   <p class="foot">Dados abertos: <a href="data/export/comparativo.csv">CSV</a> · <a href="data/dados.json">JSON</a> · <a href="https://github.com/" id="repo">repositório</a>. Para corrigir um dado, edite o arquivo do carro em <code>data/carros/</code>.</p>
 </div>
 

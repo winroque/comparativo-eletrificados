@@ -37,7 +37,7 @@
       },
       {
         "id": "fipe",
-        "rotulo": "FIPE set/26: usado 2026 × 0 km"
+        "rotulo": "FIPE out/26: usado × 0 km"
       },
       {
         "secao": "Motor, bateria e recarga"
@@ -272,6 +272,13 @@
       {
         "id": "war",
         "rotulo": "Veículo / bateria de tração"
+      },
+      {
+        "secao": "Manutenção"
+      },
+      {
+        "id": "rev",
+        "rotulo": "Revisões: 3 primeiras (preço fixo)"
       }
     ]
   },
@@ -620,6 +627,46 @@
       "titulo": "Honda — catálogo Civic Advanced Hybrid 2025 (PDF impresso em julho/2025; cópia enviada pelo usuário)",
       "url": "https://www.honda.com.br/automoveis/sites/hab/files/2025-07/Cat%C3%A1logo_do_Ve%C3%ADculo_Civic_Advanced_Hybrid_2025.pdf",
       "tipo": "oficial"
+    },
+    "fipe-tabela": {
+      "titulo": "Tabela FIPE, preço médio de outubro de 2026 (consulta automática pela API Parallelum)",
+      "url": "https://veiculos.fipe.org.br/",
+      "tipo": "referência"
+    },
+    "caoachery-revisoes": {
+      "titulo": "CAOA Chery — revisões periódicas a preço fixo (tabela por modelo)",
+      "url": "https://caoachery.com.br/revisao",
+      "tipo": "oficial"
+    },
+    "caoachangan-revisoes": {
+      "titulo": "CAOA Changan — revisões periódicas a preço fixo (tabela por modelo)",
+      "url": "https://caoachangan.com.br/revisao",
+      "tipo": "oficial"
+    },
+    "gwm-revisoes": {
+      "titulo": "GWM — revisões programadas com preço fixo",
+      "url": "https://www.gwmmotors.com.br/pt/servicos/revisoes",
+      "tipo": "oficial"
+    },
+    "jetour-revisoes": {
+      "titulo": "Jetour — preço total das revisões por modelo",
+      "url": "https://jetourbr.com/revisoes/",
+      "tipo": "oficial"
+    },
+    "leapmotor-revisoes": {
+      "titulo": "Leapmotor — revisão programada (preço por concessionária)",
+      "url": "https://www.leapmotor.com.br/servicos-e-manuais/revisao-programada.html",
+      "tipo": "oficial"
+    },
+    "omodajaecoo-revisoes": {
+      "titulo": "Omoda & Jaecoo — manutenção e garantia, preços de revisão válidos até 31/12/2026",
+      "url": "https://omodajaecoo.com.br/manutencao-e-garantia",
+      "tipo": "oficial"
+    },
+    "toyota-revisoes": {
+      "titulo": "Toyota — preços com transparência, revisões de 1º a 31/10/2026",
+      "url": "https://www.toyota.com.br/meu-toyota/precos-com-transparencia",
+      "tipo": "oficial"
     }
   },
   "radar": [
@@ -763,6 +810,10 @@
         "war": {
           "e": "sim",
           "t": "6 anos / 8 anos"
+        },
+        "rev": {
+          "e": "nd",
+          "t": "sem tabela no site da marca"
         }
       }
     },
@@ -782,13 +833,16 @@
       },
       "observacao": "A ficha atual dá 78 km pelo PBEV; uma etiqueta de 2024 ligada à mesma página dá 80 km.",
       "fontes": [
-        "byd-king-ficha"
+        "byd-king-ficha",
+        "fipe-tabela"
       ],
       "valores": {
         "fab": "BA",
         "fipe": {
-          "e": "nd",
-          "t": "a levantar"
+          "t": "R$ 154,6 mil (2026) × R$ 176,3 mil (0 km), −12%",
+          "f": [
+            "fipe-tabela"
+          ]
         },
         "sys": "PHEV",
         "fuel": "gasolina",
@@ -865,6 +919,10 @@
         "war": {
           "e": "sim",
           "t": "6 anos / 8 anos"
+        },
+        "rev": {
+          "e": "nd",
+          "t": "sem tabela no site da marca"
         }
       }
     },
@@ -886,7 +944,8 @@
       "fontes": [
         "byd-songplus-15t-ficha",
         "byd-songplus-15t-site",
-        "byd-ofertas-2026-10"
+        "byd-ofertas-2026-10",
+        "fipe-tabela"
       ],
       "valores": {
         "fab": {
@@ -894,8 +953,10 @@
           "t": "n/d"
         },
         "fipe": {
-          "e": "nd",
-          "t": "a levantar"
+          "t": "R$ 217,2 mil (2026) × R$ 249,5 mil (0 km), −13%",
+          "f": [
+            "fipe-tabela"
+          ]
         },
         "sys": "PHEV",
         "fuel": "gasolina",
@@ -978,6 +1039,10 @@
         "war": {
           "e": "sim",
           "t": "6 anos / 8 anos"
+        },
+        "rev": {
+          "e": "nd",
+          "t": "sem tabela no site da marca"
         }
       }
     },
@@ -1079,6 +1144,10 @@
         "war": {
           "e": "sim",
           "t": "6 anos / 8 anos"
+        },
+        "rev": {
+          "e": "nd",
+          "t": "versão anterior, sem tabela"
         }
       }
     },
@@ -1100,13 +1169,16 @@
       "fontes": [
         "byd-songpro-flex-ficha",
         "byd-songpro-flex-site",
-        "inmetro-pbev-2026"
+        "inmetro-pbev-2026",
+        "fipe-tabela"
       ],
       "valores": {
         "fab": "BA",
         "fipe": {
-          "e": "nd",
-          "t": "a levantar"
+          "t": "R$ 172,5 mil (2026) × R$ 199,7 mil (0 km), −14%",
+          "f": [
+            "fipe-tabela"
+          ]
         },
         "sys": "PHEV",
         "fuel": "flex",
@@ -1185,6 +1257,10 @@
         "war": {
           "e": "sim",
           "t": "6 anos / 8 anos"
+        },
+        "rev": {
+          "e": "nd",
+          "t": "sem tabela no site da marca"
         }
       }
     },
@@ -1207,13 +1283,17 @@
         "caoachery-tiggo7phev-ficha",
         "caoachery-tiggo7phev-site",
         "caoachery-garantia",
-        "inmetro-pbev-2026"
+        "inmetro-pbev-2026",
+        "fipe-tabela",
+        "caoachery-revisoes"
       ],
       "valores": {
         "fab": "nd",
         "fipe": {
-          "e": "nd",
-          "t": "a levantar"
+          "t": "R$ 166,4 mil (2026) × R$ 209,7 mil (0 km), −21%",
+          "f": [
+            "fipe-tabela"
+          ]
         },
         "sys": "PHEV",
         "fuel": "gasolina",
@@ -1295,6 +1375,12 @@
         "war": {
           "e": "sim",
           "t": "7 anos / 8 anos"
+        },
+        "rev": {
+          "t": "R$ 2.528 (até 30 mil km / 3 anos)",
+          "f": [
+            "caoachery-revisoes"
+          ]
         }
       }
     },
@@ -1319,7 +1405,8 @@
         "changan-cs55-manual",
         "changan-garantia",
         "changan-cs55-uol",
-        "changan-cs55-folha"
+        "changan-cs55-folha",
+        "caoachangan-revisoes"
       ],
       "valores": {
         "fab": {
@@ -1417,6 +1504,13 @@
           "f": [
             "changan-garantia"
           ]
+        },
+        "rev": {
+          "e": "nd",
+          "t": "não atribuído: a tabela traz só \"CS55\", com câmbio DCT",
+          "f": [
+            "caoachangan-revisoes"
+          ]
         }
       }
     },
@@ -1442,14 +1536,15 @@
         "geely-ex5-emi-oferta",
         "geely-ex5-emi-lancamento",
         "fipe-ex5-emi-max",
-        "fipe-ex5-emi-max-0km"
+        "fipe-ex5-emi-max-0km",
+        "fipe-tabela"
       ],
       "valores": {
         "fab": "importado · PR previsto",
         "fipe": {
-          "t": "R$ 198,4 mil (2026) × R$ 213,0 mil (0 km)",
+          "t": "R$ 205,3 mil (2026) × R$ 215,3 mil (0 km), −5%",
           "f": [
-            "fipe-ex5-emi-max"
+            "fipe-tabela"
           ]
         },
         "sys": "PHEV",
@@ -1542,6 +1637,10 @@
         "war": {
           "e": "sim",
           "t": "6 anos / 8 anos"
+        },
+        "rev": {
+          "e": "nd",
+          "t": "sem tabela no site da marca"
         }
       }
     },
@@ -1565,13 +1664,16 @@
       "fontes": [
         "geely-ex5-emi-ficha",
         "geely-ex5-emi-lancamento",
-        "ex5-emi-pro-ml"
+        "ex5-emi-pro-ml",
+        "fipe-tabela"
       ],
       "valores": {
         "fab": "importado · PR previsto",
         "fipe": {
-          "e": "nd",
-          "t": "a levantar"
+          "t": "R$ 180,4 mil (2026) × R$ 191,4 mil (0 km), −6%",
+          "f": [
+            "fipe-tabela"
+          ]
         },
         "sys": "PHEV",
         "fuel": "gasolina",
@@ -1660,6 +1762,10 @@
         "war": {
           "e": "sim",
           "t": "6 anos / 8 anos"
+        },
+        "rev": {
+          "e": "nd",
+          "t": "sem tabela no site da marca"
         }
       }
     },
@@ -1683,13 +1789,16 @@
       "fontes": [
         "geely-ex5-emi-ficha",
         "geely-ex5-emi-oferta",
-        "geely-ex5-emi-lancamento"
+        "geely-ex5-emi-lancamento",
+        "fipe-tabela"
       ],
       "valores": {
         "fab": "importado · PR previsto",
         "fipe": {
-          "e": "nd",
-          "t": "a levantar"
+          "t": "R$ 219,5 mil (2026) × R$ 235,0 mil (0 km), −7%",
+          "f": [
+            "fipe-tabela"
+          ]
         },
         "sys": "PHEV",
         "fuel": "gasolina",
@@ -1794,6 +1903,10 @@
         "war": {
           "e": "sim",
           "t": "6 anos / 8 anos"
+        },
+        "rev": {
+          "e": "nd",
+          "t": "sem tabela no site da marca"
         }
       }
     },
@@ -1816,13 +1929,16 @@
         "ex5-bev-webmotors",
         "ex5-bev-canalve",
         "geely-ex5-bev-ficha",
-        "inmetro-pbev-2026"
+        "inmetro-pbev-2026",
+        "fipe-tabela"
       ],
       "valores": {
         "fab": "importado",
         "fipe": {
-          "e": "nd",
-          "t": "a levantar"
+          "t": "R$ 203,8 mil (2026) × R$ 224,3 mil (0 km), −9%",
+          "f": [
+            "fipe-tabela"
+          ]
         },
         "sys": "Elétrico",
         "fuel": "elétrico",
@@ -1910,6 +2026,10 @@
         "war": {
           "e": "sim",
           "t": "6 anos / 8 anos"
+        },
+        "rev": {
+          "e": "nd",
+          "t": "sem tabela no site da marca"
         }
       }
     },
@@ -1933,13 +2053,16 @@
       "fontes": [
         "ex5-bev-webmotors",
         "geely-ex5-bev-ficha",
-        "inmetro-pbev-2026"
+        "inmetro-pbev-2026",
+        "fipe-tabela"
       ],
       "valores": {
         "fab": "importado",
         "fipe": {
-          "e": "nd",
-          "t": "a levantar"
+          "t": "R$ 163,5 mil (2026) × R$ 192,4 mil (0 km), −15%",
+          "f": [
+            "fipe-tabela"
+          ]
         },
         "sys": "Elétrico",
         "fuel": "elétrico",
@@ -2024,6 +2147,10 @@
         "war": {
           "e": "sim",
           "t": "6 anos / 8 anos"
+        },
+        "rev": {
+          "e": "nd",
+          "t": "sem tabela no site da marca"
         }
       }
     },
@@ -2044,13 +2171,17 @@
       "observacao": "",
       "fontes": [
         "gwm-h6-hev2-ficha",
-        "gwm-h6-2027-flex"
+        "gwm-h6-2027-flex",
+        "fipe-tabela",
+        "gwm-revisoes"
       ],
       "valores": {
         "fab": "SP",
         "fipe": {
-          "e": "nd",
-          "t": "a levantar"
+          "t": "R$ 201,2 mil (2026) × R$ 225,0 mil (0 km), −11%",
+          "f": [
+            "fipe-tabela"
+          ]
         },
         "sys": "HEV",
         "fuel": {
@@ -2133,6 +2264,12 @@
         "war": {
           "e": "sim",
           "t": "5 anos / 8 anos"
+        },
+        "rev": {
+          "t": "R$ 4.127 (até 36 mil km / 3 anos)",
+          "f": [
+            "gwm-revisoes"
+          ]
         }
       }
     },
@@ -2154,13 +2291,17 @@
       "fontes": [
         "gwm-h6-phev19-ficha",
         "gwm-h6-phev19-site",
-        "gwm-h6-2027-flex"
+        "gwm-h6-2027-flex",
+        "fipe-tabela",
+        "gwm-revisoes"
       ],
       "valores": {
         "fab": "SP",
         "fipe": {
-          "e": "nd",
-          "t": "a levantar"
+          "t": "R$ 226,5 mil (2026) × R$ 248,8 mil (0 km), −9%",
+          "f": [
+            "fipe-tabela"
+          ]
         },
         "sys": "PHEV",
         "fuel": {
@@ -2251,6 +2392,12 @@
         "war": {
           "e": "sim",
           "t": "5 anos / 8 anos"
+        },
+        "rev": {
+          "t": "R$ 4.127 (até 36 mil km / 3 anos)",
+          "f": [
+            "gwm-revisoes"
+          ]
         }
       }
     },
@@ -2271,13 +2418,17 @@
       "observacao": "",
       "fontes": [
         "gwm-ora5-site",
-        "gwm-ora5-catalogo"
+        "gwm-ora5-catalogo",
+        "fipe-tabela",
+        "gwm-revisoes"
       ],
       "valores": {
         "fab": "importado",
         "fipe": {
-          "e": "nd",
-          "t": "a levantar"
+          "t": "R$ 142,1 mil (2027) × R$ 163,9 mil (0 km), −13%",
+          "f": [
+            "fipe-tabela"
+          ]
         },
         "sys": "Elétrico",
         "fuel": "elétrico",
@@ -2354,7 +2505,13 @@
         "rctb": "sim",
         "dow": "sim",
         "dms": "nd",
-        "war": "nd"
+        "war": "nd",
+        "rev": {
+          "t": "R$ 3.677 (até 72 mil km / 6 anos)",
+          "f": [
+            "gwm-revisoes"
+          ]
+        }
       }
     },
     {
@@ -2375,13 +2532,16 @@
       "fontes": [
         "honda-civic-site",
         "honda-civic-catalogo",
-        "honda-civic-catalogo-pdf"
+        "honda-civic-catalogo-pdf",
+        "fipe-tabela"
       ],
       "valores": {
         "fab": "importado (Tailândia)",
         "fipe": {
-          "e": "nd",
-          "t": "a levantar"
+          "t": "R$ 237,7 mil (2026) × R$ 266,0 mil (0 km), −11%",
+          "f": [
+            "fipe-tabela"
+          ]
         },
         "sys": "HEV",
         "fuel": "gasolina",
@@ -2458,6 +2618,10 @@
         "war": {
           "e": "sim",
           "t": "6 anos (fabricação a partir de 2026) / 8 anos no sistema híbrido"
+        },
+        "rev": {
+          "e": "nd",
+          "t": "sem tabela no site da marca"
         }
       }
     },
@@ -2480,7 +2644,8 @@
       "observacao": "Preço de R$ 179.990 vale para o lote de lançamento de 3.600 unidades.",
       "fontes": [
         "jaecoo5-band",
-        "jaecoo5-mecanicaonline"
+        "jaecoo5-mecanicaonline",
+        "omodajaecoo-revisoes"
       ],
       "valores": {
         "fab": "importado",
@@ -2551,6 +2716,13 @@
         "war": {
           "e": "sim",
           "t": "7 anos / 8 anos"
+        },
+        "rev": {
+          "e": "nd",
+          "t": "fora da tabela da marca",
+          "f": [
+            "omodajaecoo-revisoes"
+          ]
         }
       }
     },
@@ -2571,13 +2743,17 @@
       "observacao": "",
       "fontes": [
         "jaecoo7-site",
-        "jaecoo7-ficha-2025"
+        "jaecoo7-ficha-2025",
+        "fipe-tabela",
+        "omodajaecoo-revisoes"
       ],
       "valores": {
         "fab": "importado",
         "fipe": {
-          "e": "nd",
-          "t": "a levantar"
+          "t": "R$ 181,4 mil (2027) × R$ 191,4 mil (0 km), −5%",
+          "f": [
+            "fipe-tabela"
+          ]
         },
         "sys": "PHEV",
         "fuel": "gasolina",
@@ -2654,7 +2830,13 @@
         "rctb": "nao",
         "dow": "nao",
         "dms": "nao",
-        "war": "nd"
+        "war": "nd",
+        "rev": {
+          "t": "R$ 3.216 (até 30 mil km / 3 anos)",
+          "f": [
+            "omodajaecoo-revisoes"
+          ]
+        }
       }
     },
     {
@@ -2675,13 +2857,17 @@
       "fontes": [
         "jaecoo7-site",
         "inmetro-pbev-2026",
-        "jaecoo7-ficha-2025"
+        "jaecoo7-ficha-2025",
+        "fipe-tabela",
+        "omodajaecoo-revisoes"
       ],
       "valores": {
         "fab": "importado",
         "fipe": {
-          "e": "nd",
-          "t": "a levantar"
+          "t": "R$ 194,2 mil (2026) × R$ 231,3 mil (0 km), −16%",
+          "f": [
+            "fipe-tabela"
+          ]
         },
         "sys": "PHEV",
         "fuel": "gasolina",
@@ -2766,7 +2952,13 @@
         "rctb": "nao",
         "dow": "nao",
         "dms": "nao",
-        "war": "nd"
+        "war": "nd",
+        "rev": {
+          "t": "R$ 3.216 (até 30 mil km / 3 anos)",
+          "f": [
+            "omodajaecoo-revisoes"
+          ]
+        }
       }
     },
     {
@@ -2787,13 +2979,17 @@
       "fontes": [
         "jaecoo7-site",
         "inmetro-pbev-2026",
-        "jaecoo7-ficha-2025"
+        "jaecoo7-ficha-2025",
+        "fipe-tabela",
+        "omodajaecoo-revisoes"
       ],
       "valores": {
         "fab": "importado",
         "fipe": {
-          "e": "nd",
-          "t": "a levantar"
+          "t": "R$ 211,2 mil (2026) × R$ 253,6 mil (0 km), −17%",
+          "f": [
+            "fipe-tabela"
+          ]
         },
         "sys": "PHEV",
         "fuel": "gasolina",
@@ -2884,7 +3080,13 @@
         "rctb": "sim",
         "dow": "sim",
         "dms": "sim",
-        "war": "nd"
+        "war": "nd",
+        "rev": {
+          "t": "R$ 3.216 (até 30 mil km / 3 anos)",
+          "f": [
+            "omodajaecoo-revisoes"
+          ]
+        }
       }
     },
     {
@@ -2908,13 +3110,17 @@
         "jetour-s06-revistacarro",
         "jetour-s06-webmotors",
         "jetour-s06-ficha",
-        "inmetro-pbev-2026"
+        "inmetro-pbev-2026",
+        "fipe-tabela",
+        "jetour-revisoes"
       ],
       "valores": {
         "fab": "importado",
         "fipe": {
-          "e": "nd",
-          "t": "a levantar"
+          "t": "R$ 208,5 mil (2026) × R$ 229,9 mil (0 km), −9%",
+          "f": [
+            "fipe-tabela"
+          ]
         },
         "sys": "PHEV",
         "fuel": "gasolina",
@@ -3005,6 +3211,12 @@
         "war": {
           "e": "sim",
           "t": "7 anos / 8 anos"
+        },
+        "rev": {
+          "t": "R$ 3.368 (até 30 mil km / 3 anos)",
+          "f": [
+            "jetour-revisoes"
+          ]
         }
       }
     },
@@ -3026,13 +3238,17 @@
       "fontes": [
         "stellantis-c10-ficha",
         "leapmotor-c10-ficha",
-        "leapmotor-c10-site"
+        "leapmotor-c10-site",
+        "fipe-tabela",
+        "leapmotor-revisoes"
       ],
       "valores": {
         "fab": "importado",
         "fipe": {
-          "e": "nd",
-          "t": "a levantar"
+          "t": "R$ 192,7 mil (2026) × R$ 218,1 mil (0 km), −12%",
+          "f": [
+            "fipe-tabela"
+          ]
         },
         "sys": "REEV",
         "fuel": "gasolina",
@@ -3127,7 +3343,14 @@
         "rctb": "sim",
         "dow": "sim",
         "dms": "sim",
-        "war": "nd"
+        "war": "nd",
+        "rev": {
+          "e": "nd",
+          "t": "varia por concessionária",
+          "f": [
+            "leapmotor-revisoes"
+          ]
+        }
       }
     },
     {
@@ -3149,13 +3372,17 @@
         "omoda5-motorshow",
         "omoda5-encontracarros",
         "omoda7-automaistv",
-        "omoda5-ficha"
+        "omoda5-ficha",
+        "fipe-tabela",
+        "omodajaecoo-revisoes"
       ],
       "valores": {
         "fab": "importado",
         "fipe": {
-          "e": "nd",
-          "t": "a levantar"
+          "t": "R$ 168,4 mil (2026) × R$ 185,0 mil (0 km), −9%",
+          "f": [
+            "fipe-tabela"
+          ]
         },
         "sys": "HEV",
         "fuel": "gasolina",
@@ -3229,6 +3456,12 @@
         "war": {
           "e": "sim",
           "t": "7 anos / 8 anos"
+        },
+        "rev": {
+          "t": "R$ 2.917 (até 30 mil km / 3 anos)",
+          "f": [
+            "omodajaecoo-revisoes"
+          ]
         }
       }
     },
@@ -3254,13 +3487,17 @@
         "omoda7-automaistv",
         "omoda-ofertas",
         "omoda7-ficha",
-        "inmetro-pbev-2026"
+        "inmetro-pbev-2026",
+        "fipe-tabela",
+        "omodajaecoo-revisoes"
       ],
       "valores": {
         "fab": "importado",
         "fipe": {
-          "e": "nd",
-          "t": "a levantar"
+          "t": "R$ 216,2 mil (2026) × R$ 252,8 mil (0 km), −14%",
+          "f": [
+            "fipe-tabela"
+          ]
         },
         "sys": "PHEV",
         "fuel": "gasolina",
@@ -3339,6 +3576,12 @@
         "war": {
           "e": "sim",
           "t": "7 anos / 8 anos"
+        },
+        "rev": {
+          "t": "R$ 3.215 (até 30 mil km / 3 anos)",
+          "f": [
+            "omodajaecoo-revisoes"
+          ]
         }
       }
     },
@@ -3364,13 +3607,17 @@
         "omoda-e5-canalve",
         "omoda-ofertas",
         "omoda-e5-ficha",
-        "inmetro-pbev-2026"
+        "inmetro-pbev-2026",
+        "fipe-tabela",
+        "omodajaecoo-revisoes"
       ],
       "valores": {
         "fab": "importado",
         "fipe": {
-          "e": "nd",
-          "t": "a levantar"
+          "t": "R$ 175,7 mil (2026) × R$ 205,4 mil (0 km), −14%",
+          "f": [
+            "fipe-tabela"
+          ]
         },
         "sys": "Elétrico",
         "fuel": "elétrico",
@@ -3461,6 +3708,12 @@
         "war": {
           "e": "sim",
           "t": "7 anos / 8 anos"
+        },
+        "rev": {
+          "t": "R$ 2.311 (até 60 mil km / 6 anos)",
+          "f": [
+            "omodajaecoo-revisoes"
+          ]
         }
       }
     },
@@ -3483,13 +3736,17 @@
         "toyota-corolla-hybrid-site",
         "toyota-corolla-hybrid-ficha",
         "toyota-corolla-catalogo-my25",
-        "toyota-precos-2026-10"
+        "toyota-precos-2026-10",
+        "fipe-tabela",
+        "toyota-revisoes"
       ],
       "valores": {
         "fab": "SP",
         "fipe": {
-          "e": "nd",
-          "t": "a levantar"
+          "t": "R$ 183,8 mil (2026) × R$ 205,0 mil (0 km), −10%",
+          "f": [
+            "fipe-tabela"
+          ]
         },
         "sys": "HEV",
         "fuel": "flex",
@@ -3563,6 +3820,12 @@
         "war": {
           "e": "sim",
           "t": "5 anos (até 10)"
+        },
+        "rev": {
+          "t": "R$ 2.786 (até 30 mil km / 3 anos)",
+          "f": [
+            "toyota-revisoes"
+          ]
         }
       }
     },
@@ -3583,13 +3846,17 @@
       "observacao": "",
       "fontes": [
         "toyota-corolla-cross-catalogo",
-        "toyota-precos-2026-10"
+        "toyota-precos-2026-10",
+        "fipe-tabela",
+        "toyota-revisoes"
       ],
       "valores": {
         "fab": "SP",
         "fipe": {
-          "e": "nd",
-          "t": "a levantar"
+          "t": "R$ 194,7 mil (2026) × R$ 219,8 mil (0 km), −11%",
+          "f": [
+            "fipe-tabela"
+          ]
         },
         "sys": "HEV",
         "fuel": "flex",
@@ -3660,6 +3927,12 @@
         "war": {
           "e": "sim",
           "t": "5 anos (até 10)"
+        },
+        "rev": {
+          "t": "R$ 3.186 (até 30 mil km / 3 anos)",
+          "f": [
+            "toyota-revisoes"
+          ]
         }
       }
     },
@@ -3683,13 +3956,17 @@
         "yaris-vrum",
         "yaris-itatiaia",
         "toyota-yaris-catalogo-my26",
-        "toyota-precos-2026-10"
+        "toyota-precos-2026-10",
+        "fipe-tabela",
+        "toyota-revisoes"
       ],
       "valores": {
         "fab": "SP",
         "fipe": {
-          "e": "nd",
-          "t": "a levantar"
+          "t": "R$ 176,6 mil (2026) × R$ 191,7 mil (0 km), −8%",
+          "f": [
+            "fipe-tabela"
+          ]
         },
         "sys": "HEV",
         "fuel": "flex",
@@ -3778,6 +4055,12 @@
         "war": {
           "e": "sim",
           "t": "5 anos (até 10)"
+        },
+        "rev": {
+          "t": "R$ 2.524 (até 30 mil km / 3 anos)",
+          "f": [
+            "toyota-revisoes"
+          ]
         }
       }
     }

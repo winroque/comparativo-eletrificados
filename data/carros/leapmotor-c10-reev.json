@@ -16,13 +16,17 @@
   "fontes": [
     "stellantis-c10-ficha",
     "leapmotor-c10-ficha",
-    "leapmotor-c10-site"
+    "leapmotor-c10-site",
+    "fipe-tabela",
+    "leapmotor-revisoes"
   ],
   "valores": {
     "fab": "importado",
     "fipe": {
-      "e": "nd",
-      "t": "a levantar"
+      "t": "R$ 192,7 mil (2026) × R$ 218,1 mil (0 km), −12%",
+      "f": [
+        "fipe-tabela"
+      ]
     },
     "sys": "REEV",
     "fuel": "gasolina",
@@ -117,6 +121,13 @@
     "rctb": "sim",
     "dow": "sim",
     "dms": "sim",
-    "war": "nd"
+    "war": "nd",
+    "rev": {
+      "e": "nd",
+      "t": "varia por concessionária",
+      "f": [
+        "leapmotor-revisoes"
+      ]
+    }
   }
 }

@@ -20,13 +20,17 @@
     "omoda7-automaistv",
     "omoda-ofertas",
     "omoda7-ficha",
-    "inmetro-pbev-2026"
+    "inmetro-pbev-2026",
+    "fipe-tabela",
+    "omodajaecoo-revisoes"
   ],
   "valores": {
     "fab": "importado",
     "fipe": {
-      "e": "nd",
-      "t": "a levantar"
+      "t": "R$ 216,2 mil (2026) × R$ 252,8 mil (0 km), −14%",
+      "f": [
+        "fipe-tabela"
+      ]
     },
     "sys": "PHEV",
     "fuel": "gasolina",
@@ -105,6 +109,12 @@
     "war": {
       "e": "sim",
       "t": "7 anos / 8 anos"
+    },
+    "rev": {
+      "t": "R$ 3.215 (até 30 mil km / 3 anos)",
+      "f": [
+        "omodajaecoo-revisoes"
+      ]
     }
   }
 }

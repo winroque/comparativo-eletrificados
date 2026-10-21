@@ -1,0 +1,46 @@
+name: Atualizar FIPE
+
+# Toda segunda-feira consulta a tabela FIPE para os carros de data/fipe.json e,
+# se algum valor mudou, abre (ou atualiza) um pull request para revisão.
+on:
+  schedule:
+    - cron: '17 9 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: fipe
+  cancel-in-progress: false
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Consultar FIPE
+        env:
+          FIPE_TOKEN: ${{ secrets.FIPE_TOKEN }}
+        run: node scripts/update-fipe.mjs
+      - name: Gerar manifesto, validar, juntar dados e exportar
+        run: npm run build && npm run sqlite
+      - name: Abrir ou atualizar pull request
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if git diff --quiet; then echo "FIPE sem mudanças"; exit 0; fi
+          ramo=automatico/fipe
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -B "$ramo"
+          git commit -am "Atualiza valores FIPE ($(date -u +%Y-%m-%d))"
+          git push --force origin "$ramo"
+          if [ -z "$(gh pr list --head "$ramo" --state open --json number --jq '.[].number')" ]; then
+            gh pr create --base main --head "$ramo" --title "Atualiza valores FIPE" \
+              --body "Atualização automática da linha FIPE pelos códigos de data/fipe.json (scripts/update-fipe.mjs). Confira os valores antes do merge."
+          fi

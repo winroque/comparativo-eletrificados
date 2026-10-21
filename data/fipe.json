@@ -1,0 +1,29 @@
+{
+  "sobre": "Código FIPE de cada carro, usado por scripts/update-fipe.mjs. 'ano' é o ano-modelo do usado comparado com o 0 km; se a FIPE não tiver esse ano, o script usa o mais recente disponível. Carros fora da lista ainda não têm código FIPE confiável.",
+  "carros": {
+    "byd-king-gs": { "codigo": "095011-4", "ano": 2026 },
+    "byd-song-plus-15t": { "codigo": "095005-0", "ano": 2026 },
+    "byd-song-pro-gs": { "codigo": "095014-9", "ano": 2026 },
+    "caoa-chery-tiggo-7-pro-phev": { "codigo": "093009-1", "ano": 2026 },
+    "geely-ex5-emi-max": { "codigo": "088008-6", "ano": 2026 },
+    "geely-ex5-emi-pro": { "codigo": "088007-8", "ano": 2026 },
+    "geely-ex5-emi-ultra": { "codigo": "088009-4", "ano": 2026 },
+    "geely-ex5-max-eletrico": { "codigo": "088004-3", "ano": 2026 },
+    "geely-ex5-pro-eletrico": { "codigo": "088003-5", "ano": 2026 },
+    "gwm-haval-h6-hev2-flex": { "codigo": "096001-2", "ano": 2026 },
+    "gwm-haval-h6-phev19-flex": { "codigo": "096008-0", "ano": 2026 },
+    "gwm-ora-5": { "codigo": "096018-7", "ano": 2026 },
+    "honda-civic-advanced-hybrid": { "codigo": "014112-7", "ano": 2026 },
+    "jaecoo-7-elite": { "codigo": "303003-2", "ano": 2026 },
+    "jaecoo-7-luxury": { "codigo": "303001-6", "ano": 2026 },
+    "jaecoo-7-prestige": { "codigo": "303002-4", "ano": 2026 },
+    "jetour-s06-premium": { "codigo": "307006-9", "ano": 2026 },
+    "leapmotor-c10-reev": { "codigo": "305002-5", "ano": 2026 },
+    "omoda-5-shs-h-prestige": { "codigo": "302003-7", "ano": 2026 },
+    "omoda-7-shs-p-luxury": { "codigo": "302004-5", "ano": 2026 },
+    "omoda-e5": { "codigo": "302001-0", "ano": 2026 },
+    "toyota-corolla-altis-premium-hybrid": { "codigo": "002183-0", "ano": 2026 },
+    "toyota-corolla-cross-xrx-hybrid": { "codigo": "002204-7", "ano": 2026 },
+    "toyota-yaris-cross-xrx-hybrid": { "codigo": "002226-8", "ano": 2026 }
+  }
+}

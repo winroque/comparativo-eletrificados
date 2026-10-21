@@ -19,13 +19,17 @@
     "jetour-s06-revistacarro",
     "jetour-s06-webmotors",
     "jetour-s06-ficha",
-    "inmetro-pbev-2026"
+    "inmetro-pbev-2026",
+    "fipe-tabela",
+    "jetour-revisoes"
   ],
   "valores": {
     "fab": "importado",
     "fipe": {
-      "e": "nd",
-      "t": "a levantar"
+      "t": "R$ 208,5 mil (2026) × R$ 229,9 mil (0 km), −9%",
+      "f": [
+        "fipe-tabela"
+      ]
     },
     "sys": "PHEV",
     "fuel": "gasolina",
@@ -116,6 +120,12 @@
     "war": {
       "e": "sim",
       "t": "7 anos / 8 anos"
+    },
+    "rev": {
+      "t": "R$ 3.368 (até 30 mil km / 3 anos)",
+      "f": [
+        "jetour-revisoes"
+      ]
     }
   }
 }

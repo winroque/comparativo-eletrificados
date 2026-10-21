@@ -14,13 +14,16 @@
   },
   "observacao": "A ficha atual dá 78 km pelo PBEV; uma etiqueta de 2024 ligada à mesma página dá 80 km.",
   "fontes": [
-    "byd-king-ficha"
+    "byd-king-ficha",
+    "fipe-tabela"
   ],
   "valores": {
     "fab": "BA",
     "fipe": {
-      "e": "nd",
-      "t": "a levantar"
+      "t": "R$ 154,6 mil (2026) × R$ 176,3 mil (0 km), −12%",
+      "f": [
+        "fipe-tabela"
+      ]
     },
     "sys": "PHEV",
     "fuel": "gasolina",
@@ -97,6 +100,10 @@
     "war": {
       "e": "sim",
       "t": "6 anos / 8 anos"
+    },
+    "rev": {
+      "e": "nd",
+      "t": "sem tabela no site da marca"
     }
   }
 }

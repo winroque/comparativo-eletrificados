@@ -16,13 +16,17 @@
   "fontes": [
     "jaecoo7-site",
     "inmetro-pbev-2026",
-    "jaecoo7-ficha-2025"
+    "jaecoo7-ficha-2025",
+    "fipe-tabela",
+    "omodajaecoo-revisoes"
   ],
   "valores": {
     "fab": "importado",
     "fipe": {
-      "e": "nd",
-      "t": "a levantar"
+      "t": "R$ 194,2 mil (2026) × R$ 231,3 mil (0 km), −16%",
+      "f": [
+        "fipe-tabela"
+      ]
     },
     "sys": "PHEV",
     "fuel": "gasolina",
@@ -107,6 +111,12 @@
     "rctb": "nao",
     "dow": "nao",
     "dms": "nao",
-    "war": "nd"
+    "war": "nd",
+    "rev": {
+      "t": "R$ 3.216 (até 30 mil km / 3 anos)",
+      "f": [
+        "omodajaecoo-revisoes"
+      ]
+    }
   }
 }

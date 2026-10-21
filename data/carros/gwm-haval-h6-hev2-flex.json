@@ -15,13 +15,17 @@
   "observacao": "",
   "fontes": [
     "gwm-h6-hev2-ficha",
-    "gwm-h6-2027-flex"
+    "gwm-h6-2027-flex",
+    "fipe-tabela",
+    "gwm-revisoes"
   ],
   "valores": {
     "fab": "SP",
     "fipe": {
-      "e": "nd",
-      "t": "a levantar"
+      "t": "R$ 201,2 mil (2026) × R$ 225,0 mil (0 km), −11%",
+      "f": [
+        "fipe-tabela"
+      ]
     },
     "sys": "HEV",
     "fuel": {
@@ -104,6 +108,12 @@
     "war": {
       "e": "sim",
       "t": "5 anos / 8 anos"
+    },
+    "rev": {
+      "t": "R$ 4.127 (até 36 mil km / 3 anos)",
+      "f": [
+        "gwm-revisoes"
+      ]
     }
   }
 }

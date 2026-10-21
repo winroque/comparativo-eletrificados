@@ -18,13 +18,16 @@
   "fontes": [
     "geely-ex5-emi-ficha",
     "geely-ex5-emi-oferta",
-    "geely-ex5-emi-lancamento"
+    "geely-ex5-emi-lancamento",
+    "fipe-tabela"
   ],
   "valores": {
     "fab": "importado · PR previsto",
     "fipe": {
-      "e": "nd",
-      "t": "a levantar"
+      "t": "R$ 219,5 mil (2026) × R$ 235,0 mil (0 km), −7%",
+      "f": [
+        "fipe-tabela"
+      ]
     },
     "sys": "PHEV",
     "fuel": "gasolina",
@@ -129,6 +132,10 @@
     "war": {
       "e": "sim",
       "t": "6 anos / 8 anos"
+    },
+    "rev": {
+      "e": "nd",
+      "t": "sem tabela no site da marca"
     }
   }
 }

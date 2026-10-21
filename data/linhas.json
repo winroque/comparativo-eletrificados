@@ -36,7 +36,7 @@
     },
     {
       "id": "fipe",
-      "rotulo": "FIPE set/26: usado 2026 × 0 km"
+      "rotulo": "FIPE out/26: usado × 0 km"
     },
     {
       "secao": "Motor, bateria e recarga"
@@ -271,6 +271,13 @@
     {
       "id": "war",
       "rotulo": "Veículo / bateria de tração"
+    },
+    {
+      "secao": "Manutenção"
+    },
+    {
+      "id": "rev",
+      "rotulo": "Revisões: 3 primeiras (preço fixo)"
     }
   ]
 }
