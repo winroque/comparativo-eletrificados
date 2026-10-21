@@ -134,6 +134,9 @@
   $('add').addEventListener('change',e=>{ if(e.target.value==='') return; state.sel.push(+e.target.value); render(); });
   $('cgo').addEventListener('click',()=>{ if(state.sel.length<2) return; state.cmp=true; render(); $('cmpt').scrollIntoView({behavior:reduce()?'auto':'smooth',block:'start'}); });
   $('cclr').addEventListener('click',()=>{ state.sel=[]; state.cmp=false; render(); });
+  // Impressão: a folha de estilo de impressão esconde os controles; o rodapé impresso diz de onde e quando
+  $('cprint').addEventListener('click',()=>window.print());
+  addEventListener('beforeprint',()=>{ $('printnote').textContent=`${location.href.split('#')[0]} · impresso em ${new Date().toLocaleDateString('pt-BR',{day:'numeric',month:'long',year:'numeric'})} · dados de ${$('versao').textContent}`; });
   function togglePick(i){
     if(state.sel.includes(i)) state.sel=state.sel.filter(x=>x!==i);
     else if(state.sel.length<4) state.sel.push(i);
