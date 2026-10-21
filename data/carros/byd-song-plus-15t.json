@@ -16,7 +16,8 @@
   "fontes": [
     "byd-songplus-15t-ficha",
     "byd-songplus-15t-site",
-    "byd-ofertas-2026-10"
+    "byd-ofertas-2026-10",
+    "fipe-tabela"
   ],
   "valores": {
     "fab": {
@@ -24,8 +25,10 @@
       "t": "n/d"
     },
     "fipe": {
-      "e": "nd",
-      "t": "a levantar"
+      "t": "R$ 217,2 mil (2026) × R$ 249,5 mil (0 km), −13%",
+      "f": [
+        "fipe-tabela"
+      ]
     },
     "sys": "PHEV",
     "fuel": "gasolina",

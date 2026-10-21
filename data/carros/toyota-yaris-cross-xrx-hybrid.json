@@ -18,13 +18,16 @@
     "yaris-vrum",
     "yaris-itatiaia",
     "toyota-yaris-catalogo-my26",
-    "toyota-precos-2026-10"
+    "toyota-precos-2026-10",
+    "fipe-tabela"
   ],
   "valores": {
     "fab": "SP",
     "fipe": {
-      "e": "nd",
-      "t": "a levantar"
+      "t": "R$ 176,6 mil (2026) × R$ 191,7 mil (0 km), −8%",
+      "f": [
+        "fipe-tabela"
+      ]
     },
     "sys": "HEV",
     "fuel": "flex",

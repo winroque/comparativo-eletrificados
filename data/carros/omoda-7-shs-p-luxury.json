@@ -20,13 +20,16 @@
     "omoda7-automaistv",
     "omoda-ofertas",
     "omoda7-ficha",
-    "inmetro-pbev-2026"
+    "inmetro-pbev-2026",
+    "fipe-tabela"
   ],
   "valores": {
     "fab": "importado",
     "fipe": {
-      "e": "nd",
-      "t": "a levantar"
+      "t": "R$ 216,2 mil (2026) × R$ 252,8 mil (0 km), −14%",
+      "f": [
+        "fipe-tabela"
+      ]
     },
     "sys": "PHEV",
     "fuel": "gasolina",

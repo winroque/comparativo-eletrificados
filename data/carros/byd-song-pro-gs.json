@@ -16,13 +16,16 @@
   "fontes": [
     "byd-songpro-flex-ficha",
     "byd-songpro-flex-site",
-    "inmetro-pbev-2026"
+    "inmetro-pbev-2026",
+    "fipe-tabela"
   ],
   "valores": {
     "fab": "BA",
     "fipe": {
-      "e": "nd",
-      "t": "a levantar"
+      "t": "R$ 172,5 mil (2026) × R$ 199,7 mil (0 km), −14%",
+      "f": [
+        "fipe-tabela"
+      ]
     },
     "sys": "PHEV",
     "fuel": "flex",

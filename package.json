@@ -10,6 +10,7 @@
     "dados": "node scripts/build-dados.mjs",
     "csv": "node scripts/export-csv.mjs",
     "sqlite": "node --no-warnings scripts/export-sqlite.mjs",
+    "fipe": "node scripts/update-fipe.mjs",
     "build": "node scripts/build-manifest.mjs && node scripts/validate.mjs && node scripts/build-dados.mjs && node scripts/export-csv.mjs",
     "serve": "python3 -m http.server 8000"
   }

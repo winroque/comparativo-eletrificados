@@ -16,13 +16,16 @@
   "fontes": [
     "gwm-h6-phev19-ficha",
     "gwm-h6-phev19-site",
-    "gwm-h6-2027-flex"
+    "gwm-h6-2027-flex",
+    "fipe-tabela"
   ],
   "valores": {
     "fab": "SP",
     "fipe": {
-      "e": "nd",
-      "t": "a levantar"
+      "t": "R$ 226,5 mil (2026) × R$ 248,8 mil (0 km), −9%",
+      "f": [
+        "fipe-tabela"
+      ]
     },
     "sys": "PHEV",
     "fuel": {

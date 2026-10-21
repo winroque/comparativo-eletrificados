@@ -18,13 +18,16 @@
   "fontes": [
     "ex5-bev-webmotors",
     "geely-ex5-bev-ficha",
-    "inmetro-pbev-2026"
+    "inmetro-pbev-2026",
+    "fipe-tabela"
   ],
   "valores": {
     "fab": "importado",
     "fipe": {
-      "e": "nd",
-      "t": "a levantar"
+      "t": "R$ 163,5 mil (2026) × R$ 192,4 mil (0 km), −15%",
+      "f": [
+        "fipe-tabela"
+      ]
     },
     "sys": "Elétrico",
     "fuel": "elétrico",

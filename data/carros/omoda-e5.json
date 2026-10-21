@@ -20,13 +20,16 @@
     "omoda-e5-canalve",
     "omoda-ofertas",
     "omoda-e5-ficha",
-    "inmetro-pbev-2026"
+    "inmetro-pbev-2026",
+    "fipe-tabela"
   ],
   "valores": {
     "fab": "importado",
     "fipe": {
-      "e": "nd",
-      "t": "a levantar"
+      "t": "R$ 175,7 mil (2026) × R$ 205,4 mil (0 km), −14%",
+      "f": [
+        "fipe-tabela"
+      ]
     },
     "sys": "Elétrico",
     "fuel": "elétrico",

@@ -15,13 +15,16 @@
   "observacao": "",
   "fontes": [
     "gwm-h6-hev2-ficha",
-    "gwm-h6-2027-flex"
+    "gwm-h6-2027-flex",
+    "fipe-tabela"
   ],
   "valores": {
     "fab": "SP",
     "fipe": {
-      "e": "nd",
-      "t": "a levantar"
+      "t": "R$ 201,2 mil (2026) × R$ 225,0 mil (0 km), −11%",
+      "f": [
+        "fipe-tabela"
+      ]
     },
     "sys": "HEV",
     "fuel": {

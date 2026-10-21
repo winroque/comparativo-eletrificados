@@ -17,13 +17,16 @@
     "omoda5-motorshow",
     "omoda5-encontracarros",
     "omoda7-automaistv",
-    "omoda5-ficha"
+    "omoda5-ficha",
+    "fipe-tabela"
   ],
   "valores": {
     "fab": "importado",
     "fipe": {
-      "e": "nd",
-      "t": "a levantar"
+      "t": "R$ 168,4 mil (2026) × R$ 185,0 mil (0 km), −9%",
+      "f": [
+        "fipe-tabela"
+      ]
     },
     "sys": "HEV",
     "fuel": "gasolina",

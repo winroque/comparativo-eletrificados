@@ -1,5 +1,10 @@
 # Histórico
 
+## 2026-10-21 — data do preço, impressão e FIPE automática
+- Cada preço mostra a data de referência ("ref. out/2026").
+- Botão "Imprimir ou salvar PDF" na comparação, com folha de estilo de impressão.
+- FIPE de outubro/2026 para 24 versões, por `scripts/update-fipe.mjs` e `data/fipe.json`; o workflow semanal `fipe.yml` abre um pull request quando os valores mudam.
+
 ## 2026-10-07 — Yaris Cross conferido
 - Toyota Yaris Cross XRX Hybrid pelo catálogo MY'26: ACC, frenagem autônoma, assistente de faixa, estepe temporário e som 4+2; bancos manuais, ar de uma zona e sem sensor de chuva, NFC, OTA, alerta de porta e monitor de fadiga; tráfego cruzado só com alerta. Cobertura de 41% para 100%.
 

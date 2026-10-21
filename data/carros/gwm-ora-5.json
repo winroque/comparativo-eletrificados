@@ -15,13 +15,16 @@
   "observacao": "",
   "fontes": [
     "gwm-ora5-site",
-    "gwm-ora5-catalogo"
+    "gwm-ora5-catalogo",
+    "fipe-tabela"
   ],
   "valores": {
     "fab": "importado",
     "fipe": {
-      "e": "nd",
-      "t": "a levantar"
+      "t": "R$ 142,1 mil (2027) × R$ 163,9 mil (0 km), −13%",
+      "f": [
+        "fipe-tabela"
+      ]
     },
     "sys": "Elétrico",
     "fuel": "elétrico",

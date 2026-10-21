@@ -343,5 +343,10 @@
     "titulo": "Honda — catálogo Civic Advanced Hybrid 2025 (PDF impresso em julho/2025; cópia enviada pelo usuário)",
     "url": "https://www.honda.com.br/automoveis/sites/hab/files/2025-07/Cat%C3%A1logo_do_Ve%C3%ADculo_Civic_Advanced_Hybrid_2025.pdf",
     "tipo": "oficial"
+  },
+  "fipe-tabela": {
+    "titulo": "Tabela FIPE, preço médio de outubro de 2026 (consulta automática pela API Parallelum)",
+    "url": "https://veiculos.fipe.org.br/",
+    "tipo": "referência"
   }
 }

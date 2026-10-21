@@ -17,13 +17,16 @@
     "toyota-corolla-hybrid-site",
     "toyota-corolla-hybrid-ficha",
     "toyota-corolla-catalogo-my25",
-    "toyota-precos-2026-10"
+    "toyota-precos-2026-10",
+    "fipe-tabela"
   ],
   "valores": {
     "fab": "SP",
     "fipe": {
-      "e": "nd",
-      "t": "a levantar"
+      "t": "R$ 183,8 mil (2026) × R$ 205,0 mil (0 km), −10%",
+      "f": [
+        "fipe-tabela"
+      ]
     },
     "sys": "HEV",
     "fuel": "flex",

@@ -17,13 +17,16 @@
     "caoachery-tiggo7phev-ficha",
     "caoachery-tiggo7phev-site",
     "caoachery-garantia",
-    "inmetro-pbev-2026"
+    "inmetro-pbev-2026",
+    "fipe-tabela"
   ],
   "valores": {
     "fab": "nd",
     "fipe": {
-      "e": "nd",
-      "t": "a levantar"
+      "t": "R$ 166,4 mil (2026) × R$ 209,7 mil (0 km), −21%",
+      "f": [
+        "fipe-tabela"
+      ]
     },
     "sys": "PHEV",
     "fuel": "gasolina",

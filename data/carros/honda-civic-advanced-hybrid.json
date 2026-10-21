@@ -16,13 +16,16 @@
   "fontes": [
     "honda-civic-site",
     "honda-civic-catalogo",
-    "honda-civic-catalogo-pdf"
+    "honda-civic-catalogo-pdf",
+    "fipe-tabela"
   ],
   "valores": {
     "fab": "importado (Tailândia)",
     "fipe": {
-      "e": "nd",
-      "t": "a levantar"
+      "t": "R$ 237,7 mil (2026) × R$ 266,0 mil (0 km), −11%",
+      "f": [
+        "fipe-tabela"
+      ]
     },
     "sys": "HEV",
     "fuel": "gasolina",
