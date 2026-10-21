@@ -21,7 +21,8 @@
     "omoda-ofertas",
     "omoda-e5-ficha",
     "inmetro-pbev-2026",
-    "fipe-tabela"
+    "fipe-tabela",
+    "omodajaecoo-revisoes"
   ],
   "valores": {
     "fab": "importado",
@@ -120,6 +121,12 @@
     "war": {
       "e": "sim",
       "t": "7 anos / 8 anos"
+    },
+    "rev": {
+      "t": "R$ 2.311 (até 60 mil km / 6 anos)",
+      "f": [
+        "omodajaecoo-revisoes"
+      ]
     }
   }
 }

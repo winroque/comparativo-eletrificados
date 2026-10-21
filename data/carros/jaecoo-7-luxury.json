@@ -17,7 +17,8 @@
     "jaecoo7-site",
     "inmetro-pbev-2026",
     "jaecoo7-ficha-2025",
-    "fipe-tabela"
+    "fipe-tabela",
+    "omodajaecoo-revisoes"
   ],
   "valores": {
     "fab": "importado",
@@ -110,6 +111,12 @@
     "rctb": "nao",
     "dow": "nao",
     "dms": "nao",
-    "war": "nd"
+    "war": "nd",
+    "rev": {
+      "t": "R$ 3.216 (até 30 mil km / 3 anos)",
+      "f": [
+        "omodajaecoo-revisoes"
+      ]
+    }
   }
 }

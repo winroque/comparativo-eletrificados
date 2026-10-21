@@ -272,6 +272,13 @@
       {
         "id": "war",
         "rotulo": "Veículo / bateria de tração"
+      },
+      {
+        "secao": "Manutenção"
+      },
+      {
+        "id": "rev",
+        "rotulo": "Revisões: 3 primeiras (preço fixo)"
       }
     ]
   },
@@ -625,6 +632,41 @@
       "titulo": "Tabela FIPE, preço médio de outubro de 2026 (consulta automática pela API Parallelum)",
       "url": "https://veiculos.fipe.org.br/",
       "tipo": "referência"
+    },
+    "caoachery-revisoes": {
+      "titulo": "CAOA Chery — revisões periódicas a preço fixo (tabela por modelo)",
+      "url": "https://caoachery.com.br/revisao",
+      "tipo": "oficial"
+    },
+    "caoachangan-revisoes": {
+      "titulo": "CAOA Changan — revisões periódicas a preço fixo (tabela por modelo)",
+      "url": "https://caoachangan.com.br/revisao",
+      "tipo": "oficial"
+    },
+    "gwm-revisoes": {
+      "titulo": "GWM — revisões programadas com preço fixo",
+      "url": "https://www.gwmmotors.com.br/pt/servicos/revisoes",
+      "tipo": "oficial"
+    },
+    "jetour-revisoes": {
+      "titulo": "Jetour — preço total das revisões por modelo",
+      "url": "https://jetourbr.com/revisoes/",
+      "tipo": "oficial"
+    },
+    "leapmotor-revisoes": {
+      "titulo": "Leapmotor — revisão programada (preço por concessionária)",
+      "url": "https://www.leapmotor.com.br/servicos-e-manuais/revisao-programada.html",
+      "tipo": "oficial"
+    },
+    "omodajaecoo-revisoes": {
+      "titulo": "Omoda & Jaecoo — manutenção e garantia, preços de revisão válidos até 31/12/2026",
+      "url": "https://omodajaecoo.com.br/manutencao-e-garantia",
+      "tipo": "oficial"
+    },
+    "toyota-revisoes": {
+      "titulo": "Toyota — preços com transparência, revisões de 1º a 31/10/2026",
+      "url": "https://www.toyota.com.br/meu-toyota/precos-com-transparencia",
+      "tipo": "oficial"
     }
   },
   "radar": [
@@ -768,6 +810,10 @@
         "war": {
           "e": "sim",
           "t": "6 anos / 8 anos"
+        },
+        "rev": {
+          "e": "nd",
+          "t": "sem tabela no site da marca"
         }
       }
     },
@@ -873,6 +919,10 @@
         "war": {
           "e": "sim",
           "t": "6 anos / 8 anos"
+        },
+        "rev": {
+          "e": "nd",
+          "t": "sem tabela no site da marca"
         }
       }
     },
@@ -989,6 +1039,10 @@
         "war": {
           "e": "sim",
           "t": "6 anos / 8 anos"
+        },
+        "rev": {
+          "e": "nd",
+          "t": "sem tabela no site da marca"
         }
       }
     },
@@ -1090,6 +1144,10 @@
         "war": {
           "e": "sim",
           "t": "6 anos / 8 anos"
+        },
+        "rev": {
+          "e": "nd",
+          "t": "versão anterior, sem tabela"
         }
       }
     },
@@ -1199,6 +1257,10 @@
         "war": {
           "e": "sim",
           "t": "6 anos / 8 anos"
+        },
+        "rev": {
+          "e": "nd",
+          "t": "sem tabela no site da marca"
         }
       }
     },
@@ -1222,7 +1284,8 @@
         "caoachery-tiggo7phev-site",
         "caoachery-garantia",
         "inmetro-pbev-2026",
-        "fipe-tabela"
+        "fipe-tabela",
+        "caoachery-revisoes"
       ],
       "valores": {
         "fab": "nd",
@@ -1312,6 +1375,12 @@
         "war": {
           "e": "sim",
           "t": "7 anos / 8 anos"
+        },
+        "rev": {
+          "t": "R$ 2.528 (até 30 mil km / 3 anos)",
+          "f": [
+            "caoachery-revisoes"
+          ]
         }
       }
     },
@@ -1336,7 +1405,8 @@
         "changan-cs55-manual",
         "changan-garantia",
         "changan-cs55-uol",
-        "changan-cs55-folha"
+        "changan-cs55-folha",
+        "caoachangan-revisoes"
       ],
       "valores": {
         "fab": {
@@ -1433,6 +1503,13 @@
           "t": "7 anos / 8 anos",
           "f": [
             "changan-garantia"
+          ]
+        },
+        "rev": {
+          "e": "nd",
+          "t": "não atribuído: a tabela traz só \"CS55\", com câmbio DCT",
+          "f": [
+            "caoachangan-revisoes"
           ]
         }
       }
@@ -1560,6 +1637,10 @@
         "war": {
           "e": "sim",
           "t": "6 anos / 8 anos"
+        },
+        "rev": {
+          "e": "nd",
+          "t": "sem tabela no site da marca"
         }
       }
     },
@@ -1681,6 +1762,10 @@
         "war": {
           "e": "sim",
           "t": "6 anos / 8 anos"
+        },
+        "rev": {
+          "e": "nd",
+          "t": "sem tabela no site da marca"
         }
       }
     },
@@ -1818,6 +1903,10 @@
         "war": {
           "e": "sim",
           "t": "6 anos / 8 anos"
+        },
+        "rev": {
+          "e": "nd",
+          "t": "sem tabela no site da marca"
         }
       }
     },
@@ -1937,6 +2026,10 @@
         "war": {
           "e": "sim",
           "t": "6 anos / 8 anos"
+        },
+        "rev": {
+          "e": "nd",
+          "t": "sem tabela no site da marca"
         }
       }
     },
@@ -2054,6 +2147,10 @@
         "war": {
           "e": "sim",
           "t": "6 anos / 8 anos"
+        },
+        "rev": {
+          "e": "nd",
+          "t": "sem tabela no site da marca"
         }
       }
     },
@@ -2075,7 +2172,8 @@
       "fontes": [
         "gwm-h6-hev2-ficha",
         "gwm-h6-2027-flex",
-        "fipe-tabela"
+        "fipe-tabela",
+        "gwm-revisoes"
       ],
       "valores": {
         "fab": "SP",
@@ -2166,6 +2264,12 @@
         "war": {
           "e": "sim",
           "t": "5 anos / 8 anos"
+        },
+        "rev": {
+          "t": "R$ 4.127 (até 36 mil km / 3 anos)",
+          "f": [
+            "gwm-revisoes"
+          ]
         }
       }
     },
@@ -2188,7 +2292,8 @@
         "gwm-h6-phev19-ficha",
         "gwm-h6-phev19-site",
         "gwm-h6-2027-flex",
-        "fipe-tabela"
+        "fipe-tabela",
+        "gwm-revisoes"
       ],
       "valores": {
         "fab": "SP",
@@ -2287,6 +2392,12 @@
         "war": {
           "e": "sim",
           "t": "5 anos / 8 anos"
+        },
+        "rev": {
+          "t": "R$ 4.127 (até 36 mil km / 3 anos)",
+          "f": [
+            "gwm-revisoes"
+          ]
         }
       }
     },
@@ -2308,7 +2419,8 @@
       "fontes": [
         "gwm-ora5-site",
         "gwm-ora5-catalogo",
-        "fipe-tabela"
+        "fipe-tabela",
+        "gwm-revisoes"
       ],
       "valores": {
         "fab": "importado",
@@ -2393,7 +2505,13 @@
         "rctb": "sim",
         "dow": "sim",
         "dms": "nd",
-        "war": "nd"
+        "war": "nd",
+        "rev": {
+          "t": "R$ 3.677 (até 72 mil km / 6 anos)",
+          "f": [
+            "gwm-revisoes"
+          ]
+        }
       }
     },
     {
@@ -2500,6 +2618,10 @@
         "war": {
           "e": "sim",
           "t": "6 anos (fabricação a partir de 2026) / 8 anos no sistema híbrido"
+        },
+        "rev": {
+          "e": "nd",
+          "t": "sem tabela no site da marca"
         }
       }
     },
@@ -2522,7 +2644,8 @@
       "observacao": "Preço de R$ 179.990 vale para o lote de lançamento de 3.600 unidades.",
       "fontes": [
         "jaecoo5-band",
-        "jaecoo5-mecanicaonline"
+        "jaecoo5-mecanicaonline",
+        "omodajaecoo-revisoes"
       ],
       "valores": {
         "fab": "importado",
@@ -2593,6 +2716,13 @@
         "war": {
           "e": "sim",
           "t": "7 anos / 8 anos"
+        },
+        "rev": {
+          "e": "nd",
+          "t": "fora da tabela da marca",
+          "f": [
+            "omodajaecoo-revisoes"
+          ]
         }
       }
     },
@@ -2614,7 +2744,8 @@
       "fontes": [
         "jaecoo7-site",
         "jaecoo7-ficha-2025",
-        "fipe-tabela"
+        "fipe-tabela",
+        "omodajaecoo-revisoes"
       ],
       "valores": {
         "fab": "importado",
@@ -2699,7 +2830,13 @@
         "rctb": "nao",
         "dow": "nao",
         "dms": "nao",
-        "war": "nd"
+        "war": "nd",
+        "rev": {
+          "t": "R$ 3.216 (até 30 mil km / 3 anos)",
+          "f": [
+            "omodajaecoo-revisoes"
+          ]
+        }
       }
     },
     {
@@ -2721,7 +2858,8 @@
         "jaecoo7-site",
         "inmetro-pbev-2026",
         "jaecoo7-ficha-2025",
-        "fipe-tabela"
+        "fipe-tabela",
+        "omodajaecoo-revisoes"
       ],
       "valores": {
         "fab": "importado",
@@ -2814,7 +2952,13 @@
         "rctb": "nao",
         "dow": "nao",
         "dms": "nao",
-        "war": "nd"
+        "war": "nd",
+        "rev": {
+          "t": "R$ 3.216 (até 30 mil km / 3 anos)",
+          "f": [
+            "omodajaecoo-revisoes"
+          ]
+        }
       }
     },
     {
@@ -2836,7 +2980,8 @@
         "jaecoo7-site",
         "inmetro-pbev-2026",
         "jaecoo7-ficha-2025",
-        "fipe-tabela"
+        "fipe-tabela",
+        "omodajaecoo-revisoes"
       ],
       "valores": {
         "fab": "importado",
@@ -2935,7 +3080,13 @@
         "rctb": "sim",
         "dow": "sim",
         "dms": "sim",
-        "war": "nd"
+        "war": "nd",
+        "rev": {
+          "t": "R$ 3.216 (até 30 mil km / 3 anos)",
+          "f": [
+            "omodajaecoo-revisoes"
+          ]
+        }
       }
     },
     {
@@ -2960,7 +3111,8 @@
         "jetour-s06-webmotors",
         "jetour-s06-ficha",
         "inmetro-pbev-2026",
-        "fipe-tabela"
+        "fipe-tabela",
+        "jetour-revisoes"
       ],
       "valores": {
         "fab": "importado",
@@ -3059,6 +3211,12 @@
         "war": {
           "e": "sim",
           "t": "7 anos / 8 anos"
+        },
+        "rev": {
+          "t": "R$ 3.368 (até 30 mil km / 3 anos)",
+          "f": [
+            "jetour-revisoes"
+          ]
         }
       }
     },
@@ -3081,7 +3239,8 @@
         "stellantis-c10-ficha",
         "leapmotor-c10-ficha",
         "leapmotor-c10-site",
-        "fipe-tabela"
+        "fipe-tabela",
+        "leapmotor-revisoes"
       ],
       "valores": {
         "fab": "importado",
@@ -3184,7 +3343,14 @@
         "rctb": "sim",
         "dow": "sim",
         "dms": "sim",
-        "war": "nd"
+        "war": "nd",
+        "rev": {
+          "e": "nd",
+          "t": "varia por concessionária",
+          "f": [
+            "leapmotor-revisoes"
+          ]
+        }
       }
     },
     {
@@ -3207,7 +3373,8 @@
         "omoda5-encontracarros",
         "omoda7-automaistv",
         "omoda5-ficha",
-        "fipe-tabela"
+        "fipe-tabela",
+        "omodajaecoo-revisoes"
       ],
       "valores": {
         "fab": "importado",
@@ -3289,6 +3456,12 @@
         "war": {
           "e": "sim",
           "t": "7 anos / 8 anos"
+        },
+        "rev": {
+          "t": "R$ 2.917 (até 30 mil km / 3 anos)",
+          "f": [
+            "omodajaecoo-revisoes"
+          ]
         }
       }
     },
@@ -3315,7 +3488,8 @@
         "omoda-ofertas",
         "omoda7-ficha",
         "inmetro-pbev-2026",
-        "fipe-tabela"
+        "fipe-tabela",
+        "omodajaecoo-revisoes"
       ],
       "valores": {
         "fab": "importado",
@@ -3402,6 +3576,12 @@
         "war": {
           "e": "sim",
           "t": "7 anos / 8 anos"
+        },
+        "rev": {
+          "t": "R$ 3.215 (até 30 mil km / 3 anos)",
+          "f": [
+            "omodajaecoo-revisoes"
+          ]
         }
       }
     },
@@ -3428,7 +3608,8 @@
         "omoda-ofertas",
         "omoda-e5-ficha",
         "inmetro-pbev-2026",
-        "fipe-tabela"
+        "fipe-tabela",
+        "omodajaecoo-revisoes"
       ],
       "valores": {
         "fab": "importado",
@@ -3527,6 +3708,12 @@
         "war": {
           "e": "sim",
           "t": "7 anos / 8 anos"
+        },
+        "rev": {
+          "t": "R$ 2.311 (até 60 mil km / 6 anos)",
+          "f": [
+            "omodajaecoo-revisoes"
+          ]
         }
       }
     },
@@ -3550,7 +3737,8 @@
         "toyota-corolla-hybrid-ficha",
         "toyota-corolla-catalogo-my25",
         "toyota-precos-2026-10",
-        "fipe-tabela"
+        "fipe-tabela",
+        "toyota-revisoes"
       ],
       "valores": {
         "fab": "SP",
@@ -3632,6 +3820,12 @@
         "war": {
           "e": "sim",
           "t": "5 anos (até 10)"
+        },
+        "rev": {
+          "t": "R$ 2.786 (até 30 mil km / 3 anos)",
+          "f": [
+            "toyota-revisoes"
+          ]
         }
       }
     },
@@ -3653,7 +3847,8 @@
       "fontes": [
         "toyota-corolla-cross-catalogo",
         "toyota-precos-2026-10",
-        "fipe-tabela"
+        "fipe-tabela",
+        "toyota-revisoes"
       ],
       "valores": {
         "fab": "SP",
@@ -3732,6 +3927,12 @@
         "war": {
           "e": "sim",
           "t": "5 anos (até 10)"
+        },
+        "rev": {
+          "t": "R$ 3.186 (até 30 mil km / 3 anos)",
+          "f": [
+            "toyota-revisoes"
+          ]
         }
       }
     },
@@ -3756,7 +3957,8 @@
         "yaris-itatiaia",
         "toyota-yaris-catalogo-my26",
         "toyota-precos-2026-10",
-        "fipe-tabela"
+        "fipe-tabela",
+        "toyota-revisoes"
       ],
       "valores": {
         "fab": "SP",
@@ -3853,6 +4055,12 @@
         "war": {
           "e": "sim",
           "t": "5 anos (até 10)"
+        },
+        "rev": {
+          "t": "R$ 2.524 (até 30 mil km / 3 anos)",
+          "f": [
+            "toyota-revisoes"
+          ]
         }
       }
     }

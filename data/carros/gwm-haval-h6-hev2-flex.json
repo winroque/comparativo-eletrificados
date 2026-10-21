@@ -16,7 +16,8 @@
   "fontes": [
     "gwm-h6-hev2-ficha",
     "gwm-h6-2027-flex",
-    "fipe-tabela"
+    "fipe-tabela",
+    "gwm-revisoes"
   ],
   "valores": {
     "fab": "SP",
@@ -107,6 +108,12 @@
     "war": {
       "e": "sim",
       "t": "5 anos / 8 anos"
+    },
+    "rev": {
+      "t": "R$ 4.127 (até 36 mil km / 3 anos)",
+      "f": [
+        "gwm-revisoes"
+      ]
     }
   }
 }

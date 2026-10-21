@@ -271,6 +271,13 @@
     {
       "id": "war",
       "rotulo": "Veículo / bateria de tração"
+    },
+    {
+      "secao": "Manutenção"
+    },
+    {
+      "id": "rev",
+      "rotulo": "Revisões: 3 primeiras (preço fixo)"
     }
   ]
 }

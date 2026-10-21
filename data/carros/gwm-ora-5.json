@@ -16,7 +16,8 @@
   "fontes": [
     "gwm-ora5-site",
     "gwm-ora5-catalogo",
-    "fipe-tabela"
+    "fipe-tabela",
+    "gwm-revisoes"
   ],
   "valores": {
     "fab": "importado",
@@ -101,6 +102,12 @@
     "rctb": "sim",
     "dow": "sim",
     "dms": "nd",
-    "war": "nd"
+    "war": "nd",
+    "rev": {
+      "t": "R$ 3.677 (até 72 mil km / 6 anos)",
+      "f": [
+        "gwm-revisoes"
+      ]
+    }
   }
 }

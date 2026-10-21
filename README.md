@@ -48,7 +48,7 @@ data/dados.json          tudo junto, lido pelo site (gerado)
 data/radar.json          modelos acompanhados, ainda fora da tabela
 data/export/             CSV e banco SQLite gerados
 scripts/                 manifesto, validação, junção dos dados e exportação (CSV e SQLite)
-docs/                    revisão externa, conferência de fontes e lista de fichas oficiais
+docs/                    revisão externa, conferência de fontes, fichas oficiais e revisões
 ```
 
 ## Como editar um carro
@@ -118,7 +118,7 @@ Quatro categorias pontuam: assistência e segurança, conforto, multimídia e co
 - **Máximo:** soma também os itens em aberto e os apenas divulgados.
 - **Cobertura:** parte do peso cujo estado é conhecido. Abaixo de 90%, a posição do carro não é conclusiva.
 
-Itens que não se aplicam ao tipo de carro (recarga DC num híbrido sem tomada, por exemplo) saem da conta. Preço, combustível, medidas, som e garantia são informativos. A nota não tem relação com a etiqueta do Inmetro.
+Itens que não se aplicam ao tipo de carro (recarga DC num híbrido sem tomada, por exemplo) saem da conta. Preço, combustível, medidas, som, garantia e revisões são informativos. A nota não tem relação com a etiqueta do Inmetro.
 
 ## Limitações
 

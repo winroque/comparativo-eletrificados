@@ -16,7 +16,8 @@
   "fontes": [
     "toyota-corolla-cross-catalogo",
     "toyota-precos-2026-10",
-    "fipe-tabela"
+    "fipe-tabela",
+    "toyota-revisoes"
   ],
   "valores": {
     "fab": "SP",
@@ -95,6 +96,12 @@
     "war": {
       "e": "sim",
       "t": "5 anos (até 10)"
+    },
+    "rev": {
+      "t": "R$ 3.186 (até 30 mil km / 3 anos)",
+      "f": [
+        "toyota-revisoes"
+      ]
     }
   }
 }

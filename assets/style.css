@@ -127,7 +127,7 @@ table.mx{ border-collapse:separate; border-spacing:0; width:max-content; min-wid
 
 .src{ font-size:10.5px; margin-left:3px; color:var(--focus); text-decoration:none; vertical-align:super; }
 .srcs a{ color:var(--focus); font-size:12px; }
-.obs{ white-space:normal; max-width:220px; text-align:left; font-size:12px; color:var(--dim); }
+.mx td.obs{ white-space:normal; max-width:220px; text-align:left; font-size:12px; color:var(--dim); }
 .foot{ margin-top:24px; font-size:13px; color:var(--dim); }
 .foot a{ color:var(--focus); }
 .loading{ padding:24px; color:var(--dim); }

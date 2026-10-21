@@ -348,5 +348,40 @@
     "titulo": "Tabela FIPE, preço médio de outubro de 2026 (consulta automática pela API Parallelum)",
     "url": "https://veiculos.fipe.org.br/",
     "tipo": "referência"
+  },
+  "caoachery-revisoes": {
+    "titulo": "CAOA Chery — revisões periódicas a preço fixo (tabela por modelo)",
+    "url": "https://caoachery.com.br/revisao",
+    "tipo": "oficial"
+  },
+  "caoachangan-revisoes": {
+    "titulo": "CAOA Changan — revisões periódicas a preço fixo (tabela por modelo)",
+    "url": "https://caoachangan.com.br/revisao",
+    "tipo": "oficial"
+  },
+  "gwm-revisoes": {
+    "titulo": "GWM — revisões programadas com preço fixo",
+    "url": "https://www.gwmmotors.com.br/pt/servicos/revisoes",
+    "tipo": "oficial"
+  },
+  "jetour-revisoes": {
+    "titulo": "Jetour — preço total das revisões por modelo",
+    "url": "https://jetourbr.com/revisoes/",
+    "tipo": "oficial"
+  },
+  "leapmotor-revisoes": {
+    "titulo": "Leapmotor — revisão programada (preço por concessionária)",
+    "url": "https://www.leapmotor.com.br/servicos-e-manuais/revisao-programada.html",
+    "tipo": "oficial"
+  },
+  "omodajaecoo-revisoes": {
+    "titulo": "Omoda & Jaecoo — manutenção e garantia, preços de revisão válidos até 31/12/2026",
+    "url": "https://omodajaecoo.com.br/manutencao-e-garantia",
+    "tipo": "oficial"
+  },
+  "toyota-revisoes": {
+    "titulo": "Toyota — preços com transparência, revisões de 1º a 31/10/2026",
+    "url": "https://www.toyota.com.br/meu-toyota/precos-com-transparencia",
+    "tipo": "oficial"
   }
 }

@@ -17,7 +17,8 @@
   "observacao": "Preço de R$ 179.990 vale para o lote de lançamento de 3.600 unidades.",
   "fontes": [
     "jaecoo5-band",
-    "jaecoo5-mecanicaonline"
+    "jaecoo5-mecanicaonline",
+    "omodajaecoo-revisoes"
   ],
   "valores": {
     "fab": "importado",
@@ -88,6 +89,13 @@
     "war": {
       "e": "sim",
       "t": "7 anos / 8 anos"
+    },
+    "rev": {
+      "e": "nd",
+      "t": "fora da tabela da marca",
+      "f": [
+        "omodajaecoo-revisoes"
+      ]
     }
   }
 }

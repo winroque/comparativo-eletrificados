@@ -20,7 +20,8 @@
     "jetour-s06-webmotors",
     "jetour-s06-ficha",
     "inmetro-pbev-2026",
-    "fipe-tabela"
+    "fipe-tabela",
+    "jetour-revisoes"
   ],
   "valores": {
     "fab": "importado",
@@ -119,6 +120,12 @@
     "war": {
       "e": "sim",
       "t": "7 anos / 8 anos"
+    },
+    "rev": {
+      "t": "R$ 3.368 (até 30 mil km / 3 anos)",
+      "f": [
+        "jetour-revisoes"
+      ]
     }
   }
 }

@@ -18,7 +18,8 @@
     "caoachery-tiggo7phev-site",
     "caoachery-garantia",
     "inmetro-pbev-2026",
-    "fipe-tabela"
+    "fipe-tabela",
+    "caoachery-revisoes"
   ],
   "valores": {
     "fab": "nd",
@@ -108,6 +109,12 @@
     "war": {
       "e": "sim",
       "t": "7 anos / 8 anos"
+    },
+    "rev": {
+      "t": "R$ 2.528 (até 30 mil km / 3 anos)",
+      "f": [
+        "caoachery-revisoes"
+      ]
     }
   }
 }

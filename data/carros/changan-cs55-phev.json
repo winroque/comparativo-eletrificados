@@ -19,7 +19,8 @@
     "changan-cs55-manual",
     "changan-garantia",
     "changan-cs55-uol",
-    "changan-cs55-folha"
+    "changan-cs55-folha",
+    "caoachangan-revisoes"
   ],
   "valores": {
     "fab": {
@@ -116,6 +117,13 @@
       "t": "7 anos / 8 anos",
       "f": [
         "changan-garantia"
+      ]
+    },
+    "rev": {
+      "e": "nd",
+      "t": "não atribuído: a tabela traz só \"CS55\", com câmbio DCT",
+      "f": [
+        "caoachangan-revisoes"
       ]
     }
   }

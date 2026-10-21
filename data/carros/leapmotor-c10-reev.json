@@ -17,7 +17,8 @@
     "stellantis-c10-ficha",
     "leapmotor-c10-ficha",
     "leapmotor-c10-site",
-    "fipe-tabela"
+    "fipe-tabela",
+    "leapmotor-revisoes"
   ],
   "valores": {
     "fab": "importado",
@@ -120,6 +121,13 @@
     "rctb": "sim",
     "dow": "sim",
     "dms": "sim",
-    "war": "nd"
+    "war": "nd",
+    "rev": {
+      "e": "nd",
+      "t": "varia por concessionária",
+      "f": [
+        "leapmotor-revisoes"
+      ]
+    }
   }
 }
