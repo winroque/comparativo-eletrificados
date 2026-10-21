@@ -33,12 +33,15 @@
     return [k,txt,html];
   }
   const CARS = RAW.map(r=>{
-    const c={ id:r.id, n:r.nome, pt:r.preco.tabela, po:r.preco.oferta, pon:r.preco.oferta_nota, s:[r.subtitulo, r.status!=='à venda'?r.status:''].filter(Boolean).join(' · '),
+    const c={ id:r.id, n:r.nome, pt:r.preco.tabela, po:r.preco.oferta, pon:r.preco.oferta_nota, pc:r.preco.consultado, s:[r.subtitulo, r.status!=='à venda'?r.status:''].filter(Boolean).join(' · '),
       tech:r.tecnologia, body:r.carroceria, f:!!r.finalista, d:{fuel:r.combustivel}, obs:r.observacao||'', fontes:r.fontes||[] };
     c.p={}; ROWS.forEach(row=>{ if(row.id) c.p[row.id]=parseVal(r.valores[row.id],c); });
     return c;
   });
   const SCORED = ROWS.filter(r=>r.cat);
+  const MES = ['jan','fev','mar','abr','mai','jun','jul','ago','set','out','nov','dez'];
+  const refPreco = d=>{ if(!d) return ''; const [y,m]=d.split('-'); const full=new Date(d+'T12:00:00').toLocaleDateString('pt-BR',{day:'numeric',month:'long',year:'numeric'});
+    return `<span class="ref" title="Preço consultado em ${full}">ref. ${MES[+m-1]}/${y}</span>`; };
   document.getElementById('versao').textContent = new Date(LIN.versao+'T12:00:00').toLocaleDateString('pt-BR',{day:'numeric',month:'long',year:'numeric'});
   document.getElementById('ncarros').textContent = CARS.length;
   const rl=document.getElementById('radar');
@@ -180,7 +183,7 @@
     let h='<thead><tr><th class="feat" scope="col">Item</th>';
     vis.forEach(i=>{const c=CARS[i],s=score(i),sel=state.sel.includes(i); const t=tierOf(i);
       const offer = c.po ? (state.offer ? `<span class="sub">tabela ${brl(c.pt)}</span>` : `<span class="sub">${c.pon}: ${brl(c.po)}</span>`) : '';
-      h+=`<th scope="col" data-col="${i}" class="t${t}${c.f?' f':''}"><span class="car"><b>${esc(c.n)}</b><span class="pr">${brl(price(i))}</span>${offer}${c.s?`<span class="sub">${esc(c.s)}</span>`:''}<span class="sco${s.cov<90?' low':''}">nota ${s.mn===s.mx?s.mn:s.mn+'–'+s.mx} · cobertura ${s.cov}%</span>${s.mn?`<span class="sub">${kbrl(price(i)/s.mn)} por ponto mínimo</span>`:''}</span>${state.cmp?'':`<button class="pick${sel?' on':''}" data-pick="${i}" aria-pressed="${sel}">${sel?'Na comparação':'Comparar'}</button>`}</th>`;});
+      h+=`<th scope="col" data-col="${i}" class="t${t}${c.f?' f':''}"><span class="car"><b>${esc(c.n)}</b><span class="pr">${brl(price(i))} ${refPreco(c.pc)}</span>${offer}${c.s?`<span class="sub">${esc(c.s)}</span>`:''}<span class="sco${s.cov<90?' low':''}">nota ${s.mn===s.mx?s.mn:s.mn+'–'+s.mx} · cobertura ${s.cov}%</span>${s.mn?`<span class="sub">${kbrl(price(i)/s.mn)} por ponto mínimo</span>`:''}</span>${state.cmp?'':`<button class="pick${sel?' on':''}" data-pick="${i}" aria-pressed="${sel}">${sel?'Na comparação':'Comparar'}</button>`}</th>`;});
     h+='</tr></thead><tbody>';
     let pending=null;
     ROWS.forEach(r=>{
